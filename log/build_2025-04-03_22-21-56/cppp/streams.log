@@ -1,0 +1,28 @@
+[0.031s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12
+[0.327s] [35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[0.328s] [ 10%] Built target PreprocessNode
+[0.328s] [ 30%] Built target LandmarkGraphNode
+[0.328s] [ 30%] Built target LandmarkTransformermapNode
+[0.328s] [ 40%] Built target LandmarkTransformerNode
+[0.328s] [ 45%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[0.328s] [ 55%] Built target ScanTransformer
+[0.328s] [ 65%] Built target RansacLineExtractionNode
+[0.328s] [ 85%] Built target IncrementalLineFittingNode
+[0.328s] [ 85%] Built target HoughLineFittingNode
+[0.328s] [ 95%] Built target ScanAccumulator
+[3.980s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::landmarkCallback(messages::msg::LineSegmentList_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.980s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:54:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::LineSegment_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klandmark_id[m[K’
+[3.980s]    54 |             int id = segment.[01;31m[Klandmark_id[m[K;
+[3.980s]       |                              [01;31m[K^~~~~~~~~~~[m[K
+[3.986s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kbool PoseGraphOptimizer::PosePoseCost::operator()(const T*, const T*, T*) const[m[K’:
+[3.986s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:81:35:[m[K [01;31m[Kerror: [m[K‘[01m[KAngleDifference[m[K’ is not a member of ‘[01m[Kceres[m[K’
+[3.987s]    81 |             residuals[2] = ceres::[01;31m[KAngleDifference[m[K(pose2[2], pose1[2]) - T(dtheta_);
+[3.987s]       |                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.047s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::publishOptimizedLandmarks()[m[K’:
+[4.047s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:162:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct messages::msg::LineSegment_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klandmark_id[m[K’
+[4.048s]   162 |             int id = segment.[01;31m[Klandmark_id[m[K;
+[4.048s]       |                              [01;31m[K^~~~~~~~~~~[m[K
+[10.578s] gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+[10.578s] gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+[10.578s] gmake: *** [Makefile:146: all] Error 2
+[10.585s] Invoked command in '/home/kvothe/ros/build/cppp' returned '2': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12

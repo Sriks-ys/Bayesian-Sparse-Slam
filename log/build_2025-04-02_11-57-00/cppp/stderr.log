@@ -1,0 +1,8 @@
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::poseGraphCallback(messages::msg::PoseGraph_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:19:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   19 |     void poseGraphCallback([01;35m[Kconst messages::msg::PoseGraph::SharedPtr msg[m[K) {
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::landmarkConstraintCallback(messages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:25:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   25 |     void landmarkConstraintCallback([01;35m[Kconst messages::msg::LandmarkLandmarkConstraintList::SharedPtr msg[m[K) {
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

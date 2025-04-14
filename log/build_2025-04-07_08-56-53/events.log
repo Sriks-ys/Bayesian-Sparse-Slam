@@ -1,0 +1,245 @@
+[0.000000] (-) TimerEvent: {}
+[0.000297] (-) JobUnselected: {'identifier': 'messages'}
+[0.000388] (-) JobUnselected: {'identifier': 'robot_control'}
+[0.000423] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000455] (-) JobUnselected: {'identifier': 'ros_bringup'}
+[0.000486] (-) JobUnselected: {'identifier': 'ros_gazebo'}
+[0.000517] (-) JobUnselected: {'identifier': 'sensor_management'}
+[0.000548] (-) JobUnselected: {'identifier': 'soma'}
+[0.000582] (cppp) JobQueued: {'identifier': 'cppp', 'dependencies': OrderedDict([('messages', '/home/kvothe/ros/install/messages')])}
+[0.000622] (cppp) JobStarted: {'identifier': 'cppp'}
+[0.017133] (cppp) JobProgress: {'identifier': 'cppp', 'progress': 'cmake'}
+[0.018311] (cppp) JobProgress: {'identifier': 'cppp', 'progress': 'build'}
+[0.018955] (cppp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kvothe/ros/build/cppp', '--', '-j12', '-l12'], 'cwd': '/home/kvothe/ros/build/cppp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kvothe'), ('XDG_SESSION_TYPE', 'wayland'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kvothe'), ('OLDPWD', '/home/kvothe'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1057'), ('SYSTEMD_EXEC_PID', '1219'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2306'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kvothe/ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kvothe'), ('JOURNAL_STREAM', '8:16429'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kvothe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kvothe/.local/bin:/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1178,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1178'), ('INVOCATION_ID', '0200d72fcffb4f31ac391e764018b834'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YVVL42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/'), ('TERMINATOR_UUID', 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kvothe/ros/build/cppp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[0.099151] (-) TimerEvent: {}
+[0.103646] (cppp) StdoutLine: {'line': b'[ 10%] Built target PreprocessNode\n'}
+[0.129697] (cppp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer\x1b[0m\n'}
+[0.156493] (cppp) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o\x1b[0m\n'}
+[0.199261] (-) TimerEvent: {}
+[0.299545] (-) TimerEvent: {}
+[0.399877] (-) TimerEvent: {}
+[0.500281] (-) TimerEvent: {}
+[0.600727] (-) TimerEvent: {}
+[0.701155] (-) TimerEvent: {}
+[0.801619] (-) TimerEvent: {}
+[0.902053] (-) TimerEvent: {}
+[1.002502] (-) TimerEvent: {}
+[1.102916] (-) TimerEvent: {}
+[1.203367] (-) TimerEvent: {}
+[1.303945] (-) TimerEvent: {}
+[1.404620] (-) TimerEvent: {}
+[1.505005] (-) TimerEvent: {}
+[1.605426] (-) TimerEvent: {}
+[1.705964] (-) TimerEvent: {}
+[1.806313] (-) TimerEvent: {}
+[1.906670] (-) TimerEvent: {}
+[2.007056] (-) TimerEvent: {}
+[2.107463] (-) TimerEvent: {}
+[2.207882] (-) TimerEvent: {}
+[2.308282] (-) TimerEvent: {}
+[2.408669] (-) TimerEvent: {}
+[2.509061] (-) TimerEvent: {}
+[2.609670] (-) TimerEvent: {}
+[2.710237] (-) TimerEvent: {}
+[2.810615] (-) TimerEvent: {}
+[2.910999] (-) TimerEvent: {}
+[3.011406] (-) TimerEvent: {}
+[3.111790] (-) TimerEvent: {}
+[3.212172] (-) TimerEvent: {}
+[3.312619] (-) TimerEvent: {}
+[3.413009] (-) TimerEvent: {}
+[3.513460] (-) TimerEvent: {}
+[3.613846] (-) TimerEvent: {}
+[3.714258] (-) TimerEvent: {}
+[3.814633] (-) TimerEvent: {}
+[3.915023] (-) TimerEvent: {}
+[4.015445] (-) TimerEvent: {}
+[4.115836] (-) TimerEvent: {}
+[4.216257] (-) TimerEvent: {}
+[4.316644] (-) TimerEvent: {}
+[4.417050] (-) TimerEvent: {}
+[4.517464] (-) TimerEvent: {}
+[4.617882] (-) TimerEvent: {}
+[4.718271] (-) TimerEvent: {}
+[4.818647] (-) TimerEvent: {}
+[4.919028] (-) TimerEvent: {}
+[5.019440] (-) TimerEvent: {}
+[5.119819] (-) TimerEvent: {}
+[5.220236] (-) TimerEvent: {}
+[5.320590] (-) TimerEvent: {}
+[5.420972] (-) TimerEvent: {}
+[5.521381] (-) TimerEvent: {}
+[5.621758] (-) TimerEvent: {}
+[5.722155] (-) TimerEvent: {}
+[5.822568] (-) TimerEvent: {}
+[5.922950] (-) TimerEvent: {}
+[6.023327] (-) TimerEvent: {}
+[6.123705] (-) TimerEvent: {}
+[6.224086] (-) TimerEvent: {}
+[6.324510] (-) TimerEvent: {}
+[6.424942] (-) TimerEvent: {}
+[6.525322] (-) TimerEvent: {}
+[6.625699] (-) TimerEvent: {}
+[6.726084] (-) TimerEvent: {}
+[6.826495] (-) TimerEvent: {}
+[6.926882] (-) TimerEvent: {}
+[7.027246] (-) TimerEvent: {}
+[7.127569] (-) TimerEvent: {}
+[7.227950] (-) TimerEvent: {}
+[7.328330] (-) TimerEvent: {}
+[7.428710] (-) TimerEvent: {}
+[7.529090] (-) TimerEvent: {}
+[7.629488] (-) TimerEvent: {}
+[7.729878] (-) TimerEvent: {}
+[7.830264] (-) TimerEvent: {}
+[7.930647] (-) TimerEvent: {}
+[8.031026] (-) TimerEvent: {}
+[8.131431] (-) TimerEvent: {}
+[8.231804] (-) TimerEvent: {}
+[8.332351] (-) TimerEvent: {}
+[8.432725] (-) TimerEvent: {}
+[8.533123] (-) TimerEvent: {}
+[8.633533] (-) TimerEvent: {}
+[8.733922] (-) TimerEvent: {}
+[8.834290] (-) TimerEvent: {}
+[8.934673] (-) TimerEvent: {}
+[9.035072] (-) TimerEvent: {}
+[9.135490] (-) TimerEvent: {}
+[9.235891] (-) TimerEvent: {}
+[9.336326] (-) TimerEvent: {}
+[9.436732] (-) TimerEvent: {}
+[9.537053] (-) TimerEvent: {}
+[9.637459] (-) TimerEvent: {}
+[9.737849] (-) TimerEvent: {}
+[9.838276] (-) TimerEvent: {}
+[9.938679] (-) TimerEvent: {}
+[10.038991] (-) TimerEvent: {}
+[10.139335] (-) TimerEvent: {}
+[10.239714] (-) TimerEvent: {}
+[10.340083] (-) TimerEvent: {}
+[10.440462] (-) TimerEvent: {}
+[10.540831] (-) TimerEvent: {}
+[10.641279] (-) TimerEvent: {}
+[10.741655] (-) TimerEvent: {}
+[10.842030] (-) TimerEvent: {}
+[10.942430] (-) TimerEvent: {}
+[11.042800] (-) TimerEvent: {}
+[11.143167] (-) TimerEvent: {}
+[11.243566] (-) TimerEvent: {}
+[11.343933] (-) TimerEvent: {}
+[11.444300] (-) TimerEvent: {}
+[11.544676] (-) TimerEvent: {}
+[11.645043] (-) TimerEvent: {}
+[11.745419] (-) TimerEvent: {}
+[11.845760] (-) TimerEvent: {}
+[11.946068] (-) TimerEvent: {}
+[12.046479] (-) TimerEvent: {}
+[12.146856] (-) TimerEvent: {}
+[12.247144] (-) TimerEvent: {}
+[12.347496] (-) TimerEvent: {}
+[12.447817] (-) TimerEvent: {}
+[12.548141] (-) TimerEvent: {}
+[12.648529] (-) TimerEvent: {}
+[12.748910] (-) TimerEvent: {}
+[12.849280] (-) TimerEvent: {}
+[12.949655] (-) TimerEvent: {}
+[13.050030] (-) TimerEvent: {}
+[13.150435] (-) TimerEvent: {}
+[13.250803] (-) TimerEvent: {}
+[13.351209] (-) TimerEvent: {}
+[13.451578] (-) TimerEvent: {}
+[13.551950] (-) TimerEvent: {}
+[13.652323] (-) TimerEvent: {}
+[13.752706] (-) TimerEvent: {}
+[13.853075] (-) TimerEvent: {}
+[13.953478] (-) TimerEvent: {}
+[14.053845] (-) TimerEvent: {}
+[14.154241] (-) TimerEvent: {}
+[14.254613] (-) TimerEvent: {}
+[14.354983] (-) TimerEvent: {}
+[14.455384] (-) TimerEvent: {}
+[14.555760] (-) TimerEvent: {}
+[14.656131] (-) TimerEvent: {}
+[14.756530] (-) TimerEvent: {}
+[14.856906] (-) TimerEvent: {}
+[14.957273] (-) TimerEvent: {}
+[15.057640] (-) TimerEvent: {}
+[15.158008] (-) TimerEvent: {}
+[15.258312] (-) TimerEvent: {}
+[15.358687] (-) TimerEvent: {}
+[15.459056] (-) TimerEvent: {}
+[15.559448] (-) TimerEvent: {}
+[15.659821] (-) TimerEvent: {}
+[15.760264] (-) TimerEvent: {}
+[15.860676] (-) TimerEvent: {}
+[15.961067] (-) TimerEvent: {}
+[16.061414] (-) TimerEvent: {}
+[16.161747] (-) TimerEvent: {}
+[16.262114] (-) TimerEvent: {}
+[16.362578] (-) TimerEvent: {}
+[16.463026] (-) TimerEvent: {}
+[16.563500] (-) TimerEvent: {}
+[16.663932] (-) TimerEvent: {}
+[16.764389] (-) TimerEvent: {}
+[16.864852] (-) TimerEvent: {}
+[16.965392] (-) TimerEvent: {}
+[17.013615] (cppp) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX executable PoseGraphOptimizer\x1b[0m\n'}
+[17.065511] (-) TimerEvent: {}
+[17.165944] (-) TimerEvent: {}
+[17.266366] (-) TimerEvent: {}
+[17.366721] (-) TimerEvent: {}
+[17.467259] (-) TimerEvent: {}
+[17.567784] (-) TimerEvent: {}
+[17.668287] (-) TimerEvent: {}
+[17.768773] (-) TimerEvent: {}
+[17.869229] (-) TimerEvent: {}
+[17.969656] (-) TimerEvent: {}
+[18.070097] (-) TimerEvent: {}
+[18.170557] (-) TimerEvent: {}
+[18.270976] (-) TimerEvent: {}
+[18.272190] (cppp) StdoutLine: {'line': b'[ 20%] Built target PoseGraphOptimizer\n'}
+[18.312996] (cppp) StdoutLine: {'line': b'[ 30%] Built target ScanTransformer\n'}
+[18.354739] (cppp) StdoutLine: {'line': b'[ 40%] Built target LandmarkTransformerNode\n'}
+[18.371141] (-) TimerEvent: {}
+[18.386541] (cppp) StdoutLine: {'line': b'[ 50%] Built target LandmarkGraphNode\n'}
+[18.431772] (cppp) StdoutLine: {'line': b'[ 60%] Built target LandmarkTransformermapNode\n'}
+[18.471318] (-) TimerEvent: {}
+[18.481452] (cppp) StdoutLine: {'line': b'[ 70%] Built target ScanAccumulator\n'}
+[18.541893] (cppp) StdoutLine: {'line': b'[ 80%] Built target RansacLineExtractionNode\n'}
+[18.571497] (-) TimerEvent: {}
+[18.583386] (cppp) StdoutLine: {'line': b'[ 90%] Built target HoughLineFittingNode\n'}
+[18.638958] (cppp) StdoutLine: {'line': b'[100%] Built target IncrementalLineFittingNode\n'}
+[18.653564] (cppp) CommandEnded: {'returncode': 0}
+[18.654901] (cppp) JobProgress: {'identifier': 'cppp', 'progress': 'install'}
+[18.666747] (cppp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kvothe/ros/build/cppp'], 'cwd': '/home/kvothe/ros/build/cppp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kvothe'), ('XDG_SESSION_TYPE', 'wayland'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kvothe'), ('OLDPWD', '/home/kvothe'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1057'), ('SYSTEMD_EXEC_PID', '1219'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2306'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kvothe/ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kvothe'), ('JOURNAL_STREAM', '8:16429'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kvothe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kvothe/.local/bin:/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1178,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1178'), ('INVOCATION_ID', '0200d72fcffb4f31ac391e764018b834'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YVVL42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/'), ('TERMINATOR_UUID', 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kvothe/ros/build/cppp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[18.671596] (-) TimerEvent: {}
+[18.674886] (cppp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.675651] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformerNode\n'}
+[18.676310] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/ScanAccumulator\n'}
+[18.677219] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/PreprocessNode\n'}
+[18.678070] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkGraphNode\n'}
+[18.679050] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/IncrementalLineFittingNode\n'}
+[18.679785] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformermapNode\n'}
+[18.680481] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/HoughLineFittingNode\n'}
+[18.681520] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/RansacLineExtractionNode\n'}
+[18.682107] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/ScanTransformer\n'}
+[18.682671] (cppp) StdoutLine: {'line': b'-- Installing: /home/kvothe/ros/install/cppp/lib/cppp/PoseGraphOptimizer\n'}
+[18.694087] (cppp) StdoutLine: {'line': b'-- Set runtime path of "/home/kvothe/ros/install/cppp/lib/cppp/PoseGraphOptimizer" to ""\n'}
+[18.694412] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/package_run_dependencies/cppp\n'}
+[18.694749] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/parent_prefix_path/cppp\n'}
+[18.695000] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.sh\n'}
+[18.695125] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.dsv\n'}
+[18.695262] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/path.sh\n'}
+[18.695379] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/path.dsv\n'}
+[18.695488] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.bash\n'}
+[18.695596] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.sh\n'}
+[18.695705] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.zsh\n'}
+[18.695813] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.dsv\n'}
+[18.695921] (cppp) StdoutLine: {'line': b'-- Installing: /home/kvothe/ros/install/cppp/share/cppp/package.dsv\n'}
+[18.696046] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/packages/cppp\n'}
+[18.696155] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig.cmake\n'}
+[18.696284] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig-version.cmake\n'}
+[18.696498] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/package.xml\n'}
+[18.697652] (cppp) CommandEnded: {'returncode': 0}
+[18.727237] (cppp) JobEnded: {'identifier': 'cppp', 'rc': 0}
+[18.728094] (-) EventReactorShutdown: {}

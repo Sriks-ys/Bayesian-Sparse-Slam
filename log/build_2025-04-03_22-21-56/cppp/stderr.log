@@ -1,0 +1,15 @@
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::landmarkCallback(messages::msg::LineSegmentList_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:54:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::LineSegment_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klandmark_id[m[K’
+   54 |             int id = segment.[01;31m[Klandmark_id[m[K;
+      |                              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kbool PoseGraphOptimizer::PosePoseCost::operator()(const T*, const T*, T*) const[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:81:35:[m[K [01;31m[Kerror: [m[K‘[01m[KAngleDifference[m[K’ is not a member of ‘[01m[Kceres[m[K’
+   81 |             residuals[2] = ceres::[01;31m[KAngleDifference[m[K(pose2[2], pose1[2]) - T(dtheta_);
+      |                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::publishOptimizedLandmarks()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:162:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct messages::msg::LineSegment_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klandmark_id[m[K’
+  162 |             int id = segment.[01;31m[Klandmark_id[m[K;
+      |                              [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

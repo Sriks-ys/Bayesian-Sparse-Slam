@@ -1,0 +1,51 @@
+[35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[ 10%] Built target PreprocessNode
+[ 30%] Built target LandmarkGraphNode
+[ 30%] Built target ScanTransformer
+[ 40%] Built target LandmarkTransformerNode
+[ 50%] Built target LandmarkTransformermapNode
+[ 60%] Built target RansacLineExtractionNode
+[ 65%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[ 75%] Built target HoughLineFittingNode
+[ 95%] Built target IncrementalLineFittingNode
+[ 95%] Built target ScanAccumulator
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:95:104:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPosePoseCost::PosePoseCost(messages::msg::PoseConstraint_<std::allocator<void> >::_dx_type&, messages::msg::PoseConstraint_<std::allocator<void> >::_dy_type&, messages::msg::PoseConstraint_<std::allocator<void> >::_dtheta_type&, messages::msg::PoseConstraint_<std::allocator<void> >::_covariance_type&)[m[K’
+   95 |                 new PosePoseCost(constraint.dx, constraint.dy, constraint.dtheta, constraint.covariance[01;31m[K)[m[K);
+      |                                                                                                        [01;31m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPosePoseCost::PosePoseCost(double, double, double, const std::array<double, 9>&)[m[K’
+    8 |     [01;36m[KPosePoseCost[m[K(double dx, double dy, double dtheta, const std::array<double, 9>& covariance)
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8:84:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Kmessages::msg::PoseConstraint_<std::allocator<void> >::_covariance_type[m[K’ {aka ‘[01m[Kstd::array<float, 9>[m[K’} to ‘[01m[Kconst std::array<double, 9>&[m[K’
+    8 |     PosePoseCost(double dx, double dy, double dtheta, [01;36m[Kconst std::array<double, 9>& covariance[m[K)
+      |                                                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:7:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr PosePoseCost::PosePoseCost(const PosePoseCost&)[m[K’
+    7 | struct [01;36m[KPosePoseCost[m[K {
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:7:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:7:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr PosePoseCost::PosePoseCost(PosePoseCost&&)[m[K’
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:7:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:104:41:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kmessages::msg::LandmarkLandmarkConstraint_<std::allocator<void> >::_landmark1_id_type[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kstd::vector<std::unique_ptr<double []> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  104 |             if ([01;35m[Kconstraint.landmark1_id >= landmark_parameters_.size()[m[K ||
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:105:41:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kmessages::msg::LandmarkLandmarkConstraint_<std::allocator<void> >::_landmark2_id_type[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kstd::vector<std::unique_ptr<double []> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  105 |                 [01;35m[Kconstraint.landmark2_id >= landmark_parameters_.size()[m[K) {
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:112:93:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLandmarkLandmarkCost::LandmarkLandmarkCost(messages::msg::LandmarkLandmarkConstraint_<std::allocator<void> >::_dx_type&, messages::msg::LandmarkLandmarkConstraint_<std::allocator<void> >::_dy_type&, messages::msg::LandmarkLandmarkConstraint_<std::allocator<void> >::_covariance_type&)[m[K’
+  112 |                 new LandmarkLandmarkCost(constraint.dx, constraint.dy, constraint.covariance[01;31m[K)[m[K);
+      |                                                                                             [01;31m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:24:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KLandmarkLandmarkCost::LandmarkLandmarkCost(double, double, const std::array<double, 4>&)[m[K’
+   24 |     [01;36m[KLandmarkLandmarkCost[m[K(double dx, double dy, const std::array<double, 4>& covariance)
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:24:77:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kmessages::msg::LandmarkLandmarkConstraint_<std::allocator<void> >::_covariance_type[m[K’ {aka ‘[01m[Kstd::array<float, 4>[m[K’} to ‘[01m[Kconst std::array<double, 4>&[m[K’
+   24 |     LandmarkLandmarkCost(double dx, double dy, [01;36m[Kconst std::array<double, 4>& covariance[m[K)
+      |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:23:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr LandmarkLandmarkCost::LandmarkLandmarkCost(const LandmarkLandmarkCost&)[m[K’
+   23 | struct [01;36m[KLandmarkLandmarkCost[m[K {
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:23:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:23:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr LandmarkLandmarkCost::LandmarkLandmarkCost(LandmarkLandmarkCost&&)[m[K’
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:23:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

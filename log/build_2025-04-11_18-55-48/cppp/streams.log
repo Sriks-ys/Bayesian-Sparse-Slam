@@ -1,0 +1,21 @@
+[0.106s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/kvothe/ros/install/messages/lib:/path/to/copied/gtsam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j16 -l16
+[0.159s] [ 10%] Built target PreprocessNode
+[0.164s] gmake[2]: *** No rule to make target '/home/kvothe/externals/gtsam/install/lib/libgtsam.so', needed by 'PoseGraphOptimizer'.  Stop.
+[0.164s] gmake[2]: *** Waiting for unfinished jobs....
+[0.165s] [ 20%] Built target LandmarkTransformermapNode
+[0.165s] [ 30%] Built target ScanTransformer
+[0.165s] [ 50%] Built target LandmarkTransformerNode
+[0.165s] [ 50%] Built target RansacLineExtractionNode
+[0.166s] [ 60%] Built target LandmarkGraphNode
+[0.167s] [ 70%] Built target IncrementalLineFittingNode
+[0.170s] [ 80%] Built target HoughLineFittingNode
+[0.170s] [ 85%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[0.171s] [ 95%] Built target ScanAccumulator
+[0.388s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kgtsam/nonlinear/LevenbergMarquardtOptimizer.h: No such file or directory
+[0.388s]     8 | #include [01;31m[K<gtsam/nonlinear/LevenbergMarquardtOptimizer.h>[m[K
+[0.388s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.389s] compilation terminated.
+[0.390s] gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+[0.390s] gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+[0.390s] gmake: *** [Makefile:146: all] Error 2
+[0.532s] Invoked command in '/home/kvothe/ros/build/cppp' returned '2': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/kvothe/ros/install/messages/lib:/path/to/copied/gtsam/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j16 -l16

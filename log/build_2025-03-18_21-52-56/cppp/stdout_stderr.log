@@ -1,0 +1,40 @@
+[35m[1mConsolidate compiler generated dependencies of target PreprocessNode[0m
+[35m[1mConsolidate compiler generated dependencies of target LandmarkGraphNode[0m
+[35m[1mConsolidate compiler generated dependencies of target LandmarkTransformermapNode[0m
+[35m[1mConsolidate compiler generated dependencies of target HoughLineFittingNode[0m
+[ 12%] Built target PreprocessNode
+[ 25%] Built target LandmarkTransformerNode
+[ 37%] Built target LandmarkGraphNode
+[ 50%] Built target RansacLineExtractionNode
+[ 68%] Built target LandmarkTransformermapNode
+[ 75%] Built target IncrementalLineFittingNode
+[ 87%] Built target ScanAccumulator
+[100%] Built target HoughLineFittingNode
+-- Install configuration: ""
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformerNode
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/ScanAccumulator
+-- Installing: /home/kvothe/ros/install/cppp/lib/cppp/PreprocessNode
+-- Set runtime path of "/home/kvothe/ros/install/cppp/lib/cppp/PreprocessNode" to ""
+-- Installing: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkGraphNode
+-- Set runtime path of "/home/kvothe/ros/install/cppp/lib/cppp/LandmarkGraphNode" to ""
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/IncrementalLineFittingNode
+-- Installing: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformermapNode
+-- Set runtime path of "/home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformermapNode" to ""
+-- Installing: /home/kvothe/ros/install/cppp/lib/cppp/HoughLineFittingNode
+-- Set runtime path of "/home/kvothe/ros/install/cppp/lib/cppp/HoughLineFittingNode" to ""
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/RansacLineExtractionNode
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/package_run_dependencies/cppp
+-- Installing: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/parent_prefix_path/cppp
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.sh
+-- Installing: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/path.sh
+-- Installing: /home/kvothe/ros/install/cppp/share/cppp/environment/path.dsv
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.bash
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.sh
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.zsh
+-- Installing: /home/kvothe/ros/install/cppp/share/cppp/local_setup.dsv
+-- Installing: /home/kvothe/ros/install/cppp/share/cppp/package.dsv
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/packages/cppp
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig.cmake
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig-version.cmake
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/package.xml

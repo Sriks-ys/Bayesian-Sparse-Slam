@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/soma/soma.egg-info/PKG-INFO
+writing dependency_links to ../../build/soma/soma.egg-info/dependency_links.txt
+writing entry points to ../../build/soma/soma.egg-info/entry_points.txt
+writing requirements to ../../build/soma/soma.egg-info/requires.txt
+writing top-level names to ../../build/soma/soma.egg-info/top_level.txt
+reading manifest file '../../build/soma/soma.egg-info/SOURCES.txt'
+writing manifest file '../../build/soma/soma.egg-info/SOURCES.txt'
+running build
+running build_py
+copying soma/GraphNode.py -> /home/kvothe/ros/build/soma/build/lib/soma
+running install
+running install_lib
+copying /home/kvothe/ros/build/soma/build/lib/soma/GraphNode.py -> /home/kvothe/ros/install/soma/lib/python3.10/site-packages/soma
+byte-compiling /home/kvothe/ros/install/soma/lib/python3.10/site-packages/soma/GraphNode.py to GraphNode.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/kvothe/ros/install/soma/lib/python3.10/site-packages/soma-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/soma/soma.egg-info to /home/kvothe/ros/install/soma/lib/python3.10/site-packages/soma-0.0.0-py3.10.egg-info
+running install_scripts
+Installing BayesianLandmarkConstraintNode script to /home/kvothe/ros/install/soma/lib/soma
+Installing EuclidsLandmarkLandmarkGraphNode script to /home/kvothe/ros/install/soma/lib/soma
+Installing GraphNode script to /home/kvothe/ros/install/soma/lib/soma
+Installing LandmarkConstraintVisualizer script to /home/kvothe/ros/install/soma/lib/soma
+Installing LineSegmentAssociation script to /home/kvothe/ros/install/soma/lib/soma
+Installing PoseGraphNode script to /home/kvothe/ros/install/soma/lib/soma
+Installing PostProcessingNode script to /home/kvothe/ros/install/soma/lib/soma
+Installing SWMANode script to /home/kvothe/ros/install/soma/lib/soma
+writing list of installed files to '/home/kvothe/ros/build/soma/install.log'

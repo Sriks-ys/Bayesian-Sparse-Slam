@@ -1,0 +1,196 @@
+[0.027s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12
+[0.108s] [ 10%] Built target PreprocessNode
+[0.115s] [ 30%] Built target LandmarkTransformermapNode
+[0.115s] [ 30%] Built target ScanTransformer
+[0.115s] [ 35%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[0.115s] [ 45%] Built target LandmarkTransformerNode
+[0.119s] [ 55%] Built target IncrementalLineFittingNode
+[0.120s] [ 65%] Built target LandmarkGraphNode
+[0.121s] [ 75%] Built target RansacLineExtractionNode
+[0.124s] [ 85%] Built target HoughLineFittingNode
+[0.126s] [ 95%] Built target ScanAccumulator
+[3.169s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[3.169s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:155:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_nodes[m[K’ was not declared in this scope
+[3.170s]   155 |         for (size_t i = 0; i < [01;31m[Kpose_nodes[m[K.size(); ++i) {
+[3.170s]       |                                [01;31m[K^~~~~~~~~~[m[K
+[3.178s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:156:31:[m[K [01;31m[Kerror: [m[K‘[01m[Koptimized_poses[m[K’ was not declared in this scope
+[3.178s]   156 |             pose_nodes[i].x = [01;31m[Koptimized_poses[m[K[i][0];
+[3.178s]       |                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.184s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:161:32:[m[K [01;31m[Kerror: [m[K‘[01m[Klandmarks[m[K’ was not declared in this scope; did you mean ‘[01m[Klandmarks_sub_[m[K’?
+[3.185s]   161 |         for (size_t i = 0; i < [01;31m[Klandmarks[m[K.size(); ++i) {
+[3.185s]       |                                [01;31m[K^~~~~~~~~[m[K
+[3.185s]       |                                [32m[Klandmarks_sub_[m[K
+[3.192s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:162:32:[m[K [01;31m[Kerror: [m[K‘[01m[Koptimized_landmarks[m[K’ was not declared in this scope; did you mean ‘[01m[Koptimized_landmarks_pub_[m[K’?
+[3.192s]   162 |             landmarks[i].rho = [01;31m[Koptimized_landmarks[m[K[i][0];
+[3.193s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.193s]       |                                [32m[Koptimized_landmarks_pub_[m[K
+[3.204s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:182:9:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishOptimizedResults[m[K’ was not declared in this scope; did you mean ‘[01m[KpublishOptimizedGraph[m[K’?
+[3.204s]   182 |         [01;31m[KpublishOptimizedResults[m[K();
+[3.204s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.204s]       |         [32m[KpublishOptimizedGraph[m[K
+[3.210s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::publishOptimizedGraph()[m[K’:
+[3.210s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:191:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kposes_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpose[m[K’?
+[3.210s]   191 |         for (const auto& [id, pose] : [01;31m[Kposes_[m[K) {
+[3.210s]       |                                       [01;31m[K^~~~~~[m[K
+[3.211s]       |                                       [32m[Kpose[m[K
+[3.220s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:201:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_constraints_[m[K’ was not declared in this scope
+[3.221s]   201 |         for (const auto& [p1, p2, dx, dy, dtheta] : [01;31m[Kpose_constraints_[m[K) {
+[3.221s]       |                                                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.221s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:212:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kbegin(messages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >&)[m[K’
+[3.221s]   212 |         for (const auto& [pose_id, landmark_id, rho, alpha] : [01;31m[Klandmark_constraints_[m[K) {
+[3.221s]       |                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.221s] In file included from [01m[K/usr/include/c++/11/utility:76[m[K,
+[3.222s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:36[m[K,
+[3.222s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.222s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.223s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[3.223s] [01m[K/usr/include/c++/11/initializer_list:90:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp* std::begin(std::initializer_list<_Tp>)[m[K’
+[3.223s]    90 |     [01;36m[Kbegin[m[K(initializer_list<_Tp> __ils) noexcept
+[3.223s]       |     [01;36m[K^~~~~[m[K
+[3.223s] [01m[K/usr/include/c++/11/initializer_list:90:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.223s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:212:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmessages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::initializer_list<_Tp>[m[K’
+[3.223s]   212 |         for (const auto& [pose_id, landmark_id, rho, alpha] : [01;36m[Klandmark_constraints_[m[K) {
+[3.223s]       |                                                               [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.223s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[3.223s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[3.223s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.223s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.224s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[3.224s] [01m[K/usr/include/c++/11/bits/range_access.h:51:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Container> constexpr decltype (__cont.begin()) std::begin(_Container&)[m[K’
+[3.224s]    51 |     [01;36m[Kbegin[m[K(_Container& __cont) -> decltype(__cont.begin())
+[3.224s]       |     [01;36m[K^~~~~[m[K
+[3.224s] [01m[K/usr/include/c++/11/bits/range_access.h:51:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.224s] /usr/include/c++/11/bits/range_access.h: In substitution of ‘[01m[Ktemplate<class _Container> constexpr decltype (__cont.begin()) std::begin(_Container&) [with _Container = messages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >][m[K’:
+[3.224s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:212:63:[m[K   required from here
+[3.224s] [01m[K/usr/include/c++/11/bits/range_access.h:51:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct messages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kbegin[m[K’
+[3.224s]    51 |     begin(_Container& __cont) -> decltype([01;31m[K__cont.begin[m[K())
+[3.224s]       |                                           [01;31m[K~~~~~~~^~~~~[m[K
+[3.224s] [01m[K/usr/include/c++/11/bits/range_access.h:61:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Container> constexpr decltype (__cont.begin()) std::begin(const _Container&)[m[K’
+[3.224s]    61 |     [01;36m[Kbegin[m[K(const _Container& __cont) -> decltype(__cont.begin())
+[3.224s]       |     [01;36m[K^~~~~[m[K
+[3.224s] [01m[K/usr/include/c++/11/bits/range_access.h:61:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.224s] /usr/include/c++/11/bits/range_access.h: In substitution of ‘[01m[Ktemplate<class _Container> constexpr decltype (__cont.begin()) std::begin(const _Container&) [with _Container = messages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >][m[K’:
+[3.224s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:212:63:[m[K   required from here
+[3.224s] [01m[K/usr/include/c++/11/bits/range_access.h:61:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kbegin[m[K’
+[3.224s]    61 |     begin(const _Container& __cont) -> decltype([01;31m[K__cont.begin[m[K())
+[3.224s]       |                                                 [01;31m[K~~~~~~~^~~~~[m[K
+[3.225s] [01m[K/usr/include/c++/11/bits/range_access.h:90:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> constexpr _Tp* std::begin(_Tp (&)[_Nm])[m[K’
+[3.225s]    90 |     [01;36m[Kbegin[m[K(_Tp (&__arr)[_Nm]) noexcept
+[3.225s]       |     [01;36m[K^~~~~[m[K
+[3.225s] [01m[K/usr/include/c++/11/bits/range_access.h:90:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.225s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:212:63:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[K_Tp [_Nm][m[K’ and ‘[01m[Kmessages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >[m[K’
+[3.225s]   212 |         for (const auto& [pose_id, landmark_id, rho, alpha] : [01;36m[Klandmark_constraints_[m[K) {
+[3.225s]       |                                                               [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.225s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[3.225s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[3.225s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.225s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.225s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.225s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[3.225s] [01m[K/usr/include/c++/11/bits/range_access.h:107:31:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> _Tp* std::begin(std::valarray<_Tp>&)[m[K’
+[3.225s]   107 |   template<typename _Tp> _Tp* [01;36m[Kbegin[m[K(valarray<_Tp>&) noexcept;
+[3.225s]       |                               [01;36m[K^~~~~[m[K
+[3.225s] [01m[K/usr/include/c++/11/bits/range_access.h:107:31:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.225s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:212:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmessages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::valarray<_Tp>[m[K’
+[3.225s]   212 |         for (const auto& [pose_id, landmark_id, rho, alpha] : [01;36m[Klandmark_constraints_[m[K) {
+[3.226s]       |                                                               [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.226s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[3.226s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[3.226s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.226s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.226s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[3.226s] [01m[K/usr/include/c++/11/bits/range_access.h:108:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> const _Tp* std::begin(const std::valarray<_Tp>&)[m[K’
+[3.226s]   108 |   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&) noexcept;
+[3.226s]       |                                     [01;36m[K^~~~~[m[K
+[3.226s] [01m[K/usr/include/c++/11/bits/range_access.h:108:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.226s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:212:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmessages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::valarray<_Tp>[m[K’
+[3.226s]   212 |         for (const auto& [pose_id, landmark_id, rho, alpha] : [01;36m[Klandmark_constraints_[m[K) {
+[3.226s]       |                                                               [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.226s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:212:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kend(messages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >&)[m[K’
+[3.226s] In file included from [01m[K/usr/include/c++/11/utility:76[m[K,
+[3.226s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:36[m[K,
+[3.226s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.226s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[3.227s] [01m[K/usr/include/c++/11/initializer_list:101:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp* std::end(std::initializer_list<_Tp>)[m[K’
+[3.227s]   101 |     [01;36m[Kend[m[K(initializer_list<_Tp> __ils) noexcept
+[3.227s]       |     [01;36m[K^~~[m[K
+[3.227s] [01m[K/usr/include/c++/11/initializer_list:101:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.227s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:212:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmessages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::initializer_list<_Tp>[m[K’
+[3.227s]   212 |         for (const auto& [pose_id, landmark_id, rho, alpha] : [01;36m[Klandmark_constraints_[m[K) {
+[3.227s]       |                                                               [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.227s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[3.227s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[3.227s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.227s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.227s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.227s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[3.227s] [01m[K/usr/include/c++/11/bits/range_access.h:71:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Container> constexpr decltype (__cont.end()) std::end(_Container&)[m[K’
+[3.227s]    71 |     [01;36m[Kend[m[K(_Container& __cont) -> decltype(__cont.end())
+[3.227s]       |     [01;36m[K^~~[m[K
+[3.227s] [01m[K/usr/include/c++/11/bits/range_access.h:71:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.227s] /usr/include/c++/11/bits/range_access.h: In substitution of ‘[01m[Ktemplate<class _Container> constexpr decltype (__cont.end()) std::end(_Container&) [with _Container = messages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >][m[K’:
+[3.227s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:212:63:[m[K   required from here
+[3.227s] [01m[K/usr/include/c++/11/bits/range_access.h:71:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct messages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kend[m[K’
+[3.228s]    71 |     end(_Container& __cont) -> decltype([01;31m[K__cont.end[m[K())
+[3.228s]       |                                         [01;31m[K~~~~~~~^~~[m[K
+[3.228s] [01m[K/usr/include/c++/11/bits/range_access.h:81:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Container> constexpr decltype (__cont.end()) std::end(const _Container&)[m[K’
+[3.228s]    81 |     [01;36m[Kend[m[K(const _Container& __cont) -> decltype(__cont.end())
+[3.228s]       |     [01;36m[K^~~[m[K
+[3.228s] [01m[K/usr/include/c++/11/bits/range_access.h:81:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.228s] /usr/include/c++/11/bits/range_access.h: In substitution of ‘[01m[Ktemplate<class _Container> constexpr decltype (__cont.end()) std::end(const _Container&) [with _Container = messages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >][m[K’:
+[3.228s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:212:63:[m[K   required from here
+[3.228s] [01m[K/usr/include/c++/11/bits/range_access.h:81:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kend[m[K’
+[3.228s]    81 |     end(const _Container& __cont) -> decltype([01;31m[K__cont.end[m[K())
+[3.228s]       |                                               [01;31m[K~~~~~~~^~~[m[K
+[3.228s] [01m[K/usr/include/c++/11/bits/range_access.h:100:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> constexpr _Tp* std::end(_Tp (&)[_Nm])[m[K’
+[3.228s]   100 |     [01;36m[Kend[m[K(_Tp (&__arr)[_Nm]) noexcept
+[3.228s]       |     [01;36m[K^~~[m[K
+[3.228s] [01m[K/usr/include/c++/11/bits/range_access.h:100:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.228s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:212:63:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[K_Tp [_Nm][m[K’ and ‘[01m[Kmessages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >[m[K’
+[3.228s]   212 |         for (const auto& [pose_id, landmark_id, rho, alpha] : [01;36m[Klandmark_constraints_[m[K) {
+[3.228s]       |                                                               [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.228s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[3.228s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[3.229s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.229s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.229s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.229s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[3.229s] [01m[K/usr/include/c++/11/bits/range_access.h:109:31:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> _Tp* std::end(std::valarray<_Tp>&)[m[K’
+[3.229s]   109 |   template<typename _Tp> _Tp* [01;36m[Kend[m[K(valarray<_Tp>&) noexcept;
+[3.229s]       |                               [01;36m[K^~~[m[K
+[3.229s] [01m[K/usr/include/c++/11/bits/range_access.h:109:31:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.229s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:212:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmessages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::valarray<_Tp>[m[K’
+[3.229s]   212 |         for (const auto& [pose_id, landmark_id, rho, alpha] : [01;36m[Klandmark_constraints_[m[K) {
+[3.229s]       |                                                               [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.229s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[3.229s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[3.229s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[3.229s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.229s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.229s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[3.229s] [01m[K/usr/include/c++/11/bits/range_access.h:110:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> const _Tp* std::end(const std::valarray<_Tp>&)[m[K’
+[3.229s]   110 |   template<typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&) noexcept;
+[3.229s]       |                                     [01;36m[K^~~[m[K
+[3.229s] [01m[K/usr/include/c++/11/bits/range_access.h:110:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.230s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:212:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmessages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::valarray<_Tp>[m[K’
+[3.230s]   212 |         for (const auto& [pose_id, landmark_id, rho, alpha] : [01;36m[Klandmark_constraints_[m[K) {
+[3.230s]       |                                                               [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.232s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:222:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_optimized_pose_graph_[m[K’ was not declared in this scope; did you mean ‘[01m[Koptimized_pose_graph_pub_[m[K’?
+[3.232s]   222 |         [01;31m[Kpub_optimized_pose_graph_[m[K->publish(*optimized_graph);
+[3.233s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.233s]       |         [32m[Koptimized_pose_graph_pub_[m[K
+[3.238s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:228:43:[m[K [01;31m[Kerror: [m[K‘[01m[Klandmarks_[m[K’ was not declared in this scope; did you mean ‘[01m[Klandmark[m[K’?
+[3.239s]   228 |         for (const auto& [id, landmark] : [01;31m[Klandmarks_[m[K) {
+[3.239s]       |                                           [01;31m[K^~~~~~~~~~[m[K
+[3.239s]       |                                           [32m[Klandmark[m[K
+[3.248s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:236:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_optimized_landmarks_[m[K’ was not declared in this scope; did you mean ‘[01m[Koptimized_landmarks[m[K’?
+[3.248s]   236 |         [01;31m[Kpub_optimized_landmarks_[m[K->publish(*optimized_landmarks);
+[3.248s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.248s]       |         [32m[Koptimized_landmarks[m[K
+[7.821s] gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+[7.822s] gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+[7.823s] gmake: *** [Makefile:146: all] Error 2
+[7.828s] Invoked command in '/home/kvothe/ros/build/cppp' returned '2': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12

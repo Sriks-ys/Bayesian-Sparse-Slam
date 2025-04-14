@@ -1,0 +1,12 @@
+[ 12%] Built target PreprocessNode
+[ 25%] Built target LandmarkTransformerNode
+[ 37%] Built target LandmarkTransformermapNode
+[ 50%] Built target LandmarkGraphNode
+[ 75%] Built target IncrementalLineFittingNode
+[ 75%] Built target RansacLineExtractionNode
+[ 81%] [32mBuilding CXX object CMakeFiles/ScanAccumulator.dir/src/ScanAccumulator.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/HoughLineFittingNode.dir/src/HoughLineFittingNode.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable HoughLineFittingNode[0m
+[ 93%] Built target HoughLineFittingNode
+[100%] [32m[1mLinking CXX executable ScanAccumulator[0m
+[100%] Built target ScanAccumulator

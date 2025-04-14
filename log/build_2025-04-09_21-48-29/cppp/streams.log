@@ -1,0 +1,96 @@
+[0.033s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12
+[0.480s] [35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[0.481s] [ 10%] Built target PreprocessNode
+[0.481s] [ 30%] Built target LandmarkTransformermapNode
+[0.481s] [ 30%] Built target ScanTransformer
+[0.481s] [ 40%] Built target LandmarkGraphNode
+[0.482s] [ 50%] Built target LandmarkTransformerNode
+[0.482s] [ 60%] Built target IncrementalLineFittingNode
+[0.482s] [ 70%] Built target RansacLineExtractionNode
+[0.482s] [ 80%] Built target HoughLineFittingNode
+[0.482s] [ 90%] Built target ScanAccumulator
+[0.483s] [ 95%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[6.472s] In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/Values.h:27[m[K,
+[6.472s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactor.h:24[m[K,
+[6.473s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+[6.473s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+[6.473s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+[6.473s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[6.473s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Key.h:[m[K In static member function ‘[01m[Kstatic bool gtsam::traits<long unsigned int>::Equals(const Key&, const Key&, double)[m[K’:
+[6.473s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Key.h:127:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktol[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.473s]   127 |   static bool Equals(const Key& val1, const Key& val2, [01;35m[Kdouble tol = 1e-8[m[K) {
+[6.474s]       |                                                        [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[6.930s] In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/NoiseModel.h:25[m[K,
+[6.930s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactor.h:26[m[K,
+[6.930s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+[6.930s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+[6.930s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+[6.930s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[6.931s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/LossFunctions.h:[m[K In member function ‘[01m[Kvirtual double gtsam::noiseModel::mEstimator::Base::loss(double) const[m[K’:
+[6.931s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/LossFunctions.h:97:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdistance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.931s]    97 |   virtual double loss([01;35m[Kdouble distance[m[K) const { return 0; }
+[6.931s]       |                       [01;35m[K~~~~~~~^~~~~~~~[m[K
+[6.964s] In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactor.h:26[m[K,
+[6.964s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+[6.965s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+[6.965s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+[6.965s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[6.965s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/NoiseModel.h:[m[K In member function ‘[01m[Kvirtual double gtsam::noiseModel::Base::weight(const Vector&) const[m[K’:
+[6.965s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/NoiseModel.h:141:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.965s]   141 |       virtual double weight([01;35m[Kconst Vector& v[m[K) const { return 1.0; }
+[6.965s]       |                             [01;35m[K~~~~~~~~~~~~~~^[m[K
+[7.504s] In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizerParams.h:24[m[K,
+[7.504s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:22[m[K,
+[7.504s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+[7.504s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[7.504s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianFactorGraph.h:[m[K In static member function ‘[01m[Kstatic gtsam::Ordering gtsam::EliminationTraits<gtsam::GaussianFactorGraph>::DefaultOrderingFunc(const FactorGraphType&, std::optional<std::reference_wrapper<const gtsam::VariableIndex> >)[m[K’:
+[7.504s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianFactorGraph.h:60:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgraph[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.504s]    60 |         [01;35m[Kconst FactorGraphType& graph[m[K,
+[7.504s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[13.260s] In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianConditional.h:25[m[K,
+[13.260s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianBayesNet.h:23[m[K,
+[13.260s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianBayesTree.h:22[m[K,
+[13.260s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/Marginals.h:21[m[K,
+[13.260s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:16[m[K:
+[13.261s] /home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h: In instantiation of ‘[01m[Kdouble gtsam::Conditional<FACTOR, DERIVEDCONDITIONAL>::logProbability(const gtsam::HybridValues&) const [with FACTOR = gtsam::JacobianFactor; DERIVEDCONDITIONAL = gtsam::GaussianConditional][m[K’:
+[13.261s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:48:8:[m[K   required from here
+[13.261s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:49:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.261s]    49 |     [01;35m[Kconst HybridValues& c[m[K) const {
+[13.261s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[13.261s] /home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h: In instantiation of ‘[01m[Kdouble gtsam::Conditional<FACTOR, DERIVEDCONDITIONAL>::evaluate(const gtsam::HybridValues&) const [with FACTOR = gtsam::JacobianFactor; DERIVEDCONDITIONAL = gtsam::GaussianConditional][m[K’:
+[13.261s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:55:8:[m[K   required from here
+[13.261s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:56:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.262s]    56 |     [01;35m[Kconst HybridValues& c[m[K) const {
+[13.262s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[23.377s] [100%] [32m[1mLinking CXX executable PoseGraphOptimizer[0m
+[24.671s] [100%] Built target PoseGraphOptimizer
+[24.690s] Invoked command in '/home/kvothe/ros/build/cppp' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12
+[24.692s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/kvothe/ros/build/cppp
+[24.700s] -- Install configuration: ""
+[24.700s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformerNode
+[24.701s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/ScanAccumulator
+[24.701s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/PreprocessNode
+[24.701s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkGraphNode
+[24.702s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/IncrementalLineFittingNode
+[24.702s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformermapNode
+[24.702s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/HoughLineFittingNode
+[24.703s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/RansacLineExtractionNode
+[24.703s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/ScanTransformer
+[24.703s] -- Installing: /home/kvothe/ros/install/cppp/lib/cppp/PoseGraphOptimizer
+[24.716s] -- Set runtime path of "/home/kvothe/ros/install/cppp/lib/cppp/PoseGraphOptimizer" to ""
+[24.716s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/package_run_dependencies/cppp
+[24.716s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/parent_prefix_path/cppp
+[24.716s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.sh
+[24.716s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.dsv
+[24.716s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/path.sh
+[24.716s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/path.dsv
+[24.716s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.bash
+[24.716s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.sh
+[24.717s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.zsh
+[24.717s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.dsv
+[24.717s] -- Installing: /home/kvothe/ros/install/cppp/share/cppp/package.dsv
+[24.717s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/packages/cppp
+[24.717s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig.cmake
+[24.717s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig-version.cmake
+[24.717s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/package.xml
+[24.719s] Invoked command in '/home/kvothe/ros/build/cppp' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/kvothe/ros/build/cppp

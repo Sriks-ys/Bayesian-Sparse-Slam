@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from messages/msg/PoseGraph.msg
+// generated code does not contain a copyright notice
+
+#include "messages/msg/LandmarkConstraint.idl"
+#include "messages/msg/PoseConstraint.idl"
+#include "messages/msg/PoseNode.idl"
+#include "std_msgs/msg/Header.idl"
+
+module messages {
+  module msg {
+    struct PoseGraph {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "List of all poses")
+      sequence<messages::msg::PoseNode> nodes;
+
+      @verbatim (language="comment", text=
+        "List of pose-pose edges")
+      sequence<messages::msg::PoseConstraint> pose_constraints;
+
+      @verbatim (language="comment", text=
+        "List of pose-landmark edges")
+      sequence<messages::msg::LandmarkConstraint> landmark_constraints;
+    };
+  };
+};

@@ -1,0 +1,94 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found messages: 0.0.0 (/home/kvothe/ros/install/messages/share/messages/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found tf2_sensor_msgs: 0.25.12 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kvothe/ros/build/cppp
+[35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[35m[1mConsolidate compiler generated dependencies of target PreprocessNode[0m
+[35m[1mConsolidate compiler generated dependencies of target RansacLineExtractionNode[0m
+[35m[1mConsolidate compiler generated dependencies of target LandmarkTransformerNode[0m
+[35m[1mConsolidate compiler generated dependencies of target IncrementalLineFittingNode[0m
+[35m[1mConsolidate compiler generated dependencies of target LandmarkTransformermapNode[0m
+[35m[1mConsolidate compiler generated dependencies of target ScanAccumulator[0m
+[35m[1mConsolidate compiler generated dependencies of target LandmarkGraphNode[0m
+[35m[1mConsolidate compiler generated dependencies of target ScanTransformer[0m
+[35m[1mConsolidate compiler generated dependencies of target HoughLineFittingNode[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[ 15%] Built target PreprocessNode
+[ 30%] Built target LandmarkTransformermapNode
+[ 35%] Built target LandmarkTransformerNode
+[ 45%] Built target LandmarkGraphNode
+[ 55%] Built target ScanTransformer
+[ 75%] Built target RansacLineExtractionNode
+[ 75%] Built target IncrementalLineFittingNode
+[ 90%] Built target ScanAccumulator
+[ 95%] Built target HoughLineFittingNode
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::poseGraphCallback(messages::msg::PoseGraph_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:19:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   19 |     void poseGraphCallback([01;35m[Kconst messages::msg::PoseGraph::SharedPtr msg[m[K) {
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::landmarkConstraintCallback(messages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:25:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   25 |     void landmarkConstraintCallback([01;35m[Kconst messages::msg::LandmarkLandmarkConstraintList::SharedPtr msg[m[K) {
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[100%] [32m[1mLinking CXX executable PoseGraphOptimizer[0m
+[100%] Built target PoseGraphOptimizer
+-- Install configuration: ""
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformerNode
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/ScanAccumulator
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/PreprocessNode
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkGraphNode
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/IncrementalLineFittingNode
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformermapNode
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/HoughLineFittingNode
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/RansacLineExtractionNode
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/ScanTransformer
+-- Installing: /home/kvothe/ros/install/cppp/lib/cppp/PoseGraphOptimizer
+-- Set runtime path of "/home/kvothe/ros/install/cppp/lib/cppp/PoseGraphOptimizer" to ""
+-- Installing: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/package_run_dependencies/cppp
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/parent_prefix_path/cppp
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.sh
+-- Installing: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/path.sh
+-- Installing: /home/kvothe/ros/install/cppp/share/cppp/environment/path.dsv
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.bash
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.sh
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.zsh
+-- Installing: /home/kvothe/ros/install/cppp/share/cppp/local_setup.dsv
+-- Installing: /home/kvothe/ros/install/cppp/share/cppp/package.dsv
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/packages/cppp
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig.cmake
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig-version.cmake
+-- Installing: /home/kvothe/ros/install/cppp/share/cppp/package.xml

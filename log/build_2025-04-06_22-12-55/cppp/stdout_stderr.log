@@ -1,0 +1,40 @@
+[ 20%] Built target PreprocessNode
+[ 20%] Built target LandmarkGraphNode
+[ 25%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[ 35%] Built target LandmarkTransformerNode
+[ 45%] Built target ScanTransformer
+[ 55%] Built target LandmarkTransformermapNode
+[ 85%] Built target HoughLineFittingNode
+[ 85%] Built target RansacLineExtractionNode
+[ 85%] Built target IncrementalLineFittingNode
+[ 95%] Built target ScanAccumulator
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In constructor ‘[01m[KPosePoseCost::PosePoseCost(double, double, double, const std::array<double, 9>&)[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:33:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstraint[m[K’ was not declared in this scope
+   33 |             for (size_t i = 0; i < [01;31m[Kconstraint[m[K.covariance.size(); ++i) {
+      |                                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:34:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kscaled_covariance[m[K’ was not declared in this scope
+   34 |                 [01;31m[Kscaled_covariance[m[K[i] = std::max(1e-3, static_cast<double>(constraint.covariance[i]));
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In constructor ‘[01m[KPoseLandmarkCost::PoseLandmarkCost(double, double, const std::array<double, 4>&)[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:69:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstraint[m[K’ was not declared in this scope
+   69 |             for (size_t i = 0; i < [01;31m[Kconstraint[m[K.covariance.size(); ++i) {
+      |                                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:70:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kscaled_covariance[m[K’ was not declared in this scope
+   70 |                 [01;31m[Kscaled_covariance[m[K[i] = std::max(1e-3, static_cast<double>(constraint.covariance[i]));
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:68:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdet[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   68 |             double [01;35m[Kdet[m[K = cov.determinant();
+      |                    [01;35m[K^~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In constructor ‘[01m[KLandmarkLandmarkCost::LandmarkLandmarkCost(double, double, const std::array<double, 4>&)[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:118:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstraint[m[K’ was not declared in this scope
+  118 |             for (size_t i = 0; i < [01;31m[Kconstraint[m[K.covariance.size(); ++i) {
+      |                                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:119:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kscaled_covariance[m[K’ was not declared in this scope
+  119 |                 [01;31m[Kscaled_covariance[m[K[i] = std::max(1e-3, static_cast<double>(constraint.covariance[i]));
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:117:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdet[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  117 |             double [01;35m[Kdet[m[K = cov.determinant();
+      |                    [01;35m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

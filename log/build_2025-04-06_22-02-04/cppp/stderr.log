@@ -1,0 +1,8 @@
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:328:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseGraph = struct messages::msg::PoseGraph_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct messages::msg::PoseGraph_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kloop_closure_constraints[m[K’; did you mean ‘[01m[Kpose_constraints[m[K’?
+  328 |             for (const auto& loop_closure_constraint : pose_graph_.[01;31m[Kloop_closure_constraints[m[K) {
+      |                                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                    [32m[Kpose_constraints[m[K
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

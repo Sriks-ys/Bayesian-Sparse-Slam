@@ -1,0 +1,29 @@
+[0.013s] Invoking command in '/home/kvothe/ros/build/ros_gazebo': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/kvothe/ros/install/robot_description/share/robot_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/kvothe/ros/build/ros_gazebo -- -j12 -l12
+[0.074s] [ 50%] Built target BasicSystem
+[0.109s] [100%] Built target FullSystem
+[0.124s] Invoked command in '/home/kvothe/ros/build/ros_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/kvothe/ros/install/robot_description/share/robot_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/kvothe/ros/build/ros_gazebo -- -j12 -l12
+[0.126s] Invoking command in '/home/kvothe/ros/build/ros_gazebo': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/kvothe/ros/install/robot_description/share/robot_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/kvothe/ros/build/ros_gazebo
+[0.135s] -- Install configuration: ""
+[0.135s] -- Execute custom install script
+[0.136s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/libBasicSystem.so
+[0.136s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/libFullSystem.so
+[0.136s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds/Crawler.sdf
+[0.136s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds/Damn.sdf
+[0.136s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/environment/ros_gazebo.dsv
+[0.137s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/environment/ros_gazebo.sh
+[0.137s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ament_index/resource_index/package_run_dependencies/ros_gazebo
+[0.137s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ament_index/resource_index/parent_prefix_path/ros_gazebo
+[0.137s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/environment/ament_prefix_path.sh
+[0.137s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/environment/ament_prefix_path.dsv
+[0.137s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/environment/path.sh
+[0.137s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/environment/path.dsv
+[0.138s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/local_setup.bash
+[0.138s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/local_setup.sh
+[0.138s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/local_setup.zsh
+[0.138s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/local_setup.dsv
+[0.138s] -- Symlinking: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/package.dsv
+[0.157s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ament_index/resource_index/packages/ros_gazebo
+[0.157s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/cmake/ros_gazeboConfig.cmake
+[0.157s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/cmake/ros_gazeboConfig-version.cmake
+[0.158s] -- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/package.xml
+[0.162s] Invoked command in '/home/kvothe/ros/build/ros_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/kvothe/ros/install/robot_description/share/robot_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/kvothe/ros/build/ros_gazebo

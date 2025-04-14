@@ -1,0 +1,126 @@
+[0.265s] Invoking command in '/home/kvothe/ros/build/gtsam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/gtsam -- -j12 -l12
+[0.476s] [35m[1mConsolidate compiler generated dependencies of target cephes-gtsam[0m
+[0.478s] [35m[1mConsolidate compiler generated dependencies of target CppUnitLite[0m
+[0.483s] [35m[1mConsolidate compiler generated dependencies of target metis-gtsam[0m
+[0.493s] [  2%] Built target CppUnitLite
+[0.501s] [ 16%] Built target cephes-gtsam
+[0.521s] [ 28%] Built target metis-gtsam
+[0.700s] [35m[1mConsolidate compiler generated dependencies of target gtsam[0m
+[1.140s] [ 28%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/sfm/ShonanAveraging.cpp.o[0m
+[1.140s] [ 28%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/sfm/SfmData.cpp.o[0m
+[1.140s] [ 28%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/EssentialMatrixConstraint.cpp.o[0m
+[1.140s] [ 28%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/sfm/ShonanFactor.cpp.o[0m
+[1.140s] [ 28%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/OrientedPlane3Factor.cpp.o[0m
+[1.143s] [ 28%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/sfm/TranslationRecovery.cpp.o[0m
+[1.144s] [ 28%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/InitializePose3.cpp.o[0m
+[1.144s] [ 28%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/lago.cpp.o[0m
+[1.145s] [ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/dataset.cpp.o[0m
+[1.149s] [ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/AttitudeFactor.cpp.o[0m
+[1.149s] [ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/AHRSFactor.cpp.o[0m
+[1.150s] [ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/BarometricFactor.cpp.o[0m
+[12.505s] [ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/CombinedImuFactor.cpp.o[0m
+[12.613s] [ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/GPSFactor.cpp.o[0m
+[13.069s] [ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ImuBias.cpp.o[0m
+[13.618s] [ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ImuFactor.cpp.o[0m
+[13.763s] [ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ManifoldPreintegration.cpp.o[0m
+[15.480s] [ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/NavState.cpp.o[0m
+[16.624s] [ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/PreintegratedRotation.cpp.o[0m
+[16.685s] [ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationBase.cpp.o[0m
+[18.070s] [ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationParams.cpp.o[0m
+[19.815s] [ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ScenarioRunner.cpp.o[0m
+[23.724s] [ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/TangentPreintegration.cpp.o[0m
+[57.962s] [ 33%] [32m[1mLinking CXX shared library libgtsam.so[0m
+[58.692s] [ 66%] Built target gtsam
+[58.740s] [ 66%] [32mBuilding CXX object examples/CMakeFiles/CameraResectioning.dir/CameraResectioning.cpp.o[0m
+[58.741s] [ 66%] [32mBuilding CXX object examples/CMakeFiles/CombinedImuFactorsExample.dir/CombinedImuFactorsExample.cpp.o[0m
+[58.741s] [ 66%] [32mBuilding CXX object examples/CMakeFiles/DiscreteBayesNetExample.dir/DiscreteBayesNetExample.cpp.o[0m
+[58.741s] [ 66%] [32mBuilding CXX object examples/CMakeFiles/EssentialViewGraphExample.dir/EssentialViewGraphExample.cpp.o[0m
+[58.741s] [ 66%] [32mBuilding CXX object examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o[0m
+[58.741s] [ 66%] [32mBuilding CXX object examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o[0m
+[58.741s] [ 66%] [32mBuilding CXX object examples/CMakeFiles/DiscreteBayesNet_FG.dir/DiscreteBayesNet_FG.cpp.o[0m
+[58.741s] [ 66%] [32mBuilding CXX object examples/CMakeFiles/IMUKittiExampleGPS.dir/IMUKittiExampleGPS.cpp.o[0m
+[58.741s] [ 66%] [32mBuilding CXX object examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o[0m
+[58.741s] [ 66%] [32mBuilding CXX object examples/CMakeFiles/Hybrid_City10000.dir/Hybrid_City10000.cpp.o[0m
+[58.742s] [ 66%] [32mBuilding CXX object examples/CMakeFiles/GNCExample.dir/GNCExample.cpp.o[0m
+[58.745s] [ 69%] [32mBuilding CXX object examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o[0m
+[65.692s] [ 69%] [32m[1mLinking CXX executable DiscreteBayesNet_FG[0m
+[65.735s] [ 69%] [32m[1mLinking CXX executable HMMExample[0m
+[65.841s] [ 69%] [32m[1mLinking CXX executable DiscreteBayesNetExample[0m
+[66.069s] [ 69%] Built target DiscreteBayesNet_FG
+[66.098s] [ 69%] Built target HMMExample
+[66.109s] [ 69%] [32mBuilding CXX object examples/CMakeFiles/ISAM2_City10000.dir/ISAM2_City10000.cpp.o[0m
+[66.142s] [ 69%] [32mBuilding CXX object examples/CMakeFiles/ImuFactorsExample.dir/ImuFactorsExample.cpp.o[0m
+[66.191s] [ 69%] Built target DiscreteBayesNetExample
+[66.236s] [ 69%] [32mBuilding CXX object examples/CMakeFiles/ImuFactorsExample2.dir/ImuFactorsExample2.cpp.o[0m
+[70.300s] [ 69%] [32m[1mLinking CXX executable CameraResectioning[0m
+[70.548s] [ 69%] [32m[1mLinking CXX executable GNCExample[0m
+[70.636s] [ 69%] [32m[1mLinking CXX executable CreateSFMExampleData[0m
+[70.668s] [ 69%] Built target CameraResectioning
+[70.709s] [ 69%] [32mBuilding CXX object examples/CMakeFiles/IncrementalFixedLagSmootherExample.dir/IncrementalFixedLagSmootherExample.cpp.o[0m
+[70.931s] [ 69%] Built target GNCExample
+[70.973s] [ 69%] Built target CreateSFMExampleData
+[70.982s] [ 71%] [32mBuilding CXX object examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o[0m
+[71.013s] [ 71%] [32mBuilding CXX object examples/CMakeFiles/LocalizationExample.dir/LocalizationExample.cpp.o[0m
+[74.271s] [ 71%] [32m[1mLinking CXX executable Hybrid_City10000[0m
+[74.574s] [ 71%] Built target Hybrid_City10000
+[74.613s] [ 71%] [32mBuilding CXX object examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o[0m
+[75.349s] [ 71%] [32m[1mLinking CXX executable EssentialViewGraphExample[0m
+[75.451s] [ 71%] [32m[1mLinking CXX executable FisheyeExample[0m
+[75.714s] [ 71%] Built target EssentialViewGraphExample
+[75.755s] [ 71%] [32mBuilding CXX object examples/CMakeFiles/OdometryExample.dir/OdometryExample.cpp.o[0m
+[75.809s] [ 71%] Built target FisheyeExample
+[75.845s] [ 71%] [32mBuilding CXX object examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o[0m
+[75.905s] [ 71%] [32m[1mLinking CXX executable IMUKittiExampleGPS[0m
+[76.324s] [ 71%] Built target IMUKittiExampleGPS
+[76.361s] [ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample.dir/Pose2SLAMExample.cpp.o[0m
+[81.576s] [ 71%] [32m[1mLinking CXX executable LocalizationExample[0m
+[81.926s] [ 71%] Built target LocalizationExample
+[81.969s] [ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExampleExpressions.dir/Pose2SLAMExampleExpressions.cpp.o[0m
+[81.973s] [ 71%] [32m[1mLinking CXX executable ISAM2_City10000[0m
+[82.309s] [ 71%] Built target ISAM2_City10000
+[82.360s] [ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample_g2o.dir/Pose2SLAMExample_g2o.cpp.o[0m
+[83.090s] [ 71%] [32m[1mLinking CXX executable ImuFactorsExample2[0m
+[83.433s] [ 71%] Built target ImuFactorsExample2
+[83.475s] [ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample_graph.dir/Pose2SLAMExample_graph.cpp.o[0m
+[84.395s] [ 71%] [32m[1mLinking CXX executable CombinedImuFactorsExample[0m
+[84.743s] [ 71%] Built target CombinedImuFactorsExample
+[84.785s] [ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample_graphviz.dir/Pose2SLAMExample_graphviz.cpp.o[0m
+[86.168s] [ 71%] [32m[1mLinking CXX executable IncrementalFixedLagSmootherExample[0m
+[86.518s] [ 71%] Built target IncrementalFixedLagSmootherExample
+[86.560s] [ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample_lago.dir/Pose2SLAMExample_lago.cpp.o[0m
+[86.619s] [ 71%] [32m[1mLinking CXX executable OdometryExample[0m
+[86.962s] [ 71%] Built target OdometryExample
+[87.000s] [ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMStressTest.dir/Pose2SLAMStressTest.cpp.o[0m
+[87.081s] [ 71%] [32m[1mLinking CXX executable METISOrderingExample[0m
+[87.436s] [ 71%] Built target METISOrderingExample
+[87.447s] [ 73%] [32m[1mLinking CXX executable Pose2SLAMExample[0m
+[87.480s] [ 73%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMwSPCG.dir/Pose2SLAMwSPCG.cpp.o[0m
+[87.836s] [ 73%] Built target Pose2SLAMExample
+[87.875s] [ 73%] [32mBuilding CXX object examples/CMakeFiles/Pose3Localization.dir/Pose3Localization.cpp.o[0m
+[89.492s] [ 73%] [32m[1mLinking CXX executable ImuFactorsExample[0m
+[89.864s] [ 73%] Built target ImuFactorsExample
+[89.901s] [ 73%] [32mBuilding CXX object examples/CMakeFiles/Pose3SLAMExampleExpressions_BearingRangeWithTransform.dir/Pose3SLAMExampleExpressions_BearingRangeWithTransform.cpp.o[0m
+[94.929s] [ 73%] [32m[1mLinking CXX executable Pose2SLAMExample_graphviz[0m
+[95.260s] [ 73%] Built target Pose2SLAMExample_graphviz
+[95.305s] [ 73%] [32mBuilding CXX object examples/CMakeFiles/Pose3SLAMExample_changeKeys.dir/Pose3SLAMExample_changeKeys.cpp.o[0m
+[96.448s] [ 73%] [32m[1mLinking CXX executable PlanarSLAMExample[0m
+[96.641s] [ 73%] [32m[1mLinking CXX executable Pose2SLAMExample_graph[0m
+[96.838s] [ 73%] Built target PlanarSLAMExample
+[96.885s] [ 73%] [32mBuilding CXX object examples/CMakeFiles/Pose3SLAMExample_g2o.dir/Pose3SLAMExample_g2o.cpp.o[0m
+[97.024s] [ 73%] Built target Pose2SLAMExample_graph
+[97.067s] [ 73%] [32mBuilding CXX object examples/CMakeFiles/Pose3SLAMExample_initializePose3Chordal.dir/Pose3SLAMExample_initializePose3Chordal.cpp.o[0m
+[97.869s] [ 73%] [32m[1mLinking CXX executable Pose2SLAMExample_g2o[0m
+[98.215s] [ 73%] Built target Pose2SLAMExample_g2o
+[98.259s] [ 73%] [32mBuilding CXX object examples/CMakeFiles/Pose3SLAMExample_initializePose3Gradient.dir/Pose3SLAMExample_initializePose3Gradient.cpp.o[0m
+[98.517s] [ 73%] [32m[1mLinking CXX executable Pose2SLAMwSPCG[0m
+[98.875s] [ 73%] Built target Pose2SLAMwSPCG
+[98.924s] [ 73%] [32mBuilding CXX object examples/CMakeFiles/RangeISAMExample_plaza2.dir/RangeISAMExample_plaza2.cpp.o[0m
+[99.133s] [ 73%] [32m[1mLinking CXX executable Pose2SLAMExample_lago[0m
+[99.465s] [ 73%] Built target Pose2SLAMExample_lago
+[99.518s] [ 73%] [32mBuilding CXX object examples/CMakeFiles/SFMExample.dir/SFMExample.cpp.o[0m
+[99.558s] [ 76%] [32m[1mLinking CXX executable Pose2SLAMStressTest[0m
+[99.879s] [ 76%] Built target Pose2SLAMStressTest
+[99.917s] [ 76%] [32mBuilding CXX object examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o[0m
+[100.710s] [ 76%] [32m[1mLinking CXX executable Pose3Localization[0m
+[101.066s] [ 76%] Built target Pose3Localization
+[101.110s] [ 76%] [32mBuilding CXX object examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o[0m

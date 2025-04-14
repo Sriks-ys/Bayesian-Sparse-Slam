@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.000385] (-) JobUnselected: {'identifier': 'cppp'}
+[0.000462] (-) JobUnselected: {'identifier': 'messages'}
+[0.000516] (-) JobUnselected: {'identifier': 'optim'}
+[0.000582] (-) JobUnselected: {'identifier': 'robot_control'}
+[0.000667] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000715] (-) JobUnselected: {'identifier': 'ros_bringup'}
+[0.000770] (-) JobUnselected: {'identifier': 'ros_gazebo'}
+[0.000817] (-) JobUnselected: {'identifier': 'sensor_management'}
+[0.000859] (-) JobUnselected: {'identifier': 'soma'}
+[0.000906] (solver) JobQueued: {'identifier': 'solver', 'dependencies': OrderedDict()}
+[0.000956] (solver) JobStarted: {'identifier': 'solver'}
+[0.010358] (solver) JobProgress: {'identifier': 'solver', 'progress': 'cmake'}
+[0.010893] (solver) JobProgress: {'identifier': 'solver', 'progress': 'build'}
+[0.011584] (solver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kvothe/ros/build/solver', '--', '-j12', '-l12'], 'cwd': '/home/kvothe/ros/build/solver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kvothe'), ('XDG_SESSION_TYPE', 'wayland'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kvothe'), ('OLDPWD', '/home/kvothe/ros/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1040'), ('SYSTEMD_EXEC_PID', '1205'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2222'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kvothe/ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kvothe'), ('JOURNAL_STREAM', '8:8701'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kvothe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1169,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1169'), ('INVOCATION_ID', '9648f710253e42ac9387f88f7a4ef8a2'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E4DU32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/optim:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/'), ('TERMINATOR_UUID', 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kvothe/ros/build/solver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/optim:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[0.094935] (solver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/test_g2o.dir/src/test_g2o.cpp.o\x1b[0m\n'}
+[0.099253] (-) TimerEvent: {}
+[0.199641] (-) TimerEvent: {}
+[0.300064] (-) TimerEvent: {}
+[0.400527] (-) TimerEvent: {}
+[0.501023] (-) TimerEvent: {}
+[0.601470] (-) TimerEvent: {}
+[0.701931] (-) TimerEvent: {}
+[0.802351] (-) TimerEvent: {}
+[0.902766] (-) TimerEvent: {}
+[1.003227] (-) TimerEvent: {}
+[1.103669] (-) TimerEvent: {}
+[1.204115] (-) TimerEvent: {}
+[1.304541] (-) TimerEvent: {}
+[1.404921] (-) TimerEvent: {}
+[1.505362] (-) TimerEvent: {}
+[1.605989] (-) TimerEvent: {}
+[1.706467] (-) TimerEvent: {}
+[1.806919] (-) TimerEvent: {}
+[1.907366] (-) TimerEvent: {}
+[2.007830] (-) TimerEvent: {}
+[2.108279] (-) TimerEvent: {}
+[2.208714] (-) TimerEvent: {}
+[2.309165] (-) TimerEvent: {}
+[2.409635] (-) TimerEvent: {}
+[2.510084] (-) TimerEvent: {}
+[2.610523] (-) TimerEvent: {}
+[2.710949] (-) TimerEvent: {}
+[2.811402] (-) TimerEvent: {}
+[2.911872] (-) TimerEvent: {}
+[3.012322] (-) TimerEvent: {}
+[3.112757] (-) TimerEvent: {}
+[3.213106] (-) TimerEvent: {}
+[3.313555] (-) TimerEvent: {}
+[3.390838] (solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KG2OTestNode::G2OTestNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.391373] (solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:20:97:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPose3D\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kg2o\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.391628] (solver) StderrLine: {'line': b'   20 |         auto linearSolver = std::make_unique<g2o::LinearSolverDense<g2o::BlockSolverTraits<g2o::\x1b[01;31m\x1b[KPose3D\x1b[m\x1b[K>::PoseMatrixType>>();\n'}
+[3.391848] (solver) StderrLine: {'line': b'      |                                                                                                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.392042] (solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:20:103:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (1, should be 2)\n'}
+[3.392237] (solver) StderrLine: {'line': b'   20 |         auto linearSolver = std::make_unique<g2o::LinearSolverDense<g2o::BlockSolverTraits<g2o::Pose3D\x1b[01;31m\x1b[K>\x1b[m\x1b[K::PoseMatrixType>>();\n'}
+[3.392430] (solver) StderrLine: {'line': b'      |                                                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.392648] (solver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:7\x1b[m\x1b[K:\n'}
+[3.392852] (solver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/g2o/core/block_solver.h:48:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprovided for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<int _PoseDim, int _LandmarkDim> struct g2o::BlockSolverTraits\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.393040] (solver) StderrLine: {'line': b'   48 | struct \x1b[01;36m\x1b[KBlockSolverTraits\x1b[m\x1b[K {\n'}
+[3.393228] (solver) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.393414] (solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:20:106:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.393617] (solver) StderrLine: {'line': b'   20 |         auto linearSolver = std::make_unique<g2o::LinearSolverDense<g2o::BlockSolverTraits<g2o::Pose3D>::\x1b[01;31m\x1b[KPoseMatrixType\x1b[m\x1b[K>>();\n'}
+[3.393826] (solver) StderrLine: {'line': b'      |                                                                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.394008] (solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:20:122:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_unique<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.394196] (solver) StderrLine: {'line': b'   20 |     auto linearSolver = \x1b[01;31m\x1b[Kstd::make_unique<g2o::LinearSolverDense<g2o::BlockSolverTraits<g2o::Pose3D>::PoseMatrixType>>()\x1b[m\x1b[K;\n'}
+[3.394382] (solver) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.394589] (solver) StderrLine: {'line': b'\n'}
+[3.394801] (solver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[3.394989] (solver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.395182] (solver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:1\x1b[m\x1b[K:\n'}
+[3.395395] (solver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:961:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.395605] (solver) StderrLine: {'line': b'  961 |     \x1b[01;36m\x1b[Kmake_unique\x1b[m\x1b[K(_Args&&... __args)\n'}
+[3.395822] (solver) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.396009] (solver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:961:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.396214] (solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:20:122:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.396399] (solver) StderrLine: {'line': b'   20 |     auto linearSolver = \x1b[01;31m\x1b[Kstd::make_unique<g2o::LinearSolverDense<g2o::BlockSolverTraits<g2o::Pose3D>::PoseMatrixType>>()\x1b[m\x1b[K;\n'}
+[3.396606] (solver) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.396818] (solver) StderrLine: {'line': b'\n'}
+[3.397006] (solver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[3.397191] (solver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.397397] (solver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:1\x1b[m\x1b[K:\n'}
+[3.397607] (solver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:967:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.397830] (solver) StderrLine: {'line': b'  967 |     \x1b[01;36m\x1b[Kmake_unique\x1b[m\x1b[K(size_t __num)\n'}
+[3.398014] (solver) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.398197] (solver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:967:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.398399] (solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:20:122:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.398595] (solver) StderrLine: {'line': b'   20 |     auto linearSolver = \x1b[01;31m\x1b[Kstd::make_unique<g2o::LinearSolverDense<g2o::BlockSolverTraits<g2o::Pose3D>::PoseMatrixType>>()\x1b[m\x1b[K;\n'}
+[3.398764] (solver) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.398903] (solver) StderrLine: {'line': b'\n'}
+[3.399038] (solver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[3.399174] (solver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.399310] (solver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:1\x1b[m\x1b[K:\n'}
+[3.399429] (solver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:973:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99 (deleted)\n'}
+[3.399543] (solver) StderrLine: {'line': b'  973 |     \x1b[01;36m\x1b[Kmake_unique\x1b[m\x1b[K(_Args&&...) = delete;\n'}
+[3.399689] (solver) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.399806] (solver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:973:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.399920] (solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:20:122:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.400033] (solver) StderrLine: {'line': b'   20 |     auto linearSolver = \x1b[01;31m\x1b[Kstd::make_unique<g2o::LinearSolverDense<g2o::BlockSolverTraits<g2o::Pose3D>::PoseMatrixType>>()\x1b[m\x1b[K;\n'}
+[3.400158] (solver) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.400272] (solver) StderrLine: {'line': b'\n'}
+[3.400385] (solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:23:90:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPose3D\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kg2o\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.400498] (solver) StderrLine: {'line': b'   23 |         auto blockSolver = std::make_unique<g2o::BlockSolver<g2o::BlockSolverTraits<g2o::\x1b[01;31m\x1b[KPose3D\x1b[m\x1b[K>>>(std::move(linearSolver));\n'}
+[3.400637] (solver) StderrLine: {'line': b'      |                                                                                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.400758] (solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:23:90:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (1, should be 2)\n'}
+[3.400873] (solver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:7\x1b[m\x1b[K:\n'}
+[3.400987] (solver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/g2o/core/block_solver.h:48:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprovided for \xe2\x80\x98\x1b[01m\x1b[Ktemplate<int _PoseDim, int _LandmarkDim> struct g2o::BlockSolverTraits\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.401101] (solver) StderrLine: {'line': b'   48 | struct \x1b[01;36m\x1b[KBlockSolverTraits\x1b[m\x1b[K {\n'}
+[3.401213] (solver) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.401327] (solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:23:96:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.401440] (solver) StderrLine: {'line': b'   23 |         auto blockSolver = std::make_unique<g2o::BlockSolver<g2o::BlockSolverTraits<g2o::Pose3D\x1b[01;31m\x1b[K>>\x1b[m\x1b[K>(std::move(linearSolver));\n'}
+[3.401555] (solver) StderrLine: {'line': b'      |                                                                                                \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.413688] (-) TimerEvent: {}
+[3.514085] (-) TimerEvent: {}
+[3.614533] (-) TimerEvent: {}
+[3.715006] (-) TimerEvent: {}
+[3.815447] (-) TimerEvent: {}
+[3.915923] (-) TimerEvent: {}
+[4.016367] (-) TimerEvent: {}
+[4.116836] (-) TimerEvent: {}
+[4.217256] (-) TimerEvent: {}
+[4.317879] (-) TimerEvent: {}
+[4.418318] (-) TimerEvent: {}
+[4.518772] (-) TimerEvent: {}
+[4.619180] (-) TimerEvent: {}
+[4.719664] (-) TimerEvent: {}
+[4.820057] (-) TimerEvent: {}
+[4.920388] (-) TimerEvent: {}
+[5.020860] (-) TimerEvent: {}
+[5.121253] (-) TimerEvent: {}
+[5.221648] (-) TimerEvent: {}
+[5.322101] (-) TimerEvent: {}
+[5.422545] (-) TimerEvent: {}
+[5.523044] (-) TimerEvent: {}
+[5.623485] (-) TimerEvent: {}
+[5.723962] (-) TimerEvent: {}
+[5.824419] (-) TimerEvent: {}
+[5.924878] (-) TimerEvent: {}
+[6.025310] (-) TimerEvent: {}
+[6.125782] (-) TimerEvent: {}
+[6.226234] (-) TimerEvent: {}
+[6.326679] (-) TimerEvent: {}
+[6.427123] (-) TimerEvent: {}
+[6.527603] (-) TimerEvent: {}
+[6.628061] (-) TimerEvent: {}
+[6.728508] (-) TimerEvent: {}
+[6.828940] (-) TimerEvent: {}
+[6.929387] (-) TimerEvent: {}
+[7.029866] (-) TimerEvent: {}
+[7.130314] (-) TimerEvent: {}
+[7.230768] (-) TimerEvent: {}
+[7.331219] (-) TimerEvent: {}
+[7.364295] (solver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/test_g2o.dir/build.make:76: CMakeFiles/test_g2o.dir/src/test_g2o.cpp.o] Error 1\n'}
+[7.364909] (solver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test_g2o.dir/all] Error 2\n'}
+[7.365250] (solver) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.370083] (solver) CommandEnded: {'returncode': 2}
+[7.389137] (solver) JobEnded: {'identifier': 'solver', 'rc': 2}
+[7.399947] (-) EventReactorShutdown: {}

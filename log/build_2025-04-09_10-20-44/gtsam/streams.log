@@ -1,0 +1,52 @@
+[0.017s] Invoking command in '/home/kvothe/ros/build/gtsam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/gtsam -- -j12 -l12
+[0.254s] [  2%] Built target CppUnitLite
+[0.265s] [ 14%] Built target metis-gtsam
+[0.271s] [ 28%] Built target cephes-gtsam
+[0.599s] [ 66%] Built target gtsam
+[0.636s] [ 69%] [32mBuilding CXX object examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o[0m
+[0.644s] [ 69%] Built target CreateSFMExampleData
+[0.644s] [ 69%] Built target DiscreteBayesNet_FG
+[0.644s] [ 69%] Built target CameraResectioning
+[0.647s] [ 69%] Built target HMMExample
+[0.647s] [ 69%] Built target GNCExample
+[0.648s] [ 69%] Built target Hybrid_City10000
+[0.648s] [ 69%] Built target IMUKittiExampleGPS
+[0.651s] [ 69%] Built target EssentialViewGraphExample
+[0.651s] [ 69%] Built target DiscreteBayesNetExample
+[0.652s] [ 69%] Built target FisheyeExample
+[0.663s] [ 69%] Built target CombinedImuFactorsExample
+[0.681s] [ 71%] [32mBuilding CXX object examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o[0m
+[0.689s] [ 71%] Built target ImuFactorsExample2
+[0.691s] [ 71%] Built target ISAM2_City10000
+[0.693s] [ 71%] Built target IncrementalFixedLagSmootherExample
+[0.694s] [ 71%] Built target LocalizationExample
+[0.697s] [ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExampleExpressions.dir/Pose2SLAMExampleExpressions.cpp.o[0m
+[0.697s] [ 71%] Built target METISOrderingExample
+[0.697s] [ 71%] Built target PlanarSLAMExample
+[0.697s] [ 71%] Built target ImuFactorsExample
+[0.698s] [ 73%] Built target OdometryExample
+[0.698s] [ 73%] Built target Pose2SLAMExample
+[0.716s] [35m[1mConsolidate compiler generated dependencies of target Pose3SLAMExample_changeKeys[0m
+[0.731s] [ 73%] [32mBuilding CXX object examples/CMakeFiles/Pose3SLAMExampleExpressions_BearingRangeWithTransform.dir/Pose3SLAMExampleExpressions_BearingRangeWithTransform.cpp.o[0m
+[0.737s] [ 73%] Built target Pose2SLAMExample_graph
+[0.738s] [ 73%] Built target Pose2SLAMExample_g2o
+[0.739s] [ 73%] Built target Pose2SLAMExample_lago
+[0.739s] [ 73%] Built target Pose2SLAMExample_graphviz
+[0.741s] [ 76%] Built target Pose2SLAMwSPCG
+[0.741s] [ 76%] Built target Pose2SLAMStressTest
+[0.745s] [ 76%] Built target Pose3Localization
+[0.747s] [ 76%] Built target Pose3SLAMExample_changeKeys
+[0.756s] [35m[1mConsolidate compiler generated dependencies of target Pose3SLAMExample_g2o[0m
+[0.756s] [35m[1mConsolidate compiler generated dependencies of target Pose3SLAMExample_initializePose3Chordal[0m
+[0.758s] [35m[1mConsolidate compiler generated dependencies of target Pose3SLAMExample_initializePose3Gradient[0m
+[0.771s] [ 76%] [32mBuilding CXX object examples/CMakeFiles/SFMExample.dir/SFMExample.cpp.o[0m
+[0.771s] [ 76%] [32mBuilding CXX object examples/CMakeFiles/RangeISAMExample_plaza2.dir/RangeISAMExample_plaza2.cpp.o[0m
+[0.772s] [ 76%] [32mBuilding CXX object examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o[0m
+[0.777s] [ 76%] [32mBuilding CXX object examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o[0m
+[0.781s] [ 78%] [32mBuilding CXX object examples/CMakeFiles/SFMExample_SmartFactor.dir/SFMExample_SmartFactor.cpp.o[0m
+[0.787s] [ 80%] Built target Pose3SLAMExample_g2o
+[0.787s] [ 80%] Built target Pose3SLAMExample_initializePose3Chordal
+[0.790s] [ 80%] Built target Pose3SLAMExample_initializePose3Gradient
+[0.820s] [ 80%] [32mBuilding CXX object examples/CMakeFiles/SFMExample_bal.dir/SFMExample_bal.cpp.o[0m
+[0.821s] [ 80%] [32mBuilding CXX object examples/CMakeFiles/SFMExample_SmartFactorPCG.dir/SFMExample_SmartFactorPCG.cpp.o[0m
+[0.822s] [ 80%] [32mBuilding CXX object examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o[0m

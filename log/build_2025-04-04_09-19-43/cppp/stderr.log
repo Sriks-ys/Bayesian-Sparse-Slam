@@ -1,0 +1,36 @@
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:145:13:[m[K [01;31m[Kerror: [m[K‘[01m[Koptimize_landmarks[m[K’ was not declared in this scope; did you mean ‘[01m[Koptimized_landmarks_pub_[m[K’?
+  145 |         if ([01;31m[Koptimize_landmarks[m[K) {  // Make sure this condition allows landmarks to move
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[Koptimized_landmarks_pub_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:146:47:[m[K [01;31m[Kerror: [m[K‘[01m[Koptimized_landmarks[m[K’ was not declared in this scope; did you mean ‘[01m[Koptimized_landmarks_pub_[m[K’?
+  146 |             problem.SetParameterBlockVariable([01;31m[Koptimized_landmarks[m[K[i]);
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                               [32m[Koptimized_landmarks_pub_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:146:67:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+  146 |             problem.SetParameterBlockVariable(optimized_landmarks[[01;31m[Ki[m[K]);
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:148:47:[m[K [01;31m[Kerror: [m[K‘[01m[Koptimized_landmarks[m[K’ was not declared in this scope; did you mean ‘[01m[Koptimized_landmarks_pub_[m[K’?
+  148 |             problem.SetParameterBlockConstant([01;31m[Koptimized_landmarks[m[K[i]);  // Prevents changes
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                               [32m[Koptimized_landmarks_pub_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:148:67:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+  148 |             problem.SetParameterBlockConstant(optimized_landmarks[[01;31m[Ki[m[K]);  // Prevents changes
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:162:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_nodes[m[K’ was not declared in this scope
+  162 |         for (size_t i = 0; i < [01;31m[Kpose_nodes[m[K.size(); ++i) {
+      |                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:163:31:[m[K [01;31m[Kerror: [m[K‘[01m[Koptimized_poses[m[K’ was not declared in this scope
+  163 |             pose_nodes[i].x = [01;31m[Koptimized_poses[m[K[i][0];
+      |                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:168:32:[m[K [01;31m[Kerror: [m[K‘[01m[Klandmarks[m[K’ was not declared in this scope; did you mean ‘[01m[Klandmarks_sub_[m[K’?
+  168 |         for (size_t i = 0; i < [01;31m[Klandmarks[m[K.size(); ++i) {
+      |                                [01;31m[K^~~~~~~~~[m[K
+      |                                [32m[Klandmarks_sub_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:169:32:[m[K [01;31m[Kerror: [m[K‘[01m[Koptimized_landmarks[m[K’ was not declared in this scope; did you mean ‘[01m[Koptimized_landmarks_pub_[m[K’?
+  169 |             landmarks[i].rho = [01;31m[Koptimized_landmarks[m[K[i][0];
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                [32m[Koptimized_landmarks_pub_[m[K
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

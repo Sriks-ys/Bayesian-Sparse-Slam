@@ -1,0 +1,125 @@
+[35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[ 10%] Built target PreprocessNode
+[ 20%] Built target LandmarkTransformermapNode
+[ 30%] Built target ScanTransformer
+[ 40%] Built target LandmarkGraphNode
+[ 60%] Built target LandmarkTransformerNode
+[ 60%] Built target HoughLineFittingNode
+[ 70%] Built target RansacLineExtractionNode
+[ 80%] Built target ScanAccumulator
+[ 85%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[ 95%] Built target IncrementalLineFittingNode
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:259:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfor[m[K’
+  259 |             [01;31m[Kfor[m[K (const auto& constraint : pose_graph_.pose_constraints) {
+      |             [01;31m[K^~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:274:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfor[m[K’
+  274 |             [01;31m[Kfor[m[K (const auto& constraint : pose_graph_.landmark_constraints) {
+      |             [01;31m[K^~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:301:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfor[m[K’
+  301 |             [01;31m[Kfor[m[K (const auto& constraint : landmark_constraints_.constraints) {
+      |             [01;31m[K^~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:313:13:[m[K [01;31m[Kerror: [m[K‘[01m[Koptions[m[K’ does not name a type
+  313 |             [01;31m[Koptions[m[K.linear_solver_type = ceres::SPARSE_NORMAL_CHOLESKY;
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:314:13:[m[K [01;31m[Kerror: [m[K‘[01m[Koptions[m[K’ does not name a type
+  314 |             [01;31m[Koptions[m[K.minimizer_progress_to_stdout = true;
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:315:13:[m[K [01;31m[Kerror: [m[K‘[01m[Koptions[m[K’ does not name a type
+  315 |             [01;31m[Koptions[m[K.function_tolerance = 1e-5;
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:316:13:[m[K [01;31m[Kerror: [m[K‘[01m[Koptions[m[K’ does not name a type
+  316 |             [01;31m[Koptions[m[K.gradient_tolerance = 1e-8;
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:317:13:[m[K [01;31m[Kerror: [m[K‘[01m[Koptions[m[K’ does not name a type
+  317 |             [01;31m[Koptions[m[K.parameter_tolerance = 1e-8;
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:318:13:[m[K [01;31m[Kerror: [m[K‘[01m[Koptions[m[K’ does not name a type
+  318 |             [01;31m[Koptions[m[K.max_num_iterations = 200;
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:321:26:[m[K [01;31m[Kerror: [m[K‘[01m[Koptions[m[K’ is not a type
+  321 |             ceres::Solve([01;31m[Koptions[m[K, &problem, &summary);
+      |                          [01;31m[K^~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:321:35:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K&[m[K’ token
+  321 |             ceres::Solve(options, [01;31m[K&[m[Kproblem, &summary);
+      |                                   [01;31m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:321:45:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K&[m[K’ token
+  321 |             ceres::Solve(options, &problem, [01;31m[K&[m[Ksummary);
+      |                                             [01;31m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:321:13:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KSolve[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  321 |             [01;31m[Kceres[m[K::Solve(options, &problem, &summary);
+      |             [01;31m[K^~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:321:13:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[K::[m[K’
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:324:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  324 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Initial Cost: %f", summary.initial_cost);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:324:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  324 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Initial Cost: %f", summary.initial_cost);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:325:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  325 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Final Cost: %f", summary.final_cost);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:325:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  325 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Final Cost: %f", summary.final_cost);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:326:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  326 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Iterations: %ld", summary.iterations.size());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:326:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  326 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Iterations: %ld", summary.iterations.size());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:327:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  327 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Termination: %s", summary.termination_type == ceres::CONVERGENCE ? "Converged" : "Not Converged");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:327:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  327 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Termination: %s", summary.termination_type == ceres::CONVERGENCE ? "Converged" : "Not Converged");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:330:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfor[m[K’
+  330 |             [01;31m[Kfor[m[K (size_t i = 0; i < pose_graph_.nodes.size(); i++) {
+      |             [01;31m[K^~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:330:32:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+  330 |             for (size_t i = 0; [01;31m[Ki[m[K < pose_graph_.nodes.size(); i++) {
+      |                                [01;31m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:330:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+  330 |             for (size_t i = 0; i < pose_graph_.nodes.size(); [01;31m[Ki[m[K++) {
+      |                                                              [01;31m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:335:13:[m[K [01;31m[Kerror: [m[K‘[01m[Koptimized_graph_pub_[m[K’ does not name a type
+  335 |             [01;31m[Koptimized_graph_pub_[m[K->publish(pose_graph_);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:338:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfor[m[K’
+  338 |             [01;31m[Kfor[m[K (size_t i = 0; i < landmarks_.segments.size(); i++) {
+      |             [01;31m[K^~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:338:32:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+  338 |             for (size_t i = 0; [01;31m[Ki[m[K < landmarks_.segments.size(); i++) {
+      |                                [01;31m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:338:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+  338 |             for (size_t i = 0; i < landmarks_.segments.size(); [01;31m[Ki[m[K++) {
+      |                                                                [01;31m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:342:13:[m[K [01;31m[Kerror: [m[K‘[01m[Koptimized_landmarks_pub_[m[K’ does not name a type
+  342 |             [01;31m[Koptimized_landmarks_pub_[m[K->publish(landmarks_);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:343:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  343 |         }
+      |          [01;31m[K^[m[K
+      |          [32m[K;[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:252:58:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+  252 |                 if (added_params.find(landmark_variables[[01;31m[Ki[m[K].data()) == added_params.end()) {
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K At global scope:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:345:5:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  345 |     [01;31m[K}[m[K;
+      |     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

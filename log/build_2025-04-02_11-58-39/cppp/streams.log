@@ -1,0 +1,47 @@
+[0.021s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[0.127s] [ 10%] Built target PreprocessNode
+[0.131s] [ 40%] Built target LandmarkTransformerNode
+[0.132s] [ 40%] Built target LandmarkTransformermapNode
+[0.132s] [ 40%] Built target ScanTransformer
+[0.132s] [ 60%] Built target RansacLineExtractionNode
+[0.132s] [ 60%] Built target LandmarkGraphNode
+[0.137s] [ 70%] Built target IncrementalLineFittingNode
+[0.137s] [ 75%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[0.143s] [ 95%] Built target ScanAccumulator
+[0.143s] [ 95%] Built target HoughLineFittingNode
+[2.906s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[2.906s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:41:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kceres::Problem::AddParameterBlock(messages::msg::PoseNode_<std::allocator<void> >::_x_type*, int)[m[K’
+[2.906s]    41 |             [01;31m[Kproblem.AddParameterBlock(&node.x, 3)[m[K; // (x, y, theta)
+[2.906s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.906s] In file included from [01m[K/usr/include/ceres/ceres.h:60[m[K,
+[2.907s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:2[m[K:
+[2.907s] [01m[K/usr/include/ceres/problem.h:268:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ceres::Problem::AddParameterBlock(double*, int)[m[K’
+[2.907s]   268 |   void [01;36m[KAddParameterBlock[m[K(double* values, int size);
+[2.907s]       |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.907s] [01m[K/usr/include/ceres/problem.h:268:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmessages::msg::PoseNode_<std::allocator<void> >::_x_type*[m[K’ {aka ‘[01m[Kfloat*[m[K’} to ‘[01m[Kdouble*[m[K’
+[2.907s]   268 |   void AddParameterBlock([01;36m[Kdouble* values[m[K, int size);
+[2.907s]       |                          [01;36m[K~~~~~~~~^~~~~~[m[K
+[2.907s] [01m[K/usr/include/ceres/problem.h:274:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ceres::Problem::AddParameterBlock(double*, int, ceres::LocalParameterization*)[m[K’
+[2.908s]   274 |   void [01;36m[KAddParameterBlock[m[K(double* values,
+[2.908s]       |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.908s] [01m[K/usr/include/ceres/problem.h:274:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[2.909s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:46:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kceres::Problem::AddParameterBlock(messages::msg::LandmarkConstraint_<std::allocator<void> >::_rho_type*, int)[m[K’
+[2.909s]    46 |             [01;31m[Kproblem.AddParameterBlock(&landmark.rho, 2)[m[K; // (rho, alpha)
+[2.909s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[2.909s] In file included from [01m[K/usr/include/ceres/ceres.h:60[m[K,
+[2.909s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:2[m[K:
+[2.910s] [01m[K/usr/include/ceres/problem.h:268:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ceres::Problem::AddParameterBlock(double*, int)[m[K’
+[2.910s]   268 |   void [01;36m[KAddParameterBlock[m[K(double* values, int size);
+[2.910s]       |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.910s] [01m[K/usr/include/ceres/problem.h:268:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmessages::msg::LandmarkConstraint_<std::allocator<void> >::_rho_type*[m[K’ {aka ‘[01m[Kfloat*[m[K’} to ‘[01m[Kdouble*[m[K’
+[2.910s]   268 |   void AddParameterBlock([01;36m[Kdouble* values[m[K, int size);
+[2.911s]       |                          [01;36m[K~~~~~~~~^~~~~~[m[K
+[2.911s] [01m[K/usr/include/ceres/problem.h:274:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ceres::Problem::AddParameterBlock(double*, int, ceres::LocalParameterization*)[m[K’
+[2.911s]   274 |   void [01;36m[KAddParameterBlock[m[K(double* values,
+[2.911s]       |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.911s] [01m[K/usr/include/ceres/problem.h:274:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[5.656s] gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+[5.656s] gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+[5.657s] gmake: *** [Makefile:146: all] Error 2
+[5.663s] Invoked command in '/home/kvothe/ros/build/cppp' returned '2': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12

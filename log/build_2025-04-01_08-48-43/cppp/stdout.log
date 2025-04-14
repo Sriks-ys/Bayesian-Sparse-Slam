@@ -1,0 +1,55 @@
+[ 11%] Built target PreprocessNode
+[ 22%] [32mBuilding CXX object CMakeFiles/LandmarkTransformerNode.dir/src/LandmarkTransformerNode.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/LandmarkGraphNode.dir/src/LandmarkGraphNode.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/LandmarkTransformermapNode.dir/src/LandmarkTransformermapNode.cpp.o[0m
+[ 38%] Built target ScanTransformer
+[ 50%] [32mBuilding CXX object CMakeFiles/ScanAccumulator.dir/src/ScanAccumulator.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/IncrementalLineFittingNode.dir/src/IncrementalLineFittingNode.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/RansacLineExtractionNode.dir/src/RansacLineExtractionNode.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/HoughLineFittingNode.dir/src/HoughLineFittingNode.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable LandmarkGraphNode[0m
+[ 66%] Built target LandmarkGraphNode
+[ 72%] [32m[1mLinking CXX executable LandmarkTransformermapNode[0m
+[ 77%] [32m[1mLinking CXX executable LandmarkTransformerNode[0m
+[ 77%] Built target LandmarkTransformermapNode
+[ 77%] Built target LandmarkTransformerNode
+[ 83%] [32m[1mLinking CXX executable IncrementalLineFittingNode[0m
+[ 88%] [32m[1mLinking CXX executable HoughLineFittingNode[0m
+[ 94%] [32m[1mLinking CXX executable RansacLineExtractionNode[0m
+[ 94%] Built target IncrementalLineFittingNode
+[100%] [32m[1mLinking CXX executable ScanAccumulator[0m
+[100%] Built target HoughLineFittingNode
+[100%] Built target RansacLineExtractionNode
+[100%] Built target ScanAccumulator
+-- Install configuration: ""
+-- Installing: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformerNode
+-- Set runtime path of "/home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformerNode" to ""
+-- Installing: /home/kvothe/ros/install/cppp/lib/cppp/ScanAccumulator
+-- Set runtime path of "/home/kvothe/ros/install/cppp/lib/cppp/ScanAccumulator" to ""
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/PreprocessNode
+-- Installing: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkGraphNode
+-- Set runtime path of "/home/kvothe/ros/install/cppp/lib/cppp/LandmarkGraphNode" to ""
+-- Installing: /home/kvothe/ros/install/cppp/lib/cppp/IncrementalLineFittingNode
+-- Set runtime path of "/home/kvothe/ros/install/cppp/lib/cppp/IncrementalLineFittingNode" to ""
+-- Installing: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformermapNode
+-- Set runtime path of "/home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformermapNode" to ""
+-- Installing: /home/kvothe/ros/install/cppp/lib/cppp/HoughLineFittingNode
+-- Set runtime path of "/home/kvothe/ros/install/cppp/lib/cppp/HoughLineFittingNode" to ""
+-- Installing: /home/kvothe/ros/install/cppp/lib/cppp/RansacLineExtractionNode
+-- Set runtime path of "/home/kvothe/ros/install/cppp/lib/cppp/RansacLineExtractionNode" to ""
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/ScanTransformer
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/package_run_dependencies/cppp
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/parent_prefix_path/cppp
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/path.sh
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/path.dsv
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.bash
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.sh
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.zsh
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.dsv
+-- Installing: /home/kvothe/ros/install/cppp/share/cppp/package.dsv
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/packages/cppp
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig.cmake
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig-version.cmake
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/package.xml

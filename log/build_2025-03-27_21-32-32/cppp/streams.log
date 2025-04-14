@@ -1,0 +1,82 @@
+[0.015s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12
+[0.058s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.193s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.233s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.235s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.240s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.249s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.288s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.289s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.412s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.455s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.479s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.493s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.509s] -- Found messages: 0.0.0 (/home/kvothe/ros/install/messages/share/messages/cmake)
+[0.521s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.528s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.565s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.601s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.936s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.944s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.102s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.109s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.117s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.261s] -- Found Qhull version 8.0.2
+[1.418s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.579s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.583s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.585s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.587s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.653s] -- Found tf2_sensor_msgs: 0.25.12 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[1.783s] -- Configuring done
+[1.916s] -- Generating done
+[1.961s] -- Build files have been written to: /home/kvothe/ros/build/cppp
+[2.013s] [35m[1mConsolidate compiler generated dependencies of target PreprocessNode[0m
+[2.032s] [ 11%] Built target PreprocessNode
+[2.043s] [35m[1mConsolidate compiler generated dependencies of target ScanTransformer[0m
+[2.064s] [ 16%] [32m[1mLinking CXX executable ScanTransformer[0m
+[2.612s] [ 22%] Built target ScanTransformer
+[2.624s] [35m[1mConsolidate compiler generated dependencies of target LandmarkTransformerNode[0m
+[2.655s] [ 33%] Built target LandmarkTransformerNode
+[2.666s] [35m[1mConsolidate compiler generated dependencies of target LandmarkGraphNode[0m
+[2.687s] [ 44%] Built target LandmarkGraphNode
+[2.698s] [35m[1mConsolidate compiler generated dependencies of target LandmarkTransformermapNode[0m
+[2.729s] [ 55%] Built target LandmarkTransformermapNode
+[2.746s] [35m[1mConsolidate compiler generated dependencies of target ScanAccumulator[0m
+[2.785s] [ 66%] Built target ScanAccumulator
+[2.797s] [35m[1mConsolidate compiler generated dependencies of target RansacLineExtractionNode[0m
+[2.833s] [ 77%] Built target RansacLineExtractionNode
+[2.847s] [35m[1mConsolidate compiler generated dependencies of target HoughLineFittingNode[0m
+[2.874s] [ 88%] Built target HoughLineFittingNode
+[2.887s] [35m[1mConsolidate compiler generated dependencies of target IncrementalLineFittingNode[0m
+[2.913s] [100%] Built target IncrementalLineFittingNode
+[2.930s] Invoked command in '/home/kvothe/ros/build/cppp' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12
+[2.944s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/kvothe/ros/build/cppp
+[2.951s] -- Install configuration: ""
+[2.951s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformerNode
+[2.952s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/ScanAccumulator
+[2.952s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/PreprocessNode
+[2.952s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkGraphNode
+[2.953s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/IncrementalLineFittingNode
+[2.953s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformermapNode
+[2.953s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/HoughLineFittingNode
+[2.954s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/RansacLineExtractionNode
+[2.954s] -- Installing: /home/kvothe/ros/install/cppp/lib/cppp/ScanTransformer
+[2.959s] -- Set runtime path of "/home/kvothe/ros/install/cppp/lib/cppp/ScanTransformer" to ""
+[2.959s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/package_run_dependencies/cppp
+[2.959s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/parent_prefix_path/cppp
+[2.959s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.sh
+[2.959s] -- Installing: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.dsv
+[2.959s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/path.sh
+[2.959s] -- Installing: /home/kvothe/ros/install/cppp/share/cppp/environment/path.dsv
+[2.959s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.bash
+[2.959s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.sh
+[2.960s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.zsh
+[2.960s] -- Installing: /home/kvothe/ros/install/cppp/share/cppp/local_setup.dsv
+[2.960s] -- Installing: /home/kvothe/ros/install/cppp/share/cppp/package.dsv
+[2.960s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/packages/cppp
+[2.960s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig.cmake
+[2.960s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig-version.cmake
+[2.960s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/package.xml
+[2.963s] Invoked command in '/home/kvothe/ros/build/cppp' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/kvothe/ros/build/cppp

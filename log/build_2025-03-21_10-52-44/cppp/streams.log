@@ -1,0 +1,40 @@
+[0.030s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12
+[0.451s] [35m[1mConsolidate compiler generated dependencies of target HoughLineFittingNode[0m
+[0.451s] [ 12%] Built target PreprocessNode
+[0.452s] [ 25%] Built target LandmarkGraphNode
+[0.452s] [ 50%] Built target LandmarkTransformerNode
+[0.453s] [ 50%] Built target LandmarkTransformermapNode
+[0.453s] [ 75%] Built target RansacLineExtractionNode
+[0.453s] [ 75%] Built target IncrementalLineFittingNode
+[0.453s] [ 87%] Built target ScanAccumulator
+[0.453s] [ 93%] [32mBuilding CXX object CMakeFiles/HoughLineFittingNode.dir/src/HoughLineFittingNode.cpp.o[0m
+[16.816s] [100%] [32m[1mLinking CXX executable HoughLineFittingNode[0m
+[18.270s] [100%] Built target HoughLineFittingNode
+[18.295s] Invoked command in '/home/kvothe/ros/build/cppp' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12
+[18.297s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/kvothe/ros/build/cppp
+[18.306s] -- Install configuration: ""
+[18.306s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformerNode
+[18.306s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/ScanAccumulator
+[18.306s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/PreprocessNode
+[18.307s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkGraphNode
+[18.307s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/IncrementalLineFittingNode
+[18.307s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformermapNode
+[18.307s] -- Installing: /home/kvothe/ros/install/cppp/lib/cppp/HoughLineFittingNode
+[18.315s] -- Set runtime path of "/home/kvothe/ros/install/cppp/lib/cppp/HoughLineFittingNode" to ""
+[18.315s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/RansacLineExtractionNode
+[18.315s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/package_run_dependencies/cppp
+[18.316s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/parent_prefix_path/cppp
+[18.316s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.sh
+[18.316s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.dsv
+[18.316s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/path.sh
+[18.316s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/path.dsv
+[18.316s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.bash
+[18.317s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.sh
+[18.317s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.zsh
+[18.317s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.dsv
+[18.317s] -- Installing: /home/kvothe/ros/install/cppp/share/cppp/package.dsv
+[18.317s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/packages/cppp
+[18.317s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig.cmake
+[18.318s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig-version.cmake
+[18.318s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/package.xml
+[18.319s] Invoked command in '/home/kvothe/ros/build/cppp' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/kvothe/ros/build/cppp

@@ -1,0 +1,57 @@
+[0.016s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[0.089s] [ 20%] Built target LandmarkTransformermapNode
+[0.089s] [ 20%] Built target PreprocessNode
+[0.093s] [ 30%] Built target LandmarkGraphNode
+[0.094s] [ 40%] Built target ScanTransformer
+[0.101s] [ 60%] Built target HoughLineFittingNode
+[0.101s] [ 60%] Built target RansacLineExtractionNode
+[0.101s] [ 65%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[0.101s] [ 75%] Built target LandmarkTransformerNode
+[0.102s] [ 85%] Built target ScanAccumulator
+[0.104s] [ 95%] Built target IncrementalLineFittingNode
+[7.557s] In file included from [01m[K/usr/include/ceres/internal/autodiff.h:152[m[K,
+[7.557s]                  from [01m[K/usr/include/ceres/autodiff_cost_function.h:130[m[K,
+[7.557s]                  from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+[7.557s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:2[m[K:
+[7.557s] /usr/include/ceres/internal/variadic_evaluate.h: In instantiation of ‘[01m[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, std::false_type, std::integer_sequence<int, Indices ...>) [with Functor = PoseLandmarkCost; T = double; int ...Indices = {0, 1}; std::false_type = std::integral_constant<bool, false>][m[K’:
+[7.558s] [01m[K/usr/include/ceres/internal/variadic_evaluate.h:79:30:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, const void*) [with ParameterDims = ceres::internal::ParameterDims<false, 3, 2>; Functor = PoseLandmarkCost; T = double][m[K’
+[7.558s] [01m[K/usr/include/ceres/internal/variadic_evaluate.h:108:45:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluate(const Functor&, const T* const*, T*) [with ParameterDims = ceres::internal::ParameterDims<false, 3, 2>; Functor = PoseLandmarkCost; T = double][m[K’
+[7.558s] [01m[K/usr/include/ceres/autodiff_cost_function.h:207:55:[m[K   required from ‘[01m[Kbool ceres::AutoDiffCostFunction<CostFunctor, kNumResiduals, Ns>::Evaluate(const double* const*, double*, double**) const [with CostFunctor = PoseLandmarkCost; int kNumResiduals = 2; int ...Ns = {3, 2}][m[K’
+[7.558s] [01m[K/usr/include/ceres/autodiff_cost_function.h:200:8:[m[K   required from here
+[7.558s] [01m[K/usr/include/ceres/internal/variadic_evaluate.h:57:17:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(const PoseLandmarkCost) (const double* const&, const double* const&, double*&)[m[K’
+[7.558s]    57 |   return [01;31m[Kfunctor(input[Indices]..., output)[m[K;
+[7.558s]       |          [01;31m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.558s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:76:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> bool PoseLandmarkCost::operator()(const T*, const T*, T*, T**) const[m[K’
+[7.559s]    76 |         bool [01;36m[Koperator[m[K()(const T* const pose, const T* const landmark, T* residuals, T** jacobians) const {
+[7.559s]       |              [01;36m[K^~~~~~~~[m[K
+[7.559s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:76:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.559s] In file included from [01m[K/usr/include/ceres/internal/autodiff.h:152[m[K,
+[7.559s]                  from [01m[K/usr/include/ceres/autodiff_cost_function.h:130[m[K,
+[7.559s]                  from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+[7.559s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:2[m[K:
+[7.560s] [01m[K/usr/include/ceres/internal/variadic_evaluate.h:57:17:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[7.560s]    57 |   return [01;36m[Kfunctor(input[Indices]..., output)[m[K;
+[7.560s]       |          [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.646s] /usr/include/ceres/internal/variadic_evaluate.h: In instantiation of ‘[01m[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, std::false_type, std::integer_sequence<int, Indices ...>) [with Functor = PoseLandmarkCost; T = ceres::Jet<double, 5>; int ...Indices = {0, 1}; std::false_type = std::integral_constant<bool, false>][m[K’:
+[7.646s] [01m[K/usr/include/ceres/internal/variadic_evaluate.h:79:30:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, const void*) [with ParameterDims = ceres::internal::ParameterDims<false, 3, 2>; Functor = PoseLandmarkCost; T = ceres::Jet<double, 5>][m[K’
+[7.646s] [01m[K/usr/include/ceres/internal/variadic_evaluate.h:108:45:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluate(const Functor&, const T* const*, T*) [with ParameterDims = ceres::internal::ParameterDims<false, 3, 2>; Functor = PoseLandmarkCost; T = ceres::Jet<double, 5>][m[K’
+[7.646s] [01m[K/usr/include/ceres/internal/autodiff.h:351:39:[m[K   required from ‘[01m[Kbool ceres::internal::AutoDifferentiate(const Functor&, const T* const*, int, T*, T**) [with int kNumResiduals = 2; ParameterDims = ceres::internal::ParameterDims<false, 3, 2>; Functor = PoseLandmarkCost; T = double][m[K’
+[7.647s] [01m[K/usr/include/ceres/autodiff_cost_function.h:210:69:[m[K   required from ‘[01m[Kbool ceres::AutoDiffCostFunction<CostFunctor, kNumResiduals, Ns>::Evaluate(const double* const*, double*, double**) const [with CostFunctor = PoseLandmarkCost; int kNumResiduals = 2; int ...Ns = {3, 2}][m[K’
+[7.647s] [01m[K/usr/include/ceres/autodiff_cost_function.h:200:8:[m[K   required from here
+[7.647s] [01m[K/usr/include/ceres/internal/variadic_evaluate.h:57:17:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(const PoseLandmarkCost) (const ceres::Jet<double, 5>* const&, const ceres::Jet<double, 5>* const&, ceres::Jet<double, 5>*&)[m[K’
+[7.647s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:76:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> bool PoseLandmarkCost::operator()(const T*, const T*, T*, T**) const[m[K’
+[7.647s]    76 |         bool [01;36m[Koperator[m[K()(const T* const pose, const T* const landmark, T* residuals, T** jacobians) const {
+[7.647s]       |              [01;36m[K^~~~~~~~[m[K
+[7.647s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:76:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.648s] In file included from [01m[K/usr/include/ceres/internal/autodiff.h:152[m[K,
+[7.648s]                  from [01m[K/usr/include/ceres/autodiff_cost_function.h:130[m[K,
+[7.648s]                  from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+[7.648s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:2[m[K:
+[7.648s] [01m[K/usr/include/ceres/internal/variadic_evaluate.h:57:17:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[7.648s]    57 |   return [01;36m[Kfunctor(input[Indices]..., output)[m[K;
+[7.648s]       |          [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.068s] gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+[9.069s] gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+[9.070s] gmake: *** [Makefile:146: all] Error 2
+[9.076s] Invoked command in '/home/kvothe/ros/build/cppp' returned '2': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12

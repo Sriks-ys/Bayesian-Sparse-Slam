@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000285] (-) JobUnselected: {'identifier': 'messages'}
+[0.000370] (-) JobUnselected: {'identifier': 'robot_control'}
+[0.000429] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000484] (-) JobUnselected: {'identifier': 'ros_bringup'}
+[0.000537] (-) JobUnselected: {'identifier': 'ros_gazebo'}
+[0.000591] (-) JobUnselected: {'identifier': 'sensor_management'}
+[0.000643] (-) JobUnselected: {'identifier': 'soma'}
+[0.000700] (cppp) JobQueued: {'identifier': 'cppp', 'dependencies': OrderedDict([('messages', '/home/kvothe/ros/install/messages')])}
+[0.000762] (cppp) JobStarted: {'identifier': 'cppp'}
+[0.019384] (cppp) JobProgress: {'identifier': 'cppp', 'progress': 'cmake'}
+[0.020922] (cppp) JobProgress: {'identifier': 'cppp', 'progress': 'build'}
+[0.022442] (cppp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kvothe/ros/build/cppp', '--', '-j12', '-l12'], 'cwd': '/home/kvothe/ros/build/cppp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kvothe'), ('XDG_SESSION_TYPE', 'wayland'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kvothe'), ('OLDPWD', '/home/kvothe'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1030'), ('SYSTEMD_EXEC_PID', '1194'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2994'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kvothe/ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kvothe'), ('JOURNAL_STREAM', '8:10791'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kvothe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kvothe/.local/bin:/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1153,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1153'), ('INVOCATION_ID', '57615e87728b42a9a151df81df14c5d9'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KSRH42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/'), ('TERMINATOR_UUID', 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kvothe/ros/build/cppp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[0.082145] (cppp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098701] (-) TimerEvent: {}
+[0.199232] (-) TimerEvent: {}
+[0.299799] (-) TimerEvent: {}
+[0.315923] (cppp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.374942] (cppp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.378536] (cppp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.387026] (cppp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.399939] (-) TimerEvent: {}
+[0.401230] (cppp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.419484] (cppp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.466057] (cppp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.468129] (cppp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500092] (-) TimerEvent: {}
+[0.600529] (-) TimerEvent: {}
+[0.665240] (cppp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700743] (-) TimerEvent: {}
+[0.738456] (cppp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.780081] (cppp) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.800909] (-) TimerEvent: {}
+[0.804201] (cppp) StdoutLine: {'line': b'-- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.832085] (cppp) StdoutLine: {'line': b'-- Found messages: 0.0.0 (/home/kvothe/ros/install/messages/share/messages/cmake)\n'}
+[0.853733] (cppp) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.890622] (cppp) StdoutLine: {'line': b'-- GTSAM include directory:  /opt/ros/humble/lib/cmake/GTSAM/../../../include\n'}
+[0.891002] (cppp) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.901068] (-) TimerEvent: {}
+[0.951000] (cppp) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.001307] (-) TimerEvent: {}
+[1.002282] (cppp) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.101755] (-) TimerEvent: {}
+[1.202482] (-) TimerEvent: {}
+[1.303009] (-) TimerEvent: {}
+[1.403547] (-) TimerEvent: {}
+[1.503976] (-) TimerEvent: {}
+[1.523504] (cppp) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.535685] (cppp) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.604124] (-) TimerEvent: {}
+[1.704476] (-) TimerEvent: {}
+[1.782230] (cppp) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.792750] (cppp) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.804634] (-) TimerEvent: {}
+[1.805339] (cppp) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.904811] (-) TimerEvent: {}
+[2.005276] (-) TimerEvent: {}
+[2.029865] (cppp) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.105453] (-) TimerEvent: {}
+[2.205883] (-) TimerEvent: {}
+[2.265239] (cppp) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.306088] (-) TimerEvent: {}
+[2.406511] (-) TimerEvent: {}
+[2.506935] (-) TimerEvent: {}
+[2.514645] (cppp) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.520412] (cppp) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.525184] (cppp) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.527008] (cppp) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.607137] (-) TimerEvent: {}
+[2.636270] (cppp) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.25.12 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)\n'}
+[2.707316] (-) TimerEvent: {}
+[2.807749] (-) TimerEvent: {}
+[2.842354] (cppp) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.907924] (-) TimerEvent: {}
+[3.008378] (-) TimerEvent: {}
+[3.061698] (cppp) StdoutLine: {'line': b'-- Generating done\n'}
+[3.108523] (-) TimerEvent: {}
+[3.134761] (cppp) StdoutLine: {'line': b'-- Build files have been written to: /home/kvothe/ros/build/cppp\n'}
+[3.200372] (cppp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PreprocessNode\x1b[0m\n'}
+[3.201323] (cppp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ScanAccumulator\x1b[0m\n'}
+[3.202415] (cppp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target LandmarkTransformermapNode\x1b[0m\n'}
+[3.203347] (cppp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target IncrementalLineFittingNode\x1b[0m\n'}
+[3.203583] (cppp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target RansacLineExtractionNode\x1b[0m\n'}
+[3.203717] (cppp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target HoughLineFittingNode\x1b[0m\n'}
+[3.203826] (cppp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target LandmarkGraphNode\x1b[0m\n'}
+[3.205161] (cppp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer\x1b[0m\n'}
+[3.205305] (cppp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ScanTransformer\x1b[0m\n'}
+[3.205412] (cppp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target LandmarkTransformerNode\x1b[0m\n'}
+[3.208644] (-) TimerEvent: {}
+[3.241241] (cppp) StdoutLine: {'line': b'[ 10%] Built target PreprocessNode\n'}
+[3.244583] (cppp) StdoutLine: {'line': b'[ 30%] Built target LandmarkGraphNode\n'}
+[3.245019] (cppp) StdoutLine: {'line': b'[ 30%] Built target LandmarkTransformermapNode\n'}
+[3.245303] (cppp) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o\x1b[0m\n'}
+[3.247566] (cppp) StdoutLine: {'line': b'[ 45%] Built target LandmarkTransformerNode\n'}
+[3.248730] (cppp) StdoutLine: {'line': b'[ 55%] Built target ScanTransformer\n'}
+[3.256611] (cppp) StdoutLine: {'line': b'[ 75%] Built target RansacLineExtractionNode\n'}
+[3.256935] (cppp) StdoutLine: {'line': b'[ 75%] Built target IncrementalLineFittingNode\n'}
+[3.260172] (cppp) StdoutLine: {'line': b'[ 95%] Built target ScanAccumulator\n'}
+[3.260365] (cppp) StdoutLine: {'line': b'[ 95%] Built target HoughLineFittingNode\n'}
+[3.308828] (-) TimerEvent: {}
+[3.409301] (-) TimerEvent: {}
+[3.509699] (-) TimerEvent: {}
+[3.610081] (-) TimerEvent: {}
+[3.657162] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmessages/msg/optimized_values.hpp: No such file or directory\n'}
+[3.658117] (cppp) StderrLine: {'line': b'    4 | #include \x1b[01;31m\x1b[K<messages/msg/optimized_values.hpp>\x1b[m\x1b[K\n'}
+[3.658277] (cppp) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.658410] (cppp) StderrLine: {'line': b'compilation terminated.\n'}
+[3.663660] (cppp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1\n'}
+[3.664457] (cppp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2\n'}
+[3.664954] (cppp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.670057] (cppp) CommandEnded: {'returncode': 2}
+[3.692792] (cppp) JobEnded: {'identifier': 'cppp', 'rc': 2}
+[3.703400] (-) EventReactorShutdown: {}

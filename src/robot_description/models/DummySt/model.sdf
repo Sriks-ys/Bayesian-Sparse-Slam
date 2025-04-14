@@ -1,0 +1,232 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+    <model name='DummySt' canonical_link='base'>
+      <frame name="caster_frame" attached_to='base'>
+        <pose>0.4 0 -0.1 0 0 0</pose>  <!-- Adjusted pose -->
+      </frame>
+      <link name='base'>
+        <pose relative_to='__model__'>0.25 0 0.2 0 0 0</pose>   <!-- Adjusted pose -->
+        <inertial>
+          <mass>2</mass>
+          <inertia>
+            <ixx>0.0520833</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.1760417</iyy>
+            <iyz>0</iyz>
+            <izz>0.2083333</izz>
+          </inertia>
+        </inertial>
+        <visual name='base_visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.5 0.25</size>  <!-- Halved size -->
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.0 0.0 1.0 1</ambient>
+            <diffuse>0.0 0.0 1.0 1</diffuse>
+            <specular>0.0 0.0 1.0 1</specular>
+          </material>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1.0 0.5 0.25</size>  <!-- Halved size -->
+            </box>
+          </geometry>
+        </collision>
+      </link>
+
+      <link name='payload'>
+        <pose relative_to='base'>0 0 0.625 0 0 0</pose>   <!-- Adjusted pose -->
+        <inertial>
+            <mass>2</mass>
+            <inertia>
+                <ixx>0.2083</ixx>
+                <ixy>0</ixy>
+                <ixz>0</ixz>
+                <iyy>0.3333</iyy>
+                <iyz>0</iyz>
+                <izz>0.2083</izz>
+            </inertia>
+        </inertial>
+        <visual name='payload_visual'>
+          <geometry>
+            <box>
+              <size>1.0 0.5 1</size>  <!-- Halved size -->
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.0 0.5 1</ambient>
+            <diffuse>0.5 0.0 0.5 1</diffuse>
+            <specular>0.5 0.0 0.5 1</specular>
+          </material>
+        </visual>
+        <collision name='collision_payload'>
+          <geometry>
+            <box>
+              <size>1.0 0.5 1</size>  <!-- Halved size -->
+            </box>
+          </geometry>
+        </collision>
+      </link>
+
+      <link name='left_wheel'>
+        <pose relative_to='base'>-0.25 0.3 0 -1.5707 0 0</pose>  <!-- Adjusted pose -->
+        <inertial>
+          <mass>2</mass>
+          <inertia>
+            <ixx>0.01667</ixx>  <!-- Calculated Ix -->
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.01667</iyy>  <!-- Calculated Iy -->
+            <iyz>0</iyz>
+            <izz>0.004</izz>  <!-- Calculated Iz -->
+          </inertia>
+        </inertial>
+
+        <visual name='visual'>
+          <geometry>
+            <cylinder>
+              <radius>0.2</radius>  <!-- Halved radius -->
+              <length>0.1</length>  <!-- Halved length -->
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>1.0 0.0 0.0 1</ambient>
+            <diffuse>1.0 0.0 0.0 1</diffuse>
+            <specular>1.0 0.0 0.0 1</specular>
+          </material>
+        </visual>
+
+        <collision name='collision'>
+          <geometry>
+            <cylinder>
+              <radius>0.2</radius>  <!-- Halved radius -->
+              <length>0.1</length>  <!-- Halved length -->
+            </cylinder>
+          </geometry>
+        </collision>
+      </link>
+
+      <link name='right_wheel'>
+        <pose relative_to="base">-0.25 -0.3 0 -1.5707 0 0</pose>  <!-- Adjusted pose -->
+        <inertial>
+        <mass>2</mass>
+        <inertia>
+          <ixx>0.01667</ixx>  <!-- Calculated Ix -->
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.01667</iyy>  <!-- Calculated Iy -->
+          <iyz>0</iyz>
+          <izz>0.004</izz>  <!-- Calculated Iz -->
+        </inertia>
+      </inertial>
+
+        <visual name='visual'>
+          <geometry>
+            <cylinder>
+              <radius>0.2</radius>  <!-- Halved radius -->
+              <length>0.1</length>  <!-- Halved length -->
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>1.0 0.0 0.0 1</ambient>
+            <diffuse>1.0 0.0 0.0 1</diffuse>
+            <specular>1.0 0.0 0.0 1</specular>
+          </material>
+        </visual>
+
+        <collision name='collision'>
+          <geometry>
+            <cylinder>
+              <radius>0.2</radius>  <!-- Halved radius -->
+              <length>0.1</length>  <!-- Halved length -->
+            </cylinder>
+          </geometry>
+        </collision>
+      </link>
+
+
+      <link name='caster'>
+        <pose relative_to='caster_frame'/>
+        <inertial>
+          <mass>2</mass>
+          <inertia>
+            <ixx>0.004</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.004</iyy>
+            <iyz>0</iyz>
+            <izz>0.004</izz>
+          </inertia>
+        </inertial>
+
+        <visual name='visual'>
+            <geometry>
+                <sphere>
+                    <radius>0.1</radius>  <!-- Halved radius -->
+                </sphere>
+            </geometry>
+            <material>
+                <ambient>0.0 1 0.0 1</ambient>
+                <diffuse>0.0 1 0.0 1</diffuse>
+                <specular>0.0 1 0.0 1</specular>
+            </material>
+        </visual>
+
+        <collision name='collision'>
+            <geometry>
+                <sphere>
+                    <radius>0.1</radius>  <!-- Halved radius -->
+                </sphere>
+            </geometry>
+        </collision>
+      </link>
+
+      <joint name='left_wheel_joint' type='revolute'>
+        <parent>base</parent>
+        <child>left_wheel</child>
+        <axis>
+            <xyz expressed_in='__model__'>0 1 0</xyz>
+            <limit>
+                <lower>-1.79769e+308</lower>
+                <upper>1.79769e+308</upper>
+            </limit>
+        </axis>
+      </joint>
+
+      <joint name='right_wheel_joint' type='revolute'>
+        <parent>base</parent>
+        <child>right_wheel</child>
+        <axis>
+            <xyz expressed_in='__model__'>0 1 0</xyz>
+            <limit>
+                <lower>-1.79769e+308</lower>
+                <upper>1.79769e+308</upper>
+            </limit>
+        </axis>
+      </joint>
+
+      <joint name='payload_joint' type='fixed'>
+        <parent>base</parent>
+        <child>payload</child>
+      </joint>
+      <joint name='caster_wheel' type='ball'>
+        <parent>base</parent>
+        <child>caster</child>
+      </joint>
+      <plugin 
+        filename="libignition-gazebo-diff-drive-system.so" 
+        name="ignition::gazebo::systems::DiffDrive">
+        <left_joint>left_wheel_joint</left_joint>
+        <right_joint>right_wheel_joint</right_joint>
+        <wheel_separation>0.6</wheel_separation>
+        <wheel_radius>0.2</wheel_radius>
+        <odom_publish_frequency>0</odom_publish_frequency>
+        <topic>cmd_vel_bot</topic>
+        <robotBaseFrame>base</robotBaseFrame>
+      </plugin>
+  </model>
+</sdf>

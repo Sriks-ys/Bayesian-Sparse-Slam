@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[ 10%] Built target PreprocessNode
+[ 20%] Built target LandmarkGraphNode
+[ 30%] Built target LandmarkTransformermapNode
+[ 45%] Built target IncrementalLineFittingNode
+[ 50%] Built target RansacLineExtractionNode
+[ 60%] Built target LandmarkTransformerNode
+[ 70%] Built target ScanTransformer
+[ 80%] Built target ScanAccumulator
+[ 90%] Built target HoughLineFittingNode
+[ 95%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:297:45:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kceres::Problem::EvaluateOptions options[m[K’
+  297 |             ceres::Problem::EvaluateOptions [01;31m[Koptions[m[K;
+      |                                             [01;31m[K^~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:289:36:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kceres::Solver::Options options[m[K’
+  289 |             ceres::Solver::Options [01;36m[Koptions[m[K;
+      |                                    [01;36m[K^~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:303:30:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kceres::Solver::Options[m[K’ to ‘[01m[Kconst ceres::Problem::EvaluateOptions&[m[K’
+  303 |             problem.Evaluate([01;31m[Koptions[m[K, residuals.data(), &parameter_values, &gradient, &hessian);
+      |                              [01;31m[K^~~~~~~[m[K
+      |                              [01;31m[K|[m[K
+      |                              [01;31m[Kceres::Solver::Options[m[K
+In file included from [01m[K/usr/include/ceres/ceres.h:60[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:2[m[K:
+[01m[K/usr/include/ceres/problem.h:482:40:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool ceres::Problem::Evaluate(const ceres::Problem::EvaluateOptions&, double*, std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> >*, ceres::CRSMatrix*)[m[K’
+  482 |   bool Evaluate([01;36m[Kconst EvaluateOptions& options[m[K,
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

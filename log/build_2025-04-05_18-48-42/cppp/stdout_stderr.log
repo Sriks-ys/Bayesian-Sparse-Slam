@@ -1,0 +1,150 @@
+[35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[ 10%] Built target PreprocessNode
+[ 20%] Built target LandmarkTransformermapNode
+[ 30%] Built target LandmarkGraphNode
+[ 40%] Built target LandmarkTransformerNode
+[ 50%] Built target ScanTransformer
+[ 70%] Built target RansacLineExtractionNode
+[ 70%] Built target IncrementalLineFittingNode
+[ 85%] Built target HoughLineFittingNode
+[ 90%] Built target ScanAccumulator
+[ 95%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:143:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  143 |         RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "Initial Pose Graph:");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:143:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  143 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Initial Pose Graph:");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:143:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  143 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Initial Pose Graph:");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:143:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  143 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Initial Pose Graph:");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:144:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_variables[m[K’ was not declared in this scope
+  144 |         for (size_t i = 0; i < [01;31m[Kpose_variables[m[K.size(); ++i) {
+      |                                [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:145:25:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  145 |             RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "Pose %zu: (%.3f, %.3f, %.3f)", i,
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:145:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  145 |             [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Pose %zu: (%.3f, %.3f, %.3f)", i,
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:145:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  145 |             [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Pose %zu: (%.3f, %.3f, %.3f)", i,
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:145:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  145 |             [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Pose %zu: (%.3f, %.3f, %.3f)", i,
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:148:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  148 |         RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "Initial Landmarks:");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:148:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  148 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Initial Landmarks:");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:148:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  148 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Initial Landmarks:");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:148:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  148 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Initial Landmarks:");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:149:32:[m[K [01;31m[Kerror: [m[K‘[01m[Klandmark_variables[m[K’ was not declared in this scope
+  149 |         for (size_t i = 0; i < [01;31m[Klandmark_variables[m[K.size(); ++i) {
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:150:25:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  150 |             RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "Landmark %zu: (%.3f, %.3f)", i,
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:150:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  150 |             [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Landmark %zu: (%.3f, %.3f)", i,
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:150:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  150 |             [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Landmark %zu: (%.3f, %.3f)", i,
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:150:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  150 |             [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Landmark %zu: (%.3f, %.3f)", i,
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:225:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  225 |         RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "Optimized Pose Graph:");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:225:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  225 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Optimized Pose Graph:");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:225:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  225 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Optimized Pose Graph:");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:225:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  225 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Optimized Pose Graph:");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:227:25:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  227 |             RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "Pose %zu: (%.3f, %.3f, %.3f)", i,
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:227:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  227 |             [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Pose %zu: (%.3f, %.3f, %.3f)", i,
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:227:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  227 |             [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Pose %zu: (%.3f, %.3f, %.3f)", i,
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:227:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  227 |             [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Pose %zu: (%.3f, %.3f, %.3f)", i,
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:230:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  230 |         RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "Optimized Landmarks:");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:230:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  230 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Optimized Landmarks:");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:230:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  230 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Optimized Landmarks:");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:230:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  230 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Optimized Landmarks:");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:232:25:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  232 |             RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "Landmark %zu: (%.3f, %.3f)", i,
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:232:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  232 |             [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Landmark %zu: (%.3f, %.3f)", i,
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:232:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  232 |             [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Landmark %zu: (%.3f, %.3f)", i,
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:232:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  232 |             [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Landmark %zu: (%.3f, %.3f)", i,
+      |             [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

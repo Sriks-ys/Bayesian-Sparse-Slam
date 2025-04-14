@@ -1,0 +1,191 @@
+[ 10%] Built target PreprocessNode
+[ 40%] Built target LandmarkGraphNode
+[ 40%] Built target LandmarkTransformermapNode
+[ 40%] Built target LandmarkTransformerNode
+[ 60%] Built target IncrementalLineFittingNode
+[ 60%] Built target RansacLineExtractionNode
+[ 70%] Built target ScanTransformer
+[ 80%] Built target ScanAccumulator
+[ 90%] Built target HoughLineFittingNode
+[ 95%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/Values.h:27[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactor.h:24[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:7[m[K:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Key.h:[m[K In static member function ‘[01m[Kstatic bool gtsam::traits<long unsigned int>::Equals(const Key&, const Key&, double)[m[K’:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Key.h:127:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktol[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  127 |   static bool Equals(const Key& val1, const Key& val2, [01;35m[Kdouble tol = 1e-8[m[K) {
+      |                                                        [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/NoiseModel.h:25[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactor.h:26[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:7[m[K:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/LossFunctions.h:[m[K In member function ‘[01m[Kvirtual double gtsam::noiseModel::mEstimator::Base::loss(double) const[m[K’:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/LossFunctions.h:97:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdistance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   97 |   virtual double loss([01;35m[Kdouble distance[m[K) const { return 0; }
+      |                       [01;35m[K~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactor.h:26[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:7[m[K:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/NoiseModel.h:[m[K In member function ‘[01m[Kvirtual double gtsam::noiseModel::Base::weight(const Vector&) const[m[K’:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/NoiseModel.h:141:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  141 |       virtual double weight([01;35m[Kconst Vector& v[m[K) const { return 1.0; }
+      |                             [01;35m[K~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizerParams.h:24[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:22[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:7[m[K:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianFactorGraph.h:[m[K In static member function ‘[01m[Kstatic gtsam::Ordering gtsam::EliminationTraits<gtsam::GaussianFactorGraph>::DefaultOrderingFunc(const FactorGraphType&, std::optional<std::reference_wrapper<const gtsam::VariableIndex> >)[m[K’:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianFactorGraph.h:60:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgraph[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   60 |         [01;35m[Kconst FactorGraphType& graph[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K At global scope:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:39:26:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloudwithCov[m[K’ was not declared in this scope
+   39 |     rclcpp::Subscription<[01;31m[KPointCloudwithCov[m[K>::SharedPtr landmark_sub_;
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:39:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   39 |     rclcpp::Subscription<PointCloudwithCov[01;31m[K>[m[K::SharedPtr landmark_sub_;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:39:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:39:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:39:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:39:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   39 |     rclcpp::Subscription<PointCloudwithCov>::[01;31m[KSharedPtr[m[K landmark_sub_;
+      |                                              [01;31m[K^~~~~~~~~[m[K
+      |                                                       [32m[K;[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:39:56:[m[K [01;31m[Kerror: [m[K‘[01m[Klandmark_sub_[m[K’ does not name a type
+   39 |     rclcpp::Subscription<PointCloudwithCov>::SharedPtr [01;31m[Klandmark_sub_[m[K;
+      |                                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:47:27:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloudwithCov[m[K’ has not been declared
+   47 |     void landmarkCallback([01;31m[KPointCloudwithCov[m[K::SharedPtr msg) {
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:47:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kmsg[m[K’
+   47 |     void landmarkCallback(PointCloudwithCov::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                        [01;31m[K^~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In constructor ‘[01m[KPoseGraphOptimizer::PoseGraphOptimizer()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:29:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klandmark_sub_[m[K’ was not declared in this scope; did you mean ‘[01m[Klandmark_map_[m[K’?
+   29 |         [01;31m[Klandmark_sub_[m[K = this->create_subscription<PointCloudwithCov>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Klandmark_map_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:29:51:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloudwithCov[m[K’ was not declared in this scope
+   29 |         landmark_sub_ = this->create_subscription<[01;31m[KPointCloudwithCov[m[K>(
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:29:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPoseGraphOptimizer::create_subscription<<expression error> >(const char [18], int, std::_Bind_helper<false, void (PoseGraphOptimizer::*)(int), PoseGraphOptimizer*, const std::_Placeholder<1>&>::type)[m[K’
+   29 |         landmark_sub_ = [01;31m[Kthis->create_subscription<PointCloudwithCov>([m[K
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   30 | [01;31m[K            "/global_landmarks", 10, std::bind(&PoseGraphOptimizer::landmarkCallback, this, _1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   92 | [01;36m[KNode[m[K::create_subscription(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:29:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |         landmark_sub_ = [01;31m[Kthis->create_subscription<PointCloudwithCov>([m[K
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   30 | [01;31m[K            "/global_landmarks", 10, std::bind(&PoseGraphOptimizer::landmarkCallback, this, _1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::landmarkCallback(int)[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:48:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+   48 |         for (const auto& pt : [01;31m[Kmsg[m[K->points) {
+      |                               [01;31m[K^~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:48:31:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__struct.hpp:20[m[K,
+                 from [01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/pose_graph.hpp:7[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+   31 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__struct.hpp:22[m[K,
+                 from [01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/pose_graph.hpp:7[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:2[m[K:
+[01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_node__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmessages::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp:7[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:47:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KSharedPtr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   47 |     void landmarkCallback([01;35m[KPointCloudwithCov::SharedPtr[m[K msg) {
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianConditional.h:25[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianBayesNet.h:23[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianBayesTree.h:22[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/Marginals.h:21[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:15[m[K:
+/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h: In instantiation of ‘[01m[Kdouble gtsam::Conditional<FACTOR, DERIVEDCONDITIONAL>::logProbability(const gtsam::HybridValues&) const [with FACTOR = gtsam::JacobianFactor; DERIVEDCONDITIONAL = gtsam::GaussianConditional][m[K’:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:48:8:[m[K   required from here
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:49:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   49 |     [01;35m[Kconst HybridValues& c[m[K) const {
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h: In instantiation of ‘[01m[Kdouble gtsam::Conditional<FACTOR, DERIVEDCONDITIONAL>::evaluate(const gtsam::HybridValues&) const [with FACTOR = gtsam::JacobianFactor; DERIVEDCONDITIONAL = gtsam::GaussianConditional][m[K’:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:55:8:[m[K   required from here
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:56:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   56 |     [01;35m[Kconst HybridValues& c[m[K) const {
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

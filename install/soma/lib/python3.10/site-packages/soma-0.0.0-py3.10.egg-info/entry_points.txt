@@ -1,0 +1,11 @@
+[console_scripts]
+BayesianLandmarkConstraintNode = soma.BayesianLandmarkConstraintNode:main
+EuclidsLandmarkLandmarkGraphNode = soma.EuclidsLandmarkLandmarkGraphNode:main
+GraphNode = soma.GraphNode:main
+LandmarkConstraintVisualizer = soma.LandmarkConstraintVisualizer:main
+LineSegmentAssociation = soma.LineSegmentAssociation:main
+OldGraphNode = soma.OldGraphNode:main
+PoseGraphNode = soma.PoseGraphNode:main
+PostProcessingNode = soma.PostProcessingNode:main
+SWMANode = soma.SWMANode:main
+

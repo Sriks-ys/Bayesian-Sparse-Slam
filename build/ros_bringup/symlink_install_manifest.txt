@@ -1,0 +1,17 @@
+/home/kvothe/ros/install/ros_bringup/share/ros_bringup/launch/Crawler.launch.py
+/home/kvothe/ros/install/ros_bringup/share/ros_bringup/config/ros_bridge.yaml
+/home/kvothe/ros/install/ros_bringup/share/ament_index/resource_index/package_run_dependencies/ros_bringup
+/home/kvothe/ros/install/ros_bringup/share/ament_index/resource_index/parent_prefix_path/ros_bringup
+/home/kvothe/ros/install/ros_bringup/share/ros_bringup/environment/ament_prefix_path.sh
+/home/kvothe/ros/install/ros_bringup/share/ros_bringup/environment/ament_prefix_path.dsv
+/home/kvothe/ros/install/ros_bringup/share/ros_bringup/environment/path.sh
+/home/kvothe/ros/install/ros_bringup/share/ros_bringup/environment/path.dsv
+/home/kvothe/ros/install/ros_bringup/share/ros_bringup/local_setup.bash
+/home/kvothe/ros/install/ros_bringup/share/ros_bringup/local_setup.sh
+/home/kvothe/ros/install/ros_bringup/share/ros_bringup/local_setup.zsh
+/home/kvothe/ros/install/ros_bringup/share/ros_bringup/local_setup.dsv
+/home/kvothe/ros/install/ros_bringup/share/ros_bringup/package.dsv
+/home/kvothe/ros/install/ros_bringup/share/ament_index/resource_index/packages/ros_bringup
+/home/kvothe/ros/install/ros_bringup/share/ros_bringup/cmake/ros_bringupConfig.cmake
+/home/kvothe/ros/install/ros_bringup/share/ros_bringup/cmake/ros_bringupConfig-version.cmake
+/home/kvothe/ros/install/ros_bringup/share/ros_bringup/package.xml

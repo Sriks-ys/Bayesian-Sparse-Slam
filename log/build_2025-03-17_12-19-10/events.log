@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000253] (-) JobUnselected: {'identifier': 'cppp'}
+[0.000321] (-) JobUnselected: {'identifier': 'messages'}
+[0.000367] (-) JobUnselected: {'identifier': 'robot_control'}
+[0.000408] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000450] (-) JobUnselected: {'identifier': 'ros_bringup'}
+[0.000493] (-) JobUnselected: {'identifier': 'ros_gazebo'}
+[0.000533] (-) JobUnselected: {'identifier': 'sensor_management'}
+[0.000573] (-) JobUnselected: {'identifier': 'soma'}
+[0.000616] (optim) JobQueued: {'identifier': 'optim', 'dependencies': OrderedDict([('messages', '/home/kvothe/ros/install/messages')])}
+[0.000670] (optim) JobStarted: {'identifier': 'optim'}
+[0.012398] (optim) JobProgress: {'identifier': 'optim', 'progress': 'cmake'}
+[0.012895] (optim) JobProgress: {'identifier': 'optim', 'progress': 'build'}
+[0.013586] (optim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kvothe/ros/build/optim', '--', '-j12', '-l12'], 'cwd': '/home/kvothe/ros/build/optim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kvothe'), ('XDG_SESSION_TYPE', 'wayland'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kvothe'), ('OLDPWD', '/home/kvothe'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1027'), ('SYSTEMD_EXEC_PID', '1195'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2186'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kvothe/ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kvothe'), ('JOURNAL_STREAM', '8:14760'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kvothe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1154,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1154'), ('INVOCATION_ID', 'e4f3d4d798084b1baebb263abcf23dfb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OE2M32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/optim:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/'), ('TERMINATOR_UUID', 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kvothe/ros/build/optim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/optim:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[0.064760] (optim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PoseGraphOptimizationNode\x1b[0m\n'}
+[0.078971] (optim) StdoutLine: {'line': b'[ 50%] Built target test_ceres\n'}
+[0.095964] (optim) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/PoseGraphOptimizationNode.dir/src/PoseGraphOptimizationNode.cpp.o\x1b[0m\n'}
+[0.099237] (-) TimerEvent: {}
+[0.199522] (-) TimerEvent: {}
+[0.299898] (-) TimerEvent: {}
+[0.400260] (-) TimerEvent: {}
+[0.500632] (-) TimerEvent: {}
+[0.600999] (-) TimerEvent: {}
+[0.701336] (-) TimerEvent: {}
+[0.801700] (-) TimerEvent: {}
+[0.902077] (-) TimerEvent: {}
+[1.002444] (-) TimerEvent: {}
+[1.102795] (-) TimerEvent: {}
+[1.203175] (-) TimerEvent: {}
+[1.303531] (-) TimerEvent: {}
+[1.403902] (-) TimerEvent: {}
+[1.504255] (-) TimerEvent: {}
+[1.604606] (-) TimerEvent: {}
+[1.704978] (-) TimerEvent: {}
+[1.805373] (-) TimerEvent: {}
+[1.905717] (-) TimerEvent: {}
+[2.006094] (-) TimerEvent: {}
+[2.106474] (-) TimerEvent: {}
+[2.206851] (-) TimerEvent: {}
+[2.307231] (-) TimerEvent: {}
+[2.407619] (-) TimerEvent: {}
+[2.507911] (-) TimerEvent: {}
+[2.608193] (-) TimerEvent: {}
+[2.708477] (-) TimerEvent: {}
+[2.808769] (-) TimerEvent: {}
+[2.909129] (-) TimerEvent: {}
+[3.009468] (-) TimerEvent: {}
+[3.109811] (-) TimerEvent: {}
+[3.210185] (-) TimerEvent: {}
+[3.310543] (-) TimerEvent: {}
+[3.410926] (-) TimerEvent: {}
+[3.511290] (-) TimerEvent: {}
+[3.611649] (-) TimerEvent: {}
+[3.712025] (-) TimerEvent: {}
+[3.812382] (-) TimerEvent: {}
+[3.912778] (-) TimerEvent: {}
+[4.013203] (-) TimerEvent: {}
+[4.113593] (-) TimerEvent: {}
+[4.213974] (-) TimerEvent: {}
+[4.314339] (-) TimerEvent: {}
+[4.414694] (-) TimerEvent: {}
+[4.484532] (optim) StderrLine: {'line': b'/home/kvothe/ros/src/optim/src/PoseGraphOptimizationNode.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kbool PoseLandmarkCostFunction::operator()(const T*, const T*, const T*, T*) const [with T = ceres::Jet<double, 3>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.484810] (optim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/internal/variadic_evaluate.h:57:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, std::false_type, std::integer_sequence<int, Indices ...>) [with Functor = PoseLandmarkCostFunction; T = ceres::Jet<double, 3>; int ...Indices = {0, 1, 2}; std::false_type = std::integral_constant<bool, false>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.485086] (optim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/internal/variadic_evaluate.h:79:30:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, const void*) [with ParameterDims = ceres::internal::ParameterDims<false, 1, 1, 1>; Functor = PoseLandmarkCostFunction; T = ceres::Jet<double, 3>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.485205] (optim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/internal/variadic_evaluate.h:108:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::VariadicEvaluate(const Functor&, const T* const*, T*) [with ParameterDims = ceres::internal::ParameterDims<false, 1, 1, 1>; Functor = PoseLandmarkCostFunction; T = ceres::Jet<double, 3>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.485311] (optim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:351:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::AutoDifferentiate(const Functor&, const T* const*, int, T*, T**) [with int kNumResiduals = 2; ParameterDims = ceres::internal::ParameterDims<false, 1, 1, 1>; Functor = PoseLandmarkCostFunction; T = double]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.485417] (optim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:210:69:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::AutoDiffCostFunction<CostFunctor, kNumResiduals, Ns>::Evaluate(const double* const*, double*, double**) const [with CostFunctor = PoseLandmarkCostFunction; int kNumResiduals = 2; int ...Ns = {1, 1, 1}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.485523] (optim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:200:8:\x1b[m\x1b[K   required from here\n'}
+[4.485626] (optim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/optim/src/PoseGraphOptimizationNode.cpp:61:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kceres::Jet<double, 3>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.485729] (optim) StderrLine: {'line': b'   61 |         residuals[1] = weight_alpha_ * \x1b[01;31m\x1b[K(normalizeAngle(predicted_alpha - alpha_))\x1b[m\x1b[K;\n'}
+[4.485849] (optim) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.485967] (optim) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[4.486068] (optim) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[Kceres::Jet<double, 3>\x1b[m\x1b[K\n'}
+[4.486168] (optim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/optim/src/PoseGraphOptimizationNode.cpp:15:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble normalizeAngle(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.486270] (optim) StderrLine: {'line': b'   15 | double normalizeAngle(\x1b[01;36m\x1b[Kdouble angle\x1b[m\x1b[K) {\n'}
+[4.486371] (optim) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[4.487006] (optim) StderrLine: {'line': b'/home/kvothe/ros/src/optim/src/PoseGraphOptimizationNode.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kbool PosePoseCostFunction::operator()(const T*, const T*, const T*, const T*, const T*, const T*, T*) const [with T = ceres::Jet<double, 6>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.487211] (optim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/internal/variadic_evaluate.h:57:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, std::false_type, std::integer_sequence<int, Indices ...>) [with Functor = PosePoseCostFunction; T = ceres::Jet<double, 6>; int ...Indices = {0, 1, 2, 3, 4, 5}; std::false_type = std::integral_constant<bool, false>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.487349] (optim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/internal/variadic_evaluate.h:79:30:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, const void*) [with ParameterDims = ceres::internal::ParameterDims<false, 1, 1, 1, 1, 1, 1>; Functor = PosePoseCostFunction; T = ceres::Jet<double, 6>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.487466] (optim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/internal/variadic_evaluate.h:108:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::VariadicEvaluate(const Functor&, const T* const*, T*) [with ParameterDims = ceres::internal::ParameterDims<false, 1, 1, 1, 1, 1, 1>; Functor = PosePoseCostFunction; T = ceres::Jet<double, 6>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.487580] (optim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:351:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::AutoDifferentiate(const Functor&, const T* const*, int, T*, T**) [with int kNumResiduals = 3; ParameterDims = ceres::internal::ParameterDims<false, 1, 1, 1, 1, 1, 1>; Functor = PosePoseCostFunction; T = double]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.487685] (optim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:210:69:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::AutoDiffCostFunction<CostFunctor, kNumResiduals, Ns>::Evaluate(const double* const*, double*, double**) const [with CostFunctor = PosePoseCostFunction; int kNumResiduals = 3; int ...Ns = {1, 1, 1, 1, 1, 1}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.487791] (optim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:200:8:\x1b[m\x1b[K   required from here\n'}
+[4.487930] (optim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/optim/src/PoseGraphOptimizationNode.cpp:36:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kceres::Jet<double, 6>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.488037] (optim) StderrLine: {'line': b'   36 |         residuals[2] = weight_theta_ * (\x1b[01;31m\x1b[KnormalizeAngle(theta2[0] - theta1[0])\x1b[m\x1b[K - dtheta_);\n'}
+[4.488139] (optim) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.488239] (optim) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[4.488339] (optim) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[Kceres::Jet<double, 6>\x1b[m\x1b[K\n'}
+[4.488437] (optim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/optim/src/PoseGraphOptimizationNode.cpp:15:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdouble normalizeAngle(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.488539] (optim) StderrLine: {'line': b'   15 | double normalizeAngle(\x1b[01;36m\x1b[Kdouble angle\x1b[m\x1b[K) {\n'}
+[4.488638] (optim) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[4.514872] (-) TimerEvent: {}
+[4.615253] (-) TimerEvent: {}
+[4.715642] (-) TimerEvent: {}
+[4.816053] (-) TimerEvent: {}
+[4.916435] (-) TimerEvent: {}
+[5.009560] (optim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/PoseGraphOptimizationNode.dir/build.make:76: CMakeFiles/PoseGraphOptimizationNode.dir/src/PoseGraphOptimizationNode.cpp.o] Error 1\n'}
+[5.009908] (optim) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/PoseGraphOptimizationNode.dir/all] Error 2\n'}
+[5.010504] (optim) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.016173] (optim) CommandEnded: {'returncode': 2}
+[5.016914] (-) TimerEvent: {}
+[5.039048] (optim) JobEnded: {'identifier': 'optim', 'rc': 2}
+[5.049999] (-) EventReactorShutdown: {}

@@ -1,0 +1,76 @@
+[ 10%] Built target PreprocessNode
+[ 20%] Built target LandmarkGraphNode
+[ 30%] Built target LandmarkTransformerNode
+[ 50%] Built target LandmarkTransformermapNode
+[ 50%] Built target ScanTransformer
+[ 55%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[ 75%] Built target RansacLineExtractionNode
+[ 75%] Built target IncrementalLineFittingNode
+[ 95%] Built target ScanAccumulator
+[ 95%] Built target HoughLineFittingNode
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In constructor ‘[01m[KPoseGraphOptimizer::PoseGraphOptimizer()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:67:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_graph_sub_[m[K’ was not declared in this scope
+   67 |         [01;31m[Kpose_graph_sub_[m[K = this->create_subscription<messages::msg::PoseGraph>(
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:70:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klandmark_constraint_sub_[m[K’ was not declared in this scope; did you mean ‘[01m[KlandmarkConstraintCallback[m[K’?
+   70 |         [01;31m[Klandmark_constraint_sub_[m[K = this->create_subscription<messages::msg::LandmarkLandmarkConstraintList>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[KlandmarkConstraintCallback[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:73:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_graph_pub_[m[K’ was not declared in this scope
+   73 |         [01;31m[Kpose_graph_pub_[m[K = this->create_publisher<messages::msg::PoseGraph>("/optimized_posegraph", 10);
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::poseGraphCallback(messages::msg::PoseGraph_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:78:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_graph_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_graph_[m[K’?
+   78 |         [01;31m[Kpose_graph_[m[K = *msg;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+      |         [32m[Knode_graph_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::landmarkConstraintCallback(messages::msg::LandmarkLandmarkConstraintList_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:83:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klandmark_constraints_[m[K’ was not declared in this scope
+   83 |         [01;31m[Klandmark_constraints_[m[K = *msg;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:94:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_parameters_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_parameters_[m[K’?
+   94 |         [01;31m[Kpose_parameters_[m[K.clear();
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |         [32m[Knode_parameters_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:95:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klandmark_parameters_[m[K’ was not declared in this scope; did you mean ‘[01m[Kdeclare_parameters[m[K’?
+   95 |         [01;31m[Klandmark_parameters_[m[K.clear();
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kdeclare_parameters[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:96:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klandmark_map_[m[K’ was not declared in this scope
+   96 |         [01;31m[Klandmark_map_[m[K.clear();
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:99:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_graph_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_graph_[m[K’?
+   99 |         for (const auto& node : [01;31m[Kpose_graph_[m[K.nodes) {
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+      |                                 [32m[Knode_graph_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:109:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_graph_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_graph_[m[K’?
+  109 |         for (const auto& constraint : [01;31m[Kpose_graph_[m[K.landmark_constraints) {
+      |                                       [01;31m[K^~~~~~~~~~~[m[K
+      |                                       [32m[Knode_graph_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:121:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_graph_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_graph_[m[K’?
+  121 |         for (const auto& constraint : [01;31m[Kpose_graph_[m[K.pose_constraints) {
+      |                                       [01;31m[K^~~~~~~~~~~[m[K
+      |                                       [32m[Knode_graph_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:134:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_graph_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_graph_[m[K’?
+  134 |         for (const auto& constraint : [01;31m[Kpose_graph_[m[K.landmark_constraints) {
+      |                                       [01;31m[K^~~~~~~~~~~[m[K
+      |                                       [32m[Knode_graph_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:147:39:[m[K [01;31m[Kerror: [m[K‘[01m[Klandmark_constraints_[m[K’ was not declared in this scope
+  147 |         for (const auto& constraint : [01;31m[Klandmark_constraints_[m[K.constraints) {
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::publishOptimizedGraph()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:167:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_graph_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_graph_[m[K’?
+  167 |         messages::msg::PoseGraph optimized_graph = [01;31m[Kpose_graph_[m[K;
+      |                                                    [01;31m[K^~~~~~~~~~~[m[K
+      |                                                    [32m[Knode_graph_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:169:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_parameters_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_parameters_[m[K’?
+  169 |             optimized_graph.nodes[i].x = [01;31m[Kpose_parameters_[m[K[i][0];
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                          [32m[Knode_parameters_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:173:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_graph_pub_[m[K’ was not declared in this scope
+  173 |         [01;31m[Kpose_graph_pub_[m[K->publish(optimized_graph);
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

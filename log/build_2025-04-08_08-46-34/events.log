@@ -1,0 +1,293 @@
+[0.000000] (-) TimerEvent: {}
+[0.000201] (-) JobUnselected: {'identifier': 'messages'}
+[0.000226] (-) JobUnselected: {'identifier': 'robot_control'}
+[0.000245] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000275] (-) JobUnselected: {'identifier': 'ros_bringup'}
+[0.000295] (-) JobUnselected: {'identifier': 'ros_gazebo'}
+[0.000310] (-) JobUnselected: {'identifier': 'sensor_management'}
+[0.000326] (-) JobUnselected: {'identifier': 'soma'}
+[0.000348] (cppp) JobQueued: {'identifier': 'cppp', 'dependencies': OrderedDict([('messages', '/home/kvothe/ros/install/messages')])}
+[0.000374] (cppp) JobStarted: {'identifier': 'cppp'}
+[0.013103] (cppp) JobProgress: {'identifier': 'cppp', 'progress': 'cmake'}
+[0.014668] (cppp) JobProgress: {'identifier': 'cppp', 'progress': 'build'}
+[0.014761] (cppp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kvothe/ros/build/cppp', '--', '-j12', '-l12'], 'cwd': '/home/kvothe/ros/build/cppp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kvothe'), ('XDG_SESSION_TYPE', 'wayland'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kvothe'), ('OLDPWD', '/home/kvothe'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1002'), ('SYSTEMD_EXEC_PID', '1166'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2533'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kvothe/ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kvothe'), ('JOURNAL_STREAM', '8:16496'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kvothe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kvothe/.local/bin:/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1125,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1125'), ('INVOCATION_ID', '3c7cba8f68dc43cc9070dc24236272ba'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ME4X42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/'), ('TERMINATOR_UUID', 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kvothe/ros/build/cppp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[0.083445] (cppp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer\x1b[0m\n'}
+[0.095688] (cppp) StdoutLine: {'line': b'[ 10%] Built target PreprocessNode\n'}
+[0.099507] (-) TimerEvent: {}
+[0.103060] (cppp) StdoutLine: {'line': b'[ 20%] Built target LandmarkTransformermapNode\n'}
+[0.103564] (cppp) StdoutLine: {'line': b'[ 30%] Built target ScanTransformer\n'}
+[0.103857] (cppp) StdoutLine: {'line': b'[ 40%] Built target LandmarkGraphNode\n'}
+[0.108850] (cppp) StdoutLine: {'line': b'[ 65%] Built target RansacLineExtractionNode\n'}
+[0.109055] (cppp) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o\x1b[0m\n'}
+[0.109128] (cppp) StdoutLine: {'line': b'[ 65%] Built target LandmarkTransformerNode\n'}
+[0.114082] (cppp) StdoutLine: {'line': b'[ 95%] Built target ScanAccumulator\n'}
+[0.114266] (cppp) StdoutLine: {'line': b'[ 95%] Built target IncrementalLineFittingNode\n'}
+[0.114335] (cppp) StdoutLine: {'line': b'[ 95%] Built target HoughLineFittingNode\n'}
+[0.199643] (-) TimerEvent: {}
+[0.300030] (-) TimerEvent: {}
+[0.400476] (-) TimerEvent: {}
+[0.500907] (-) TimerEvent: {}
+[0.601352] (-) TimerEvent: {}
+[0.701776] (-) TimerEvent: {}
+[0.802193] (-) TimerEvent: {}
+[0.902645] (-) TimerEvent: {}
+[1.003075] (-) TimerEvent: {}
+[1.103537] (-) TimerEvent: {}
+[1.204231] (-) TimerEvent: {}
+[1.304685] (-) TimerEvent: {}
+[1.405110] (-) TimerEvent: {}
+[1.505558] (-) TimerEvent: {}
+[1.605987] (-) TimerEvent: {}
+[1.706414] (-) TimerEvent: {}
+[1.806849] (-) TimerEvent: {}
+[1.907305] (-) TimerEvent: {}
+[2.007710] (-) TimerEvent: {}
+[2.108176] (-) TimerEvent: {}
+[2.208581] (-) TimerEvent: {}
+[2.308903] (-) TimerEvent: {}
+[2.409279] (-) TimerEvent: {}
+[2.509573] (-) TimerEvent: {}
+[2.610203] (-) TimerEvent: {}
+[2.710641] (-) TimerEvent: {}
+[2.811046] (-) TimerEvent: {}
+[2.911504] (-) TimerEvent: {}
+[2.918136] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PoseGraphOptimizer::optimizeGraph()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.918462] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:279:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpose\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.918643] (cppp) StderrLine: {'line': b'  279 |                 auto& \x1b[01;35m\x1b[Kpose\x1b[m\x1b[K = pose_graph_.nodes[constraint.pose_id];\n'}
+[2.918781] (cppp) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.011648] (-) TimerEvent: {}
+[3.112057] (-) TimerEvent: {}
+[3.212476] (-) TimerEvent: {}
+[3.312873] (-) TimerEvent: {}
+[3.413315] (-) TimerEvent: {}
+[3.513726] (-) TimerEvent: {}
+[3.614136] (-) TimerEvent: {}
+[3.714576] (-) TimerEvent: {}
+[3.815168] (-) TimerEvent: {}
+[3.915640] (-) TimerEvent: {}
+[4.016052] (-) TimerEvent: {}
+[4.116494] (-) TimerEvent: {}
+[4.216930] (-) TimerEvent: {}
+[4.317358] (-) TimerEvent: {}
+[4.417769] (-) TimerEvent: {}
+[4.518177] (-) TimerEvent: {}
+[4.618614] (-) TimerEvent: {}
+[4.719029] (-) TimerEvent: {}
+[4.819464] (-) TimerEvent: {}
+[4.919889] (-) TimerEvent: {}
+[5.020462] (-) TimerEvent: {}
+[5.120923] (-) TimerEvent: {}
+[5.221349] (-) TimerEvent: {}
+[5.321765] (-) TimerEvent: {}
+[5.422190] (-) TimerEvent: {}
+[5.522631] (-) TimerEvent: {}
+[5.623052] (-) TimerEvent: {}
+[5.723511] (-) TimerEvent: {}
+[5.823923] (-) TimerEvent: {}
+[5.924355] (-) TimerEvent: {}
+[6.024800] (-) TimerEvent: {}
+[6.125239] (-) TimerEvent: {}
+[6.225683] (-) TimerEvent: {}
+[6.326109] (-) TimerEvent: {}
+[6.426574] (-) TimerEvent: {}
+[6.527162] (-) TimerEvent: {}
+[6.627613] (-) TimerEvent: {}
+[6.728047] (-) TimerEvent: {}
+[6.828500] (-) TimerEvent: {}
+[6.928927] (-) TimerEvent: {}
+[7.029369] (-) TimerEvent: {}
+[7.129778] (-) TimerEvent: {}
+[7.230300] (-) TimerEvent: {}
+[7.330872] (-) TimerEvent: {}
+[7.431216] (-) TimerEvent: {}
+[7.531614] (-) TimerEvent: {}
+[7.631942] (-) TimerEvent: {}
+[7.732322] (-) TimerEvent: {}
+[7.760971] (cppp) StderrLine: {'line': b'/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kbool PoseLandmarkCost::operator()(const T*, const T*, T*) const [with T = double]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.761245] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/internal/variadic_evaluate.h:57:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, std::false_type, std::integer_sequence<int, Indices ...>) [with Functor = PoseLandmarkCost; T = double; int ...Indices = {0, 1}; std::false_type = std::integral_constant<bool, false>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.761446] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/internal/variadic_evaluate.h:79:30:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, const void*) [with ParameterDims = ceres::internal::ParameterDims<false, 3, 4>; Functor = PoseLandmarkCost; T = double]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.761601] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/internal/variadic_evaluate.h:108:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::VariadicEvaluate(const Functor&, const T* const*, T*) [with ParameterDims = ceres::internal::ParameterDims<false, 3, 4>; Functor = PoseLandmarkCost; T = double]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.761752] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:207:55:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::AutoDiffCostFunction<CostFunctor, kNumResiduals, Ns>::Evaluate(const double* const*, double*, double**) const [with CostFunctor = PoseLandmarkCost; int kNumResiduals = 4; int ...Ns = {3, 4}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.761927] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:200:8:\x1b[m\x1b[K   required from here\n'}
+[7.762069] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:87:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kx_start_pred\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.762215] (cppp) StderrLine: {'line': b'   87 |             T \x1b[01;35m\x1b[Kx_start_pred\x1b[m\x1b[K = x_pose + cos_theta * landmark[0] - sin_theta * landmark[1];\n'}
+[7.762389] (cppp) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.762534] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:88:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ky_start_pred\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.762677] (cppp) StderrLine: {'line': b'   88 |             T \x1b[01;35m\x1b[Ky_start_pred\x1b[m\x1b[K = y_pose + sin_theta * landmark[0] + cos_theta * landmark[1];\n'}
+[7.762834] (cppp) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.762970] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:91:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kx_end_pred\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.763114] (cppp) StderrLine: {'line': b'   91 |             T \x1b[01;35m\x1b[Kx_end_pred\x1b[m\x1b[K = x_pose + cos_theta * landmark[2] - sin_theta * landmark[3];\n'}
+[7.763250] (cppp) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.763420] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:92:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ky_end_pred\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.763580] (cppp) StderrLine: {'line': b'   92 |             T \x1b[01;35m\x1b[Ky_end_pred\x1b[m\x1b[K = y_pose + sin_theta * landmark[2] + cos_theta * landmark[3];\n'}
+[7.763714] (cppp) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.832457] (-) TimerEvent: {}
+[7.915540] (cppp) StderrLine: {'line': b'/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kbool PoseLandmarkCost::operator()(const T*, const T*, T*) const [with T = ceres::Jet<double, 7>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.915792] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/internal/variadic_evaluate.h:57:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, std::false_type, std::integer_sequence<int, Indices ...>) [with Functor = PoseLandmarkCost; T = ceres::Jet<double, 7>; int ...Indices = {0, 1}; std::false_type = std::integral_constant<bool, false>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.915944] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/internal/variadic_evaluate.h:79:30:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, const void*) [with ParameterDims = ceres::internal::ParameterDims<false, 3, 4>; Functor = PoseLandmarkCost; T = ceres::Jet<double, 7>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.916059] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/internal/variadic_evaluate.h:108:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::VariadicEvaluate(const Functor&, const T* const*, T*) [with ParameterDims = ceres::internal::ParameterDims<false, 3, 4>; Functor = PoseLandmarkCost; T = ceres::Jet<double, 7>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.916162] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/internal/autodiff.h:351:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::internal::AutoDifferentiate(const Functor&, const T* const*, int, T*, T**) [with int kNumResiduals = 4; ParameterDims = ceres::internal::ParameterDims<false, 3, 4>; Functor = PoseLandmarkCost; T = double]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.916289] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:210:69:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool ceres::AutoDiffCostFunction<CostFunctor, kNumResiduals, Ns>::Evaluate(const double* const*, double*, double**) const [with CostFunctor = PoseLandmarkCost; int kNumResiduals = 4; int ...Ns = {3, 4}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.916408] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ceres/autodiff_cost_function.h:200:8:\x1b[m\x1b[K   required from here\n'}
+[7.916509] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:87:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kx_start_pred\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.916624] (cppp) StderrLine: {'line': b'   87 |             T \x1b[01;35m\x1b[Kx_start_pred\x1b[m\x1b[K = x_pose + cos_theta * landmark[0] - sin_theta * landmark[1];\n'}
+[7.916726] (cppp) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.916826] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:88:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Ky_start_pred\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.916930] (cppp) StderrLine: {'line': b'   88 |             T \x1b[01;35m\x1b[Ky_start_pred\x1b[m\x1b[K = y_pose + sin_theta * landmark[0] + cos_theta * landmark[1];\n'}
+[7.917029] (cppp) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.917126] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:91:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kx_end_pred\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.917241] (cppp) StderrLine: {'line': b'   91 |             T \x1b[01;35m\x1b[Kx_end_pred\x1b[m\x1b[K = x_pose + cos_theta * landmark[2] - sin_theta * landmark[3];\n'}
+[7.917372] (cppp) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.917475] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:92:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Ky_end_pred\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.917588] (cppp) StderrLine: {'line': b'   92 |             T \x1b[01;35m\x1b[Ky_end_pred\x1b[m\x1b[K = y_pose + sin_theta * landmark[2] + cos_theta * landmark[3];\n'}
+[7.917688] (cppp) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.932616] (-) TimerEvent: {}
+[8.033244] (-) TimerEvent: {}
+[8.133633] (-) TimerEvent: {}
+[8.233979] (-) TimerEvent: {}
+[8.334354] (-) TimerEvent: {}
+[8.434724] (-) TimerEvent: {}
+[8.535095] (-) TimerEvent: {}
+[8.635476] (-) TimerEvent: {}
+[8.735854] (-) TimerEvent: {}
+[8.836221] (-) TimerEvent: {}
+[8.936618] (-) TimerEvent: {}
+[9.036998] (-) TimerEvent: {}
+[9.137350] (-) TimerEvent: {}
+[9.237708] (-) TimerEvent: {}
+[9.338084] (-) TimerEvent: {}
+[9.438563] (-) TimerEvent: {}
+[9.539044] (-) TimerEvent: {}
+[9.639428] (-) TimerEvent: {}
+[9.739802] (-) TimerEvent: {}
+[9.840188] (-) TimerEvent: {}
+[9.940569] (-) TimerEvent: {}
+[10.040957] (-) TimerEvent: {}
+[10.141357] (-) TimerEvent: {}
+[10.241750] (-) TimerEvent: {}
+[10.342159] (-) TimerEvent: {}
+[10.442864] (-) TimerEvent: {}
+[10.543235] (-) TimerEvent: {}
+[10.643654] (-) TimerEvent: {}
+[10.744036] (-) TimerEvent: {}
+[10.844434] (-) TimerEvent: {}
+[10.944849] (-) TimerEvent: {}
+[11.045205] (-) TimerEvent: {}
+[11.145509] (-) TimerEvent: {}
+[11.245974] (-) TimerEvent: {}
+[11.346887] (-) TimerEvent: {}
+[11.447306] (-) TimerEvent: {}
+[11.547652] (-) TimerEvent: {}
+[11.648006] (-) TimerEvent: {}
+[11.748359] (-) TimerEvent: {}
+[11.848689] (-) TimerEvent: {}
+[11.949131] (-) TimerEvent: {}
+[12.049626] (-) TimerEvent: {}
+[12.150039] (-) TimerEvent: {}
+[12.250387] (-) TimerEvent: {}
+[12.350781] (-) TimerEvent: {}
+[12.451104] (-) TimerEvent: {}
+[12.551437] (-) TimerEvent: {}
+[12.651734] (-) TimerEvent: {}
+[12.752009] (-) TimerEvent: {}
+[12.852294] (-) TimerEvent: {}
+[12.952563] (-) TimerEvent: {}
+[13.052843] (-) TimerEvent: {}
+[13.153209] (-) TimerEvent: {}
+[13.253555] (-) TimerEvent: {}
+[13.353853] (-) TimerEvent: {}
+[13.454239] (-) TimerEvent: {}
+[13.554663] (-) TimerEvent: {}
+[13.655014] (-) TimerEvent: {}
+[13.755481] (-) TimerEvent: {}
+[13.855908] (-) TimerEvent: {}
+[13.956267] (-) TimerEvent: {}
+[14.056617] (-) TimerEvent: {}
+[14.156902] (-) TimerEvent: {}
+[14.257300] (-) TimerEvent: {}
+[14.357675] (-) TimerEvent: {}
+[14.458175] (-) TimerEvent: {}
+[14.558512] (-) TimerEvent: {}
+[14.658781] (-) TimerEvent: {}
+[14.759189] (-) TimerEvent: {}
+[14.859540] (-) TimerEvent: {}
+[14.959945] (-) TimerEvent: {}
+[15.060469] (-) TimerEvent: {}
+[15.160924] (-) TimerEvent: {}
+[15.261320] (-) TimerEvent: {}
+[15.361647] (-) TimerEvent: {}
+[15.461924] (-) TimerEvent: {}
+[15.562242] (-) TimerEvent: {}
+[15.662555] (-) TimerEvent: {}
+[15.762867] (-) TimerEvent: {}
+[15.863186] (-) TimerEvent: {}
+[15.963520] (-) TimerEvent: {}
+[16.063818] (-) TimerEvent: {}
+[16.164112] (-) TimerEvent: {}
+[16.264433] (-) TimerEvent: {}
+[16.364746] (-) TimerEvent: {}
+[16.465123] (-) TimerEvent: {}
+[16.565623] (-) TimerEvent: {}
+[16.665941] (-) TimerEvent: {}
+[16.766291] (-) TimerEvent: {}
+[16.866632] (-) TimerEvent: {}
+[16.967073] (-) TimerEvent: {}
+[17.067528] (-) TimerEvent: {}
+[17.167959] (-) TimerEvent: {}
+[17.268362] (-) TimerEvent: {}
+[17.368732] (-) TimerEvent: {}
+[17.469113] (-) TimerEvent: {}
+[17.569461] (-) TimerEvent: {}
+[17.669881] (-) TimerEvent: {}
+[17.770326] (-) TimerEvent: {}
+[17.870782] (-) TimerEvent: {}
+[17.971203] (-) TimerEvent: {}
+[18.008193] (cppp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable PoseGraphOptimizer\x1b[0m\n'}
+[18.071329] (-) TimerEvent: {}
+[18.171715] (-) TimerEvent: {}
+[18.272182] (-) TimerEvent: {}
+[18.372701] (-) TimerEvent: {}
+[18.473124] (-) TimerEvent: {}
+[18.573581] (-) TimerEvent: {}
+[18.674043] (-) TimerEvent: {}
+[18.774519] (-) TimerEvent: {}
+[18.874848] (-) TimerEvent: {}
+[18.975203] (-) TimerEvent: {}
+[19.075572] (-) TimerEvent: {}
+[19.175953] (-) TimerEvent: {}
+[19.276376] (-) TimerEvent: {}
+[19.376807] (-) TimerEvent: {}
+[19.393200] (cppp) StdoutLine: {'line': b'[100%] Built target PoseGraphOptimizer\n'}
+[19.408195] (cppp) CommandEnded: {'returncode': 0}
+[19.408853] (cppp) JobProgress: {'identifier': 'cppp', 'progress': 'install'}
+[19.419380] (cppp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kvothe/ros/build/cppp'], 'cwd': '/home/kvothe/ros/build/cppp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kvothe'), ('XDG_SESSION_TYPE', 'wayland'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kvothe'), ('OLDPWD', '/home/kvothe'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1002'), ('SYSTEMD_EXEC_PID', '1166'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2533'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kvothe/ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kvothe'), ('JOURNAL_STREAM', '8:16496'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kvothe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kvothe/.local/bin:/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1125,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1125'), ('INVOCATION_ID', '3c7cba8f68dc43cc9070dc24236272ba'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ME4X42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/'), ('TERMINATOR_UUID', 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kvothe/ros/build/cppp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[19.427863] (cppp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.428040] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformerNode\n'}
+[19.428577] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/ScanAccumulator\n'}
+[19.429079] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/PreprocessNode\n'}
+[19.429376] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkGraphNode\n'}
+[19.429760] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/IncrementalLineFittingNode\n'}
+[19.430041] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformermapNode\n'}
+[19.430337] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/HoughLineFittingNode\n'}
+[19.430710] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/RansacLineExtractionNode\n'}
+[19.431093] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/ScanTransformer\n'}
+[19.431411] (cppp) StdoutLine: {'line': b'-- Installing: /home/kvothe/ros/install/cppp/lib/cppp/PoseGraphOptimizer\n'}
+[19.443498] (cppp) StdoutLine: {'line': b'-- Set runtime path of "/home/kvothe/ros/install/cppp/lib/cppp/PoseGraphOptimizer" to ""\n'}
+[19.443832] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/package_run_dependencies/cppp\n'}
+[19.444057] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/parent_prefix_path/cppp\n'}
+[19.444280] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.sh\n'}
+[19.444685] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.dsv\n'}
+[19.444826] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/path.sh\n'}
+[19.444941] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/path.dsv\n'}
+[19.445054] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.bash\n'}
+[19.445185] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.sh\n'}
+[19.445320] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.zsh\n'}
+[19.445444] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.dsv\n'}
+[19.445564] (cppp) StdoutLine: {'line': b'-- Installing: /home/kvothe/ros/install/cppp/share/cppp/package.dsv\n'}
+[19.445706] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/packages/cppp\n'}
+[19.445878] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig.cmake\n'}
+[19.446429] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig-version.cmake\n'}
+[19.446995] (cppp) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/package.xml\n'}
+[19.447611] (cppp) CommandEnded: {'returncode': 0}
+[19.463626] (cppp) JobEnded: {'identifier': 'cppp', 'rc': 0}
+[19.464683] (-) EventReactorShutdown: {}

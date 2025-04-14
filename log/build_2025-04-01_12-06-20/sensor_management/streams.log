@@ -1,0 +1,27 @@
+[0.851s] Invoking command in '/home/kvothe/ros/src/sensor_management': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp PYTHONPATH=/home/kvothe/ros/build/sensor_management/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_management build --build-base /home/kvothe/ros/build/sensor_management/build install --record /home/kvothe/ros/build/sensor_management/install.log --single-version-externally-managed install_data
+[1.061s] running egg_info
+[1.061s] writing ../../build/sensor_management/sensor_management.egg-info/PKG-INFO
+[1.064s] writing dependency_links to ../../build/sensor_management/sensor_management.egg-info/dependency_links.txt
+[1.064s] writing entry points to ../../build/sensor_management/sensor_management.egg-info/entry_points.txt
+[1.064s] writing requirements to ../../build/sensor_management/sensor_management.egg-info/requires.txt
+[1.065s] writing top-level names to ../../build/sensor_management/sensor_management.egg-info/top_level.txt
+[1.066s] reading manifest file '../../build/sensor_management/sensor_management.egg-info/SOURCES.txt'
+[1.067s] writing manifest file '../../build/sensor_management/sensor_management.egg-info/SOURCES.txt'
+[1.067s] running build
+[1.067s] running build_py
+[1.068s] running install
+[1.068s] running install_lib
+[1.070s] running install_data
+[1.070s] running install_egg_info
+[1.073s] removing '/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages/sensor_management-0.0.0-py3.10.egg-info' (and everything under it)
+[1.073s] Copying ../../build/sensor_management/sensor_management.egg-info to /home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages/sensor_management-0.0.0-py3.10.egg-info
+[1.074s] running install_scripts
+[1.093s] Installing LandmarkLandmarkVisualizationNode script to /home/kvothe/ros/install/sensor_management/lib/sensor_management
+[1.093s] Installing Linesegviz script to /home/kvothe/ros/install/sensor_management/lib/sensor_management
+[1.093s] Installing OptiPoseViz script to /home/kvothe/ros/install/sensor_management/lib/sensor_management
+[1.094s] Installing PoseGraphViz script to /home/kvothe/ros/install/sensor_management/lib/sensor_management
+[1.094s] Installing fusion script to /home/kvothe/ros/install/sensor_management/lib/sensor_management
+[1.094s] Installing linesegmentvisualizer script to /home/kvothe/ros/install/sensor_management/lib/sensor_management
+[1.094s] Installing sparsesampler script to /home/kvothe/ros/install/sensor_management/lib/sensor_management
+[1.094s] writing list of installed files to '/home/kvothe/ros/build/sensor_management/install.log'
+[1.126s] Invoked command in '/home/kvothe/ros/src/sensor_management' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp PYTHONPATH=/home/kvothe/ros/build/sensor_management/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_management build --build-base /home/kvothe/ros/build/sensor_management/build install --record /home/kvothe/ros/build/sensor_management/install.log --single-version-externally-managed install_data

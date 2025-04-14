@@ -1,0 +1,12 @@
+In file included from [01m[K/usr/include/ceres/internal/array_selector.h:38[m[K,
+                 from [01m[K/usr/include/ceres/internal/autodiff.h:148[m[K,
+                 from [01m[K/usr/include/ceres/autodiff_cost_function.h:130[m[K,
+                 from [01m[K/usr/include/ceres/ceres.h:37[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:2[m[K:
+[01m[K/usr/include/ceres/internal/fixed_array.h:33:10:[m[K [01;31m[Kfatal error: [m[KEigen/Core: No such file or directory
+   33 | #include [01;31m[K<Eigen/Core>[m[K  // For Eigen::aligned_allocator
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

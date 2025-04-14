@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/kvothe/ros/build/ros_gazebo/libBasicSystem.so" "/home/kvothe/ros/build/ros_gazebo/libFullSystem.so" "TARGETS" "BasicSystem" "FullSystem" "DESTINATION" "lib/ros_gazebo")

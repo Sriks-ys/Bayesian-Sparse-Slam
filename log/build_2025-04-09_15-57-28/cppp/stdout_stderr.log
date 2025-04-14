@@ -1,0 +1,71 @@
+[35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[ 10%] Built target PreprocessNode
+[ 20%] Built target LandmarkGraphNode
+[ 45%] Built target ScanTransformer
+[ 45%] Built target LandmarkTransformermapNode
+[ 50%] Built target LandmarkTransformerNode
+[ 60%] Built target IncrementalLineFittingNode
+[ 70%] Built target RansacLineExtractionNode
+[ 85%] Built target HoughLineFittingNode
+[ 90%] Built target ScanAccumulator
+[ 95%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/Values.h:27[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactor.h:24[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Key.h:[m[K In static member function ‘[01m[Kstatic bool gtsam::traits<long unsigned int>::Equals(const Key&, const Key&, double)[m[K’:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Key.h:127:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktol[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  127 |   static bool Equals(const Key& val1, const Key& val2, [01;35m[Kdouble tol = 1e-8[m[K) {
+      |                                                        [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/NoiseModel.h:25[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactor.h:26[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/LossFunctions.h:[m[K In member function ‘[01m[Kvirtual double gtsam::noiseModel::mEstimator::Base::loss(double) const[m[K’:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/LossFunctions.h:97:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdistance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   97 |   virtual double loss([01;35m[Kdouble distance[m[K) const { return 0; }
+      |                       [01;35m[K~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactor.h:26[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/NoiseModel.h:[m[K In member function ‘[01m[Kvirtual double gtsam::noiseModel::Base::weight(const Vector&) const[m[K’:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/NoiseModel.h:141:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  141 |       virtual double weight([01;35m[Kconst Vector& v[m[K) const { return 1.0; }
+      |                             [01;35m[K~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizerParams.h:24[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:22[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianFactorGraph.h:[m[K In static member function ‘[01m[Kstatic gtsam::Ordering gtsam::EliminationTraits<gtsam::GaussianFactorGraph>::DefaultOrderingFunc(const FactorGraphType&, std::optional<std::reference_wrapper<const gtsam::VariableIndex> >)[m[K’:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianFactorGraph.h:60:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgraph[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   60 |         [01;35m[Kconst FactorGraphType& graph[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K At global scope:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:216:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  216 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianConditional.h:25[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianBayesNet.h:23[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianBayesTree.h:22[m[K,
+                 from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/Marginals.h:21[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:16[m[K:
+/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h: In instantiation of ‘[01m[Kdouble gtsam::Conditional<FACTOR, DERIVEDCONDITIONAL>::logProbability(const gtsam::HybridValues&) const [with FACTOR = gtsam::JacobianFactor; DERIVEDCONDITIONAL = gtsam::GaussianConditional][m[K’:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:48:8:[m[K   required from here
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:49:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   49 |     [01;35m[Kconst HybridValues& c[m[K) const {
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h: In instantiation of ‘[01m[Kdouble gtsam::Conditional<FACTOR, DERIVEDCONDITIONAL>::evaluate(const gtsam::HybridValues&) const [with FACTOR = gtsam::JacobianFactor; DERIVEDCONDITIONAL = gtsam::GaussianConditional][m[K’:
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:55:8:[m[K   required from here
+[01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:56:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   56 |     [01;35m[Kconst HybridValues& c[m[K) const {
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

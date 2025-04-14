@@ -1,0 +1,17 @@
+[ 10%] Built target PreprocessNode
+[ 25%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[ 25%] Built target LandmarkTransformermapNode
+[ 35%] Built target LandmarkTransformerNode
+[ 55%] Built target IncrementalLineFittingNode
+[ 55%] Built target LandmarkGraphNode
+[ 65%] Built target ScanTransformer
+[ 75%] Built target RansacLineExtractionNode
+[ 85%] Built target HoughLineFittingNode
+[ 95%] Built target ScanAccumulator
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmessages/msg/landmark_node.hpp: No such file or directory
+    5 | #include [01;31m[K<messages/msg/landmark_node.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

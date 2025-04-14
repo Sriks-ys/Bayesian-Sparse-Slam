@@ -1,0 +1,35 @@
+[0.029s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12
+[0.290s] [35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[0.290s] [ 10%] Built target PreprocessNode
+[0.290s] [ 30%] Built target ScanTransformer
+[0.290s] [ 30%] Built target LandmarkTransformermapNode
+[0.290s] [ 40%] Built target LandmarkGraphNode
+[0.291s] [ 50%] Built target LandmarkTransformerNode
+[0.291s] [ 60%] Built target IncrementalLineFittingNode
+[0.291s] [ 70%] Built target HoughLineFittingNode
+[0.291s] [ 75%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[0.291s] [ 85%] Built target RansacLineExtractionNode
+[0.291s] [ 95%] Built target ScanAccumulator
+[2.869s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kbool PoseLandmarkCost::operator()(const T*, const T*, T*) const[m[K’:
+[2.869s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:90:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[2.869s]    90 |             T x_start_pred = [01;31m[Kx[m[K + cos_theta * x_start_local - sin_theta * y_start_local;
+[2.869s]       |                              [01;31m[K^[m[K
+[2.873s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:91:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope
+[2.874s]    91 |             T y_start_pred = [01;31m[Ky[m[K + sin_theta * x_start_local + cos_theta * y_start_local;
+[2.874s]       |                              [01;31m[K^[m[K
+[8.261s] /home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp: In instantiation of ‘[01m[Kbool PoseLandmarkCost::operator()(const T*, const T*, T*) const [with T = double][m[K’:
+[8.261s] [01m[K/usr/include/ceres/internal/variadic_evaluate.h:57:17:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, std::false_type, std::integer_sequence<int, Indices ...>) [with Functor = PoseLandmarkCost; T = double; int ...Indices = {0, 1}; std::false_type = std::integral_constant<bool, false>][m[K’
+[8.262s] [01m[K/usr/include/ceres/internal/variadic_evaluate.h:79:30:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluateImpl(const Functor&, const T* const*, T*, const void*) [with ParameterDims = ceres::internal::ParameterDims<false, 3, 4>; Functor = PoseLandmarkCost; T = double][m[K’
+[8.262s] [01m[K/usr/include/ceres/internal/variadic_evaluate.h:108:45:[m[K   required from ‘[01m[Kbool ceres::internal::VariadicEvaluate(const Functor&, const T* const*, T*) [with ParameterDims = ceres::internal::ParameterDims<false, 3, 4>; Functor = PoseLandmarkCost; T = double][m[K’
+[8.262s] [01m[K/usr/include/ceres/autodiff_cost_function.h:207:55:[m[K   required from ‘[01m[Kbool ceres::AutoDiffCostFunction<CostFunctor, kNumResiduals, Ns>::Evaluate(const double* const*, double*, double**) const [with CostFunctor = PoseLandmarkCost; int kNumResiduals = 4; int ...Ns = {3, 4}][m[K’
+[8.262s] [01m[K/usr/include/ceres/autodiff_cost_function.h:200:8:[m[K   required from here
+[8.262s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:77:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.262s]    77 |             T [01;35m[Kx_pose[m[K = pose[0];
+[8.262s]       |               [01;35m[K^~~~~~[m[K
+[8.262s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:78:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.263s]    78 |             T [01;35m[Ky_pose[m[K = pose[1];
+[8.263s]       |               [01;35m[K^~~~~~[m[K
+[9.918s] gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+[9.919s] gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+[9.920s] gmake: *** [Makefile:146: all] Error 2
+[9.923s] Invoked command in '/home/kvothe/ros/build/cppp' returned '2': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12

@@ -1,0 +1,163 @@
+[0.000000] (-) TimerEvent: {}
+[0.000409] (-) JobUnselected: {'identifier': 'messages'}
+[0.000475] (-) JobUnselected: {'identifier': 'robot_control'}
+[0.000521] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000562] (-) JobUnselected: {'identifier': 'ros_bringup'}
+[0.000629] (-) JobUnselected: {'identifier': 'ros_gazebo'}
+[0.000679] (-) JobUnselected: {'identifier': 'sensor_management'}
+[0.000720] (-) JobUnselected: {'identifier': 'soma'}
+[0.000767] (cppp) JobQueued: {'identifier': 'cppp', 'dependencies': OrderedDict([('messages', '/home/kvothe/ros/install/messages')])}
+[0.000824] (cppp) JobStarted: {'identifier': 'cppp'}
+[0.021209] (cppp) JobProgress: {'identifier': 'cppp', 'progress': 'cmake'}
+[0.022604] (cppp) JobProgress: {'identifier': 'cppp', 'progress': 'build'}
+[0.023823] (cppp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kvothe/ros/build/cppp', '--', '-j12', '-l12'], 'cwd': '/home/kvothe/ros/build/cppp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kvothe'), ('XDG_SESSION_TYPE', 'wayland'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kvothe'), ('OLDPWD', '/home/kvothe'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1044'), ('SYSTEMD_EXEC_PID', '1209'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2389'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kvothe/ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kvothe'), ('JOURNAL_STREAM', '8:8717'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kvothe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kvothe/.local/bin:/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1172,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1172'), ('INVOCATION_ID', '94f9cfbcfaaa47259522497f7aedd73a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S3EK42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/'), ('TERMINATOR_UUID', 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kvothe/ros/build/cppp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[0.098384] (-) TimerEvent: {}
+[0.125748] (cppp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer\x1b[0m\n'}
+[0.161592] (cppp) StdoutLine: {'line': b'[ 10%] Built target PreprocessNode\n'}
+[0.162140] (cppp) StdoutLine: {'line': b'[ 20%] Built target LandmarkGraphNode\n'}
+[0.166205] (cppp) StdoutLine: {'line': b'[ 40%] Built target LandmarkTransformerNode\n'}
+[0.166649] (cppp) StdoutLine: {'line': b'[ 40%] Built target ScanTransformer\n'}
+[0.167176] (cppp) StdoutLine: {'line': b'[ 50%] Built target LandmarkTransformermapNode\n'}
+[0.170520] (cppp) StdoutLine: {'line': b'[ 60%] Built target RansacLineExtractionNode\n'}
+[0.171494] (cppp) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o\x1b[0m\n'}
+[0.175176] (cppp) StdoutLine: {'line': b'[ 75%] Built target IncrementalLineFittingNode\n'}
+[0.177095] (cppp) StdoutLine: {'line': b'[ 85%] Built target HoughLineFittingNode\n'}
+[0.184415] (cppp) StdoutLine: {'line': b'[ 95%] Built target ScanAccumulator\n'}
+[0.198506] (-) TimerEvent: {}
+[0.299003] (-) TimerEvent: {}
+[0.399543] (-) TimerEvent: {}
+[0.500024] (-) TimerEvent: {}
+[0.600534] (-) TimerEvent: {}
+[0.701109] (-) TimerEvent: {}
+[0.801655] (-) TimerEvent: {}
+[0.902164] (-) TimerEvent: {}
+[1.002693] (-) TimerEvent: {}
+[1.103059] (-) TimerEvent: {}
+[1.203488] (-) TimerEvent: {}
+[1.303932] (-) TimerEvent: {}
+[1.404347] (-) TimerEvent: {}
+[1.504750] (-) TimerEvent: {}
+[1.605188] (-) TimerEvent: {}
+[1.705663] (-) TimerEvent: {}
+[1.806093] (-) TimerEvent: {}
+[1.906479] (-) TimerEvent: {}
+[2.006903] (-) TimerEvent: {}
+[2.107364] (-) TimerEvent: {}
+[2.207822] (-) TimerEvent: {}
+[2.308263] (-) TimerEvent: {}
+[2.408697] (-) TimerEvent: {}
+[2.509134] (-) TimerEvent: {}
+[2.609576] (-) TimerEvent: {}
+[2.709987] (-) TimerEvent: {}
+[2.810380] (-) TimerEvent: {}
+[2.910856] (-) TimerEvent: {}
+[3.011255] (-) TimerEvent: {}
+[3.111708] (-) TimerEvent: {}
+[3.212115] (-) TimerEvent: {}
+[3.312512] (-) TimerEvent: {}
+[3.412960] (-) TimerEvent: {}
+[3.513372] (-) TimerEvent: {}
+[3.613803] (-) TimerEvent: {}
+[3.714215] (-) TimerEvent: {}
+[3.814652] (-) TimerEvent: {}
+[3.915055] (-) TimerEvent: {}
+[4.015465] (-) TimerEvent: {}
+[4.115898] (-) TimerEvent: {}
+[4.216394] (-) TimerEvent: {}
+[4.316895] (-) TimerEvent: {}
+[4.417321] (-) TimerEvent: {}
+[4.444354] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PoseGraphOptimizer::optimizeGraph()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.444796] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:247:123:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KPoseLandmarkCost::PoseLandmarkCost(const _rho_type&, const _alpha_type&, std::array<double, 4>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.444958] (cppp) StderrLine: {'line': b'  247 |                 new PoseLandmarkCost(constraint.rho, constraint.alpha, convertCovariance<double, 4>(constraint.covariance)\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[4.445088] (cppp) StderrLine: {'line': b'      |                                                                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.445212] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:55:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KPoseLandmarkCost::PoseLandmarkCost(double, double, const Matrix2d&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.445337] (cppp) StderrLine: {'line': b'   55 |     \x1b[01;36m\x1b[KPoseLandmarkCost\x1b[m\x1b[K(double observed_rho, double observed_alpha, const Eigen::Matrix2d& sqrt_information)\n'}
+[4.445458] (cppp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.445579] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:55:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 3 from \xe2\x80\x98\x1b[01m\x1b[Kstd::array<double, 4>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Matrix2d&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::Matrix<double, 2, 2>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.445743] (cppp) StderrLine: {'line': b'   55 |     PoseLandmarkCost(double observed_rho, double observed_alpha, \x1b[01;36m\x1b[Kconst Eigen::Matrix2d& sqrt_information\x1b[m\x1b[K)\n'}
+[4.445869] (cppp) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.445991] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:54:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KPoseLandmarkCost::PoseLandmarkCost(const PoseLandmarkCost&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.446111] (cppp) StderrLine: {'line': b'   54 | struct \x1b[01;36m\x1b[KPoseLandmarkCost\x1b[m\x1b[K {\n'}
+[4.446231] (cppp) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.446353] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:54:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 3 provided\n'}
+[4.446479] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:54:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KPoseLandmarkCost::PoseLandmarkCost(PoseLandmarkCost&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.446646] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:54:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 3 provided\n'}
+[4.517431] (-) TimerEvent: {}
+[4.617862] (-) TimerEvent: {}
+[4.718273] (-) TimerEvent: {}
+[4.818767] (-) TimerEvent: {}
+[4.919173] (-) TimerEvent: {}
+[5.019557] (-) TimerEvent: {}
+[5.120007] (-) TimerEvent: {}
+[5.220417] (-) TimerEvent: {}
+[5.320855] (-) TimerEvent: {}
+[5.421266] (-) TimerEvent: {}
+[5.521654] (-) TimerEvent: {}
+[5.622017] (-) TimerEvent: {}
+[5.722390] (-) TimerEvent: {}
+[5.822807] (-) TimerEvent: {}
+[5.923218] (-) TimerEvent: {}
+[6.023671] (-) TimerEvent: {}
+[6.124082] (-) TimerEvent: {}
+[6.224498] (-) TimerEvent: {}
+[6.324947] (-) TimerEvent: {}
+[6.425307] (-) TimerEvent: {}
+[6.525923] (-) TimerEvent: {}
+[6.626318] (-) TimerEvent: {}
+[6.726696] (-) TimerEvent: {}
+[6.827069] (-) TimerEvent: {}
+[6.927498] (-) TimerEvent: {}
+[7.027936] (-) TimerEvent: {}
+[7.128336] (-) TimerEvent: {}
+[7.228744] (-) TimerEvent: {}
+[7.329124] (-) TimerEvent: {}
+[7.429526] (-) TimerEvent: {}
+[7.529940] (-) TimerEvent: {}
+[7.630314] (-) TimerEvent: {}
+[7.730711] (-) TimerEvent: {}
+[7.831118] (-) TimerEvent: {}
+[7.931492] (-) TimerEvent: {}
+[8.031962] (-) TimerEvent: {}
+[8.132403] (-) TimerEvent: {}
+[8.232809] (-) TimerEvent: {}
+[8.333210] (-) TimerEvent: {}
+[8.433657] (-) TimerEvent: {}
+[8.534062] (-) TimerEvent: {}
+[8.634452] (-) TimerEvent: {}
+[8.734835] (-) TimerEvent: {}
+[8.835187] (-) TimerEvent: {}
+[8.935524] (-) TimerEvent: {}
+[9.035918] (-) TimerEvent: {}
+[9.136302] (-) TimerEvent: {}
+[9.236682] (-) TimerEvent: {}
+[9.337013] (-) TimerEvent: {}
+[9.437350] (-) TimerEvent: {}
+[9.537708] (-) TimerEvent: {}
+[9.638083] (-) TimerEvent: {}
+[9.738449] (-) TimerEvent: {}
+[9.838914] (-) TimerEvent: {}
+[9.939511] (-) TimerEvent: {}
+[10.039936] (-) TimerEvent: {}
+[10.140312] (-) TimerEvent: {}
+[10.240711] (-) TimerEvent: {}
+[10.341109] (-) TimerEvent: {}
+[10.441506] (-) TimerEvent: {}
+[10.541923] (-) TimerEvent: {}
+[10.642519] (-) TimerEvent: {}
+[10.742975] (-) TimerEvent: {}
+[10.843413] (-) TimerEvent: {}
+[10.943871] (-) TimerEvent: {}
+[11.044303] (-) TimerEvent: {}
+[11.144727] (-) TimerEvent: {}
+[11.245304] (-) TimerEvent: {}
+[11.345711] (-) TimerEvent: {}
+[11.446135] (-) TimerEvent: {}
+[11.546481] (-) TimerEvent: {}
+[11.646854] (-) TimerEvent: {}
+[11.747210] (-) TimerEvent: {}
+[11.803366] (cppp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1\n'}
+[11.804059] (cppp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2\n'}
+[11.804622] (cppp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.809748] (cppp) CommandEnded: {'returncode': 2}
+[11.819379] (cppp) JobEnded: {'identifier': 'cppp', 'rc': 2}
+[11.829736] (-) EventReactorShutdown: {}

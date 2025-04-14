@@ -1,0 +1,10 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[ 25%] Built target PreprocessNode
+[ 25%] Built target LandmarkTransformermapNode
+[ 35%] Built target LandmarkGraphNode
+[ 45%] Built target LandmarkTransformerNode
+[ 55%] Built target ScanTransformer
+[ 65%] Built target IncrementalLineFittingNode
+[ 75%] Built target RansacLineExtractionNode
+[ 85%] Built target HoughLineFittingNode
+[ 95%] Built target ScanAccumulator

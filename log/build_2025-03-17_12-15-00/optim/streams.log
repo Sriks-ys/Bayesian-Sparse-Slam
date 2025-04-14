@@ -1,0 +1,27 @@
+[0.027s] Invoking command in '/home/kvothe/ros/build/optim': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/optim:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/optim -- -j12 -l12
+[0.089s] [ 50%] Built target test_ceres
+[0.129s] [ 75%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizationNode.dir/src/PoseGraphOptimizationNode.cpp.o[0m
+[8.794s] [100%] [32m[1mLinking CXX executable PoseGraphOptimizationNode[0m
+[9.386s] [100%] Built target PoseGraphOptimizationNode
+[9.400s] Invoked command in '/home/kvothe/ros/build/optim' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/optim:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/optim -- -j12 -l12
+[9.402s] Invoking command in '/home/kvothe/ros/build/optim': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/optim:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/kvothe/ros/build/optim
+[9.420s] -- Install configuration: ""
+[9.421s] -- Up-to-date: /home/kvothe/ros/install/optim/lib/optim/test_ceres
+[9.421s] -- Installing: /home/kvothe/ros/install/optim/lib/optim/PoseGraphOptimizationNode
+[9.426s] -- Set runtime path of "/home/kvothe/ros/install/optim/lib/optim/PoseGraphOptimizationNode" to ""
+[9.427s] -- Up-to-date: /home/kvothe/ros/install/optim/share/ament_index/resource_index/package_run_dependencies/optim
+[9.427s] -- Up-to-date: /home/kvothe/ros/install/optim/share/ament_index/resource_index/parent_prefix_path/optim
+[9.427s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/environment/ament_prefix_path.sh
+[9.427s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/environment/ament_prefix_path.dsv
+[9.428s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/environment/path.sh
+[9.428s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/environment/path.dsv
+[9.428s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/local_setup.bash
+[9.428s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/local_setup.sh
+[9.428s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/local_setup.zsh
+[9.428s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/local_setup.dsv
+[9.428s] -- Installing: /home/kvothe/ros/install/optim/share/optim/package.dsv
+[9.429s] -- Up-to-date: /home/kvothe/ros/install/optim/share/ament_index/resource_index/packages/optim
+[9.429s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/cmake/optimConfig.cmake
+[9.429s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/cmake/optimConfig-version.cmake
+[9.429s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/package.xml
+[9.431s] Invoked command in '/home/kvothe/ros/build/optim' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/optim:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/kvothe/ros/build/optim

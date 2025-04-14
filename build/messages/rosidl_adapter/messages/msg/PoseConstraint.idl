@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from messages/msg/PoseConstraint.msg
+// generated code does not contain a copyright notice
+
+
+module messages {
+  module msg {
+    typedef float float__9[9];
+    struct PoseConstraint {
+      @verbatim (language="comment", text=
+        "ID of first pose")
+      int32 pose1_id;
+
+      @verbatim (language="comment", text=
+        "ID of second pose")
+      int32 pose2_id;
+
+      @verbatim (language="comment", text=
+        "Relative x displacement")
+      float dx;
+
+      @verbatim (language="comment", text=
+        "Relative y displacement")
+      float dy;
+
+      @verbatim (language="comment", text=
+        "Relative yaw displacement (radians)")
+      float dtheta;
+
+      @verbatim (language="comment", text=
+        "3x3 Covariance matrix (row-major)")
+      float__9 covariance;
+    };
+  };
+};

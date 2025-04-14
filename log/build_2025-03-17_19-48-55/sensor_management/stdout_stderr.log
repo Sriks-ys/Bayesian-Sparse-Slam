@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/sensor_management/sensor_management.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_management/sensor_management.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_management/sensor_management.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_management/sensor_management.egg-info/requires.txt
+writing top-level names to ../../build/sensor_management/sensor_management.egg-info/top_level.txt
+reading manifest file '../../build/sensor_management/sensor_management.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_management/sensor_management.egg-info/SOURCES.txt'
+running build
+running build_py
+copying sensor_management/sparsesampler.py -> /home/kvothe/ros/build/sensor_management/build/lib/sensor_management
+running install
+running install_lib
+copying /home/kvothe/ros/build/sensor_management/build/lib/sensor_management/sparsesampler.py -> /home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages/sensor_management
+byte-compiling /home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages/sensor_management/sparsesampler.py to sparsesampler.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages/sensor_management-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/sensor_management/sensor_management.egg-info to /home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages/sensor_management-0.0.0-py3.10.egg-info
+running install_scripts
+Installing LandmarkLandmarkVisualizationNode script to /home/kvothe/ros/install/sensor_management/lib/sensor_management
+Installing Linesegviz script to /home/kvothe/ros/install/sensor_management/lib/sensor_management
+Installing OptiPoseViz script to /home/kvothe/ros/install/sensor_management/lib/sensor_management
+Installing PoseGraphViz script to /home/kvothe/ros/install/sensor_management/lib/sensor_management
+Installing fusion script to /home/kvothe/ros/install/sensor_management/lib/sensor_management
+Installing linesegmentvisualizer script to /home/kvothe/ros/install/sensor_management/lib/sensor_management
+Installing sparsesampler script to /home/kvothe/ros/install/sensor_management/lib/sensor_management
+writing list of installed files to '/home/kvothe/ros/build/sensor_management/install.log'

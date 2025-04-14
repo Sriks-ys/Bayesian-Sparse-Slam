@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.000835] (-) JobUnselected: {'identifier': 'cppp'}
+[0.000948] (-) JobUnselected: {'identifier': 'messages'}
+[0.000999] (-) JobUnselected: {'identifier': 'optim'}
+[0.001037] (-) JobUnselected: {'identifier': 'robot_control'}
+[0.001086] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.001130] (-) JobUnselected: {'identifier': 'ros_bringup'}
+[0.001168] (-) JobUnselected: {'identifier': 'ros_gazebo'}
+[0.001203] (-) JobUnselected: {'identifier': 'sensor_management'}
+[0.001238] (-) JobUnselected: {'identifier': 'soma'}
+[0.001280] (solver) JobQueued: {'identifier': 'solver', 'dependencies': OrderedDict()}
+[0.001327] (solver) JobStarted: {'identifier': 'solver'}
+[0.010616] (solver) JobProgress: {'identifier': 'solver', 'progress': 'cmake'}
+[0.011432] (solver) JobProgress: {'identifier': 'solver', 'progress': 'build'}
+[0.011995] (solver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kvothe/ros/build/solver', '--', '-j12', '-l12'], 'cwd': '/home/kvothe/ros/build/solver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kvothe'), ('XDG_SESSION_TYPE', 'wayland'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kvothe'), ('OLDPWD', '/home/kvothe/ros/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1040'), ('SYSTEMD_EXEC_PID', '1205'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2222'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kvothe/ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kvothe'), ('JOURNAL_STREAM', '8:8701'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kvothe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1169,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1169'), ('INVOCATION_ID', '9648f710253e42ac9387f88f7a4ef8a2'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E4DU32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/optim:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/'), ('TERMINATOR_UUID', 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kvothe/ros/build/solver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/optim:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[0.081634] (solver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/test_g2o.dir/src/test_g2o.cpp.o\x1b[0m\n'}
+[0.099500] (-) TimerEvent: {}
+[0.199844] (-) TimerEvent: {}
+[0.300199] (-) TimerEvent: {}
+[0.400536] (-) TimerEvent: {}
+[0.500863] (-) TimerEvent: {}
+[0.601213] (-) TimerEvent: {}
+[0.701546] (-) TimerEvent: {}
+[0.801886] (-) TimerEvent: {}
+[0.902224] (-) TimerEvent: {}
+[1.002559] (-) TimerEvent: {}
+[1.102890] (-) TimerEvent: {}
+[1.203226] (-) TimerEvent: {}
+[1.303561] (-) TimerEvent: {}
+[1.403901] (-) TimerEvent: {}
+[1.504235] (-) TimerEvent: {}
+[1.604585] (-) TimerEvent: {}
+[1.704933] (-) TimerEvent: {}
+[1.805268] (-) TimerEvent: {}
+[1.905618] (-) TimerEvent: {}
+[2.005934] (-) TimerEvent: {}
+[2.106267] (-) TimerEvent: {}
+[2.206591] (-) TimerEvent: {}
+[2.306930] (-) TimerEvent: {}
+[2.407269] (-) TimerEvent: {}
+[2.507596] (-) TimerEvent: {}
+[2.607927] (-) TimerEvent: {}
+[2.708260] (-) TimerEvent: {}
+[2.808583] (-) TimerEvent: {}
+[2.908903] (-) TimerEvent: {}
+[3.009224] (-) TimerEvent: {}
+[3.109545] (-) TimerEvent: {}
+[3.209871] (-) TimerEvent: {}
+[3.310193] (-) TimerEvent: {}
+[3.410535] (-) TimerEvent: {}
+[3.510863] (-) TimerEvent: {}
+[3.611180] (-) TimerEvent: {}
+[3.711510] (-) TimerEvent: {}
+[3.811826] (-) TimerEvent: {}
+[3.912173] (-) TimerEvent: {}
+[4.012531] (-) TimerEvent: {}
+[4.112884] (-) TimerEvent: {}
+[4.213225] (-) TimerEvent: {}
+[4.313556] (-) TimerEvent: {}
+[4.413891] (-) TimerEvent: {}
+[4.514233] (-) TimerEvent: {}
+[4.614558] (-) TimerEvent: {}
+[4.714887] (-) TimerEvent: {}
+[4.815796] (-) TimerEvent: {}
+[4.916214] (-) TimerEvent: {}
+[5.016688] (-) TimerEvent: {}
+[5.117074] (-) TimerEvent: {}
+[5.217491] (-) TimerEvent: {}
+[5.317863] (-) TimerEvent: {}
+[5.418254] (-) TimerEvent: {}
+[5.518663] (-) TimerEvent: {}
+[5.619055] (-) TimerEvent: {}
+[5.719447] (-) TimerEvent: {}
+[5.819853] (-) TimerEvent: {}
+[5.920256] (-) TimerEvent: {}
+[6.020696] (-) TimerEvent: {}
+[6.121116] (-) TimerEvent: {}
+[6.221530] (-) TimerEvent: {}
+[6.321915] (-) TimerEvent: {}
+[6.422311] (-) TimerEvent: {}
+[6.522738] (-) TimerEvent: {}
+[6.623126] (-) TimerEvent: {}
+[6.723543] (-) TimerEvent: {}
+[6.823944] (-) TimerEvent: {}
+[6.924368] (-) TimerEvent: {}
+[7.024788] (-) TimerEvent: {}
+[7.125179] (-) TimerEvent: {}
+[7.225566] (-) TimerEvent: {}
+[7.325959] (-) TimerEvent: {}
+[7.426358] (-) TimerEvent: {}
+[7.526769] (-) TimerEvent: {}
+[7.627166] (-) TimerEvent: {}
+[7.727560] (-) TimerEvent: {}
+[7.827946] (-) TimerEvent: {}
+[7.928335] (-) TimerEvent: {}
+[8.028744] (-) TimerEvent: {}
+[8.129135] (-) TimerEvent: {}
+[8.229544] (-) TimerEvent: {}
+[8.329929] (-) TimerEvent: {}
+[8.430319] (-) TimerEvent: {}
+[8.530735] (-) TimerEvent: {}
+[8.631304] (-) TimerEvent: {}
+[8.731732] (-) TimerEvent: {}
+[8.832130] (-) TimerEvent: {}
+[8.932549] (-) TimerEvent: {}
+[9.032948] (-) TimerEvent: {}
+[9.133337] (-) TimerEvent: {}
+[9.233750] (-) TimerEvent: {}
+[9.334307] (-) TimerEvent: {}
+[9.434739] (-) TimerEvent: {}
+[9.535155] (-) TimerEvent: {}
+[9.635556] (-) TimerEvent: {}
+[9.735957] (-) TimerEvent: {}
+[9.836366] (-) TimerEvent: {}
+[9.936794] (-) TimerEvent: {}
+[10.037167] (-) TimerEvent: {}
+[10.137547] (-) TimerEvent: {}
+[10.237922] (-) TimerEvent: {}
+[10.338300] (-) TimerEvent: {}
+[10.438697] (-) TimerEvent: {}
+[10.539074] (-) TimerEvent: {}
+[10.639485] (-) TimerEvent: {}
+[10.739859] (-) TimerEvent: {}
+[10.840586] (-) TimerEvent: {}
+[10.940968] (-) TimerEvent: {}
+[11.041349] (-) TimerEvent: {}
+[11.141753] (-) TimerEvent: {}
+[11.242136] (-) TimerEvent: {}
+[11.342538] (-) TimerEvent: {}
+[11.443078] (-) TimerEvent: {}
+[11.543490] (-) TimerEvent: {}
+[11.643877] (-) TimerEvent: {}
+[11.744260] (-) TimerEvent: {}
+[11.844665] (-) TimerEvent: {}
+[11.945057] (-) TimerEvent: {}
+[12.045446] (-) TimerEvent: {}
+[12.146002] (-) TimerEvent: {}
+[12.246389] (-) TimerEvent: {}
+[12.346800] (-) TimerEvent: {}
+[12.447183] (-) TimerEvent: {}
+[12.547568] (-) TimerEvent: {}
+[12.648228] (-) TimerEvent: {}
+[12.748605] (-) TimerEvent: {}
+[12.848993] (-) TimerEvent: {}
+[12.949590] (-) TimerEvent: {}
+[13.049963] (-) TimerEvent: {}
+[13.150360] (-) TimerEvent: {}
+[13.250804] (-) TimerEvent: {}
+[13.351222] (-) TimerEvent: {}
+[13.451704] (-) TimerEvent: {}
+[13.552161] (-) TimerEvent: {}
+[13.652611] (-) TimerEvent: {}
+[13.740879] (solver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_g2o\x1b[0m\n'}
+[13.752744] (-) TimerEvent: {}
+[13.853150] (-) TimerEvent: {}
+[13.953607] (-) TimerEvent: {}
+[14.042768] (solver) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/test_g2o.dir/src/test_g2o.cpp.o: undefined reference to symbol '_ZN3fmt2v86detail18throw_format_errorEPKc'\n"}
+[14.043033] (solver) StderrLine: {'line': b'/usr/bin/ld: /lib/x86_64-linux-gnu/libfmt.so.8: error adding symbols: DSO missing from command line\n'}
+[14.048238] (solver) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[14.052483] (solver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/test_g2o.dir/build.make:151: test_g2o] Error 1\n'}
+[14.053031] (solver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test_g2o.dir/all] Error 2\n'}
+[14.053535] (solver) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[14.053661] (-) TimerEvent: {}
+[14.058696] (solver) CommandEnded: {'returncode': 2}
+[14.066541] (solver) JobEnded: {'identifier': 'solver', 'rc': 2}
+[14.077218] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+/home/kvothe/ros/build/messages/rosidl_typesupport_fastrtps_cpp/messages/msg/detail/line_segment__rosidl_typesupport_fastrtps_cpp.hpp

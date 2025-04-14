@@ -1,0 +1,81 @@
+[0.353s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j16 -l16
+[0.405s] [35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[0.408s] [ 10%] Built target PreprocessNode
+[0.412s] [ 30%] Built target LandmarkGraphNode
+[0.412s] [ 30%] Built target LandmarkTransformermapNode
+[0.414s] [ 40%] Built target ScanTransformer
+[0.414s] [ 50%] Built target HoughLineFittingNode
+[0.415s] [ 60%] Built target IncrementalLineFittingNode
+[0.415s] [ 70%] Built target RansacLineExtractionNode
+[0.415s] [ 80%] Built target LandmarkTransformerNode
+[0.419s] [ 90%] Built target ScanAccumulator
+[0.429s] [ 95%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[4.880s] In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/Values.h:27[m[K,
+[4.880s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactor.h:24[m[K,
+[4.880s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+[4.880s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+[4.880s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+[4.881s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[4.881s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Key.h:[m[K In static member function ‘[01m[Kstatic bool gtsam::traits<long unsigned int>::Equals(const Key&, const Key&, double)[m[K’:
+[4.881s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Key.h:127:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktol[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.881s]   127 |   static bool Equals(const Key& val1, const Key& val2, [01;35m[Kdouble tol = 1e-8[m[K) {
+[4.881s]       |                                                        [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[5.204s] In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/NoiseModel.h:25[m[K,
+[5.204s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactor.h:26[m[K,
+[5.204s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+[5.204s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+[5.204s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+[5.204s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[5.204s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/LossFunctions.h:[m[K In member function ‘[01m[Kvirtual double gtsam::noiseModel::mEstimator::Base::loss(double) const[m[K’:
+[5.204s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/LossFunctions.h:97:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdistance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.204s]    97 |   virtual double loss([01;35m[Kdouble distance[m[K) const { return 0; }
+[5.204s]       |                       [01;35m[K~~~~~~~^~~~~~~~[m[K
+[5.226s] In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactor.h:26[m[K,
+[5.226s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+[5.226s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+[5.226s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+[5.226s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[5.226s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/NoiseModel.h:[m[K In member function ‘[01m[Kvirtual double gtsam::noiseModel::Base::weight(const Vector&) const[m[K’:
+[5.226s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/NoiseModel.h:141:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.226s]   141 |       virtual double weight([01;35m[Kconst Vector& v[m[K) const { return 1.0; }
+[5.226s]       |                             [01;35m[K~~~~~~~~~~~~~~^[m[K
+[5.609s] In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizerParams.h:24[m[K,
+[5.610s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:22[m[K,
+[5.610s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+[5.610s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[5.610s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianFactorGraph.h:[m[K In static member function ‘[01m[Kstatic gtsam::Ordering gtsam::EliminationTraits<gtsam::GaussianFactorGraph>::DefaultOrderingFunc(const FactorGraphType&, std::optional<std::reference_wrapper<const gtsam::VariableIndex> >)[m[K’:
+[5.610s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianFactorGraph.h:60:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgraph[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.610s]    60 |         [01;35m[Kconst FactorGraphType& graph[m[K,
+[5.610s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[6.254s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::poseGraphCallback(messages::msg::PoseGraph_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.254s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:163:20:[m[K [01;31m[Kerror: [m[K‘[01m[KBearingRangeFactor2D[m[K’ is not a member of ‘[01m[Kgtsam[m[K’
+[6.254s]   163 |             gtsam::[01;31m[KBearingRangeFactor2D[m[K<gtsam::Pose2, gtsam::Point2> br_factor(pose_key, landmark_key,
+[6.254s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.254s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:163:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[6.255s]   163 |             gtsam::BearingRangeFactor2D<gtsam::Pose2[01;31m[K,[m[K gtsam::Point2> br_factor(pose_key, landmark_key,
+[6.255s]       |                                                     [01;31m[K^[m[K
+[6.255s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:163:68:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[6.255s]   163 |             gtsam::BearingRangeFactor2D<gtsam::Pose2, gtsam::Point2[01;31m[K>[m[K br_factor(pose_key, landmark_key,
+[6.255s]       |                                                                    [01;31m[K^[m[K
+[6.290s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:163:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kbr_factor[m[K’ was not declared in this scope
+[6.290s]   163 |             gtsam::BearingRangeFactor2D<gtsam::Pose2, gtsam::Point2> [01;31m[Kbr_factor[m[K(pose_key, landmark_key,
+[6.290s]       |                                                                      [01;31m[K^~~~~~~~~[m[K
+[14.119s] In file included from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianConditional.h:25[m[K,
+[14.119s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianBayesNet.h:23[m[K,
+[14.119s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianBayesTree.h:22[m[K,
+[14.119s]                  from [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/Marginals.h:21[m[K,
+[14.119s]                  from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:16[m[K:
+[14.119s] /home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h: In instantiation of ‘[01m[Kdouble gtsam::Conditional<FACTOR, DERIVEDCONDITIONAL>::logProbability(const gtsam::HybridValues&) const [with FACTOR = gtsam::JacobianFactor; DERIVEDCONDITIONAL = gtsam::GaussianConditional][m[K’:
+[14.119s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:48:8:[m[K   required from here
+[14.119s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:49:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.119s]    49 |     [01;35m[Kconst HybridValues& c[m[K) const {
+[14.119s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[14.119s] /home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h: In instantiation of ‘[01m[Kdouble gtsam::Conditional<FACTOR, DERIVEDCONDITIONAL>::evaluate(const gtsam::HybridValues&) const [with FACTOR = gtsam::JacobianFactor; DERIVEDCONDITIONAL = gtsam::GaussianConditional][m[K’:
+[14.119s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:55:8:[m[K   required from here
+[14.119s] [01m[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:56:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.120s]    56 |     [01;35m[Kconst HybridValues& c[m[K) const {
+[14.120s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~^[m[K
+[15.601s] gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+[15.602s] gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+[15.602s] gmake: *** [Makefile:146: all] Error 2
+[15.606s] Invoked command in '/home/kvothe/ros/build/cppp' returned '2': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j16 -l16

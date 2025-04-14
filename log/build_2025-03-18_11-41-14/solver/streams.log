@@ -1,0 +1,23 @@
+[0.012s] Invoking command in '/home/kvothe/ros/build/solver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/solver -- -j12 -l12
+[0.047s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.175s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.201s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.203s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.208s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.217s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.228s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.256s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.257s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.376s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.491s] -- Configuring done
+[0.500s] -- Generating done
+[0.503s] -- Build files have been written to: /home/kvothe/ros/build/solver
+[0.540s] [35m[1mConsolidate compiler generated dependencies of target test_g2o[0m
+[0.571s] [ 50%] [32m[1mLinking CXX executable test_g2o[0m
+[0.842s] /usr/bin/ld: CMakeFiles/test_g2o.dir/src/test_g2o.cpp.o: undefined reference to symbol '_ZN3fmt2v86detail18throw_format_errorEPKc'
+[0.842s] /usr/bin/ld: /lib/x86_64-linux-gnu/libfmt.so.8: error adding symbols: DSO missing from command line
+[0.847s] collect2: error: ld returned 1 exit status
+[0.851s] gmake[2]: *** [CMakeFiles/test_g2o.dir/build.make:151: test_g2o] Error 1
+[0.852s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test_g2o.dir/all] Error 2
+[0.853s] gmake: *** [Makefile:146: all] Error 2
+[0.857s] Invoked command in '/home/kvothe/ros/build/solver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/solver -- -j12 -l12

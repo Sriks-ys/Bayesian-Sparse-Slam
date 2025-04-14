@@ -1,0 +1,12 @@
+[0.019s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12
+[0.292s] [35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[0.292s] [  5%] [32mBuilding CXX object CMakeFiles/LandmarkTransformermapNode.dir/src/LandmarkTransformermapNode.cpp.o[0m
+[0.292s] [ 15%] [32mBuilding CXX object CMakeFiles/LandmarkGraphNode.dir/src/LandmarkGraphNode.cpp.o[0m
+[0.292s] [ 20%] Built target PreprocessNode
+[0.293s] [ 30%] Built target ScanTransformer
+[0.293s] [ 35%] [32mBuilding CXX object CMakeFiles/LandmarkTransformerNode.dir/src/LandmarkTransformerNode.cpp.o[0m
+[0.293s] [ 45%] [32mBuilding CXX object CMakeFiles/IncrementalLineFittingNode.dir/src/IncrementalLineFittingNode.cpp.o[0m
+[0.293s] [ 45%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[0.293s] [ 50%] [32mBuilding CXX object CMakeFiles/RansacLineExtractionNode.dir/src/RansacLineExtractionNode.cpp.o[0m
+[0.293s] [ 60%] [32mBuilding CXX object CMakeFiles/HoughLineFittingNode.dir/src/HoughLineFittingNode.cpp.o[0m
+[0.293s] [ 65%] Built target ScanAccumulator

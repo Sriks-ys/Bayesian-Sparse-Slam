@@ -1,0 +1,13 @@
+[0.038s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/optim:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target HoughLineFittingNode[0m
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target ScanAccumulator[0m
+[0.294s] [ 12%] Built target LandmarkGraphNode
+[0.294s] [ 25%] Built target PreprocessNode
+[0.294s] [ 50%] Built target LandmarkTransformermapNode
+[0.294s] [ 50%] Built target LandmarkTransformerNode
+[0.294s] [ 68%] [32mBuilding CXX object CMakeFiles/RansacLineExtractionNode.dir/src/RansacLineExtractionNode.cpp.o[0m
+[0.294s] [ 68%] Built target IncrementalLineFittingNode
+[0.294s] [ 81%] Built target ScanAccumulator
+[0.294s] [ 93%] Built target HoughLineFittingNode
+[12.683s] [100%] [32m[1mLinking CXX executable RansacLineExtractionNode[0m
+[14.638s] [100%] Built target RansacLineExtractionNode

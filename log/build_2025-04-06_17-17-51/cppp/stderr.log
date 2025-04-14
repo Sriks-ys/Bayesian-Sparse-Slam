@@ -1,0 +1,13 @@
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:219:66:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Karray<[01;32m[Kfloat[m[K,[...]>[m[K’ to non-scalar type ‘[01m[Karray<[01;32m[Kdouble[m[K,[...]>[m[K’ requested
+  219 |             std::array<double, 9> scaled_covariance = [01;31m[Kconstraint.covariance[m[K;
+      |                                                       [01;31m[K~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:225:112:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst std::array<float, 9>&[m[K’ from expression of type ‘[01m[Kstd::array<double, 9>[m[K’
+  225 |                 new PosePoseCost(constraint.dx, constraint.dy, constraint.dtheta, convertCovariance<double, 9>([01;31m[Kscaled_covariance[m[K)));
+      |                                                                                                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:121:64:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Kstd::array<_Tp, _Nm> convertCovariance(const std::array<float, N>&) [with T = double; long unsigned int N = 9][m[K’
+  121 | std::array<T, N> convertCovariance([01;36m[Kconst std::array<float, N> &covariance[m[K) {
+      |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

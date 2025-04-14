@@ -1,0 +1,996 @@
+[0.000000] (-) TimerEvent: {}
+[0.000354] (messages) JobQueued: {'identifier': 'messages', 'dependencies': OrderedDict()}
+[0.000437] (robot_control) JobQueued: {'identifier': 'robot_control', 'dependencies': OrderedDict()}
+[0.000491] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000538] (cppp) JobQueued: {'identifier': 'cppp', 'dependencies': OrderedDict([('messages', '/home/kvothe/ros/install/messages')])}
+[0.000589] (ros_gazebo) JobQueued: {'identifier': 'ros_gazebo', 'dependencies': OrderedDict([('robot_description', '/home/kvothe/ros/install/robot_description')])}
+[0.000636] (sensor_management) JobQueued: {'identifier': 'sensor_management', 'dependencies': OrderedDict([('messages', '/home/kvothe/ros/install/messages')])}
+[0.000680] (soma) JobQueued: {'identifier': 'soma', 'dependencies': OrderedDict([('messages', '/home/kvothe/ros/install/messages')])}
+[0.000724] (ros_bringup) JobQueued: {'identifier': 'ros_bringup', 'dependencies': OrderedDict([('messages', '/home/kvothe/ros/install/messages'), ('robot_control', '/home/kvothe/ros/install/robot_control'), ('robot_description', '/home/kvothe/ros/install/robot_description'), ('cppp', '/home/kvothe/ros/install/cppp'), ('ros_gazebo', '/home/kvothe/ros/install/ros_gazebo'), ('sensor_management', '/home/kvothe/ros/install/sensor_management'), ('soma', '/home/kvothe/ros/install/soma')])}
+[0.000780] (messages) JobStarted: {'identifier': 'messages'}
+[0.009334] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.013085] (robot_control) JobStarted: {'identifier': 'robot_control'}
+[0.020156] (messages) JobProgress: {'identifier': 'messages', 'progress': 'cmake'}
+[0.021530] (messages) JobProgress: {'identifier': 'messages', 'progress': 'build'}
+[0.021560] (messages) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kvothe/ros/build/messages', '--', '-j12', '-l12'], 'cwd': '/home/kvothe/ros/build/messages', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kvothe'), ('XDG_SESSION_TYPE', 'wayland'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kvothe'), ('OLDPWD', '/home/kvothe'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1044'), ('SYSTEMD_EXEC_PID', '1210'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2852'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kvothe/ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kvothe'), ('JOURNAL_STREAM', '8:3950'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kvothe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kvothe/.local/bin:/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1169,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1169'), ('INVOCATION_ID', '1f88bae818d04095b12166cc3ff0be02'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PLW232'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/'), ('TERMINATOR_UUID', 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kvothe/ros/build/messages'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[0.024657] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.025658] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[0.026398] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kvothe/ros/build/robot_description', '--', '-j12', '-l12'], 'cwd': '/home/kvothe/ros/build/robot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kvothe'), ('XDG_SESSION_TYPE', 'wayland'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kvothe'), ('OLDPWD', '/home/kvothe'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1044'), ('SYSTEMD_EXEC_PID', '1210'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2852'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kvothe/ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kvothe'), ('JOURNAL_STREAM', '8:3950'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kvothe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kvothe/.local/bin:/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1169,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1169'), ('INVOCATION_ID', '1f88bae818d04095b12166cc3ff0be02'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PLW232'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/'), ('TERMINATOR_UUID', 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kvothe/ros/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[0.072592] (robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.080794] (messages) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099232] (-) TimerEvent: {}
+[0.199641] (-) TimerEvent: {}
+[0.199994] (robot_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.200746] (messages) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.215184] (robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.216246] (messages) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.221300] (messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.224692] (messages) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.264483] (messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.294024] (messages) StdoutLine: {'line': b'-- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.299728] (-) TimerEvent: {}
+[0.309802] (robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.311439] (robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.312928] (robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.318988] (robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.320670] (messages) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.321001] (robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/kvothe/ros/build/robot_description\n'}
+[0.354230] (robot_description) CommandEnded: {'returncode': 0}
+[0.354903] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[0.372645] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kvothe/ros/build/robot_description'], 'cwd': '/home/kvothe/ros/build/robot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kvothe'), ('XDG_SESSION_TYPE', 'wayland'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kvothe'), ('OLDPWD', '/home/kvothe'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1044'), ('SYSTEMD_EXEC_PID', '1210'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2852'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kvothe/ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kvothe'), ('JOURNAL_STREAM', '8:3950'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kvothe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kvothe/.local/bin:/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1169,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1169'), ('INVOCATION_ID', '1f88bae818d04095b12166cc3ff0be02'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PLW232'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/'), ('TERMINATOR_UUID', 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kvothe/ros/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[0.386467] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.387356] (robot_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.388341] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/robot_description/models/Crawler/model.config\n'}
+[0.388733] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/robot_description/models/Crawler/model.sdf\n'}
+[0.388867] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/robot_description/models/DummySt/model.config\n'}
+[0.389011] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/robot_description/models/DummySt/model.sdf\n'}
+[0.389196] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/robot_description/environment/robot_description.dsv\n'}
+[0.389368] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/robot_description/environment/robot_description.sh\n'}
+[0.389533] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[0.389767] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[0.389951] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[0.390117] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[0.390294] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/robot_description/environment/path.sh\n'}
+[0.390471] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[0.390646] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/robot_description/local_setup.bash\n'}
+[0.390833] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/robot_description/local_setup.sh\n'}
+[0.391008] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[0.391165] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[0.391307] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/kvothe/ros/install/robot_description/share/robot_description/package.dsv\n'}
+[0.399869] (-) TimerEvent: {}
+[0.401551] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[0.401822] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[0.402033] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[0.402185] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/robot_description/share/robot_description/package.xml\n'}
+[0.404196] (robot_description) CommandEnded: {'returncode': 0}
+[0.421770] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[0.422878] (ros_gazebo) JobStarted: {'identifier': 'ros_gazebo'}
+[0.430787] (ros_gazebo) JobProgress: {'identifier': 'ros_gazebo', 'progress': 'cmake'}
+[0.431811] (ros_gazebo) JobProgress: {'identifier': 'ros_gazebo', 'progress': 'build'}
+[0.432939] (ros_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kvothe/ros/build/ros_gazebo', '--', '-j12', '-l12'], 'cwd': '/home/kvothe/ros/build/ros_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kvothe'), ('XDG_SESSION_TYPE', 'wayland'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kvothe'), ('OLDPWD', '/home/kvothe'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1044'), ('SYSTEMD_EXEC_PID', '1210'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2852'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kvothe/ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kvothe'), ('JOURNAL_STREAM', '8:3950'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kvothe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kvothe/.local/bin:/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1169,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1169'), ('INVOCATION_ID', '1f88bae818d04095b12166cc3ff0be02'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PLW232'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/'), ('TERMINATOR_UUID', 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/kvothe/ros/install/robot_description/share/robot_description/models:/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kvothe/ros/build/ros_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[0.483073] (ros_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499991] (-) TimerEvent: {}
+[0.600358] (-) TimerEvent: {}
+[0.609171] (robot_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_control', 'build', '--build-base', '/home/kvothe/ros/build/robot_control/build', 'install', '--record', '/home/kvothe/ros/build/robot_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kvothe/ros/src/robot_control', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'kvothe', 'XDG_SESSION_TYPE': 'wayland', '__GLX_VENDOR_LIBRARY_NAME': 'nvidia', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kvothe', 'OLDPWD': '/home/kvothe', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1044', 'SYSTEMD_EXEC_PID': '1210', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2852', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kvothe/ros/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kvothe', 'JOURNAL_STREAM': '8:3950', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kvothe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/kvothe/.local/bin:/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1169,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1169', 'INVOCATION_ID': '1f88bae818d04095b12166cc3ff0be02', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PLW232', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble', 'SHELL': '/bin/bash', 'IGN_GAZEBO_SYSTEM_PLUGIN_PATH': '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/', 'TERMINATOR_UUID': 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'GZ_VERSION': 'fortress', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kvothe/ros/build/robot_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kvothe/ros/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages'}, 'shell': False}
+[0.611971] (ros_gazebo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.618722] (ros_gazebo) StdoutLine: {'line': b'-- Found robot_description: 0.0.0 (/home/kvothe/ros/install/robot_description/share/robot_description/cmake)\n'}
+[0.626476] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[0.627102] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[0.627787] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [register]\n'}
+[0.628442] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-plugin1-register -- found version 1.4.0\n'}
+[0.628883] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-register\n'}
+[0.630036] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[0.630358] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[0.630711] (ros_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.630813] (ros_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.640987] (ros_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.666791] (ros_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.672065] (messages) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.700473] (-) TimerEvent: {}
+[0.714018] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [profiler]\n'}
+[0.714889] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4-profiler -- found version 4.7.0\n'}
+[0.715285] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-profiler\n'}
+[0.716830] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-gazebo6 -- found version 6.17.0\n'}
+[0.717225] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gazebo6\n'}
+[0.718141] (ros_gazebo) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[0.718538] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of sdformat12\n'}
+[0.726270] (ros_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.747218] (ros_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.788369] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.788666] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.789925] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[0.790224] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[0.791894] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[0.792207] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[0.792367] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [loader]\n'}
+[0.792839] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-plugin1-loader -- found version 1.4.0\n'}
+[0.793242] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-loader\n'}
+[0.793759] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [register]\n'}
+[0.794710] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[0.795020] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11\n'}
+[0.800590] (-) TimerEvent: {}
+[0.820533] (robot_control) StdoutLine: {'line': b'running egg_info\n'}
+[0.821181] (robot_control) StdoutLine: {'line': b'writing ../../build/robot_control/robot_control.egg-info/PKG-INFO\n'}
+[0.821665] (robot_control) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt\n'}
+[0.821831] (robot_control) StdoutLine: {'line': b'writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt\n'}
+[0.821957] (robot_control) StdoutLine: {'line': b'writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt\n'}
+[0.822058] (robot_control) StdoutLine: {'line': b'writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt\n'}
+[0.823689] (robot_control) StdoutLine: {'line': b"reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'\n"}
+[0.824509] (robot_control) StdoutLine: {'line': b"writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'\n"}
+[0.824675] (robot_control) StdoutLine: {'line': b'running build\n'}
+[0.824767] (robot_control) StdoutLine: {'line': b'running build_py\n'}
+[0.825057] (robot_control) StdoutLine: {'line': b'running install\n'}
+[0.825353] (robot_control) StdoutLine: {'line': b'running install_lib\n'}
+[0.826713] (robot_control) StdoutLine: {'line': b'running install_data\n'}
+[0.826856] (robot_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.829760] (robot_control) StdoutLine: {'line': b"removing '/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.830660] (robot_control) StdoutLine: {'line': b'Copying ../../build/robot_control/robot_control.egg-info to /home/kvothe/ros/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info\n'}
+[0.831745] (robot_control) StdoutLine: {'line': b'running install_scripts\n'}
+[0.849463] (ros_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.849748] (robot_control) StdoutLine: {'line': b'Installing dummycontrol script to /home/kvothe/ros/install/robot_control/lib/robot_control\n'}
+[0.850115] (robot_control) StdoutLine: {'line': b"writing list of installed files to '/home/kvothe/ros/build/robot_control/install.log'\n"}
+[0.856757] (ros_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.878953] (ros_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[0.882199] (robot_control) CommandEnded: {'returncode': 0}
+[0.890502] (robot_control) JobEnded: {'identifier': 'robot_control', 'rc': 0}
+[0.900722] (-) TimerEvent: {}
+[0.928885] (messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.948576] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[0.948912] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[0.949135] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-utils1> component [cli]\n'}
+[0.949675] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-utils1-cli -- found version 1.5.1\n'}
+[0.950055] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1-cli\n'}
+[0.951269] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[0.951603] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs8\n'}
+[0.973078] (ros_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[0.973830] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.983016] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [log]\n'}
+[0.983524] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport11-log -- found version 11.4.1\n'}
+[0.983925] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-log\n'}
+[0.984376] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [parameters]\n'}
+[0.985060] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport11-parameters -- found version 11.4.1\n'}
+[0.985441] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-parameters\n'}
+[0.986465] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[0.986773] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[0.987087] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[0.987316] (ros_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.987452] (ros_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.996907] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [profiler]\n'}
+[0.997270] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[0.998196] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4-events -- found version 4.7.0\n'}
+[0.998611] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-events\n'}
+[0.998917] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.999358] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [av]\n'}
+[1.000209] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4-av -- found version 4.7.0\n'}
+[1.000806] (-) TimerEvent: {}
+[1.001174] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-av\n'}
+[1.008292] (ros_gazebo) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[1.025671] (ros_gazebo) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[1.071164] (ros_gazebo) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[1.087115] (ros_gazebo) StdoutLine: {'line': b'--   Found libavdevice , version 58.13.100\n'}
+[1.100952] (-) TimerEvent: {}
+[1.156084] (ros_gazebo) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[1.178360] (ros_gazebo) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[1.201102] (-) TimerEvent: {}
+[1.268706] (ros_gazebo) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[1.301281] (-) TimerEvent: {}
+[1.305360] (ros_gazebo) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[1.305844] (messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.331307] (messages) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.358181] (messages) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.358513] (messages) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.358685] (messages) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.377475] (ros_gazebo) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[1.400825] (ros_gazebo) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[1.401358] (-) TimerEvent: {}
+[1.421846] (messages) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.437271] (messages) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.438716] (messages) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.443159] (messages) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.457068] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools7 -- found version 7.3.1\n'}
+[1.457340] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools7\n'}
+[1.501539] (-) TimerEvent: {}
+[1.510940] (ros_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.513671] (messages) StdoutLine: {'line': b'-- Generating done\n'}
+[1.526235] (messages) StdoutLine: {'line': b'-- Build files have been written to: /home/kvothe/ros/build/messages\n'}
+[1.527307] (ros_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.559367] (messages) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.569971] (messages) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.579392] (messages) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_messages\n'}
+[1.586758] (ros_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.601639] (-) TimerEvent: {}
+[1.603203] (ros_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.643009] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.643320] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.643599] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.645372] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-gui6 -- found version 6.8.0\n'}
+[1.645727] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gui6\n'}
+[1.679034] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.679294] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.679643] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.679982] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[1.680716] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[1.681110] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-rendering6\n'}
+[1.681425] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.681794] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.681926] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-math6> component [eigen3]\n'}
+[1.682650] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6-eigen3 -- found version 6.15.1\n'}
+[1.683021] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6-eigen3\n'}
+[1.686518] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.686851] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[1.687021] (ros_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.687117] (ros_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.697449] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [graphics]\n'}
+[1.698084] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4-graphics -- found version 4.7.0\n'}
+[1.698515] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-graphics\n'}
+[1.698831] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.699168] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.700369] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[1.701722] (-) TimerEvent: {}
+[1.701933] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.702726] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[1.702930] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [all]\n'}
+[1.703833] (ros_gazebo) StdoutLine: {'line': b'-- Looking for all libraries of ignition-plugin1 -- found version 1.4.0\n'}
+[1.704658] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.706733] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.731805] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-physics5 -- found version 5.3.2\n'}
+[1.732166] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5\n'}
+[1.732402] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.732707] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[1.733040] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.734132] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [heightmap]\n'}
+[1.734706] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-physics5-heightmap -- found version 5.3.2\n'}
+[1.735085] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-heightmap\n'}
+[1.735378] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.735784] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [mesh]\n'}
+[1.736328] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-physics5-mesh -- found version 5.3.2\n'}
+[1.736739] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-mesh\n'}
+[1.737024] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.737381] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-physics5> component [sdf]\n'}
+[1.737961] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-physics5-sdf -- found version 5.3.2\n'}
+[1.738296] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-physics5-sdf\n'}
+[1.738604] (ros_gazebo) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[1.740052] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.740379] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6\n'}
+[1.761787] (ros_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.762481] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.762838] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[1.763137] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[1.763506] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[1.763872] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[1.764171] (ros_gazebo) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[1.765250] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [air_pressure]\n'}
+[1.766245] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-air_pressure -- found version 6.8.1\n'}
+[1.767271] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-air_pressure\n'}
+[1.768117] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [altimeter]\n'}
+[1.768774] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-altimeter -- found version 6.8.1\n'}
+[1.769174] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-altimeter\n'}
+[1.769696] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [imu]\n'}
+[1.770233] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-imu -- found version 6.8.1\n'}
+[1.770641] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-imu\n'}
+[1.771144] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [force_torque]\n'}
+[1.771739] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-force_torque -- found version 6.8.1\n'}
+[1.772092] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-force_torque\n'}
+[1.772588] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [logical_camera]\n'}
+[1.773267] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-logical_camera -- found version 6.8.1\n'}
+[1.773645] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-logical_camera\n'}
+[1.774341] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [magnetometer]\n'}
+[1.775227] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-magnetometer -- found version 6.8.1\n'}
+[1.775598] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-magnetometer\n'}
+[1.776377] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [navsat]\n'}
+[1.777049] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-navsat -- found version 6.8.1\n'}
+[1.777383] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-navsat\n'}
+[1.777922] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rendering]\n'}
+[1.778799] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rendering -- found version 6.8.1\n'}
+[1.779162] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rendering\n'}
+[1.779689] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [lidar]\n'}
+[1.780511] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-lidar -- found version 6.8.1\n'}
+[1.781077] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-lidar\n'}
+[1.781385] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.781991] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [gpu_lidar]\n'}
+[1.782541] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.1\n'}
+[1.782899] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-gpu_lidar\n'}
+[1.783197] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.783905] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [camera]\n'}
+[1.784566] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-camera -- found version 6.8.1\n'}
+[1.784922] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-camera\n'}
+[1.785198] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.785795] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [boundingbox_camera]\n'}
+[1.786298] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.1\n'}
+[1.786698] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-boundingbox_camera\n'}
+[1.787196] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [segmentation_camera]\n'}
+[1.788074] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.1\n'}
+[1.788474] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-segmentation_camera\n'}
+[1.788998] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [depth_camera]\n'}
+[1.789877] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-depth_camera -- found version 6.8.1\n'}
+[1.790257] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-depth_camera\n'}
+[1.790566] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.791119] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [rgbd_camera]\n'}
+[1.791713] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.1\n'}
+[1.792098] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-rgbd_camera\n'}
+[1.792397] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.792950] (ros_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-sensors6> component [thermal_camera]\n'}
+[1.793540] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6-thermal_camera -- found version 6.8.1\n'}
+[1.793928] (ros_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-sensors6-thermal_camera\n'}
+[1.794235] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-sensors6 -- found version 6.8.1\n'}
+[1.795329] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.3\n'}
+[1.795650] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.796253] (ros_gazebo) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[1.801848] (-) TimerEvent: {}
+[1.805034] (messages) StdoutLine: {'line': b'running egg_info\n'}
+[1.805693] (messages) StdoutLine: {'line': b'writing messages.egg-info/PKG-INFO\n'}
+[1.805944] (messages) StdoutLine: {'line': b'writing dependency_links to messages.egg-info/dependency_links.txt\n'}
+[1.806157] (messages) StdoutLine: {'line': b'writing top-level names to messages.egg-info/top_level.txt\n'}
+[1.808367] (messages) StdoutLine: {'line': b"reading manifest file 'messages.egg-info/SOURCES.txt'\n"}
+[1.809138] (messages) StdoutLine: {'line': b"writing manifest file 'messages.egg-info/SOURCES.txt'\n"}
+[1.820915] (ros_gazebo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.853432] (messages) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_messages_egg\n'}
+[1.889148] (ros_gazebo) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.890877] (ros_gazebo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.891127] (ros_gazebo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/kvothe/ros/src/ros_gazebo/include\n'}
+[1.891253] (ros_gazebo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.892208] (ros_gazebo) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.892293] (ros_gazebo) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.892958] (ros_gazebo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.894177] (ros_gazebo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.894273] (ros_gazebo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.894525] (ros_gazebo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.895645] (ros_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.901966] (-) TimerEvent: {}
+[1.918325] (ros_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[1.922677] (ros_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/kvothe/ros/build/ros_gazebo\n'}
+[1.962074] (ros_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target FullSystem\x1b[0m\n'}
+[1.962309] (ros_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target BasicSystem\x1b[0m\n'}
+[1.978842] (ros_gazebo) StdoutLine: {'line': b'[ 50%] Built target FullSystem\n'}
+[1.984697] (ros_gazebo) StdoutLine: {'line': b'[100%] Built target BasicSystem\n'}
+[1.999308] (ros_gazebo) CommandEnded: {'returncode': 0}
+[2.000290] (ros_gazebo) JobProgress: {'identifier': 'ros_gazebo', 'progress': 'install'}
+[2.001180] (ros_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kvothe/ros/build/ros_gazebo'], 'cwd': '/home/kvothe/ros/build/ros_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kvothe'), ('XDG_SESSION_TYPE', 'wayland'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kvothe'), ('OLDPWD', '/home/kvothe'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1044'), ('SYSTEMD_EXEC_PID', '1210'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2852'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kvothe/ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kvothe'), ('JOURNAL_STREAM', '8:3950'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kvothe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kvothe/.local/bin:/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1169,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1169'), ('INVOCATION_ID', '1f88bae818d04095b12166cc3ff0be02'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PLW232'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/'), ('TERMINATOR_UUID', 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/kvothe/ros/install/robot_description/share/robot_description/models:/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kvothe/ros/build/ros_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[2.002307] (-) TimerEvent: {}
+[2.008491] (ros_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.008923] (ros_gazebo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.009231] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/libBasicSystem.so\n'}
+[2.009562] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/libFullSystem.so\n'}
+[2.009838] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds/Crawler.sdf\n'}
+[2.010038] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds/Damn.sdf\n'}
+[2.010150] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/environment/ros_gazebo.dsv\n'}
+[2.010310] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/environment/ros_gazebo.sh\n'}
+[2.010448] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ament_index/resource_index/package_run_dependencies/ros_gazebo\n'}
+[2.010729] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ament_index/resource_index/parent_prefix_path/ros_gazebo\n'}
+[2.010938] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/environment/ament_prefix_path.sh\n'}
+[2.011111] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/environment/ament_prefix_path.dsv\n'}
+[2.011301] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/environment/path.sh\n'}
+[2.011487] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/environment/path.dsv\n'}
+[2.011673] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/local_setup.bash\n'}
+[2.011832] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/local_setup.sh\n'}
+[2.011984] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/local_setup.zsh\n'}
+[2.012130] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/local_setup.dsv\n'}
+[2.012286] (ros_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/package.dsv\n'}
+[2.028556] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ament_index/resource_index/packages/ros_gazebo\n'}
+[2.028836] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/cmake/ros_gazeboConfig.cmake\n'}
+[2.028961] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/cmake/ros_gazeboConfig-version.cmake\n'}
+[2.029017] (ros_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/package.xml\n'}
+[2.031840] (ros_gazebo) CommandEnded: {'returncode': 0}
+[2.044727] (ros_gazebo) JobEnded: {'identifier': 'ros_gazebo', 'rc': 0}
+[2.102641] (-) TimerEvent: {}
+[2.203135] (-) TimerEvent: {}
+[2.303477] (-) TimerEvent: {}
+[2.404019] (-) TimerEvent: {}
+[2.422470] (messages) StdoutLine: {'line': b'[  2%] Built target messages__cpp\n'}
+[2.436676] (messages) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.436889] (messages) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.436966] (messages) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.447076] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_generator_c\x1b[0m\n'}
+[2.469777] (messages) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/line_segment__functions.c.o\x1b[0m\n'}
+[2.470187] (messages) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/landmark_constraint__functions.c.o\x1b[0m\n'}
+[2.472063] (messages) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/landmark_landmark_constraint__functions.c.o\x1b[0m\n'}
+[2.472273] (messages) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/landmark_constraint_list__functions.c.o\x1b[0m\n'}
+[2.472335] (messages) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/pose_node__functions.c.o\x1b[0m\n'}
+[2.472389] (messages) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/line_segment_list__functions.c.o\x1b[0m\n'}
+[2.472468] (messages) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/pose_graph__functions.c.o\x1b[0m\n'}
+[2.472541] (messages) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/pose_constraint__functions.c.o\x1b[0m\n'}
+[2.472598] (messages) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/landmark_landmark_constraint_list__functions.c.o\x1b[0m\n'}
+[2.504109] (-) TimerEvent: {}
+[2.593062] (messages) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library libmessages__rosidl_generator_c.so\x1b[0m\n'}
+[2.604220] (-) TimerEvent: {}
+[2.645212] (messages) StdoutLine: {'line': b'[ 15%] Built target messages__rosidl_generator_c\n'}
+[2.657256] (messages) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.657486] (messages) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.660658] (messages) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.704366] (-) TimerEvent: {}
+[2.804727] (-) TimerEvent: {}
+[2.905065] (-) TimerEvent: {}
+[3.005401] (-) TimerEvent: {}
+[3.064560] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.089698] (messages) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messages/msg/pose_graph__type_support.cpp.o\x1b[0m\n'}
+[3.089955] (messages) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messages/msg/line_segment__type_support.cpp.o\x1b[0m\n'}
+[3.090050] (messages) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messages/msg/pose_node__type_support.cpp.o\x1b[0m\n'}
+[3.090177] (messages) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messages/msg/line_segment_list__type_support.cpp.o\x1b[0m\n'}
+[3.090252] (messages) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messages/msg/landmark_constraint__type_support.cpp.o\x1b[0m\n'}
+[3.090327] (messages) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messages/msg/pose_constraint__type_support.cpp.o\x1b[0m\n'}
+[3.090401] (messages) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messages/msg/landmark_constraint_list__type_support.cpp.o\x1b[0m\n'}
+[3.105512] (-) TimerEvent: {}
+[3.205882] (-) TimerEvent: {}
+[3.306287] (-) TimerEvent: {}
+[3.406929] (-) TimerEvent: {}
+[3.411521] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.447051] (messages) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/messages/msg/detail/line_segment__type_support.cpp.o\x1b[0m\n'}
+[3.463543] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_typesupport_c\x1b[0m\n'}
+[3.486737] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.487565] (messages) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/messages/msg/line_segment__type_support.cpp.o\x1b[0m\n'}
+[3.507079] (-) TimerEvent: {}
+[3.521216] (messages) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/messages/msg/detail/dds_fastrtps/line_segment__type_support.cpp.o\x1b[0m\n'}
+[3.535257] (messages) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messages/msg/landmark_landmark_constraint__type_support.cpp.o\x1b[0m\n'}
+[3.535647] (messages) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/messages/msg/detail/line_segment_list__type_support.cpp.o\x1b[0m\n'}
+[3.535727] (messages) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/messages/msg/line_segment_list__type_support.cpp.o\x1b[0m\n'}
+[3.537819] (messages) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/messages/msg/detail/dds_fastrtps/line_segment_list__type_support.cpp.o\x1b[0m\n'}
+[3.538198] (messages) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/messages/msg/pose_graph__type_support.cpp.o\x1b[0m\n'}
+[3.540628] (messages) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/messages/msg/detail/pose_graph__type_support.cpp.o\x1b[0m\n'}
+[3.546709] (messages) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/messages/msg/detail/pose_node__type_support.cpp.o\x1b[0m\n'}
+[3.552895] (messages) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/messages/msg/pose_node__type_support.cpp.o\x1b[0m\n'}
+[3.585529] (messages) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/messages/msg/pose_constraint__type_support.cpp.o\x1b[0m\n'}
+[3.597811] (messages) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/messages/msg/landmark_constraint__type_support.cpp.o\x1b[0m\n'}
+[3.607222] (-) TimerEvent: {}
+[3.630665] (messages) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/messages/msg/detail/dds_fastrtps/pose_graph__type_support.cpp.o\x1b[0m\n'}
+[3.630972] (messages) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/messages/msg/detail/pose_constraint__type_support.cpp.o\x1b[0m\n'}
+[3.647631] (messages) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/messages/msg/landmark_constraint_list__type_support.cpp.o\x1b[0m\n'}
+[3.700693] (messages) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/messages/msg/landmark_landmark_constraint__type_support.cpp.o\x1b[0m\n'}
+[3.710560] (-) TimerEvent: {}
+[3.754638] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.757132] (messages) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/messages/msg/landmark_landmark_constraint_list__type_support.cpp.o\x1b[0m\n'}
+[3.773054] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.780160] (messages) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/line_segment__type_support.c.o\x1b[0m\n'}
+[3.807453] (messages) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/messages/msg/detail/line_segment__type_support_c.cpp.o\x1b[0m\n'}
+[3.810863] (-) TimerEvent: {}
+[3.811255] (messages) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.853838] (messages) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/line_segment_list__type_support.c.o\x1b[0m\n'}
+[3.897029] (messages) StdoutLine: {'line': b'[ 49%] Built target messages__rosidl_typesupport_c\n'}
+[3.912188] (-) TimerEvent: {}
+[3.916566] (messages) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messages/msg/landmark_landmark_constraint_list__type_support.cpp.o\x1b[0m\n'}
+[3.931592] (messages) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/pose_graph__type_support.c.o\x1b[0m\n'}
+[3.933746] (messages) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/messages/msg/detail/dds_fastrtps/pose_node__type_support.cpp.o\x1b[0m\n'}
+[4.005984] (messages) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/pose_node__type_support.c.o\x1b[0m\n'}
+[4.012403] (-) TimerEvent: {}
+[4.053154] (messages) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/messages/msg/detail/dds_fastrtps/pose_constraint__type_support.cpp.o\x1b[0m\n'}
+[4.071015] (messages) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/pose_constraint__type_support.c.o\x1b[0m\n'}
+[4.104549] (messages) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/messages/msg/detail/landmark_constraint__type_support.cpp.o\x1b[0m\n'}
+[4.112572] (-) TimerEvent: {}
+[4.114621] (messages) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/messages/msg/detail/line_segment_list__type_support_c.cpp.o\x1b[0m\n'}
+[4.132632] (messages) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/landmark_constraint__type_support.c.o\x1b[0m\n'}
+[4.176597] (messages) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/landmark_constraint_list__type_support.c.o\x1b[0m\n'}
+[4.194621] (messages) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/landmark_landmark_constraint__type_support.c.o\x1b[0m\n'}
+[4.215541] (-) TimerEvent: {}
+[4.219478] (messages) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/messages/msg/detail/dds_fastrtps/landmark_constraint__type_support.cpp.o\x1b[0m\n'}
+[4.225090] (messages) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/messages/msg/detail/pose_graph__type_support_c.cpp.o\x1b[0m\n'}
+[4.249541] (messages) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/messages/msg/detail/pose_node__type_support_c.cpp.o\x1b[0m\n'}
+[4.265384] (messages) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/landmark_landmark_constraint_list__type_support.c.o\x1b[0m\n'}
+[4.314275] (messages) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/messages/msg/detail/dds_fastrtps/landmark_constraint_list__type_support.cpp.o\x1b[0m\n'}
+[4.316913] (-) TimerEvent: {}
+[4.326761] (messages) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking C shared library libmessages__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.327069] (messages) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/messages/msg/detail/landmark_constraint_list__type_support.cpp.o\x1b[0m\n'}
+[4.327230] (messages) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.384575] (messages) StdoutLine: {'line': b'[ 69%] Built target messages__rosidl_typesupport_introspection_c\n'}
+[4.398832] (messages) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/messages/msg/detail/pose_constraint__type_support_c.cpp.o\x1b[0m\n'}
+[4.403829] (messages) StdoutLine: {'line': b'[ 70%] Built target messages__rosidl_typesupport_cpp\n'}
+[4.417065] (-) TimerEvent: {}
+[4.420149] (messages) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/messages/msg/detail/landmark_landmark_constraint__type_support.cpp.o\x1b[0m\n'}
+[4.461573] (messages) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/messages/msg/detail/landmark_constraint__type_support_c.cpp.o\x1b[0m\n'}
+[4.517237] (-) TimerEvent: {}
+[4.540089] (messages) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/messages/msg/detail/landmark_constraint_list__type_support_c.cpp.o\x1b[0m\n'}
+[4.617454] (-) TimerEvent: {}
+[4.630652] (messages) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/messages/msg/detail/landmark_landmark_constraint_list__type_support.cpp.o\x1b[0m\n'}
+[4.645996] (messages) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/messages/msg/detail/dds_fastrtps/landmark_landmark_constraint__type_support.cpp.o\x1b[0m\n'}
+[4.707102] (messages) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/messages/msg/detail/dds_fastrtps/landmark_landmark_constraint_list__type_support.cpp.o\x1b[0m\n'}
+[4.718299] (-) TimerEvent: {}
+[4.741215] (messages) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/messages/msg/detail/landmark_landmark_constraint__type_support_c.cpp.o\x1b[0m\n'}
+[4.741509] (messages) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/messages/msg/detail/landmark_landmark_constraint_list__type_support_c.cpp.o\x1b[0m\n'}
+[4.818502] (-) TimerEvent: {}
+[4.918950] (-) TimerEvent: {}
+[5.019479] (-) TimerEvent: {}
+[5.119877] (-) TimerEvent: {}
+[5.125048] (messages) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.141582] (messages) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.210325] (messages) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.220050] (-) TimerEvent: {}
+[5.239636] (messages) StdoutLine: {'line': b'[ 82%] Built target messages__rosidl_typesupport_fastrtps_c\n'}
+[5.277966] (messages) StdoutLine: {'line': b'[ 82%] Built target messages__rosidl_typesupport_introspection_cpp\n'}
+[5.320209] (-) TimerEvent: {}
+[5.324450] (messages) StdoutLine: {'line': b'[ 82%] Built target messages__rosidl_typesupport_fastrtps_cpp\n'}
+[5.358514] (messages) StdoutLine: {'line': b'[ 82%] Built target messages\n'}
+[5.382795] (messages) StdoutLine: {'line': b'[ 83%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.420358] (-) TimerEvent: {}
+[5.520741] (-) TimerEvent: {}
+[5.621102] (-) TimerEvent: {}
+[5.721478] (-) TimerEvent: {}
+[5.821813] (-) TimerEvent: {}
+[5.922177] (-) TimerEvent: {}
+[6.022745] (-) TimerEvent: {}
+[6.123104] (-) TimerEvent: {}
+[6.223471] (-) TimerEvent: {}
+[6.323815] (-) TimerEvent: {}
+[6.424219] (-) TimerEvent: {}
+[6.524656] (-) TimerEvent: {}
+[6.625171] (-) TimerEvent: {}
+[6.725554] (-) TimerEvent: {}
+[6.778650] (messages) StdoutLine: {'line': b'[ 83%] Built target messages__py\n'}
+[6.794732] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_generator_py\x1b[0m\n'}
+[6.819773] (messages) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_pose_constraint_s.c.o\x1b[0m\n'}
+[6.820084] (messages) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_pose_node_s.c.o\x1b[0m\n'}
+[6.820166] (messages) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_pose_graph_s.c.o\x1b[0m\n'}
+[6.820786] (messages) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_line_segment_list_s.c.o\x1b[0m\n'}
+[6.821099] (messages) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_line_segment_s.c.o\x1b[0m\n'}
+[6.821163] (messages) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_landmark_constraint_s.c.o\x1b[0m\n'}
+[6.821498] (messages) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_landmark_constraint_list_s.c.o\x1b[0m\n'}
+[6.822737] (messages) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_landmark_landmark_constraint_s.c.o\x1b[0m\n'}
+[6.823011] (messages) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_landmark_landmark_constraint_list_s.c.o\x1b[0m\n'}
+[6.826102] (-) TimerEvent: {}
+[6.926584] (-) TimerEvent: {}
+[7.022305] (messages) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/messages/libmessages__rosidl_generator_py.so\x1b[0m\n'}
+[7.026720] (-) TimerEvent: {}
+[7.079188] (messages) StdoutLine: {'line': b'[ 93%] Built target messages__rosidl_generator_py\n'}
+[7.092720] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.092934] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.094724] (messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target messages__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.108432] (messages) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.108636] (messages) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.110795] (messages) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.126832] (-) TimerEvent: {}
+[7.227225] (-) TimerEvent: {}
+[7.242406] (messages) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/messages/messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.257007] (messages) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/messages/messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.258025] (messages) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/messages/messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.294558] (messages) StdoutLine: {'line': b'[100%] Built target messages__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.310106] (messages) StdoutLine: {'line': b'[100%] Built target messages__rosidl_typesupport_c__pyext\n'}
+[7.312985] (messages) StdoutLine: {'line': b'[100%] Built target messages__rosidl_typesupport_introspection_c__pyext\n'}
+[7.327343] (-) TimerEvent: {}
+[7.330059] (messages) CommandEnded: {'returncode': 0}
+[7.331171] (messages) JobProgress: {'identifier': 'messages', 'progress': 'install'}
+[7.331783] (messages) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kvothe/ros/build/messages'], 'cwd': '/home/kvothe/ros/build/messages', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kvothe'), ('XDG_SESSION_TYPE', 'wayland'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kvothe'), ('OLDPWD', '/home/kvothe'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1044'), ('SYSTEMD_EXEC_PID', '1210'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2852'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kvothe/ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kvothe'), ('JOURNAL_STREAM', '8:3950'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kvothe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kvothe/.local/bin:/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1169,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1169'), ('INVOCATION_ID', '1f88bae818d04095b12166cc3ff0be02'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PLW232'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/'), ('TERMINATOR_UUID', 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kvothe/ros/build/messages'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[7.340894] (messages) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.341471] (messages) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.341827] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/ament_index/resource_index/rosidl_interfaces/messages\n'}
+[7.342872] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint__functions.h\n'}
+[7.343161] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint__struct.h\n'}
+[7.343324] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint__type_support.h\n'}
+[7.343548] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint_list__functions.h\n'}
+[7.343735] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint_list__struct.h\n'}
+[7.344443] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint_list__type_support.h\n'}
+[7.344718] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint__functions.h\n'}
+[7.344830] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint__struct.h\n'}
+[7.344920] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint__type_support.h\n'}
+[7.345061] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint_list__functions.h\n'}
+[7.345216] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint_list__struct.h\n'}
+[7.345331] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint_list__type_support.h\n'}
+[7.345448] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment__functions.h\n'}
+[7.345605] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment__struct.h\n'}
+[7.345680] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment__type_support.h\n'}
+[7.345785] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment_list__functions.h\n'}
+[7.345913] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment_list__struct.h\n'}
+[7.346122] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment_list__type_support.h\n'}
+[7.346374] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_constraint__functions.h\n'}
+[7.346585] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_constraint__struct.h\n'}
+[7.346890] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_constraint__type_support.h\n'}
+[7.347238] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__functions.h\n'}
+[7.347537] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__struct.h\n'}
+[7.347733] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__type_support.h\n'}
+[7.347916] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_node__functions.h\n'}
+[7.348069] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_node__struct.h\n'}
+[7.348257] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_node__type_support.h\n'}
+[7.348586] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/landmark_constraint.h\n'}
+[7.348792] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/landmark_constraint_list.h\n'}
+[7.349033] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/landmark_landmark_constraint.h\n'}
+[7.349211] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/landmark_landmark_constraint_list.h\n'}
+[7.349396] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/line_segment.h\n'}
+[7.349614] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/line_segment_list.h\n'}
+[7.349785] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/pose_constraint.h\n'}
+[7.349957] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/pose_graph.h\n'}
+[7.350143] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/pose_node.h\n'}
+[7.350295] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.350627] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/environment/library_path.sh\n'}
+[7.350928] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/environment/library_path.dsv\n'}
+[7.351835] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint__rosidl_typesupport_fastrtps_c.h\n'}
+[7.352041] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint_list__rosidl_typesupport_fastrtps_c.h\n'}
+[7.352236] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint__rosidl_typesupport_fastrtps_c.h\n'}
+[7.352554] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint_list__rosidl_typesupport_fastrtps_c.h\n'}
+[7.352811] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment__rosidl_typesupport_fastrtps_c.h\n'}
+[7.353091] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment_list__rosidl_typesupport_fastrtps_c.h\n'}
+[7.353295] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_constraint__rosidl_typesupport_fastrtps_c.h\n'}
+[7.353556] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__rosidl_typesupport_fastrtps_c.h\n'}
+[7.353712] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_node__rosidl_typesupport_fastrtps_c.h\n'}
+[7.354036] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.354987] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint__rosidl_typesupport_introspection_c.h\n'}
+[7.355343] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint_list__rosidl_typesupport_introspection_c.h\n'}
+[7.355474] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint__rosidl_typesupport_introspection_c.h\n'}
+[7.355666] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint_list__rosidl_typesupport_introspection_c.h\n'}
+[7.355881] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment__rosidl_typesupport_introspection_c.h\n'}
+[7.356112] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment_list__rosidl_typesupport_introspection_c.h\n'}
+[7.356270] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_constraint__rosidl_typesupport_introspection_c.h\n'}
+[7.356476] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__rosidl_typesupport_introspection_c.h\n'}
+[7.356870] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_node__rosidl_typesupport_introspection_c.h\n'}
+[7.357222] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.358363] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint__builder.hpp\n'}
+[7.358777] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint__struct.hpp\n'}
+[7.358958] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint__traits.hpp\n'}
+[7.359238] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint__type_support.hpp\n'}
+[7.359390] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint_list__builder.hpp\n'}
+[7.359612] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint_list__struct.hpp\n'}
+[7.359726] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint_list__traits.hpp\n'}
+[7.359827] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint_list__type_support.hpp\n'}
+[7.360038] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint__builder.hpp\n'}
+[7.360347] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint__struct.hpp\n'}
+[7.360577] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint__traits.hpp\n'}
+[7.360774] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint__type_support.hpp\n'}
+[7.360959] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint_list__builder.hpp\n'}
+[7.361155] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint_list__struct.hpp\n'}
+[7.361368] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint_list__traits.hpp\n'}
+[7.361593] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint_list__type_support.hpp\n'}
+[7.362005] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment__builder.hpp\n'}
+[7.362198] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment__struct.hpp\n'}
+[7.362388] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment__traits.hpp\n'}
+[7.362616] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment__type_support.hpp\n'}
+[7.362804] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment_list__builder.hpp\n'}
+[7.362982] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment_list__struct.hpp\n'}
+[7.363167] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment_list__traits.hpp\n'}
+[7.363373] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment_list__type_support.hpp\n'}
+[7.363630] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_constraint__builder.hpp\n'}
+[7.363759] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_constraint__struct.hpp\n'}
+[7.363946] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_constraint__traits.hpp\n'}
+[7.364154] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_constraint__type_support.hpp\n'}
+[7.364385] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__builder.hpp\n'}
+[7.364549] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__struct.hpp\n'}
+[7.364774] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__traits.hpp\n'}
+[7.364897] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__type_support.hpp\n'}
+[7.365100] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_node__builder.hpp\n'}
+[7.365329] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_node__struct.hpp\n'}
+[7.365495] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_node__traits.hpp\n'}
+[7.365728] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_node__type_support.hpp\n'}
+[7.365858] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/landmark_constraint.hpp\n'}
+[7.366061] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/landmark_constraint_list.hpp\n'}
+[7.366252] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/landmark_landmark_constraint.hpp\n'}
+[7.366614] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/landmark_landmark_constraint_list.hpp\n'}
+[7.366999] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/line_segment.hpp\n'}
+[7.367335] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/line_segment_list.hpp\n'}
+[7.367678] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/pose_constraint.hpp\n'}
+[7.367997] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/pose_graph.hpp\n'}
+[7.368397] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/pose_node.hpp\n'}
+[7.368619] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.369737] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.370049] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.370302] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.370725] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.370929] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.371150] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.371480] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_constraint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.371814] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.372220] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.372561] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.373284] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.373483] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_constraint_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.373795] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.374208] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/landmark_landmark_constraint_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.374407] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.374649] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/line_segment_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.374836] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_constraint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.375060] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.375290] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.375640] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/environment/pythonpath.sh\n'}
+[7.375952] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/environment/pythonpath.dsv\n'}
+[7.376241] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.376573] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.376780] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.377041] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.377885] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/__init__.py\n'}
+[7.378203] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/_messages_s.ep.rosidl_typesupport_c.c\n'}
+[7.378501] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.378910] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.379429] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/libmessages__rosidl_generator_py.so\n'}
+[7.379660] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.379834] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.380016] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.380176] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/__init__.py\n'}
+[7.380341] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_landmark_constraint.py\n'}
+[7.380506] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_landmark_constraint_list.py\n'}
+[7.380640] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_landmark_constraint_list_s.c\n'}
+[7.380791] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_landmark_constraint_s.c\n'}
+[7.380908] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_landmark_landmark_constraint.py\n'}
+[7.381070] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_landmark_landmark_constraint_list.py\n'}
+[7.381187] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_landmark_landmark_constraint_list_s.c\n'}
+[7.381307] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_landmark_landmark_constraint_s.c\n'}
+[7.381487] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_line_segment.py\n'}
+[7.381641] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_line_segment_list.py\n'}
+[7.381780] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_line_segment_list_s.c\n'}
+[7.381897] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_line_segment_s.c\n'}
+[7.382014] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_pose_constraint.py\n'}
+[7.382202] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_pose_constraint_s.c\n'}
+[7.382318] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_pose_graph.py\n'}
+[7.382457] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_pose_graph_s.c\n'}
+[7.382616] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_pose_node.py\n'}
+[7.382734] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_pose_node_s.c\n'}
+[7.382901] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.383041] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.383218] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.383612] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/msg/LineSegment.idl\n'}
+[7.384025] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/msg/LineSegmentList.idl\n'}
+[7.384235] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/msg/PoseGraph.idl\n'}
+[7.384444] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/msg/PoseNode.idl\n'}
+[7.384649] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/msg/PoseConstraint.idl\n'}
+[7.384853] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/msg/LandmarkConstraint.idl\n'}
+[7.385028] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/msg/LandmarkConstraintList.idl\n'}
+[7.385203] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/msg/LandmarkLandmarkConstraint.idl\n'}
+[7.385377] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/msg/LandmarkLandmarkConstraintList.idl\n'}
+[7.385590] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/msg/LineSegment.msg\n'}
+[7.385833] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/msg/LineSegmentList.msg\n'}
+[7.386072] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/msg/PoseGraph.msg\n'}
+[7.386186] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/msg/PoseNode.msg\n'}
+[7.386289] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/msg/PoseConstraint.msg\n'}
+[7.386380] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/msg/LandmarkConstraint.msg\n'}
+[7.386515] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/msg/LandmarkConstraintList.msg\n'}
+[7.386732] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/msg/LandmarkLandmarkConstraint.msg\n'}
+[7.386904] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/msg/LandmarkLandmarkConstraintList.msg\n'}
+[7.387057] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/ament_index/resource_index/package_run_dependencies/messages\n'}
+[7.387245] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/ament_index/resource_index/parent_prefix_path/messages\n'}
+[7.387555] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/environment/ament_prefix_path.sh\n'}
+[7.387829] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/environment/ament_prefix_path.dsv\n'}
+[7.388114] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/environment/path.sh\n'}
+[7.388394] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/environment/path.dsv\n'}
+[7.388598] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/local_setup.bash\n'}
+[7.388773] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/local_setup.sh\n'}
+[7.388947] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/local_setup.zsh\n'}
+[7.389225] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/local_setup.dsv\n'}
+[7.389313] (messages) StdoutLine: {'line': b'-- Symlinking: /home/kvothe/ros/install/messages/share/messages/package.dsv\n'}
+[7.402022] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/ament_index/resource_index/packages/messages\n'}
+[7.402235] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/cmake/rosidl_cmake-extras.cmake\n'}
+[7.402539] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.402749] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.402927] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.403163] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.403394] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.403590] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.403762] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/cmake/messagesConfig.cmake\n'}
+[7.403900] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/cmake/messagesConfig-version.cmake\n'}
+[7.404032] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kvothe/ros/install/messages/share/messages/package.xml\n'}
+[7.404879] (messages) StdoutLine: {'line': b'-- Installing: /home/kvothe/ros/install/messages/lib/libmessages__rosidl_generator_c.so\n'}
+[7.405373] (messages) StdoutLine: {'line': b'-- Set runtime path of "/home/kvothe/ros/install/messages/lib/libmessages__rosidl_generator_c.so" to ""\n'}
+[7.405697] (messages) StdoutLine: {'line': b'-- Installing: /home/kvothe/ros/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_c.so\n'}
+[7.406113] (messages) StdoutLine: {'line': b'-- Set runtime path of "/home/kvothe/ros/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.406513] (messages) StdoutLine: {'line': b'-- Installing: /home/kvothe/ros/install/messages/lib/libmessages__rosidl_typesupport_introspection_c.so\n'}
+[7.406943] (messages) StdoutLine: {'line': b'-- Set runtime path of "/home/kvothe/ros/install/messages/lib/libmessages__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.407294] (messages) StdoutLine: {'line': b'-- Installing: /home/kvothe/ros/install/messages/lib/libmessages__rosidl_typesupport_c.so\n'}
+[7.407739] (messages) StdoutLine: {'line': b'-- Set runtime path of "/home/kvothe/ros/install/messages/lib/libmessages__rosidl_typesupport_c.so" to ""\n'}
+[7.408198] (messages) StdoutLine: {'line': b'-- Installing: /home/kvothe/ros/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.408889] (messages) StdoutLine: {'line': b'-- Set runtime path of "/home/kvothe/ros/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.409284] (messages) StdoutLine: {'line': b'-- Installing: /home/kvothe/ros/install/messages/lib/libmessages__rosidl_typesupport_introspection_cpp.so\n'}
+[7.409929] (messages) StdoutLine: {'line': b'-- Set runtime path of "/home/kvothe/ros/install/messages/lib/libmessages__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.410166] (messages) StdoutLine: {'line': b'-- Installing: /home/kvothe/ros/install/messages/lib/libmessages__rosidl_typesupport_cpp.so\n'}
+[7.410557] (messages) StdoutLine: {'line': b'-- Set runtime path of "/home/kvothe/ros/install/messages/lib/libmessages__rosidl_typesupport_cpp.so" to ""\n'}
+[7.427472] (-) TimerEvent: {}
+[7.461883] (messages) StdoutLine: {'line': b"Listing '/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages'...\n"}
+[7.462127] (messages) StdoutLine: {'line': b"Compiling '/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/__init__.py'...\n"}
+[7.462244] (messages) StdoutLine: {'line': b"Listing '/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg'...\n"}
+[7.462348] (messages) StdoutLine: {'line': b"Compiling '/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/__init__.py'...\n"}
+[7.462476] (messages) StdoutLine: {'line': b"Compiling '/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_landmark_constraint.py'...\n"}
+[7.462589] (messages) StdoutLine: {'line': b"Compiling '/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_landmark_constraint_list.py'...\n"}
+[7.462691] (messages) StdoutLine: {'line': b"Compiling '/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_landmark_landmark_constraint.py'...\n"}
+[7.462793] (messages) StdoutLine: {'line': b"Compiling '/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_landmark_landmark_constraint_list.py'...\n"}
+[7.462895] (messages) StdoutLine: {'line': b"Compiling '/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_line_segment.py'...\n"}
+[7.462995] (messages) StdoutLine: {'line': b"Compiling '/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_line_segment_list.py'...\n"}
+[7.463094] (messages) StdoutLine: {'line': b"Compiling '/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_pose_constraint.py'...\n"}
+[7.463194] (messages) StdoutLine: {'line': b"Compiling '/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_pose_graph.py'...\n"}
+[7.463294] (messages) StdoutLine: {'line': b"Compiling '/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages/messages/msg/_pose_node.py'...\n"}
+[7.467579] (messages) StdoutLine: {'line': b'-- Installing: /home/kvothe/ros/install/messages/lib/libmessages__rosidl_generator_py.so\n'}
+[7.468784] (messages) StdoutLine: {'line': b'-- Set runtime path of "/home/kvothe/ros/install/messages/lib/libmessages__rosidl_generator_py.so" to ""\n'}
+[7.469127] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/messages/share/messages/cmake/export_messages__rosidl_generator_cExport.cmake\n'}
+[7.469239] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/messages/share/messages/cmake/export_messages__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.469659] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.469951] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.470218] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.470445] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.470787] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/messages/share/messages/cmake/messages__rosidl_typesupport_cExport.cmake\n'}
+[7.471005] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/messages/share/messages/cmake/messages__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.471244] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/messages/share/messages/cmake/export_messages__rosidl_generator_cppExport.cmake\n'}
+[7.471598] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.471790] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.472130] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.472340] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.472673] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/messages/share/messages/cmake/messages__rosidl_typesupport_cppExport.cmake\n'}
+[7.472796] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/messages/share/messages/cmake/messages__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.472975] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/messages/share/messages/cmake/export_messages__rosidl_generator_pyExport.cmake\n'}
+[7.473088] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/kvothe/ros/install/messages/share/messages/cmake/export_messages__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.475912] (messages) CommandEnded: {'returncode': 0}
+[7.495628] (messages) JobEnded: {'identifier': 'messages', 'rc': 0}
+[7.496431] (cppp) JobStarted: {'identifier': 'cppp'}
+[7.500857] (sensor_management) JobStarted: {'identifier': 'sensor_management'}
+[7.506247] (soma) JobStarted: {'identifier': 'soma'}
+[7.513426] (cppp) JobProgress: {'identifier': 'cppp', 'progress': 'cmake'}
+[7.514735] (cppp) JobProgress: {'identifier': 'cppp', 'progress': 'build'}
+[7.515116] (cppp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kvothe/ros/build/cppp', '--', '-j12', '-l12'], 'cwd': '/home/kvothe/ros/build/cppp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kvothe'), ('XDG_SESSION_TYPE', 'wayland'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kvothe'), ('OLDPWD', '/home/kvothe'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1044'), ('SYSTEMD_EXEC_PID', '1210'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2852'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kvothe/ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kvothe'), ('JOURNAL_STREAM', '8:3950'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kvothe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kvothe/.local/bin:/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1169,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1169'), ('INVOCATION_ID', '1f88bae818d04095b12166cc3ff0be02'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PLW232'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/'), ('TERMINATOR_UUID', 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kvothe/ros/build/cppp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[7.527619] (-) TimerEvent: {}
+[7.628064] (-) TimerEvent: {}
+[7.728601] (-) TimerEvent: {}
+[7.829041] (-) TimerEvent: {}
+[7.859646] (cppp) StdoutLine: {'line': b'[ 16%] Built target PreprocessNode\n'}
+[7.860003] (cppp) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/LandmarkGraphNode.dir/src/LandmarkGraphNode.cpp.o\x1b[0m\n'}
+[7.860085] (cppp) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/LandmarkTransformermapNode.dir/src/LandmarkTransformermapNode.cpp.o\x1b[0m\n'}
+[7.860166] (cppp) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/LandmarkTransformerNode.dir/src/LandmarkTransformerNode.cpp.o\x1b[0m\n'}
+[7.860485] (cppp) StdoutLine: {'line': b'[ 38%] Built target ScanTransformer\n'}
+[7.860651] (cppp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/RansacLineExtractionNode.dir/src/RansacLineExtractionNode.cpp.o\x1b[0m\n'}
+[7.861728] (cppp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/HoughLineFittingNode.dir/src/HoughLineFittingNode.cpp.o\x1b[0m\n'}
+[7.861869] (cppp) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/IncrementalLineFittingNode.dir/src/IncrementalLineFittingNode.cpp.o\x1b[0m\n'}
+[7.861999] (cppp) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ScanAccumulator.dir/src/ScanAccumulator.cpp.o\x1b[0m\n'}
+[7.929164] (-) TimerEvent: {}
+[8.029642] (-) TimerEvent: {}
+[8.130615] (-) TimerEvent: {}
+[8.233561] (-) TimerEvent: {}
+[8.333998] (-) TimerEvent: {}
+[8.434410] (-) TimerEvent: {}
+[8.534820] (-) TimerEvent: {}
+[8.566918] (soma) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/soma', 'build', '--build-base', '/home/kvothe/ros/build/soma/build', 'install', '--record', '/home/kvothe/ros/build/soma/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kvothe/ros/src/soma', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'kvothe', 'XDG_SESSION_TYPE': 'wayland', '__GLX_VENDOR_LIBRARY_NAME': 'nvidia', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kvothe', 'OLDPWD': '/home/kvothe', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1044', 'SYSTEMD_EXEC_PID': '1210', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2852', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kvothe/ros/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kvothe', 'JOURNAL_STREAM': '8:3950', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kvothe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/kvothe/.local/bin:/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1169,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1169', 'INVOCATION_ID': '1f88bae818d04095b12166cc3ff0be02', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PLW232', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble', 'SHELL': '/bin/bash', 'IGN_GAZEBO_SYSTEM_PLUGIN_PATH': '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/', 'TERMINATOR_UUID': 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'GZ_VERSION': 'fortress', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kvothe/ros/build/soma', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kvothe/ros/build/soma/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp'}, 'shell': False}
+[8.634967] (-) TimerEvent: {}
+[8.682142] (sensor_management) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sensor_management', 'build', '--build-base', '/home/kvothe/ros/build/sensor_management/build', 'install', '--record', '/home/kvothe/ros/build/sensor_management/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kvothe/ros/src/sensor_management', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'kvothe', 'XDG_SESSION_TYPE': 'wayland', '__GLX_VENDOR_LIBRARY_NAME': 'nvidia', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kvothe', 'OLDPWD': '/home/kvothe', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1044', 'SYSTEMD_EXEC_PID': '1210', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2852', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kvothe/ros/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kvothe', 'JOURNAL_STREAM': '8:3950', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kvothe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/kvothe/.local/bin:/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1169,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1169', 'INVOCATION_ID': '1f88bae818d04095b12166cc3ff0be02', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PLW232', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble', 'SHELL': '/bin/bash', 'IGN_GAZEBO_SYSTEM_PLUGIN_PATH': '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/', 'TERMINATOR_UUID': 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'GZ_VERSION': 'fortress', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kvothe/ros/build/sensor_management', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kvothe/ros/build/sensor_management/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp'}, 'shell': False}
+[8.735120] (-) TimerEvent: {}
+[8.804466] (soma) StdoutLine: {'line': b'running egg_info\n'}
+[8.805226] (soma) StdoutLine: {'line': b'writing ../../build/soma/soma.egg-info/PKG-INFO\n'}
+[8.805609] (soma) StdoutLine: {'line': b'writing dependency_links to ../../build/soma/soma.egg-info/dependency_links.txt\n'}
+[8.805805] (soma) StdoutLine: {'line': b'writing entry points to ../../build/soma/soma.egg-info/entry_points.txt\n'}
+[8.805957] (soma) StdoutLine: {'line': b'writing requirements to ../../build/soma/soma.egg-info/requires.txt\n'}
+[8.806091] (soma) StdoutLine: {'line': b'writing top-level names to ../../build/soma/soma.egg-info/top_level.txt\n'}
+[8.808072] (soma) StdoutLine: {'line': b"reading manifest file '../../build/soma/soma.egg-info/SOURCES.txt'\n"}
+[8.808933] (soma) StdoutLine: {'line': b"writing manifest file '../../build/soma/soma.egg-info/SOURCES.txt'\n"}
+[8.809200] (soma) StdoutLine: {'line': b'running build\n'}
+[8.809281] (soma) StdoutLine: {'line': b'running build_py\n'}
+[8.809488] (soma) StdoutLine: {'line': b'copying soma/GraphNode.py -> /home/kvothe/ros/build/soma/build/lib/soma\n'}
+[8.809954] (soma) StdoutLine: {'line': b'running install\n'}
+[8.810309] (soma) StdoutLine: {'line': b'running install_lib\n'}
+[8.811693] (soma) StdoutLine: {'line': b'copying /home/kvothe/ros/build/soma/build/lib/soma/GraphNode.py -> /home/kvothe/ros/install/soma/lib/python3.10/site-packages/soma\n'}
+[8.812750] (soma) StdoutLine: {'line': b'byte-compiling /home/kvothe/ros/install/soma/lib/python3.10/site-packages/soma/GraphNode.py to GraphNode.cpython-310.pyc\n'}
+[8.816817] (soma) StdoutLine: {'line': b'running install_data\n'}
+[8.817108] (soma) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.818888] (soma) StdoutLine: {'line': b"removing '/home/kvothe/ros/install/soma/lib/python3.10/site-packages/soma-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.819197] (soma) StdoutLine: {'line': b'Copying ../../build/soma/soma.egg-info to /home/kvothe/ros/install/soma/lib/python3.10/site-packages/soma-0.0.0-py3.10.egg-info\n'}
+[8.820362] (soma) StdoutLine: {'line': b'running install_scripts\n'}
+[8.835293] (-) TimerEvent: {}
+[8.841159] (soma) StdoutLine: {'line': b'Installing BayesianLandmarkConstraintNode script to /home/kvothe/ros/install/soma/lib/soma\n'}
+[8.841528] (soma) StdoutLine: {'line': b'Installing EuclidsLandmarkLandmarkGraphNode script to /home/kvothe/ros/install/soma/lib/soma\n'}
+[8.841648] (soma) StdoutLine: {'line': b'Installing GraphNode script to /home/kvothe/ros/install/soma/lib/soma\n'}
+[8.841779] (soma) StdoutLine: {'line': b'Installing LandmarkConstraintVisualizer script to /home/kvothe/ros/install/soma/lib/soma\n'}
+[8.841970] (soma) StdoutLine: {'line': b'Installing LineSegmentAssociation script to /home/kvothe/ros/install/soma/lib/soma\n'}
+[8.842077] (soma) StdoutLine: {'line': b'Installing PoseGraphNode script to /home/kvothe/ros/install/soma/lib/soma\n'}
+[8.842196] (soma) StdoutLine: {'line': b'Installing PostProcessingNode script to /home/kvothe/ros/install/soma/lib/soma\n'}
+[8.842543] (soma) StdoutLine: {'line': b'Installing SWMANode script to /home/kvothe/ros/install/soma/lib/soma\n'}
+[8.843014] (soma) StdoutLine: {'line': b"writing list of installed files to '/home/kvothe/ros/build/soma/install.log'\n"}
+[8.902671] (soma) CommandEnded: {'returncode': 0}
+[8.915195] (soma) JobEnded: {'identifier': 'soma', 'rc': 0}
+[8.935394] (-) TimerEvent: {}
+[8.987147] (sensor_management) StdoutLine: {'line': b'running egg_info\n'}
+[8.988167] (sensor_management) StdoutLine: {'line': b'writing ../../build/sensor_management/sensor_management.egg-info/PKG-INFO\n'}
+[8.988654] (sensor_management) StdoutLine: {'line': b'writing dependency_links to ../../build/sensor_management/sensor_management.egg-info/dependency_links.txt\n'}
+[8.988873] (sensor_management) StdoutLine: {'line': b'writing entry points to ../../build/sensor_management/sensor_management.egg-info/entry_points.txt\n'}
+[8.989063] (sensor_management) StdoutLine: {'line': b'writing requirements to ../../build/sensor_management/sensor_management.egg-info/requires.txt\n'}
+[8.989196] (sensor_management) StdoutLine: {'line': b'writing top-level names to ../../build/sensor_management/sensor_management.egg-info/top_level.txt\n'}
+[8.991608] (sensor_management) StdoutLine: {'line': b"reading manifest file '../../build/sensor_management/sensor_management.egg-info/SOURCES.txt'\n"}
+[8.992703] (sensor_management) StdoutLine: {'line': b"writing manifest file '../../build/sensor_management/sensor_management.egg-info/SOURCES.txt'\n"}
+[8.993053] (sensor_management) StdoutLine: {'line': b'running build\n'}
+[8.993133] (sensor_management) StdoutLine: {'line': b'running build_py\n'}
+[8.993729] (sensor_management) StdoutLine: {'line': b'running install\n'}
+[8.994193] (sensor_management) StdoutLine: {'line': b'running install_lib\n'}
+[8.996796] (sensor_management) StdoutLine: {'line': b'running install_data\n'}
+[8.997066] (sensor_management) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.000234] (sensor_management) StdoutLine: {'line': b"removing '/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages/sensor_management-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.001358] (sensor_management) StdoutLine: {'line': b'Copying ../../build/sensor_management/sensor_management.egg-info to /home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages/sensor_management-0.0.0-py3.10.egg-info\n'}
+[9.004649] (sensor_management) StdoutLine: {'line': b'running install_scripts\n'}
+[9.028314] (sensor_management) StdoutLine: {'line': b'Installing LandmarkLandmarkVisualizationNode script to /home/kvothe/ros/install/sensor_management/lib/sensor_management\n'}
+[9.028608] (sensor_management) StdoutLine: {'line': b'Installing Linesegviz script to /home/kvothe/ros/install/sensor_management/lib/sensor_management\n'}
+[9.028690] (sensor_management) StdoutLine: {'line': b'Installing OptiPoseViz script to /home/kvothe/ros/install/sensor_management/lib/sensor_management\n'}
+[9.028904] (sensor_management) StdoutLine: {'line': b'Installing PoseGraphViz script to /home/kvothe/ros/install/sensor_management/lib/sensor_management\n'}
+[9.029005] (sensor_management) StdoutLine: {'line': b'Installing fusion script to /home/kvothe/ros/install/sensor_management/lib/sensor_management\n'}
+[9.029124] (sensor_management) StdoutLine: {'line': b'Installing linesegmentvisualizer script to /home/kvothe/ros/install/sensor_management/lib/sensor_management\n'}
+[9.029248] (sensor_management) StdoutLine: {'line': b'Installing sparsesampler script to /home/kvothe/ros/install/sensor_management/lib/sensor_management\n'}
+[9.029726] (sensor_management) StdoutLine: {'line': b"writing list of installed files to '/home/kvothe/ros/build/sensor_management/install.log'\n"}
+[9.035548] (-) TimerEvent: {}
+[9.085889] (sensor_management) CommandEnded: {'returncode': 0}
+[9.099163] (sensor_management) JobEnded: {'identifier': 'sensor_management', 'rc': 0}
+[9.135702] (-) TimerEvent: {}
+[9.236103] (-) TimerEvent: {}
+[9.336543] (-) TimerEvent: {}
+[9.436982] (-) TimerEvent: {}
+[9.537389] (-) TimerEvent: {}
+[9.637778] (-) TimerEvent: {}
+[9.738173] (-) TimerEvent: {}
+[9.838579] (-) TimerEvent: {}
+[9.938961] (-) TimerEvent: {}
+[10.039309] (-) TimerEvent: {}
+[10.139744] (-) TimerEvent: {}
+[10.240284] (-) TimerEvent: {}
+[10.340717] (-) TimerEvent: {}
+[10.441148] (-) TimerEvent: {}
+[10.541617] (-) TimerEvent: {}
+[10.642041] (-) TimerEvent: {}
+[10.742526] (-) TimerEvent: {}
+[10.842958] (-) TimerEvent: {}
+[10.943398] (-) TimerEvent: {}
+[11.043872] (-) TimerEvent: {}
+[11.144328] (-) TimerEvent: {}
+[11.244790] (-) TimerEvent: {}
+[11.345231] (-) TimerEvent: {}
+[11.445727] (-) TimerEvent: {}
+[11.546181] (-) TimerEvent: {}
+[11.646649] (-) TimerEvent: {}
+[11.747070] (-) TimerEvent: {}
+[11.847528] (-) TimerEvent: {}
+[11.947979] (-) TimerEvent: {}
+[12.048431] (-) TimerEvent: {}
+[12.148859] (-) TimerEvent: {}
+[12.249281] (-) TimerEvent: {}
+[12.349743] (-) TimerEvent: {}
+[12.450186] (-) TimerEvent: {}
+[12.550640] (-) TimerEvent: {}
+[12.651115] (-) TimerEvent: {}
+[12.751557] (-) TimerEvent: {}
+[12.851999] (-) TimerEvent: {}
+[12.952513] (-) TimerEvent: {}
+[13.052957] (-) TimerEvent: {}
+[13.153379] (-) TimerEvent: {}
+[13.253836] (-) TimerEvent: {}
+[13.354245] (-) TimerEvent: {}
+[13.454696] (-) TimerEvent: {}
+[13.555098] (-) TimerEvent: {}
+[13.655517] (-) TimerEvent: {}
+[13.755922] (-) TimerEvent: {}
+[13.856407] (-) TimerEvent: {}
+[13.956913] (-) TimerEvent: {}
+[14.057355] (-) TimerEvent: {}
+[14.157826] (-) TimerEvent: {}
+[14.258271] (-) TimerEvent: {}
+[14.358733] (-) TimerEvent: {}
+[14.461542] (-) TimerEvent: {}
+[14.561992] (-) TimerEvent: {}
+[14.662494] (-) TimerEvent: {}
+[14.762960] (-) TimerEvent: {}
+[14.863470] (-) TimerEvent: {}
+[14.964209] (-) TimerEvent: {}
+[15.065631] (-) TimerEvent: {}
+[15.166095] (-) TimerEvent: {}
+[15.266580] (-) TimerEvent: {}
+[15.367172] (-) TimerEvent: {}
+[15.468023] (-) TimerEvent: {}
+[15.569215] (-) TimerEvent: {}
+[15.671234] (-) TimerEvent: {}
+[15.772029] (-) TimerEvent: {}
+[15.872540] (-) TimerEvent: {}
+[15.973305] (-) TimerEvent: {}
+[16.077948] (-) TimerEvent: {}
+[16.178429] (-) TimerEvent: {}
+[16.278840] (-) TimerEvent: {}
+[16.379323] (-) TimerEvent: {}
+[16.480345] (-) TimerEvent: {}
+[16.581966] (-) TimerEvent: {}
+[16.685045] (-) TimerEvent: {}
+[16.786808] (-) TimerEvent: {}
+[16.887683] (-) TimerEvent: {}
+[16.988543] (-) TimerEvent: {}
+[17.095238] (-) TimerEvent: {}
+[17.197174] (-) TimerEvent: {}
+[17.297766] (-) TimerEvent: {}
+[17.398449] (-) TimerEvent: {}
+[17.499060] (-) TimerEvent: {}
+[17.601241] (-) TimerEvent: {}
+[17.704944] (-) TimerEvent: {}
+[17.828536] (-) TimerEvent: {}
+[18.074775] (-) TimerEvent: {}
+[18.219835] (-) TimerEvent: {}
+[18.459385] (-) TimerEvent: {}
+[18.694135] (-) TimerEvent: {}
+[18.947999] (-) TimerEvent: {}
+[19.188480] (-) TimerEvent: {}
+[19.395962] (-) TimerEvent: {}
+[19.534550] (-) TimerEvent: {}
+[19.677456] (-) TimerEvent: {}
+[19.833185] (-) TimerEvent: {}
+[20.095273] (-) TimerEvent: {}
+[20.234725] (-) TimerEvent: {}
+[20.480872] (-) TimerEvent: {}
+[20.939049] (-) TimerEvent: {}
+[21.259328] (-) TimerEvent: {}
+[21.595892] (-) TimerEvent: {}
+[22.223933] (-) TimerEvent: {}
+[23.593898] (-) TimerEvent: {}

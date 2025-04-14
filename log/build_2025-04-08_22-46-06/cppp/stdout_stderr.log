@@ -1,0 +1,17 @@
+[ 20%] Built target PreprocessNode
+[ 20%] Built target LandmarkGraphNode
+[ 40%] Built target LandmarkTransformermapNode
+[ 40%] Built target ScanTransformer
+[ 50%] Built target LandmarkTransformerNode
+[ 55%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[ 75%] Built target RansacLineExtractionNode
+[ 75%] Built target HoughLineFittingNode
+[ 85%] Built target IncrementalLineFittingNode
+[ 95%] Built target ScanAccumulator
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kgtsam/nonlinear/NonlinearFactorGraph.h: No such file or directory
+    1 | #include [01;31m[K<gtsam/nonlinear/NonlinearFactorGraph.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,71 @@
+[0.509s] Invoking command in '/home/kvothe/ros/build/optim': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/optim:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/optim -- -j12 -l12
+[0.569s] [35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizationNode[0m
+[0.588s] [ 50%] Built target test_ceres
+[0.593s] [ 75%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizationNode.dir/src/PoseGraphOptimizationNode.cpp.o[0m
+[3.501s] [01m[K/home/kvothe/ros/src/optim/src/PoseGraphOptimizationNode.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizationNode::poseGraphCallback(messages::msg::PoseGraph_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.501s] [01m[K/home/kvothe/ros/src/optim/src/PoseGraphOptimizationNode.cpp:83:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kceres::Problem::AddResidualBlock(ceres::CostFunction*&, ceres::HuberLoss*, messages::msg::PoseNode_<std::allocator<void> >::_x_type*, messages::msg::PoseNode_<std::allocator<void> >::_y_type*, messages::msg::PoseNode_<std::allocator<void> >::_theta_type*, messages::msg::PoseNode_<std::allocator<void> >::_x_type*, messages::msg::PoseNode_<std::allocator<void> >::_y_type*, messages::msg::PoseNode_<std::allocator<void> >::_theta_type*)[m[K’
+[3.501s]    83 |             [01;31m[Kproblem.AddResidualBlock(cost_function, new ceres::HuberLoss(1.0),[m[K
+[3.501s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.501s]    84 | [01;31m[K                                     &optimized_nodes[constraint.pose1_id].x,[m[K
+[3.501s]       |                                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.501s]    85 | [01;31m[K                                     &optimized_nodes[constraint.pose1_id].y,[m[K
+[3.501s]       |                                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.502s]    86 | [01;31m[K                                     &optimized_nodes[constraint.pose1_id].theta,[m[K
+[3.502s]       |                                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.502s]    87 | [01;31m[K                                     &optimized_nodes[constraint.pose2_id].x,[m[K
+[3.502s]       |                                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.502s]    88 | [01;31m[K                                     &optimized_nodes[constraint.pose2_id].y,[m[K
+[3.502s]       |                                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.502s]    89 | [01;31m[K                                     &optimized_nodes[constraint.pose2_id].theta)[m[K;
+[3.502s]       |                                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.503s] In file included from [01m[K/usr/include/ceres/ceres.h:60[m[K,
+[3.504s]                  from [01m[K/home/kvothe/ros/src/optim/src/PoseGraphOptimizationNode.cpp:2[m[K:
+[3.504s] [01m[K/usr/include/ceres/problem.h:240:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... Ts> ceres::internal::ResidualBlock* ceres::Problem::AddResidualBlock(ceres::CostFunction*, ceres::LossFunction*, double*, Ts* ...)[m[K’
+[3.504s]   240 |   ResidualBlockId [01;36m[KAddResidualBlock[m[K(CostFunction* cost_function,
+[3.504s]       |                   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.504s] [01m[K/usr/include/ceres/problem.h:240:19:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.504s] [01m[K/home/kvothe/ros/src/optim/src/PoseGraphOptimizationNode.cpp:84:38:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K& optimized_nodes.std::vector<messages::msg::PoseNode_<std::allocator<void> >, std::allocator<messages::msg::PoseNode_<std::allocator<void> > > >::operator[](((std::vector<messages::msg::PoseNode_<std::allocator<void> >, std::allocator<messages::msg::PoseNode_<std::allocator<void> > > >::size_type)((messages::msg::PoseConstraint_<std::allocator<void> >::_pose1_id_type)constraint.messages::msg::PoseConstraint_<std::allocator<void> >::pose1_id))).messages::msg::PoseNode_<std::allocator<void> >::x[m[K’ (type ‘[01m[Kmessages::msg::PoseNode_<std::allocator<void> >::_x_type*[m[K’ {aka ‘[01m[Kfloat*[m[K’}) to type ‘[01m[Kdouble*[m[K’
+[3.504s]    84 |                                      [01;36m[K&optimized_nodes[constraint.pose1_id].x[m[K,
+[3.505s]       |                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.505s] In file included from [01m[K/usr/include/ceres/ceres.h:60[m[K,
+[3.505s]                  from [01m[K/home/kvothe/ros/src/optim/src/PoseGraphOptimizationNode.cpp:2[m[K:
+[3.505s] [01m[K/usr/include/ceres/problem.h:252:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kceres::internal::ResidualBlock* ceres::Problem::AddResidualBlock(ceres::CostFunction*, ceres::LossFunction*, const std::vector<double*>&)[m[K’
+[3.505s]   252 |   ResidualBlockId [01;36m[KAddResidualBlock[m[K(
+[3.505s]       |                   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.505s] [01m[K/usr/include/ceres/problem.h:252:19:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 8 provided
+[3.505s] [01m[K/usr/include/ceres/problem.h:259:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kceres::internal::ResidualBlock* ceres::Problem::AddResidualBlock(ceres::CostFunction*, ceres::LossFunction*, double* const*, int)[m[K’
+[3.505s]   259 |   ResidualBlockId [01;36m[KAddResidualBlock[m[K(CostFunction* cost_function,
+[3.506s]       |                   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.506s] [01m[K/usr/include/ceres/problem.h:259:19:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 8 provided
+[3.506s] [01m[K/home/kvothe/ros/src/optim/src/PoseGraphOptimizationNode.cpp:96:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kceres::Problem::AddResidualBlock(ceres::CostFunction*&, ceres::HuberLoss*, messages::msg::PoseNode_<std::allocator<void> >::_x_type*, messages::msg::PoseNode_<std::allocator<void> >::_y_type*, messages::msg::PoseNode_<std::allocator<void> >::_theta_type*)[m[K’
+[3.506s]    96 |             [01;31m[Kproblem.AddResidualBlock(cost_function, new ceres::HuberLoss(1.0),[m[K
+[3.506s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.506s]    97 | [01;31m[K                                     &optimized_nodes[landmark.pose_id].x,[m[K
+[3.506s]       |                                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.506s]    98 | [01;31m[K                                     &optimized_nodes[landmark.pose_id].y,[m[K
+[3.506s]       |                                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.506s]    99 | [01;31m[K                                     &optimized_nodes[landmark.pose_id].theta)[m[K;
+[3.507s]       |                                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.507s] In file included from [01m[K/usr/include/ceres/ceres.h:60[m[K,
+[3.507s]                  from [01m[K/home/kvothe/ros/src/optim/src/PoseGraphOptimizationNode.cpp:2[m[K:
+[3.507s] [01m[K/usr/include/ceres/problem.h:240:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... Ts> ceres::internal::ResidualBlock* ceres::Problem::AddResidualBlock(ceres::CostFunction*, ceres::LossFunction*, double*, Ts* ...)[m[K’
+[3.507s]   240 |   ResidualBlockId [01;36m[KAddResidualBlock[m[K(CostFunction* cost_function,
+[3.507s]       |                   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.507s] [01m[K/usr/include/ceres/problem.h:240:19:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.507s] [01m[K/home/kvothe/ros/src/optim/src/PoseGraphOptimizationNode.cpp:97:38:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K& optimized_nodes.std::vector<messages::msg::PoseNode_<std::allocator<void> >, std::allocator<messages::msg::PoseNode_<std::allocator<void> > > >::operator[](((std::vector<messages::msg::PoseNode_<std::allocator<void> >, std::allocator<messages::msg::PoseNode_<std::allocator<void> > > >::size_type)((messages::msg::LandmarkConstraint_<std::allocator<void> >::_pose_id_type)landmark.messages::msg::LandmarkConstraint_<std::allocator<void> >::pose_id))).messages::msg::PoseNode_<std::allocator<void> >::x[m[K’ (type ‘[01m[Kmessages::msg::PoseNode_<std::allocator<void> >::_x_type*[m[K’ {aka ‘[01m[Kfloat*[m[K’}) to type ‘[01m[Kdouble*[m[K’
+[3.507s]    97 |                                      [01;36m[K&optimized_nodes[landmark.pose_id].x[m[K,
+[3.508s]       |                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.508s] In file included from [01m[K/usr/include/ceres/ceres.h:60[m[K,
+[3.508s]                  from [01m[K/home/kvothe/ros/src/optim/src/PoseGraphOptimizationNode.cpp:2[m[K:
+[3.508s] [01m[K/usr/include/ceres/problem.h:252:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kceres::internal::ResidualBlock* ceres::Problem::AddResidualBlock(ceres::CostFunction*, ceres::LossFunction*, const std::vector<double*>&)[m[K’
+[3.508s]   252 |   ResidualBlockId [01;36m[KAddResidualBlock[m[K(
+[3.508s]       |                   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.508s] [01m[K/usr/include/ceres/problem.h:252:19:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 5 provided
+[3.508s] [01m[K/usr/include/ceres/problem.h:259:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kceres::internal::ResidualBlock* ceres::Problem::AddResidualBlock(ceres::CostFunction*, ceres::LossFunction*, double* const*, int)[m[K’
+[3.508s]   259 |   ResidualBlockId [01;36m[KAddResidualBlock[m[K(CostFunction* cost_function,
+[3.508s]       |                   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.509s] [01m[K/usr/include/ceres/problem.h:259:19:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 5 provided
+[5.803s] gmake[2]: *** [CMakeFiles/PoseGraphOptimizationNode.dir/build.make:76: CMakeFiles/PoseGraphOptimizationNode.dir/src/PoseGraphOptimizationNode.cpp.o] Error 1
+[5.803s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/PoseGraphOptimizationNode.dir/all] Error 2
+[5.804s] gmake: *** [Makefile:146: all] Error 2
+[5.807s] Invoked command in '/home/kvothe/ros/build/optim' returned '2': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/optim:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/optim -- -j12 -l12

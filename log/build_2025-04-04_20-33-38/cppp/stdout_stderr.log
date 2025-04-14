@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[ 10%] Built target PreprocessNode
+[ 20%] Built target LandmarkTransformermapNode
+[ 30%] Built target ScanTransformer
+[ 40%] Built target LandmarkTransformerNode
+[ 50%] Built target LandmarkGraphNode
+[ 60%] Built target RansacLineExtractionNode
+[ 65%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[ 75%] Built target HoughLineFittingNode
+[ 85%] Built target IncrementalLineFittingNode
+[ 95%] Built target ScanAccumulator
+[100%] [32m[1mLinking CXX executable PoseGraphOptimizer[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:179: PoseGraphOptimizer] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

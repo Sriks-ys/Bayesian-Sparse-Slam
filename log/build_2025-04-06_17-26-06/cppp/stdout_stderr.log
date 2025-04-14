@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[ 10%] Built target PreprocessNode
+[ 30%] Built target LandmarkGraphNode
+[ 30%] Built target ScanTransformer
+[ 40%] Built target LandmarkTransformermapNode
+[ 55%] Built target IncrementalLineFittingNode
+[ 55%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[ 65%] Built target LandmarkTransformerNode
+[ 75%] Built target ScanAccumulator
+[ 95%] Built target RansacLineExtractionNode
+[ 95%] Built target HoughLineFittingNode
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:221:44:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::array<double, 9>[m[K’ and ‘[01m[Kconst _covariance_type[m[K’ {aka ‘[01m[Kconst std::array<float, 9>[m[K’})
+  221 |             scaled_covariance = constraint.[01;31m[Kcovariance[m[K;
+      |                                            [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::array<double, 9>& std::array<double, 9>::operator=(const std::array<double, 9>&)[m[K’
+   95 |     struct [01;36m[Karray[m[K
+      |            [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst _covariance_type[m[K’ {aka ‘[01m[Kconst std::array<float, 9>[m[K’} to ‘[01m[Kconst std::array<double, 9>&[m[K’
+[01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::array<double, 9>& std::array<double, 9>::operator=(std::array<double, 9>&&)[m[K’
+[01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst _covariance_type[m[K’ {aka ‘[01m[Kconst std::array<float, 9>[m[K’} to ‘[01m[Kstd::array<double, 9>&&[m[K’
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:222:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*=[m[K’ (operand types are ‘[01m[Kstd::array<double, 9>[m[K’ and ‘[01m[Kdouble[m[K’)
+  222 |             [01;31m[Kscaled_covariance *= 2.5[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:228:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kcost_function[m[K’ was not declared in this scope; did you mean ‘[01m[KCostFunction[m[K’?
+  228 |             problem.AddResidualBlock([01;31m[Kcost_function[m[K, nullptr,
+      |                                      [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                      [32m[KCostFunction[m[K
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

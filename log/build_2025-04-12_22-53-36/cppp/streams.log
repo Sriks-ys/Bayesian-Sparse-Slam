@@ -1,0 +1,51 @@
+[0.319s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j16 -l16
+[0.536s] [ 10%] Built target PreprocessNode
+[0.536s] [ 20%] Built target PoseGraphOptimizer
+[0.536s] [ 30%] Built target ScanTransformer
+[0.536s] [ 40%] Built target LandmarkTransformerNode
+[0.536s] [ 50%] Built target LandmarkGraphNode
+[0.537s] [ 60%] Built target LandmarkTransformermapNode
+[0.537s] [ 70%] Built target ScanAccumulator
+[0.537s] [ 80%] Built target RansacLineExtractionNode
+[0.546s] [35m[1mConsolidate compiler generated dependencies of target HoughLineFittingNode[0m
+[0.566s] [ 85%] [32mBuilding CXX object CMakeFiles/HoughLineFittingNode.dir/src/HoughLineFittingNode.cpp.o[0m
+[5.894s] [01m[K/home/kvothe/ros/src/cppp/src/HoughLineFittingNode.cpp:[m[K In member function ‘[01m[Kstd::array<double, 4> HoughLineFittingNode::computeSegmentCovariance(const HoughLineFittingNode::Point2D&, const HoughLineFittingNode::Point2D&)[m[K’:
+[5.894s] [01m[K/home/kvothe/ros/src/cppp/src/HoughLineFittingNode.cpp:129:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.894s]   129 |     std::array<double, 4> computeSegmentCovariance([01;35m[Kconst Point2D& p1[m[K, const Point2D& p2) {
+[5.894s]       |                                                    [01;35m[K~~~~~~~~~~~~~~~^~[m[K
+[5.894s] [01m[K/home/kvothe/ros/src/cppp/src/HoughLineFittingNode.cpp:129:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.894s]   129 |     std::array<double, 4> computeSegmentCovariance(const Point2D& p1, [01;35m[Kconst Point2D& p2[m[K) {
+[5.894s]       |                                                                       [01;35m[K~~~~~~~~~~~~~~~^~[m[K
+[14.969s] [ 90%] [32m[1mLinking CXX executable HoughLineFittingNode[0m
+[16.034s] [ 90%] Built target HoughLineFittingNode
+[16.058s] [100%] Built target IncrementalLineFittingNode
+[16.066s] Invoked command in '/home/kvothe/ros/build/cppp' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j16 -l16
+[16.069s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/kvothe/ros/build/cppp
+[16.073s] -- Install configuration: ""
+[16.073s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformerNode
+[16.074s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/ScanAccumulator
+[16.074s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/PreprocessNode
+[16.074s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkGraphNode
+[16.074s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/IncrementalLineFittingNode
+[16.075s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformermapNode
+[16.075s] -- Installing: /home/kvothe/ros/install/cppp/lib/cppp/HoughLineFittingNode
+[16.079s] -- Set runtime path of "/home/kvothe/ros/install/cppp/lib/cppp/HoughLineFittingNode" to ""
+[16.079s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/RansacLineExtractionNode
+[16.080s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/ScanTransformer
+[16.080s] -- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/PoseGraphOptimizer
+[16.080s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/package_run_dependencies/cppp
+[16.080s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/parent_prefix_path/cppp
+[16.080s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.sh
+[16.080s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.dsv
+[16.081s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/path.sh
+[16.081s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/path.dsv
+[16.081s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.bash
+[16.081s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.sh
+[16.081s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.zsh
+[16.081s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.dsv
+[16.081s] -- Installing: /home/kvothe/ros/install/cppp/share/cppp/package.dsv
+[16.081s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/packages/cppp
+[16.081s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig.cmake
+[16.081s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig-version.cmake
+[16.081s] -- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/package.xml
+[16.083s] Invoked command in '/home/kvothe/ros/build/cppp' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/kvothe/ros/build/cppp

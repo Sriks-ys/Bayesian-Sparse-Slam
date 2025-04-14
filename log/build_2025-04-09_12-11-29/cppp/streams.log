@@ -1,0 +1,38 @@
+[0.022s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12
+[0.185s] [  5%] [32mBuilding CXX object CMakeFiles/PreprocessNode.dir/src/PreprocessNode.cpp.o[0m
+[0.193s] [ 20%] [32mBuilding CXX object CMakeFiles/LandmarkTransformermapNode.dir/src/LandmarkTransformermapNode.cpp.o[0m
+[0.193s] [ 20%] [32mBuilding CXX object CMakeFiles/LandmarkGraphNode.dir/src/LandmarkGraphNode.cpp.o[0m
+[0.193s] [ 20%] [32mBuilding CXX object CMakeFiles/LandmarkTransformerNode.dir/src/LandmarkTransformerNode.cpp.o[0m
+[0.197s] [ 25%] [32mBuilding CXX object CMakeFiles/ScanTransformer.dir/src/ScanTransformer.cpp.o[0m
+[0.232s] [ 30%] [32mBuilding CXX object CMakeFiles/IncrementalLineFittingNode.dir/src/IncrementalLineFittingNode.cpp.o[0m
+[0.235s] [ 35%] [32mBuilding CXX object CMakeFiles/RansacLineExtractionNode.dir/src/RansacLineExtractionNode.cpp.o[0m
+[0.239s] [ 45%] [32mBuilding CXX object CMakeFiles/ScanAccumulator.dir/src/ScanAccumulator.cpp.o[0m
+[0.239s] [ 45%] [32mBuilding CXX object CMakeFiles/HoughLineFittingNode.dir/src/HoughLineFittingNode.cpp.o[0m
+[0.242s] [ 50%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[1.931s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kgtsam/noiseModel/Diagonal.h: No such file or directory
+[1.931s]    13 | #include [01;31m[K<gtsam/noiseModel/Diagonal.h>[m[K
+[1.932s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.932s] compilation terminated.
+[1.953s] gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+[1.953s] gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+[1.953s] gmake[1]: *** Waiting for unfinished jobs....
+[13.334s] [ 55%] [32m[1mLinking CXX executable PreprocessNode[0m
+[13.373s] [ 60%] [32m[1mLinking CXX executable LandmarkTransformermapNode[0m
+[13.791s] [ 65%] [32m[1mLinking CXX executable LandmarkGraphNode[0m
+[14.280s] [ 65%] Built target PreprocessNode
+[14.507s] [ 65%] Built target LandmarkTransformermapNode
+[14.706s] [ 65%] Built target LandmarkGraphNode
+[14.822s] [ 70%] [32m[1mLinking CXX executable ScanTransformer[0m
+[15.647s] [ 70%] Built target ScanTransformer
+[18.901s] [ 75%] [32m[1mLinking CXX executable IncrementalLineFittingNode[0m
+[19.631s] [ 80%] [32m[1mLinking CXX executable LandmarkTransformerNode[0m
+[20.776s] [ 80%] Built target LandmarkTransformerNode
+[20.844s] [ 80%] Built target IncrementalLineFittingNode
+[21.302s] [ 85%] [32m[1mLinking CXX executable RansacLineExtractionNode[0m
+[22.427s] [ 90%] [32m[1mLinking CXX executable HoughLineFittingNode[0m
+[23.443s] [ 90%] Built target RansacLineExtractionNode
+[23.471s] [ 95%] [32m[1mLinking CXX executable ScanAccumulator[0m
+[24.271s] [ 95%] Built target HoughLineFittingNode
+[25.052s] [ 95%] Built target ScanAccumulator
+[25.058s] gmake: *** [Makefile:146: all] Error 2
+[25.128s] Invoked command in '/home/kvothe/ros/build/cppp' returned '2': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12

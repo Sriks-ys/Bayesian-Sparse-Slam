@@ -1,0 +1,20 @@
+[0.018s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12
+[0.292s] [35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[0.292s] [ 10%] Built target PreprocessNode
+[0.292s] [ 20%] Built target LandmarkGraphNode
+[0.292s] [ 40%] Built target LandmarkTransformermapNode
+[0.292s] [ 40%] Built target LandmarkTransformerNode
+[0.293s] [ 50%] Built target ScanTransformer
+[0.293s] [ 75%] Built target HoughLineFittingNode
+[0.293s] [ 75%] Built target IncrementalLineFittingNode
+[0.293s] [ 75%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[0.293s] [ 85%] Built target RansacLineExtractionNode
+[0.293s] [ 95%] Built target ScanAccumulator
+[0.494s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kvisualization_msgs/msg/marker_array.hpp: No such file or directory
+[0.494s]     4 | #include [01;31m[K<visualization_msgs/msg/marker_array.hpp>[m[K
+[0.494s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.494s] compilation terminated.
+[0.503s] gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+[0.503s] gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+[0.504s] gmake: *** [Makefile:146: all] Error 2
+[0.545s] Invoked command in '/home/kvothe/ros/build/cppp' returned '2': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12

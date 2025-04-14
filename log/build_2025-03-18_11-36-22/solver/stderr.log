@@ -1,0 +1,7 @@
+[01m[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kg2o/optimization_algorithm_levenberg.h: No such file or directory
+    6 | #include [01;31m[K<g2o/optimization_algorithm_levenberg.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/test_g2o.dir/build.make:76: CMakeFiles/test_g2o.dir/src/test_g2o.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test_g2o.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

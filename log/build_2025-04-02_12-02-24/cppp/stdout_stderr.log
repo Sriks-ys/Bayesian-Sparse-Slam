@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[ 10%] Built target PreprocessNode
+[ 30%] Built target LandmarkTransformerNode
+[ 30%] Built target LandmarkGraphNode
+[ 40%] Built target LandmarkTransformermapNode
+[ 50%] Built target ScanTransformer
+[ 60%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[ 65%] Built target RansacLineExtractionNode
+[ 75%] Built target HoughLineFittingNode
+[ 95%] Built target ScanAccumulator
+[ 95%] Built target IncrementalLineFittingNode
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:41:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_parameters_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_parameters_[m[K’?
+   41 |             [01;31m[Kpose_parameters_[m[K.push_back({static_cast<double>(node.x),
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |             [32m[Knode_parameters_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:49:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_parameters_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_parameters_[m[K’?
+   49 |             [01;31m[Kpose_parameters_[m[K.push_back({static_cast<double>(node.x),
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |             [32m[Knode_parameters_[m[K
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

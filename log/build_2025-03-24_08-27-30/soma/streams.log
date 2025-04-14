@@ -1,0 +1,28 @@
+[0.762s] Invoking command in '/home/kvothe/ros/src/soma': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp PYTHONPATH=/home/kvothe/ros/build/soma/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvothe/ros/install/soma/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/soma build --build-base /home/kvothe/ros/build/soma/build install --record /home/kvothe/ros/build/soma/install.log --single-version-externally-managed install_data
+[0.958s] running egg_info
+[0.959s] writing ../../build/soma/soma.egg-info/PKG-INFO
+[0.959s] writing dependency_links to ../../build/soma/soma.egg-info/dependency_links.txt
+[0.959s] writing entry points to ../../build/soma/soma.egg-info/entry_points.txt
+[0.959s] writing requirements to ../../build/soma/soma.egg-info/requires.txt
+[0.960s] writing top-level names to ../../build/soma/soma.egg-info/top_level.txt
+[0.961s] reading manifest file '../../build/soma/soma.egg-info/SOURCES.txt'
+[0.962s] writing manifest file '../../build/soma/soma.egg-info/SOURCES.txt'
+[0.962s] running build
+[0.962s] running build_py
+[0.963s] running install
+[0.963s] running install_lib
+[0.965s] running install_data
+[0.965s] running install_egg_info
+[0.967s] removing '/home/kvothe/ros/install/soma/lib/python3.10/site-packages/soma-0.0.0-py3.10.egg-info' (and everything under it)
+[0.968s] Copying ../../build/soma/soma.egg-info to /home/kvothe/ros/install/soma/lib/python3.10/site-packages/soma-0.0.0-py3.10.egg-info
+[0.969s] running install_scripts
+[0.986s] Installing BayesianLandmarkConstraintNode script to /home/kvothe/ros/install/soma/lib/soma
+[0.987s] Installing EuclidsLandmarkLandmarkGraphNode script to /home/kvothe/ros/install/soma/lib/soma
+[0.987s] Installing GraphNode script to /home/kvothe/ros/install/soma/lib/soma
+[0.987s] Installing LandmarkConstraintVisualizer script to /home/kvothe/ros/install/soma/lib/soma
+[0.987s] Installing LineSegmentAssociation script to /home/kvothe/ros/install/soma/lib/soma
+[0.987s] Installing PoseGraphNode script to /home/kvothe/ros/install/soma/lib/soma
+[0.987s] Installing PostProcessingNode script to /home/kvothe/ros/install/soma/lib/soma
+[0.987s] Installing SWMANode script to /home/kvothe/ros/install/soma/lib/soma
+[0.988s] writing list of installed files to '/home/kvothe/ros/build/soma/install.log'
+[1.026s] Invoked command in '/home/kvothe/ros/src/soma' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp PYTHONPATH=/home/kvothe/ros/build/soma/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvothe/ros/install/soma/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/soma build --build-base /home/kvothe/ros/build/soma/build install --record /home/kvothe/ros/build/soma/install.log --single-version-externally-managed install_data

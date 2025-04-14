@@ -1,0 +1,301 @@
+[0.000000] (-) TimerEvent: {}
+[0.000755] (-) JobUnselected: {'identifier': 'messages'}
+[0.000862] (-) JobUnselected: {'identifier': 'robot_control'}
+[0.000912] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000954] (-) JobUnselected: {'identifier': 'ros_bringup'}
+[0.000994] (-) JobUnselected: {'identifier': 'ros_gazebo'}
+[0.001035] (-) JobUnselected: {'identifier': 'sensor_management'}
+[0.001075] (-) JobUnselected: {'identifier': 'soma'}
+[0.001119] (cppp) JobQueued: {'identifier': 'cppp', 'dependencies': OrderedDict([('messages', '/home/kvothe/ros/install/messages')])}
+[0.001172] (cppp) JobStarted: {'identifier': 'cppp'}
+[0.013898] (cppp) JobProgress: {'identifier': 'cppp', 'progress': 'cmake'}
+[0.014995] (cppp) JobProgress: {'identifier': 'cppp', 'progress': 'build'}
+[0.015863] (cppp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kvothe/ros/build/cppp', '--', '-j12', '-l12'], 'cwd': '/home/kvothe/ros/build/cppp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kvothe'), ('XDG_SESSION_TYPE', 'wayland'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kvothe'), ('OLDPWD', '/home/kvothe'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1050'), ('SYSTEMD_EXEC_PID', '1215'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2571'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kvothe/ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kvothe'), ('JOURNAL_STREAM', '8:10952'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kvothe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kvothe/.local/bin:/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1175,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1175'), ('INVOCATION_ID', 'b3ad2d4d7520453eb860e12b509c658e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T1KX42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/'), ('TERMINATOR_UUID', 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kvothe/ros/build/cppp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[0.093063] (cppp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer\x1b[0m\n'}
+[0.096747] (cppp) StdoutLine: {'line': b'[ 10%] Built target PreprocessNode\n'}
+[0.099636] (cppp) StdoutLine: {'line': b'[ 20%] Built target LandmarkGraphNode\n'}
+[0.099853] (-) TimerEvent: {}
+[0.101643] (cppp) StdoutLine: {'line': b'[ 30%] Built target LandmarkTransformermapNode\n'}
+[0.110506] (cppp) StdoutLine: {'line': b'[ 50%] Built target LandmarkTransformerNode\n'}
+[0.110742] (cppp) StdoutLine: {'line': b'[ 55%] Built target ScanTransformer\n'}
+[0.110811] (cppp) StdoutLine: {'line': b'[ 70%] Built target HoughLineFittingNode\n'}
+[0.110876] (cppp) StdoutLine: {'line': b'[ 70%] Built target ScanAccumulator\n'}
+[0.110939] (cppp) StdoutLine: {'line': b'[ 90%] Built target IncrementalLineFittingNode\n'}
+[0.111001] (cppp) StdoutLine: {'line': b'[ 90%] Built target RansacLineExtractionNode\n'}
+[0.120792] (cppp) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o\x1b[0m\n'}
+[0.200187] (-) TimerEvent: {}
+[0.300808] (-) TimerEvent: {}
+[0.401176] (-) TimerEvent: {}
+[0.501595] (-) TimerEvent: {}
+[0.602004] (-) TimerEvent: {}
+[0.702465] (-) TimerEvent: {}
+[0.802887] (-) TimerEvent: {}
+[0.903325] (-) TimerEvent: {}
+[1.003762] (-) TimerEvent: {}
+[1.104197] (-) TimerEvent: {}
+[1.204657] (-) TimerEvent: {}
+[1.305089] (-) TimerEvent: {}
+[1.405552] (-) TimerEvent: {}
+[1.505987] (-) TimerEvent: {}
+[1.606451] (-) TimerEvent: {}
+[1.706888] (-) TimerEvent: {}
+[1.807316] (-) TimerEvent: {}
+[1.907748] (-) TimerEvent: {}
+[2.008184] (-) TimerEvent: {}
+[2.108670] (-) TimerEvent: {}
+[2.209096] (-) TimerEvent: {}
+[2.309531] (-) TimerEvent: {}
+[2.409966] (-) TimerEvent: {}
+[2.510432] (-) TimerEvent: {}
+[2.610865] (-) TimerEvent: {}
+[2.711326] (-) TimerEvent: {}
+[2.811758] (-) TimerEvent: {}
+[2.912197] (-) TimerEvent: {}
+[3.012657] (-) TimerEvent: {}
+[3.113093] (-) TimerEvent: {}
+[3.213554] (-) TimerEvent: {}
+[3.313996] (-) TimerEvent: {}
+[3.414459] (-) TimerEvent: {}
+[3.514899] (-) TimerEvent: {}
+[3.615332] (-) TimerEvent: {}
+[3.715772] (-) TimerEvent: {}
+[3.816396] (-) TimerEvent: {}
+[3.916854] (-) TimerEvent: {}
+[4.017321] (-) TimerEvent: {}
+[4.072197] (cppp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/Values.h:27\x1b[m\x1b[K,\n'}
+[4.072552] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactor.h:24\x1b[m\x1b[K,\n'}
+[4.072708] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactorGraph.h:25\x1b[m\x1b[K,\n'}
+[4.072842] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:21\x1b[m\x1b[K,\n'}
+[4.072972] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23\x1b[m\x1b[K,\n'}
+[4.073103] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:7\x1b[m\x1b[K:\n'}
+[4.073247] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Key.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic bool gtsam::traits<long unsigned int>::Equals(const Key&, const Key&, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.073403] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Key.h:127:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktol\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.073539] (cppp) StderrLine: {'line': b'  127 |   static bool Equals(const Key& val1, const Key& val2, \x1b[01;35m\x1b[Kdouble tol = 1e-8\x1b[m\x1b[K) {\n'}
+[4.073667] (cppp) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.117459] (-) TimerEvent: {}
+[4.217850] (-) TimerEvent: {}
+[4.318311] (-) TimerEvent: {}
+[4.333074] (cppp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/NoiseModel.h:25\x1b[m\x1b[K,\n'}
+[4.333354] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactor.h:26\x1b[m\x1b[K,\n'}
+[4.333515] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactorGraph.h:25\x1b[m\x1b[K,\n'}
+[4.333648] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:21\x1b[m\x1b[K,\n'}
+[4.333780] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23\x1b[m\x1b[K,\n'}
+[4.333909] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:7\x1b[m\x1b[K:\n'}
+[4.334036] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/LossFunctions.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual double gtsam::noiseModel::mEstimator::Base::loss(double) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.334166] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/LossFunctions.h:97:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdistance\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.334353] (cppp) StderrLine: {'line': b'   97 |   virtual double loss(\x1b[01;35m\x1b[Kdouble distance\x1b[m\x1b[K) const { return 0; }\n'}
+[4.334487] (cppp) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.349007] (cppp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactor.h:26\x1b[m\x1b[K,\n'}
+[4.349375] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearFactorGraph.h:25\x1b[m\x1b[K,\n'}
+[4.349540] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:21\x1b[m\x1b[K,\n'}
+[4.349671] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23\x1b[m\x1b[K,\n'}
+[4.349802] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:7\x1b[m\x1b[K:\n'}
+[4.349930] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/NoiseModel.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual double gtsam::noiseModel::Base::weight(const Vector&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.350062] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/NoiseModel.h:141:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.350234] (cppp) StderrLine: {'line': b'  141 |       virtual double weight(\x1b[01;35m\x1b[Kconst Vector& v\x1b[m\x1b[K) const { return 1.0; }\n'}
+[4.350390] (cppp) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[4.418453] (-) TimerEvent: {}
+[4.518858] (-) TimerEvent: {}
+[4.619188] (-) TimerEvent: {}
+[4.648986] (cppp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizerParams.h:24\x1b[m\x1b[K,\n'}
+[4.649332] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/NonlinearOptimizer.h:22\x1b[m\x1b[K,\n'}
+[4.649525] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23\x1b[m\x1b[K,\n'}
+[4.649654] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:7\x1b[m\x1b[K:\n'}
+[4.649779] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianFactorGraph.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic gtsam::Ordering gtsam::EliminationTraits<gtsam::GaussianFactorGraph>::DefaultOrderingFunc(const FactorGraphType&, std::optional<std::reference_wrapper<const gtsam::VariableIndex> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.649910] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianFactorGraph.h:60:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgraph\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.650063] (cppp) StderrLine: {'line': b'   60 |         \x1b[01;35m\x1b[Kconst FactorGraphType& graph\x1b[m\x1b[K,\n'}
+[4.650191] (cppp) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[4.719355] (-) TimerEvent: {}
+[4.819790] (-) TimerEvent: {}
+[4.920255] (-) TimerEvent: {}
+[5.014980] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:\x1b[m\x1b[K At global scope:\n'}
+[5.015286] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:39:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPointCloudwithCov\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.015458] (cppp) StderrLine: {'line': b'   39 |     rclcpp::Subscription<\x1b[01;31m\x1b[KPointCloudwithCov\x1b[m\x1b[K>::SharedPtr landmark_sub_;\n'}
+[5.015592] (cppp) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.015721] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:39:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.015851] (cppp) StderrLine: {'line': b'   39 |     rclcpp::Subscription<PointCloudwithCov\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr landmark_sub_;\n'}
+[5.015979] (cppp) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.016105] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:39:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[5.016248] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:39:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[5.016393] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:39:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[5.016520] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:39:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[5.016648] (cppp) StderrLine: {'line': b'   39 |     rclcpp::Subscription<PointCloudwithCov>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K landmark_sub_;\n'}
+[5.016774] (cppp) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.016899] (cppp) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[5.020301] (-) TimerEvent: {}
+[5.022957] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:39:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klandmark_sub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.023273] (cppp) StderrLine: {'line': b'   39 |     rclcpp::Subscription<PointCloudwithCov>::SharedPtr \x1b[01;31m\x1b[Klandmark_sub_\x1b[m\x1b[K;\n'}
+[5.023440] (cppp) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.074033] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:47:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPointCloudwithCov\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.074342] (cppp) StderrLine: {'line': b'   47 |     void landmarkCallback(\x1b[01;31m\x1b[KPointCloudwithCov\x1b[m\x1b[K::SharedPtr msg) {\n'}
+[5.074504] (cppp) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.074638] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:47:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.074801] (cppp) StderrLine: {'line': b'   47 |     void landmarkCallback(PointCloudwithCov::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K) {\n'}
+[5.074954] (cppp) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.097302] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPoseGraphOptimizer::PoseGraphOptimizer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.097566] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:29:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klandmark_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Klandmark_map_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.097716] (cppp) StderrLine: {'line': b'   29 |         \x1b[01;31m\x1b[Klandmark_sub_\x1b[m\x1b[K = this->create_subscription<PointCloudwithCov>(\n'}
+[5.097850] (cppp) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.097999] (cppp) StderrLine: {'line': b'      |         \x1b[32m\x1b[Klandmark_map_\x1b[m\x1b[K\n'}
+[5.120465] (-) TimerEvent: {}
+[5.124756] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:29:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPointCloudwithCov\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.125019] (cppp) StderrLine: {'line': b'   29 |         landmark_sub_ = this->create_subscription<\x1b[01;31m\x1b[KPointCloudwithCov\x1b[m\x1b[K>(\n'}
+[5.125194] (cppp) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.126212] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:29:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KPoseGraphOptimizer::create_subscription<<expression error> >(const char [18], int, std::_Bind_helper<false, void (PoseGraphOptimizer::*)(int), PoseGraphOptimizer*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.126481] (cppp) StderrLine: {'line': b'   29 |         landmark_sub_ = \x1b[01;31m\x1b[Kthis->create_subscription<PointCloudwithCov>(\x1b[m\x1b[K\n'}
+[5.126641] (cppp) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[5.126783] (cppp) StderrLine: {'line': b'   30 | \x1b[01;31m\x1b[K            "/global_landmarks", 10, std::bind(&PoseGraphOptimizer::landmarkCallback, this, _1))\x1b[m\x1b[K;\n'}
+[5.126921] (cppp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.127264] (cppp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[5.127430] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[5.127545] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[5.127646] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.127757] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1\x1b[m\x1b[K:\n'}
+[5.127860] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.127980] (cppp) StderrLine: {'line': b'   92 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_subscription(\n'}
+[5.128079] (cppp) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.128177] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.128351] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:29:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.128494] (cppp) StderrLine: {'line': b'   29 |         landmark_sub_ = \x1b[01;31m\x1b[Kthis->create_subscription<PointCloudwithCov>(\x1b[m\x1b[K\n'}
+[5.128619] (cppp) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[5.128744] (cppp) StderrLine: {'line': b'   30 | \x1b[01;31m\x1b[K            "/global_landmarks", 10, std::bind(&PoseGraphOptimizer::landmarkCallback, this, _1))\x1b[m\x1b[K;\n'}
+[5.128872] (cppp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.130019] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PoseGraphOptimizer::landmarkCallback(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.130417] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:48:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.130951] (cppp) StderrLine: {'line': b'   48 |         for (const auto& pt : \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K->points) {\n'}
+[5.131086] (cppp) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.131252] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:48:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[5.131427] (cppp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[5.131582] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[5.131711] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[5.131859] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[5.131990] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[5.132117] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[5.132284] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.132410] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[5.132510] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.132608] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.132706] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[5.132814] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.132913] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.133013] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.133111] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1\x1b[m\x1b[K:\n'}
+[5.133245] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.133394] (cppp) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[5.133520] (cppp) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.133646] (cppp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[5.133773] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28\x1b[m\x1b[K,\n'}
+[5.133899] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30\x1b[m\x1b[K,\n'}
+[5.134026] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45\x1b[m\x1b[K,\n'}
+[5.134153] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[5.134302] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[5.134406] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.134506] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.134619] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[5.134717] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.134814] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.134910] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.135007] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1\x1b[m\x1b[K:\n'}
+[5.135103] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.135202] (cppp) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[5.135324] (cppp) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.135425] (cppp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23\x1b[m\x1b[K,\n'}
+[5.135524] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[5.135633] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[5.135743] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[5.135842] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[5.135940] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[5.136037] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[5.136134] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.136282] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.136423] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[5.136550] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.136675] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.136802] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.136941] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1\x1b[m\x1b[K:\n'}
+[5.137067] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.137199] (cppp) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[5.137356] (cppp) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.137488] (cppp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__struct.hpp:20\x1b[m\x1b[K,\n'}
+[5.137615] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/ros/install/messages/include/messages/messages/msg/pose_graph.hpp:7\x1b[m\x1b[K,\n'}
+[5.137741] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:2\x1b[m\x1b[K:\n'}
+[5.137867] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.137995] (cppp) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[5.138121] (cppp) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.138266] (cppp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__struct.hpp:22\x1b[m\x1b[K,\n'}
+[5.138412] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/ros/install/messages/include/messages/messages/msg/pose_graph.hpp:7\x1b[m\x1b[K,\n'}
+[5.138541] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:2\x1b[m\x1b[K:\n'}
+[5.138664] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_node__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmessages::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.138827] (cppp) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[5.138953] (cppp) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.139078] (cppp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp:7\x1b[m\x1b[K,\n'}
+[5.139234] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:5\x1b[m\x1b[K:\n'}
+[5.139405] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.139538] (cppp) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[5.139665] (cppp) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.139790] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:47:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KSharedPtr\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.139924] (cppp) StderrLine: {'line': b'   47 |     void landmarkCallback(\x1b[01;35m\x1b[KPointCloudwithCov::SharedPtr\x1b[m\x1b[K msg) {\n'}
+[5.140051] (cppp) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.220639] (-) TimerEvent: {}
+[5.321065] (-) TimerEvent: {}
+[5.421521] (-) TimerEvent: {}
+[5.521953] (-) TimerEvent: {}
+[5.622379] (-) TimerEvent: {}
+[5.722808] (-) TimerEvent: {}
+[5.823259] (-) TimerEvent: {}
+[5.923688] (-) TimerEvent: {}
+[6.024114] (-) TimerEvent: {}
+[6.124577] (-) TimerEvent: {}
+[6.224976] (-) TimerEvent: {}
+[6.325424] (-) TimerEvent: {}
+[6.425857] (-) TimerEvent: {}
+[6.526309] (-) TimerEvent: {}
+[6.626736] (-) TimerEvent: {}
+[6.727168] (-) TimerEvent: {}
+[6.827618] (-) TimerEvent: {}
+[6.928040] (-) TimerEvent: {}
+[7.028502] (-) TimerEvent: {}
+[7.128933] (-) TimerEvent: {}
+[7.229359] (-) TimerEvent: {}
+[7.329803] (-) TimerEvent: {}
+[7.430263] (-) TimerEvent: {}
+[7.530692] (-) TimerEvent: {}
+[7.631122] (-) TimerEvent: {}
+[7.731580] (-) TimerEvent: {}
+[7.832012] (-) TimerEvent: {}
+[7.932505] (-) TimerEvent: {}
+[8.032938] (-) TimerEvent: {}
+[8.133358] (-) TimerEvent: {}
+[8.233785] (-) TimerEvent: {}
+[8.329194] (cppp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianConditional.h:25\x1b[m\x1b[K,\n'}
+[8.329506] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianBayesNet.h:23\x1b[m\x1b[K,\n'}
+[8.329661] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/linear/GaussianBayesTree.h:22\x1b[m\x1b[K,\n'}
+[8.329792] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/nonlinear/Marginals.h:21\x1b[m\x1b[K,\n'}
+[8.329920] (cppp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:15\x1b[m\x1b[K:\n'}
+[8.330055] (cppp) StderrLine: {'line': b'/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kdouble gtsam::Conditional<FACTOR, DERIVEDCONDITIONAL>::logProbability(const gtsam::HybridValues&) const [with FACTOR = gtsam::JacobianFactor; DERIVEDCONDITIONAL = gtsam::GaussianConditional]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.330191] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:48:8:\x1b[m\x1b[K   required from here\n'}
+[8.330350] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:49:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.330534] (cppp) StderrLine: {'line': b'   49 |     \x1b[01;35m\x1b[Kconst HybridValues& c\x1b[m\x1b[K) const {\n'}
+[8.330664] (cppp) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[8.330793] (cppp) StderrLine: {'line': b'/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kdouble gtsam::Conditional<FACTOR, DERIVEDCONDITIONAL>::evaluate(const gtsam::HybridValues&) const [with FACTOR = gtsam::JacobianFactor; DERIVEDCONDITIONAL = gtsam::GaussianConditional]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.330945] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:55:8:\x1b[m\x1b[K   required from here\n'}
+[8.331072] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/externals/gtsam/install/include/gtsam/inference/Conditional-inst.h:56:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.331205] (cppp) StderrLine: {'line': b'   56 |     \x1b[01;35m\x1b[Kconst HybridValues& c\x1b[m\x1b[K) const {\n'}
+[8.331367] (cppp) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[8.333916] (-) TimerEvent: {}
+[8.434317] (-) TimerEvent: {}
+[8.534737] (-) TimerEvent: {}
+[8.635150] (-) TimerEvent: {}
+[8.735573] (-) TimerEvent: {}
+[8.835974] (-) TimerEvent: {}
+[8.936418] (-) TimerEvent: {}
+[9.036827] (-) TimerEvent: {}
+[9.137279] (-) TimerEvent: {}
+[9.237710] (-) TimerEvent: {}
+[9.338136] (-) TimerEvent: {}
+[9.371622] (cppp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1\n'}
+[9.372297] (cppp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2\n'}
+[9.372707] (cppp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.377244] (cppp) CommandEnded: {'returncode': 2}
+[9.386520] (cppp) JobEnded: {'identifier': 'cppp', 'rc': 2}
+[9.388046] (-) EventReactorShutdown: {}

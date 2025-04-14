@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[ 10%] Built target PreprocessNode
+[ 30%] Built target LandmarkTransformerNode
+[ 30%] Built target LandmarkTransformermapNode
+[ 40%] Built target LandmarkGraphNode
+[ 50%] Built target IncrementalLineFittingNode
+[ 60%] Built target RansacLineExtractionNode
+[ 70%] Built target HoughLineFittingNode
+[ 80%] Built target ScanTransformer
+[ 85%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[ 95%] Built target ScanAccumulator
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:267:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::LandmarkConstraint_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kstart[m[K’
+  267 |                 double x_start_global = constraint.[01;31m[Kstart[m[K.x;
+      |                                                    [01;31m[K^~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:268:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::LandmarkConstraint_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kstart[m[K’
+  268 |                 double y_start_global = constraint.[01;31m[Kstart[m[K.y;
+      |                                                    [01;31m[K^~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:270:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::LandmarkConstraint_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kend[m[K’
+  270 |                 double x_end_global = constraint.[01;31m[Kend[m[K.x;
+      |                                                  [01;31m[K^~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:271:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::LandmarkConstraint_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kend[m[K’
+  271 |                 double y_end_global = constraint.[01;31m[Kend[m[K.y;
+      |                                                  [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

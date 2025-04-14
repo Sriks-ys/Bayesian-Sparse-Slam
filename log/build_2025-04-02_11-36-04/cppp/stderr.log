@@ -1,0 +1,9 @@
+/usr/bin/ld: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o: in function `PoseGraphOptimizer::optimize()':
+PoseGraphOptimizer.cpp:(.text._ZN18PoseGraphOptimizer8optimizeEv[_ZN18PoseGraphOptimizer8optimizeEv]+0x33): undefined reference to `ceres::Problem::Problem()'
+/usr/bin/ld: PoseGraphOptimizer.cpp:(.text._ZN18PoseGraphOptimizer8optimizeEv[_ZN18PoseGraphOptimizer8optimizeEv]+0x82): undefined reference to `ceres::Solve(ceres::Solver::Options const&, ceres::Problem*, ceres::Solver::Summary*)'
+/usr/bin/ld: PoseGraphOptimizer.cpp:(.text._ZN18PoseGraphOptimizer8optimizeEv[_ZN18PoseGraphOptimizer8optimizeEv]+0x24a): undefined reference to `ceres::Problem::~Problem()'
+/usr/bin/ld: PoseGraphOptimizer.cpp:(.text._ZN18PoseGraphOptimizer8optimizeEv[_ZN18PoseGraphOptimizer8optimizeEv]+0x2d8): undefined reference to `ceres::Problem::~Problem()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:175: PoseGraphOptimizer] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,392 @@
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:26:34:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kmessages[m[K’ is ambiguous
+   26 |     void poseGraphCallback(const [01;31m[Kmessages[m[K::msg::PoseGraph::SharedPtr msg) {
+      |                                  [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:43[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/localefwd.h:206:11:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Ktemplate<class _CharT> class std::__cxx11::messages[m[K’
+  206 |     class [01;36m[Kmessages[m[K;
+      |           [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__struct.hpp:22[m[K,
+                 from [01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/pose_graph.hpp:7[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:4[m[K:
+[01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_node__struct.hpp:24:11:[m[K [01;36m[Knote: [m[K                ‘[01m[Knamespace messages { }[m[K’
+   24 | namespace [01;36m[Kmessages[m[K
+      |           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:26:47:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   26 |     void poseGraphCallback(const messages::msg[01;31m[K::[m[KPoseGraph::SharedPtr msg) {
+      |                                               [01;31m[K^~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:26:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   26 |     void poseGraphCallback[34m[K([m[Kconst messages::msg[01;31m[K:[m[K[32m[K:[m[KPoseGraph::SharedPtr msg) {
+      |                           [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                               [32m[K)[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:26:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   26 |     void poseGraphCallback(const messages::[01;31m[Kmsg[m[K::PoseGraph::SharedPtr msg) {
+      |                                            [01;31m[K^~~[m[K
+      |                                               [32m[K;[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:26:49:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseGraph[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   26 |     void poseGraphCallback(const messages::msg::[01;31m[KPoseGraph[m[K::SharedPtr msg) {
+      |                                                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:31:34:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kmessages[m[K’ is ambiguous
+   31 |     void landmarksCallback(const [01;31m[Kmessages[m[K::msg::LineSegmentList::SharedPtr msg) {
+      |                                  [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:43[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/localefwd.h:206:11:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Ktemplate<class _CharT> class std::__cxx11::messages[m[K’
+  206 |     class [01;36m[Kmessages[m[K;
+      |           [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__struct.hpp:22[m[K,
+                 from [01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/pose_graph.hpp:7[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:4[m[K:
+[01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_node__struct.hpp:24:11:[m[K [01;36m[Knote: [m[K                ‘[01m[Knamespace messages { }[m[K’
+   24 | namespace [01;36m[Kmessages[m[K
+      |           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:31:47:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   31 |     void landmarksCallback(const messages::msg[01;31m[K::[m[KLineSegmentList::SharedPtr msg) {
+      |                                               [01;31m[K^~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:31:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   31 |     void landmarksCallback[34m[K([m[Kconst messages::msg[01;31m[K:[m[K[32m[K:[m[KLineSegmentList::SharedPtr msg) {
+      |                           [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                               [32m[K)[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:31:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   31 |     void landmarksCallback(const messages::[01;31m[Kmsg[m[K::LineSegmentList::SharedPtr msg) {
+      |                                            [01;31m[K^~~[m[K
+      |                                               [32m[K;[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:31:49:[m[K [01;31m[Kerror: [m[K‘[01m[KLineSegmentList[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   31 |     void landmarksCallback(const messages::msg::[01;31m[KLineSegmentList[m[K::SharedPtr msg) {
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:35:44:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kmessages[m[K’ is ambiguous
+   35 |     void landmarkConstraintsCallback(const [01;31m[Kmessages[m[K::msg::LandmarkLandmarkConstraintList::SharedPtr msg) {
+      |                                            [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:43[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/localefwd.h:206:11:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Ktemplate<class _CharT> class std::__cxx11::messages[m[K’
+  206 |     class [01;36m[Kmessages[m[K;
+      |           [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__struct.hpp:22[m[K,
+                 from [01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/pose_graph.hpp:7[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:4[m[K:
+[01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_node__struct.hpp:24:11:[m[K [01;36m[Knote: [m[K                ‘[01m[Knamespace messages { }[m[K’
+   24 | namespace [01;36m[Kmessages[m[K
+      |           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:35:57:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   35 |     void landmarkConstraintsCallback(const messages::msg[01;31m[K::[m[KLandmarkLandmarkConstraintList::SharedPtr msg) {
+      |                                                         [01;31m[K^~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:35:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   35 |     void landmarkConstraintsCallback[34m[K([m[Kconst messages::msg[01;31m[K:[m[K[32m[K:[m[KLandmarkLandmarkConstraintList::SharedPtr msg) {
+      |                                     [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                                         [32m[K)[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:35:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   35 |     void landmarkConstraintsCallback(const messages::[01;31m[Kmsg[m[K::LandmarkLandmarkConstraintList::SharedPtr msg) {
+      |                                                      [01;31m[K^~~[m[K
+      |                                                         [32m[K;[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:35:59:[m[K [01;31m[Kerror: [m[K‘[01m[KLandmarkLandmarkConstraintList[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   35 |     void landmarkConstraintsCallback(const messages::msg::[01;31m[KLandmarkLandmarkConstraintList[m[K::SharedPtr msg) {
+      |                                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:159:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  159 |     rclcpp::Subscription<messages::msg::PoseGraph[01;31m[K>[m[K::SharedPtr pose_graph_sub_;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:159:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:159:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:159:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:159:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  159 |     rclcpp::Subscription<messages::msg::PoseGraph>::[01;31m[KSharedPtr[m[K pose_graph_sub_;
+      |                                                     [01;31m[K^~~~~~~~~[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:159:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_graph_sub_[m[K’ does not name a type
+  159 |     rclcpp::Subscription<messages::msg::PoseGraph>::SharedPtr [01;31m[Kpose_graph_sub_[m[K;
+      |                                                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:160:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  160 |     rclcpp::Subscription<messages::msg::LineSegmentList[01;31m[K>[m[K::SharedPtr landmarks_sub_;
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:160:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:160:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:160:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:160:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  160 |     rclcpp::Subscription<messages::msg::LineSegmentList>::[01;31m[KSharedPtr[m[K landmarks_sub_;
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+      |                                                                    [32m[K;[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:160:59:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint PoseGraphOptimizer::SharedPtr[m[K’
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:159:53:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint PoseGraphOptimizer::SharedPtr[m[K’
+  159 |     rclcpp::Subscription<messages::msg::PoseGraph>::[01;36m[KSharedPtr[m[K pose_graph_sub_;
+      |                                                     [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:160:69:[m[K [01;31m[Kerror: [m[K‘[01m[Klandmarks_sub_[m[K’ does not name a type
+  160 |     rclcpp::Subscription<messages::msg::LineSegmentList>::SharedPtr [01;31m[Klandmarks_sub_[m[K;
+      |                                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:161:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  161 |     rclcpp::Subscription<messages::msg::LandmarkLandmarkConstraintList[01;31m[K>[m[K::SharedPtr constraints_sub_;
+      |                                                                       [01;31m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:161:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:161:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:161:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:161:74:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  161 |     rclcpp::Subscription<messages::msg::LandmarkLandmarkConstraintList>::[01;31m[KSharedPtr[m[K constraints_sub_;
+      |                                                                          [01;31m[K^~~~~~~~~[m[K
+      |                                                                                   [32m[K;[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:161:74:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint PoseGraphOptimizer::SharedPtr[m[K’
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:159:53:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint PoseGraphOptimizer::SharedPtr[m[K’
+  159 |     rclcpp::Subscription<messages::msg::PoseGraph>::[01;36m[KSharedPtr[m[K pose_graph_sub_;
+      |                                                     [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:161:84:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstraints_sub_[m[K’ does not name a type
+  161 |     rclcpp::Subscription<messages::msg::LandmarkLandmarkConstraintList>::SharedPtr [01;31m[Kconstraints_sub_[m[K;
+      |                                                                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:162:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  162 |     rclcpp::Publisher<messages::msg::PoseGraph[01;31m[K>[m[K::SharedPtr optimized_pose_graph_pub_;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:162:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  162 |     rclcpp::Publisher<messages::msg::PoseGraph>::[01;31m[KSharedPtr[m[K optimized_pose_graph_pub_;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:162:50:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint PoseGraphOptimizer::SharedPtr[m[K’
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:159:53:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint PoseGraphOptimizer::SharedPtr[m[K’
+  159 |     rclcpp::Subscription<messages::msg::PoseGraph>::[01;36m[KSharedPtr[m[K pose_graph_sub_;
+      |                                                     [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:162:60:[m[K [01;31m[Kerror: [m[K‘[01m[Koptimized_pose_graph_pub_[m[K’ does not name a type
+  162 |     rclcpp::Publisher<messages::msg::PoseGraph>::SharedPtr [01;31m[Koptimized_pose_graph_pub_[m[K;
+      |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:163:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  163 |     rclcpp::Publisher<messages::msg::LineSegmentList[01;31m[K>[m[K::SharedPtr optimized_landmarks_pub_;
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:163:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  163 |     rclcpp::Publisher<messages::msg::LineSegmentList>::[01;31m[KSharedPtr[m[K optimized_landmarks_pub_;
+      |                                                        [01;31m[K^~~~~~~~~[m[K
+      |                                                                 [32m[K;[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:163:56:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint PoseGraphOptimizer::SharedPtr[m[K’
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:159:53:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint PoseGraphOptimizer::SharedPtr[m[K’
+  159 |     rclcpp::Subscription<messages::msg::PoseGraph>::[01;36m[KSharedPtr[m[K pose_graph_sub_;
+      |                                                     [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:163:66:[m[K [01;31m[Kerror: [m[K‘[01m[Koptimized_landmarks_pub_[m[K’ does not name a type
+  163 |     rclcpp::Publisher<messages::msg::LineSegmentList>::SharedPtr [01;31m[Koptimized_landmarks_pub_[m[K;
+      |                                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:165:5:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kmessages[m[K’ is ambiguous
+  165 |     [01;31m[Kmessages[m[K::msg::PoseGraph pose_graph_;
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:43[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/localefwd.h:206:11:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Ktemplate<class _CharT> class std::__cxx11::messages[m[K’
+  206 |     class [01;36m[Kmessages[m[K;
+      |           [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__struct.hpp:22[m[K,
+                 from [01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/pose_graph.hpp:7[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:4[m[K:
+[01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_node__struct.hpp:24:11:[m[K [01;36m[Knote: [m[K                ‘[01m[Knamespace messages { }[m[K’
+   24 | namespace [01;36m[Kmessages[m[K
+      |           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:166:5:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kmessages[m[K’ is ambiguous
+  166 |     [01;31m[Kmessages[m[K::msg::LineSegmentList global_landmarks_;
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:43[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/localefwd.h:206:11:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Ktemplate<class _CharT> class std::__cxx11::messages[m[K’
+  206 |     class [01;36m[Kmessages[m[K;
+      |           [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__struct.hpp:22[m[K,
+                 from [01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/pose_graph.hpp:7[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:4[m[K:
+[01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_node__struct.hpp:24:11:[m[K [01;36m[Knote: [m[K                ‘[01m[Knamespace messages { }[m[K’
+   24 | namespace [01;36m[Kmessages[m[K
+      |           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:167:5:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[Kmessages[m[K’ is ambiguous
+  167 |     [01;31m[Kmessages[m[K::msg::LandmarkLandmarkConstraintList landmark_constraints_;
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:43[m[K,
+                 from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/11/system_error:41[m[K,
+                 from [01m[K/usr/include/c++/11/mutex:42[m[K,
+                 from [01m[K/usr/include/c++/11/future:38[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/localefwd.h:206:11:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Ktemplate<class _CharT> class std::__cxx11::messages[m[K’
+  206 |     class [01;36m[Kmessages[m[K;
+      |           [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_graph__struct.hpp:22[m[K,
+                 from [01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/pose_graph.hpp:7[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:4[m[K:
+[01m[K/home/kvothe/ros/install/messages/include/messages/messages/msg/detail/pose_node__struct.hpp:24:11:[m[K [01;36m[Knote: [m[K                ‘[01m[Knamespace messages { }[m[K’
+   24 | namespace [01;36m[Kmessages[m[K
+      |           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In constructor ‘[01m[KPoseGraphOptimizer::PoseGraphOptimizer()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_graph_sub_[m[K’ was not declared in this scope
+   14 |         [01;31m[Kpose_graph_sub_[m[K = this->create_subscription<messages::msg::PoseGraph>(
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:14:33:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   14 |         pose_graph_sub_ = this->[01;31m[Kcreate_subscription<messages::msg::PoseGraph>[m[K(
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:14:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPoseGraphOptimizer::create_subscription<<expression error> >(const char [12], int, std::_Bind_helper<false, void (PoseGraphOptimizer::*)(...), PoseGraphOptimizer*, const std::_Placeholder<1>&>::type)[m[K’
+   14 |         pose_graph_sub_ = [01;31m[Kthis->create_subscription<messages::msg::PoseGraph>([m[K
+      |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   15 | [01;31m[K            "/pose_graph", 10, std::bind(&PoseGraphOptimizer::poseGraphCallback, this, std::placeholders::_1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:14:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   14 |         pose_graph_sub_ = [01;31m[Kthis->create_subscription<messages::msg::PoseGraph>([m[K
+      |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   15 | [01;31m[K            "/pose_graph", 10, std::bind(&PoseGraphOptimizer::poseGraphCallback, this, std::placeholders::_1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klandmarks_sub_[m[K’ was not declared in this scope
+   16 |         [01;31m[Klandmarks_sub_[m[K = this->create_subscription<messages::msg::LineSegmentList>(
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:16:32:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   16 |         landmarks_sub_ = this->[01;31m[Kcreate_subscription<messages::msg::LineSegmentList>[m[K(
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:16:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPoseGraphOptimizer::create_subscription<<expression error> >(const char [18], int, std::_Bind_helper<false, void (PoseGraphOptimizer::*)(...), PoseGraphOptimizer*, const std::_Placeholder<1>&>::type)[m[K’
+   16 |         landmarks_sub_ = [01;31m[Kthis->create_subscription<messages::msg::LineSegmentList>([m[K
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   17 | [01;31m[K            "/global_landmarks", 10, std::bind(&PoseGraphOptimizer::landmarksCallback, this, std::placeholders::_1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:16:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |         landmarks_sub_ = [01;31m[Kthis->create_subscription<messages::msg::LineSegmentList>([m[K
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   17 | [01;31m[K            "/global_landmarks", 10, std::bind(&PoseGraphOptimizer::landmarksCallback, this, std::placeholders::_1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:18:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstraints_sub_[m[K’ was not declared in this scope
+   18 |         [01;31m[Kconstraints_sub_[m[K = this->create_subscription<messages::msg::LandmarkLandmarkConstraintList>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:18:34:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   18 |         constraints_sub_ = this->[01;31m[Kcreate_subscription<messages::msg::LandmarkLandmarkConstraintList>[m[K(
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:18:100:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPoseGraphOptimizer::create_subscription<<expression error> >(const char [13], int, std::_Bind_helper<false, void (PoseGraphOptimizer::*)(...), PoseGraphOptimizer*, const std::_Placeholder<1>&>::type)[m[K’
+   18 |         constraints_sub_ = [01;31m[Kthis->create_subscription<messages::msg::LandmarkLandmarkConstraintList>([m[K
+      |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   19 | [01;31m[K            "/bayes_lm_lm", 10, std::bind(&PoseGraphOptimizer::landmarkConstraintsCallback, this, std::placeholders::_1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:18:100:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 |         constraints_sub_ = [01;31m[Kthis->create_subscription<messages::msg::LandmarkLandmarkConstraintList>([m[K
+      |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   19 | [01;31m[K            "/bayes_lm_lm", 10, std::bind(&PoseGraphOptimizer::landmarkConstraintsCallback, this, std::placeholders::_1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koptimized_pose_graph_pub_[m[K’ was not declared in this scope
+   21 |         [01;31m[Koptimized_pose_graph_pub_[m[K = this->create_publisher<messages::msg::PoseGraph>("/optimized_pose_graph", 10);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:21:43:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   21 |         optimized_pose_graph_pub_ = this->[01;31m[Kcreate_publisher<messages::msg::PoseGraph>[m[K("/optimized_pose_graph", 10);
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:21:85:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPoseGraphOptimizer::create_publisher<<expression error> >(const char [22], int)[m[K’
+   21 |         optimized_pose_graph_pub_ = [01;31m[Kthis->create_publisher<messages::msg::PoseGraph>("/optimized_pose_graph", 10)[m[K;
+      |                                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:21:85:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |         optimized_pose_graph_pub_ = [01;31m[Kthis->create_publisher<messages::msg::PoseGraph>("/optimized_pose_graph", 10)[m[K;
+      |                                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koptimized_landmarks_pub_[m[K’ was not declared in this scope
+   22 |         [01;31m[Koptimized_landmarks_pub_[m[K = this->create_publisher<messages::msg::LineSegmentList>("/optimized_landmarks", 10);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:22:42:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   22 |         optimized_landmarks_pub_ = this->[01;31m[Kcreate_publisher<messages::msg::LineSegmentList>[m[K("/optimized_landmarks", 10);
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:22:90:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPoseGraphOptimizer::create_publisher<<expression error> >(const char [21], int)[m[K’
+   22 |         optimized_landmarks_pub_ = [01;31m[Kthis->create_publisher<messages::msg::LineSegmentList>("/optimized_landmarks", 10)[m[K;
+      |                                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:22:90:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |         optimized_landmarks_pub_ = [01;31m[Kthis->create_publisher<messages::msg::LineSegmentList>("/optimized_landmarks", 10)[m[K;
+      |                                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimize()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:44:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_graph_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_graph_[m[K’?
+   44 |         for (const auto &pose : [01;31m[Kpose_graph_[m[K.nodes) {
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+      |                                 [32m[Knode_graph_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:52:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_landmarks_[m[K’ was not declared in this scope
+   52 |         for (size_t i = 0; i < [01;31m[Kglobal_landmarks_[m[K.segments.size(); ++i) {
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:59:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_graph_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_graph_[m[K’?
+   59 |         for (const auto &constraint : [01;31m[Kpose_graph_[m[K.pose_constraints) {
+      |                                       [01;31m[K^~~~~~~~~~~[m[K
+      |                                       [32m[Knode_graph_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:68:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_graph_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_graph_[m[K’?
+   68 |         for (const auto &constraint : [01;31m[Kpose_graph_[m[K.landmark_constraints) {
+      |                                       [01;31m[K^~~~~~~~~~~[m[K
+      |                                       [32m[Knode_graph_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:77:39:[m[K [01;31m[Kerror: [m[K‘[01m[Klandmark_constraints_[m[K’ was not declared in this scope
+   77 |         for (const auto &constraint : [01;31m[Klandmark_constraints_[m[K.constraints) {
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:96:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_graph_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_graph_[m[K’?
+   96 |         for (size_t i = 0; i < [01;31m[Kpose_graph_[m[K.nodes.size(); ++i) {
+      |                                [01;31m[K^~~~~~~~~~~[m[K
+      |                                [32m[Knode_graph_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:101:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koptimized_pose_graph_pub_[m[K’ was not declared in this scope
+  101 |         [01;31m[Koptimized_pose_graph_pub_[m[K->publish(pose_graph_);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:101:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_graph_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_graph_[m[K’?
+  101 |         optimized_pose_graph_pub_->publish([01;31m[Kpose_graph_[m[K);
+      |                                            [01;31m[K^~~~~~~~~~~[m[K
+      |                                            [32m[Knode_graph_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:104:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_landmarks_[m[K’ was not declared in this scope
+  104 |         for (size_t i = 0; i < [01;31m[Kglobal_landmarks_[m[K.segments.size(); ++i) {
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:108:9:[m[K [01;31m[Kerror: [m[K‘[01m[Koptimized_landmarks_pub_[m[K’ was not declared in this scope
+  108 |         [01;31m[Koptimized_landmarks_pub_[m[K->publish(global_landmarks_);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:108:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_landmarks_[m[K’ was not declared in this scope
+  108 |         optimized_landmarks_pub_->publish([01;31m[Kglobal_landmarks_[m[K);
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

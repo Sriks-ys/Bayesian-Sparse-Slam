@@ -1,0 +1,311 @@
+[0.000000] (-) TimerEvent: {}
+[0.000290] (-) JobUnselected: {'identifier': 'messages'}
+[0.000385] (-) JobUnselected: {'identifier': 'robot_control'}
+[0.000471] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000517] (-) JobUnselected: {'identifier': 'ros_bringup'}
+[0.000559] (-) JobUnselected: {'identifier': 'ros_gazebo'}
+[0.000601] (-) JobUnselected: {'identifier': 'sensor_management'}
+[0.000641] (-) JobUnselected: {'identifier': 'soma'}
+[0.000686] (cppp) JobQueued: {'identifier': 'cppp', 'dependencies': OrderedDict([('messages', '/home/kvothe/ros/install/messages')])}
+[0.000742] (cppp) JobStarted: {'identifier': 'cppp'}
+[0.026533] (cppp) JobProgress: {'identifier': 'cppp', 'progress': 'cmake'}
+[0.029394] (cppp) JobProgress: {'identifier': 'cppp', 'progress': 'build'}
+[0.029553] (cppp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kvothe/ros/build/cppp', '--', '-j12', '-l12'], 'cwd': '/home/kvothe/ros/build/cppp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kvothe'), ('XDG_SESSION_TYPE', 'wayland'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kvothe/ros/install/messages/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kvothe'), ('OLDPWD', '/home/kvothe'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1041'), ('SYSTEMD_EXEC_PID', '1205'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2321'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kvothe/ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kvothe'), ('JOURNAL_STREAM', '8:16656'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kvothe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kvothe/.local/bin:/opt/ros/humble/bin:/home/kvothe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kvothe-IdeaPad-Gaming-3-15ARH05:@/tmp/.ICE-unix/1165,unix/kvothe-IdeaPad-Gaming-3-15ARH05:/tmp/.ICE-unix/1165'), ('INVOCATION_ID', 'b78e138d8edd4d43ad3ac27d9b4d242a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5XBZ42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('IGN_GAZEBO_SYSTEM_PLUGIN_PATH', '/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/'), ('TERMINATOR_UUID', 'urn:uuid:5ca4bf61-143e-45b2-930a-ab1d34bf90da'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds:/home/kvothe/ros/install/robot_description/share'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GZ_VERSION', 'fortress'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kvothe/ros/build/cppp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kvothe/ros/install/soma/lib/python3.10/site-packages:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:/home/kvothe/ros/install/messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[0.099859] (-) TimerEvent: {}
+[0.200262] (-) TimerEvent: {}
+[0.221887] (cppp) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/PreprocessNode.dir/src/PreprocessNode.cpp.o\x1b[0m\n'}
+[0.229864] (cppp) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/LandmarkTransformermapNode.dir/src/LandmarkTransformermapNode.cpp.o\x1b[0m\n'}
+[0.230258] (cppp) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/LandmarkGraphNode.dir/src/LandmarkGraphNode.cpp.o\x1b[0m\n'}
+[0.230365] (cppp) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/LandmarkTransformerNode.dir/src/LandmarkTransformerNode.cpp.o\x1b[0m\n'}
+[0.233934] (cppp) StdoutLine: {'line': b'[ 30%] Built target ScanTransformer\n'}
+[0.237904] (cppp) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o\x1b[0m\n'}
+[0.281725] (cppp) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/IncrementalLineFittingNode.dir/src/IncrementalLineFittingNode.cpp.o\x1b[0m\n'}
+[0.281977] (cppp) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ScanAccumulator.dir/src/ScanAccumulator.cpp.o\x1b[0m\n'}
+[0.282088] (cppp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/RansacLineExtractionNode.dir/src/RansacLineExtractionNode.cpp.o\x1b[0m\n'}
+[0.287181] (cppp) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/HoughLineFittingNode.dir/src/HoughLineFittingNode.cpp.o\x1b[0m\n'}
+[0.300435] (-) TimerEvent: {}
+[0.400783] (-) TimerEvent: {}
+[0.501124] (-) TimerEvent: {}
+[0.601736] (-) TimerEvent: {}
+[0.702122] (-) TimerEvent: {}
+[0.802544] (-) TimerEvent: {}
+[0.903030] (-) TimerEvent: {}
+[1.003556] (-) TimerEvent: {}
+[1.105138] (-) TimerEvent: {}
+[1.206633] (-) TimerEvent: {}
+[1.307134] (-) TimerEvent: {}
+[1.407671] (-) TimerEvent: {}
+[1.508102] (-) TimerEvent: {}
+[1.610437] (-) TimerEvent: {}
+[1.710979] (-) TimerEvent: {}
+[1.811541] (-) TimerEvent: {}
+[1.912167] (-) TimerEvent: {}
+[2.012651] (-) TimerEvent: {}
+[2.113164] (-) TimerEvent: {}
+[2.213620] (-) TimerEvent: {}
+[2.314067] (-) TimerEvent: {}
+[2.414724] (-) TimerEvent: {}
+[2.515140] (-) TimerEvent: {}
+[2.615543] (-) TimerEvent: {}
+[2.684444] (cppp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:6\x1b[m\x1b[K:\n'}
+[2.684840] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/gtsam/slam/BearingRangeFactor.h:18:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning is a GCC extension\n'}
+[2.684982] (cppp) StderrLine: {'line': b'   18 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K "BearingRangeFactor is now an ExpressionFactor in SAM directory"\n'}
+[2.685123] (cppp) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.685267] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/gtsam/slam/BearingRangeFactor.h:18:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning "BearingRangeFactor is now an ExpressionFactor in SAM directory" [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.715719] (-) TimerEvent: {}
+[2.816182] (-) TimerEvent: {}
+[2.916671] (-) TimerEvent: {}
+[3.018436] (-) TimerEvent: {}
+[3.114300] (cppp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:13:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmessages/msg/landmark_node.hpp: No such file or directory\n'}
+[3.114635] (cppp) StderrLine: {'line': b'   13 | #include \x1b[01;31m\x1b[K<messages/msg/landmark_node.hpp>\x1b[m\x1b[K\n'}
+[3.114727] (cppp) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.114806] (cppp) StderrLine: {'line': b'compilation terminated.\n'}
+[3.118600] (-) TimerEvent: {}
+[3.139208] (cppp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1\n'}
+[3.139665] (cppp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2\n'}
+[3.139813] (cppp) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.218762] (-) TimerEvent: {}
+[3.319204] (-) TimerEvent: {}
+[3.420518] (-) TimerEvent: {}
+[3.520967] (-) TimerEvent: {}
+[3.621453] (-) TimerEvent: {}
+[3.722393] (-) TimerEvent: {}
+[3.822800] (-) TimerEvent: {}
+[3.923269] (-) TimerEvent: {}
+[4.024765] (-) TimerEvent: {}
+[4.125274] (-) TimerEvent: {}
+[4.225734] (-) TimerEvent: {}
+[4.326269] (-) TimerEvent: {}
+[4.426739] (-) TimerEvent: {}
+[4.527588] (-) TimerEvent: {}
+[4.628058] (-) TimerEvent: {}
+[4.728499] (-) TimerEvent: {}
+[4.829163] (-) TimerEvent: {}
+[4.929859] (-) TimerEvent: {}
+[5.030509] (-) TimerEvent: {}
+[5.130933] (-) TimerEvent: {}
+[5.231513] (-) TimerEvent: {}
+[5.332008] (-) TimerEvent: {}
+[5.432458] (-) TimerEvent: {}
+[5.532916] (-) TimerEvent: {}
+[5.633439] (-) TimerEvent: {}
+[5.734100] (-) TimerEvent: {}
+[5.834663] (-) TimerEvent: {}
+[5.935203] (-) TimerEvent: {}
+[6.035951] (-) TimerEvent: {}
+[6.136451] (-) TimerEvent: {}
+[6.236876] (-) TimerEvent: {}
+[6.337340] (-) TimerEvent: {}
+[6.437788] (-) TimerEvent: {}
+[6.538244] (-) TimerEvent: {}
+[6.638764] (-) TimerEvent: {}
+[6.739270] (-) TimerEvent: {}
+[6.839925] (-) TimerEvent: {}
+[6.940391] (-) TimerEvent: {}
+[7.040852] (-) TimerEvent: {}
+[7.143571] (-) TimerEvent: {}
+[7.244009] (-) TimerEvent: {}
+[7.344440] (-) TimerEvent: {}
+[7.444927] (-) TimerEvent: {}
+[7.545390] (-) TimerEvent: {}
+[7.646045] (-) TimerEvent: {}
+[7.748628] (-) TimerEvent: {}
+[7.849089] (-) TimerEvent: {}
+[7.949553] (-) TimerEvent: {}
+[8.050765] (-) TimerEvent: {}
+[8.151426] (-) TimerEvent: {}
+[8.252012] (-) TimerEvent: {}
+[8.352590] (-) TimerEvent: {}
+[8.453386] (-) TimerEvent: {}
+[8.553851] (-) TimerEvent: {}
+[8.654296] (-) TimerEvent: {}
+[8.754874] (-) TimerEvent: {}
+[8.855300] (-) TimerEvent: {}
+[8.955797] (-) TimerEvent: {}
+[9.057283] (-) TimerEvent: {}
+[9.158386] (-) TimerEvent: {}
+[9.258857] (-) TimerEvent: {}
+[9.359427] (-) TimerEvent: {}
+[9.459897] (-) TimerEvent: {}
+[9.560609] (-) TimerEvent: {}
+[9.661377] (-) TimerEvent: {}
+[9.763098] (-) TimerEvent: {}
+[9.863763] (-) TimerEvent: {}
+[9.964242] (-) TimerEvent: {}
+[10.064737] (-) TimerEvent: {}
+[10.165722] (-) TimerEvent: {}
+[10.266100] (-) TimerEvent: {}
+[10.366501] (-) TimerEvent: {}
+[10.466884] (-) TimerEvent: {}
+[10.567284] (-) TimerEvent: {}
+[10.667674] (-) TimerEvent: {}
+[10.768051] (-) TimerEvent: {}
+[10.868629] (-) TimerEvent: {}
+[10.969045] (-) TimerEvent: {}
+[11.069409] (-) TimerEvent: {}
+[11.169806] (-) TimerEvent: {}
+[11.270228] (-) TimerEvent: {}
+[11.370660] (-) TimerEvent: {}
+[11.471055] (-) TimerEvent: {}
+[11.571488] (-) TimerEvent: {}
+[11.671927] (-) TimerEvent: {}
+[11.772368] (-) TimerEvent: {}
+[11.873480] (-) TimerEvent: {}
+[11.974044] (-) TimerEvent: {}
+[12.074766] (-) TimerEvent: {}
+[12.175459] (-) TimerEvent: {}
+[12.275921] (-) TimerEvent: {}
+[12.376398] (-) TimerEvent: {}
+[12.476863] (-) TimerEvent: {}
+[12.577407] (-) TimerEvent: {}
+[12.658068] (cppp) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable LandmarkGraphNode\x1b[0m\n'}
+[12.682412] (-) TimerEvent: {}
+[12.783934] (-) TimerEvent: {}
+[12.884528] (-) TimerEvent: {}
+[12.985143] (-) TimerEvent: {}
+[12.993945] (cppp) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX executable PreprocessNode\x1b[0m\n'}
+[13.086582] (-) TimerEvent: {}
+[13.187329] (-) TimerEvent: {}
+[13.287934] (-) TimerEvent: {}
+[13.388620] (-) TimerEvent: {}
+[13.489242] (-) TimerEvent: {}
+[13.589965] (-) TimerEvent: {}
+[13.690549] (-) TimerEvent: {}
+[13.769278] (cppp) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable LandmarkTransformermapNode\x1b[0m\n'}
+[13.791039] (-) TimerEvent: {}
+[13.892079] (-) TimerEvent: {}
+[13.992523] (-) TimerEvent: {}
+[14.047516] (cppp) StdoutLine: {'line': b'[ 70%] Built target LandmarkGraphNode\n'}
+[14.092739] (-) TimerEvent: {}
+[14.193278] (-) TimerEvent: {}
+[14.212934] (cppp) StdoutLine: {'line': b'[ 70%] Built target PreprocessNode\n'}
+[14.293446] (-) TimerEvent: {}
+[14.393949] (-) TimerEvent: {}
+[14.494496] (-) TimerEvent: {}
+[14.594996] (-) TimerEvent: {}
+[14.695435] (-) TimerEvent: {}
+[14.795851] (-) TimerEvent: {}
+[14.813749] (cppp) StdoutLine: {'line': b'[ 70%] Built target LandmarkTransformermapNode\n'}
+[14.896027] (-) TimerEvent: {}
+[14.996450] (-) TimerEvent: {}
+[15.096890] (-) TimerEvent: {}
+[15.197355] (-) TimerEvent: {}
+[15.297743] (-) TimerEvent: {}
+[15.398124] (-) TimerEvent: {}
+[15.498571] (-) TimerEvent: {}
+[15.599025] (-) TimerEvent: {}
+[15.699559] (-) TimerEvent: {}
+[15.799980] (-) TimerEvent: {}
+[15.900400] (-) TimerEvent: {}
+[16.000830] (-) TimerEvent: {}
+[16.101337] (-) TimerEvent: {}
+[16.201807] (-) TimerEvent: {}
+[16.302288] (-) TimerEvent: {}
+[16.402751] (-) TimerEvent: {}
+[16.503162] (-) TimerEvent: {}
+[16.603536] (-) TimerEvent: {}
+[16.703940] (-) TimerEvent: {}
+[16.804382] (-) TimerEvent: {}
+[16.904900] (-) TimerEvent: {}
+[17.005371] (-) TimerEvent: {}
+[17.105899] (-) TimerEvent: {}
+[17.206299] (-) TimerEvent: {}
+[17.306703] (-) TimerEvent: {}
+[17.389128] (cppp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable LandmarkTransformerNode\x1b[0m\n'}
+[17.406856] (-) TimerEvent: {}
+[17.507318] (-) TimerEvent: {}
+[17.607782] (-) TimerEvent: {}
+[17.708259] (-) TimerEvent: {}
+[17.808768] (-) TimerEvent: {}
+[17.909264] (-) TimerEvent: {}
+[18.009776] (-) TimerEvent: {}
+[18.110163] (-) TimerEvent: {}
+[18.210552] (-) TimerEvent: {}
+[18.310897] (-) TimerEvent: {}
+[18.411295] (-) TimerEvent: {}
+[18.511756] (-) TimerEvent: {}
+[18.598679] (cppp) StdoutLine: {'line': b'[ 75%] Built target LandmarkTransformerNode\n'}
+[18.611911] (-) TimerEvent: {}
+[18.712240] (-) TimerEvent: {}
+[18.812654] (-) TimerEvent: {}
+[18.913100] (-) TimerEvent: {}
+[19.013555] (-) TimerEvent: {}
+[19.113917] (-) TimerEvent: {}
+[19.214276] (-) TimerEvent: {}
+[19.314613] (-) TimerEvent: {}
+[19.415144] (-) TimerEvent: {}
+[19.516041] (-) TimerEvent: {}
+[19.616522] (-) TimerEvent: {}
+[19.717209] (-) TimerEvent: {}
+[19.817930] (-) TimerEvent: {}
+[19.918692] (-) TimerEvent: {}
+[20.019456] (-) TimerEvent: {}
+[20.097449] (cppp) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable IncrementalLineFittingNode\x1b[0m\n'}
+[20.119719] (-) TimerEvent: {}
+[20.220478] (-) TimerEvent: {}
+[20.303475] (cppp) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable HoughLineFittingNode\x1b[0m\n'}
+[20.320663] (-) TimerEvent: {}
+[20.399589] (cppp) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable RansacLineExtractionNode\x1b[0m\n'}
+[20.420930] (-) TimerEvent: {}
+[20.521686] (-) TimerEvent: {}
+[20.622254] (-) TimerEvent: {}
+[20.723153] (-) TimerEvent: {}
+[20.823821] (-) TimerEvent: {}
+[20.924448] (-) TimerEvent: {}
+[21.024964] (-) TimerEvent: {}
+[21.125505] (-) TimerEvent: {}
+[21.226092] (-) TimerEvent: {}
+[21.326640] (-) TimerEvent: {}
+[21.427166] (-) TimerEvent: {}
+[21.527788] (-) TimerEvent: {}
+[21.628407] (-) TimerEvent: {}
+[21.729019] (-) TimerEvent: {}
+[21.829610] (-) TimerEvent: {}
+[21.930090] (-) TimerEvent: {}
+[22.030644] (-) TimerEvent: {}
+[22.131161] (-) TimerEvent: {}
+[22.231637] (-) TimerEvent: {}
+[22.296901] (cppp) StdoutLine: {'line': b'[ 90%] Built target IncrementalLineFittingNode\n'}
+[22.331797] (-) TimerEvent: {}
+[22.432265] (-) TimerEvent: {}
+[22.532718] (-) TimerEvent: {}
+[22.633107] (-) TimerEvent: {}
+[22.684833] (cppp) StdoutLine: {'line': b'[ 90%] Built target HoughLineFittingNode\n'}
+[22.733236] (-) TimerEvent: {}
+[22.833635] (-) TimerEvent: {}
+[22.933993] (-) TimerEvent: {}
+[23.034375] (-) TimerEvent: {}
+[23.048963] (cppp) StdoutLine: {'line': b'[ 90%] Built target RansacLineExtractionNode\n'}
+[23.134593] (-) TimerEvent: {}
+[23.234957] (-) TimerEvent: {}
+[23.335280] (-) TimerEvent: {}
+[23.435614] (-) TimerEvent: {}
+[23.535935] (-) TimerEvent: {}
+[23.636277] (-) TimerEvent: {}
+[23.736706] (-) TimerEvent: {}
+[23.837164] (-) TimerEvent: {}
+[23.937606] (-) TimerEvent: {}
+[24.038047] (-) TimerEvent: {}
+[24.064160] (cppp) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable ScanAccumulator\x1b[0m\n'}
+[24.138352] (-) TimerEvent: {}
+[24.238934] (-) TimerEvent: {}
+[24.339605] (-) TimerEvent: {}
+[24.440184] (-) TimerEvent: {}
+[24.540734] (-) TimerEvent: {}
+[24.641228] (-) TimerEvent: {}
+[24.741679] (-) TimerEvent: {}
+[24.842070] (-) TimerEvent: {}
+[24.942545] (-) TimerEvent: {}
+[25.042998] (-) TimerEvent: {}
+[25.143419] (-) TimerEvent: {}
+[25.243857] (-) TimerEvent: {}
+[25.344231] (-) TimerEvent: {}
+[25.444591] (-) TimerEvent: {}
+[25.544938] (-) TimerEvent: {}
+[25.645325] (-) TimerEvent: {}
+[25.661388] (cppp) StdoutLine: {'line': b'[ 95%] Built target ScanAccumulator\n'}
+[25.666720] (cppp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[25.723400] (cppp) CommandEnded: {'returncode': 2}
+[25.748166] (-) TimerEvent: {}
+[25.830236] (cppp) JobEnded: {'identifier': 'cppp', 'rc': 2}
+[25.844275] (-) EventReactorShutdown: {}

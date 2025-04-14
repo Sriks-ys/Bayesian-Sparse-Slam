@@ -1,0 +1,565 @@
+[0.180s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.181s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79df9c974cd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79df9cae1360>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79df9cae1360>>)
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.451s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kvothe/ros'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(CMakeFiles) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(CMakeFiles) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(CMakeFiles) by extension 'ignore_ament_install'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(CMakeFiles) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(CMakeFiles) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(CMakeFiles) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(CMakeFiles) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(CMakeFiles) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(CMakeFiles) by extension 'ros'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(CMakeFiles) by extensions ['cmake', 'python']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(CMakeFiles) by extension 'cmake'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(CMakeFiles) by extension 'python'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(CMakeFiles) by extensions ['python_setup_py']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(CMakeFiles) by extension 'python_setup_py'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/cppp) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/cppp) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/cppp) by extension 'ignore_ament_install'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/cppp) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/cppp) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/cppp) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/cppp) by extension 'colcon_meta'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/cppp) by extensions ['ros']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/cppp) by extension 'ros'
+[0.478s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cppp' with type 'ros.ament_cmake' and name 'cppp'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/messages) by extension 'ros'
+[0.480s] DEBUG:colcon.colcon_core.package_identification:Package 'src/messages' with type 'ros.ament_cmake' and name 'messages'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_meta']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ros'
+[0.481s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_control' with type 'ros.ament_python' and name 'robot_control'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[0.483s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bringup) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bringup) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bringup) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bringup) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bringup) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bringup) by extension 'colcon_meta'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bringup) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_bringup) by extension 'ros'
+[0.485s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_bringup' with type 'ros.ament_cmake' and name 'ros_bringup'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gazebo) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gazebo) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gazebo) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gazebo) by extension 'colcon_pkg'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gazebo) by extensions ['colcon_meta']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gazebo) by extension 'colcon_meta'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gazebo) by extensions ['ros']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gazebo) by extension 'ros'
+[0.486s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gazebo' with type 'ros.ament_cmake' and name 'ros_gazebo'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_management) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_management) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_management) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_management) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_management) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_management) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_management) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_management) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_management) by extension 'ros'
+[0.489s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_management' with type 'ros.ament_python' and name 'sensor_management'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/soma) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/soma) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/soma) by extension 'ignore_ament_install'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/soma) by extensions ['colcon_pkg']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/soma) by extension 'colcon_pkg'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/soma) by extensions ['colcon_meta']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/soma) by extension 'colcon_meta'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/soma) by extensions ['ros']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/soma) by extension 'ros'
+[0.491s] DEBUG:colcon.colcon_core.package_identification:Package 'src/soma' with type 'ros.ament_python' and name 'soma'
+[0.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.557s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/kvothe/ros/install
+[0.560s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/humble
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'messages' build argument 'cmake_args' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'messages' build argument 'cmake_target' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'messages' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'messages' build argument 'cmake_clean_cache' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'messages' build argument 'cmake_clean_first' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'messages' build argument 'cmake_force_configure' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'messages' build argument 'ament_cmake_args' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'messages' build argument 'catkin_cmake_args' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'messages' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.624s] DEBUG:colcon.colcon_core.verb:Building package 'messages' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kvothe/ros/build/messages', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kvothe/ros/install/messages', 'merge_install': False, 'path': '/home/kvothe/ros/src/messages', 'symlink_install': False, 'test_result_base': None}
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.625s] DEBUG:colcon.colcon_core.verb:Building package 'robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kvothe/ros/build/robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kvothe/ros/install/robot_control', 'merge_install': False, 'path': '/home/kvothe/ros/src/robot_control', 'symlink_install': False, 'test_result_base': None}
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.626s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kvothe/ros/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kvothe/ros/install/robot_description', 'merge_install': False, 'path': '/home/kvothe/ros/src/robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'cppp' build argument 'cmake_args' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'cppp' build argument 'cmake_target' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'cppp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'cppp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'cppp' build argument 'cmake_clean_first' from command line to 'False'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'cppp' build argument 'cmake_force_configure' from command line to 'False'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'cppp' build argument 'ament_cmake_args' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'cppp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'cppp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.626s] DEBUG:colcon.colcon_core.verb:Building package 'cppp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kvothe/ros/build/cppp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kvothe/ros/install/cppp', 'merge_install': False, 'path': '/home/kvothe/ros/src/cppp', 'symlink_install': False, 'test_result_base': None}
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'ros_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'ros_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'ros_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'ros_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'ros_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'ros_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'ros_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'ros_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'ros_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.627s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kvothe/ros/build/ros_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kvothe/ros/install/ros_gazebo', 'merge_install': False, 'path': '/home/kvothe/ros/src/ros_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'sensor_management' build argument 'cmake_args' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'sensor_management' build argument 'cmake_target' from command line to 'None'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'sensor_management' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'sensor_management' build argument 'cmake_clean_cache' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'sensor_management' build argument 'cmake_clean_first' from command line to 'False'
+[0.627s] Level 5:colcon.colcon_core.verb:set package 'sensor_management' build argument 'cmake_force_configure' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'sensor_management' build argument 'ament_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'sensor_management' build argument 'catkin_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'sensor_management' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.628s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_management' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kvothe/ros/build/sensor_management', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kvothe/ros/install/sensor_management', 'merge_install': False, 'path': '/home/kvothe/ros/src/sensor_management', 'symlink_install': False, 'test_result_base': None}
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'soma' build argument 'cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'soma' build argument 'cmake_target' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'soma' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'soma' build argument 'cmake_clean_cache' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'soma' build argument 'cmake_clean_first' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'soma' build argument 'cmake_force_configure' from command line to 'False'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'soma' build argument 'ament_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'soma' build argument 'catkin_cmake_args' from command line to 'None'
+[0.628s] Level 5:colcon.colcon_core.verb:set package 'soma' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.628s] DEBUG:colcon.colcon_core.verb:Building package 'soma' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kvothe/ros/build/soma', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kvothe/ros/install/soma', 'merge_install': False, 'path': '/home/kvothe/ros/src/soma', 'symlink_install': False, 'test_result_base': None}
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'ros_bringup' build argument 'cmake_args' from command line to 'None'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'ros_bringup' build argument 'cmake_target' from command line to 'None'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'ros_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'ros_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'ros_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'ros_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'ros_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'ros_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'ros_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.629s] DEBUG:colcon.colcon_core.verb:Building package 'ros_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kvothe/ros/build/ros_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kvothe/ros/install/ros_bringup', 'merge_install': False, 'path': '/home/kvothe/ros/src/ros_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.629s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.632s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kvothe/ros/src/messages' with build type 'ament_cmake'
+[0.632s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kvothe/ros/src/messages'
+[0.636s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.636s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.636s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.643s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kvothe/ros/src/robot_description' with build type 'ament_cmake'
+[0.643s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kvothe/ros/src/robot_description'
+[0.644s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.644s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.650s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kvothe/ros/src/robot_control' with build type 'ament_python'
+[0.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'ament_prefix_path')
+[0.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/robot_control/share/robot_control/hook/ament_prefix_path.ps1'
+[0.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvothe/ros/install/robot_control/share/robot_control/hook/ament_prefix_path.dsv'
+[0.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/robot_control/share/robot_control/hook/ament_prefix_path.sh'
+[0.655s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.655s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvothe/ros/build/messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/messages -- -j12 -l12
+[0.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvothe/ros/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/robot_description -- -j12 -l12
+[1.074s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kvothe/ros/src/robot_control'
+[1.074s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.074s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvothe/ros/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/robot_description -- -j12 -l12
+[1.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvothe/ros/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/kvothe/ros/build/robot_description
+[1.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[1.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvothe/ros/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/kvothe/ros/build/robot_description
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/robot_description' for CMake module files
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/robot_description' for CMake config files
+[1.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[1.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[1.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvothe/ros/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[1.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/robot_description/bin'
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/robot_description/lib/pkgconfig/robot_description.pc'
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/robot_description/lib/python3.10/site-packages'
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/robot_description/bin'
+[1.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/robot_description/share/robot_description/package.ps1'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvothe/ros/install/robot_description/share/robot_description/package.dsv'
+[1.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/robot_description/share/robot_description/package.sh'
+[1.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/robot_description/share/robot_description/package.bash'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/robot_description/share/robot_description/package.zsh'
+[1.178s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvothe/ros/install/robot_description/share/colcon-core/packages/robot_description)
+[1.180s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/robot_description' for CMake module files
+[1.181s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/robot_description' for CMake config files
+[1.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvothe/ros/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[1.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/robot_description/bin'
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/robot_description/lib/pkgconfig/robot_description.pc'
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/robot_description/lib/python3.10/site-packages'
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/robot_description/bin'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/robot_description/share/robot_description/package.ps1'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvothe/ros/install/robot_description/share/robot_description/package.dsv'
+[1.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/robot_description/share/robot_description/package.sh'
+[1.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/robot_description/share/robot_description/package.bash'
+[1.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/robot_description/share/robot_description/package.zsh'
+[1.189s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvothe/ros/install/robot_description/share/colcon-core/packages/robot_description)
+[1.190s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kvothe/ros/src/ros_gazebo' with build type 'ament_cmake'
+[1.190s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kvothe/ros/src/ros_gazebo'
+[1.190s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.190s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvothe/ros/build/ros_gazebo': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/kvothe/ros/install/robot_description/share/robot_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/kvothe/ros/build/ros_gazebo -- -j12 -l12
+[1.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvothe/ros/build/ros_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/kvothe/ros/install/robot_description/share/robot_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/kvothe/ros/build/ros_gazebo -- -j12 -l12
+[1.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvothe/ros/build/ros_gazebo': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/kvothe/ros/install/robot_description/share/robot_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/kvothe/ros/build/ros_gazebo
+[1.438s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gazebo)
+[1.439s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_gazebo' for CMake module files
+[1.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvothe/ros/build/ros_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/kvothe/ros/install/robot_description/share/robot_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/kvothe/ros/build/ros_gazebo
+[1.440s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_gazebo' for CMake config files
+[1.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gazebo', 'cmake_prefix_path')
+[1.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/hook/cmake_prefix_path.ps1'
+[1.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/hook/cmake_prefix_path.dsv'
+[1.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/hook/cmake_prefix_path.sh'
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_gazebo/lib'
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_gazebo/bin'
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_gazebo/lib/pkgconfig/ros_gazebo.pc'
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_gazebo/lib/python3.10/site-packages'
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_gazebo/bin'
+[1.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/package.ps1'
+[1.446s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/package.dsv'
+[1.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/package.sh'
+[1.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/package.bash'
+[1.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/package.zsh'
+[1.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvothe/ros/install/ros_gazebo/share/colcon-core/packages/ros_gazebo)
+[1.449s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gazebo)
+[1.449s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_gazebo' for CMake module files
+[1.450s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_gazebo' for CMake config files
+[1.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gazebo', 'cmake_prefix_path')
+[1.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/hook/cmake_prefix_path.ps1'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/hook/cmake_prefix_path.dsv'
+[1.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/hook/cmake_prefix_path.sh'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_gazebo/lib'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_gazebo/bin'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_gazebo/lib/pkgconfig/ros_gazebo.pc'
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_gazebo/lib/python3.10/site-packages'
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_gazebo/bin'
+[1.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/package.ps1'
+[1.454s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/package.dsv'
+[1.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/package.sh'
+[1.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/package.bash'
+[1.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/package.zsh'
+[1.457s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvothe/ros/install/ros_gazebo/share/colcon-core/packages/ros_gazebo)
+[1.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvothe/ros/src/robot_control': PYTHONPATH=/home/kvothe/ros/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/kvothe/ros/build/robot_control/build install --record /home/kvothe/ros/build/robot_control/install.log --single-version-externally-managed install_data
+[1.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvothe/ros/build/messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/messages -- -j12 -l12
+[1.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvothe/ros/build/messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/kvothe/ros/build/messages
+[2.093s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(messages)
+[2.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvothe/ros/build/messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/kvothe/ros/build/messages
+[2.095s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/messages' for CMake module files
+[2.096s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/messages' for CMake config files
+[2.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('messages', 'cmake_prefix_path')
+[2.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/messages/share/messages/hook/cmake_prefix_path.ps1'
+[2.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvothe/ros/install/messages/share/messages/hook/cmake_prefix_path.dsv'
+[2.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/messages/share/messages/hook/cmake_prefix_path.sh'
+[2.103s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/messages/lib'
+[2.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('messages', 'ld_library_path_lib')
+[2.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/messages/share/messages/hook/ld_library_path_lib.ps1'
+[2.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvothe/ros/install/messages/share/messages/hook/ld_library_path_lib.dsv'
+[2.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/messages/share/messages/hook/ld_library_path_lib.sh'
+[2.106s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/messages/bin'
+[2.107s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/messages/lib/pkgconfig/messages.pc'
+[2.107s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/messages/lib/python3.10/site-packages'
+[2.107s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/messages/bin'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/messages/share/messages/package.ps1'
+[2.109s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvothe/ros/install/messages/share/messages/package.dsv'
+[2.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/messages/share/messages/package.sh'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/messages/share/messages/package.bash'
+[2.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/messages/share/messages/package.zsh'
+[2.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvothe/ros/install/messages/share/colcon-core/packages/messages)
+[2.114s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(messages)
+[2.114s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/messages' for CMake module files
+[2.115s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/messages' for CMake config files
+[2.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('messages', 'cmake_prefix_path')
+[2.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/messages/share/messages/hook/cmake_prefix_path.ps1'
+[2.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvothe/ros/install/messages/share/messages/hook/cmake_prefix_path.dsv'
+[2.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/messages/share/messages/hook/cmake_prefix_path.sh'
+[2.121s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/messages/lib'
+[2.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('messages', 'ld_library_path_lib')
+[2.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/messages/share/messages/hook/ld_library_path_lib.ps1'
+[2.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvothe/ros/install/messages/share/messages/hook/ld_library_path_lib.dsv'
+[2.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/messages/share/messages/hook/ld_library_path_lib.sh'
+[2.124s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/messages/bin'
+[2.124s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/messages/lib/pkgconfig/messages.pc'
+[2.124s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/messages/lib/python3.10/site-packages'
+[2.125s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/messages/bin'
+[2.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/messages/share/messages/package.ps1'
+[2.126s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvothe/ros/install/messages/share/messages/package.dsv'
+[2.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/messages/share/messages/package.sh'
+[2.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/messages/share/messages/package.bash'
+[2.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/messages/share/messages/package.zsh'
+[2.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvothe/ros/install/messages/share/colcon-core/packages/messages)
+[2.131s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kvothe/ros/src/cppp' with build type 'ament_cmake'
+[2.131s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kvothe/ros/src/cppp'
+[2.132s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.132s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.142s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kvothe/ros/src/sensor_management' with build type 'ament_python'
+[2.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_management', 'ament_prefix_path')
+[2.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/sensor_management/share/sensor_management/hook/ament_prefix_path.ps1'
+[2.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvothe/ros/install/sensor_management/share/sensor_management/hook/ament_prefix_path.dsv'
+[2.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/sensor_management/share/sensor_management/hook/ament_prefix_path.sh'
+[2.147s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.147s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.153s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kvothe/ros/src/soma' with build type 'ament_python'
+[2.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('soma', 'ament_prefix_path')
+[2.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/soma/share/soma/hook/ament_prefix_path.ps1'
+[2.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvothe/ros/install/soma/share/soma/hook/ament_prefix_path.dsv'
+[2.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/soma/share/soma/hook/ament_prefix_path.sh'
+[2.156s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.156s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/robot_control' for CMake module files
+[2.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvothe/ros/src/robot_control' returned '0': PYTHONPATH=/home/kvothe/ros/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/kvothe/ros/build/robot_control/build install --record /home/kvothe/ros/build/robot_control/install.log --single-version-externally-managed install_data
+[2.167s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/robot_control' for CMake config files
+[2.168s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/robot_control/lib'
+[2.168s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/robot_control/bin'
+[2.168s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/robot_control/lib/pkgconfig/robot_control.pc'
+[2.169s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages'
+[2.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'pythonpath')
+[2.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/robot_control/share/robot_control/hook/pythonpath.ps1'
+[2.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvothe/ros/install/robot_control/share/robot_control/hook/pythonpath.dsv'
+[2.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/robot_control/share/robot_control/hook/pythonpath.sh'
+[2.171s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/robot_control/bin'
+[2.171s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_control)
+[2.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/robot_control/share/robot_control/package.ps1'
+[2.172s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvothe/ros/install/robot_control/share/robot_control/package.dsv'
+[2.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/robot_control/share/robot_control/package.sh'
+[2.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/robot_control/share/robot_control/package.bash'
+[2.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/robot_control/share/robot_control/package.zsh'
+[2.174s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvothe/ros/install/robot_control/share/colcon-core/packages/robot_control)
+[2.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12
+[2.543s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kvothe/ros/src/sensor_management'
+[2.544s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.544s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.915s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kvothe/ros/src/soma'
+[2.916s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.916s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvothe/ros/src/sensor_management': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp PYTHONPATH=/home/kvothe/ros/build/sensor_management/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_management build --build-base /home/kvothe/ros/build/sensor_management/build install --record /home/kvothe/ros/build/sensor_management/install.log --single-version-externally-managed install_data
+[3.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvothe/ros/src/soma': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp PYTHONPATH=/home/kvothe/ros/build/soma/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvothe/ros/install/soma/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/soma build --build-base /home/kvothe/ros/build/soma/build install --record /home/kvothe/ros/build/soma/install.log --single-version-externally-managed install_data
+[3.815s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/sensor_management' for CMake module files
+[3.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvothe/ros/src/sensor_management' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp PYTHONPATH=/home/kvothe/ros/build/sensor_management/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_management build --build-base /home/kvothe/ros/build/sensor_management/build install --record /home/kvothe/ros/build/sensor_management/install.log --single-version-externally-managed install_data
+[3.817s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/sensor_management' for CMake config files
+[3.819s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/sensor_management/lib'
+[3.819s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/sensor_management/bin'
+[3.819s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/sensor_management/lib/pkgconfig/sensor_management.pc'
+[3.820s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/sensor_management/lib/python3.10/site-packages'
+[3.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_management', 'pythonpath')
+[3.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/sensor_management/share/sensor_management/hook/pythonpath.ps1'
+[3.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvothe/ros/install/sensor_management/share/sensor_management/hook/pythonpath.dsv'
+[3.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/sensor_management/share/sensor_management/hook/pythonpath.sh'
+[3.824s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/sensor_management/bin'
+[3.825s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_management)
+[3.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/sensor_management/share/sensor_management/package.ps1'
+[3.826s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvothe/ros/install/sensor_management/share/sensor_management/package.dsv'
+[3.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/sensor_management/share/sensor_management/package.sh'
+[3.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/sensor_management/share/sensor_management/package.bash'
+[3.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/sensor_management/share/sensor_management/package.zsh'
+[3.829s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvothe/ros/install/sensor_management/share/colcon-core/packages/sensor_management)
+[3.832s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/soma' for CMake module files
+[3.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvothe/ros/src/soma' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp PYTHONPATH=/home/kvothe/ros/build/soma/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvothe/ros/install/soma/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/soma build --build-base /home/kvothe/ros/build/soma/build install --record /home/kvothe/ros/build/soma/install.log --single-version-externally-managed install_data
+[3.833s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/soma' for CMake config files
+[3.836s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/soma/lib'
+[3.836s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/soma/bin'
+[3.836s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/soma/lib/pkgconfig/soma.pc'
+[3.836s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/soma/lib/python3.10/site-packages'
+[3.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('soma', 'pythonpath')
+[3.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/soma/share/soma/hook/pythonpath.ps1'
+[3.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvothe/ros/install/soma/share/soma/hook/pythonpath.dsv'
+[3.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/soma/share/soma/hook/pythonpath.sh'
+[3.838s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/soma/bin'
+[3.838s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(soma)
+[3.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/soma/share/soma/package.ps1'
+[3.839s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvothe/ros/install/soma/share/soma/package.dsv'
+[3.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/soma/share/soma/package.sh'
+[3.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/soma/share/soma/package.bash'
+[3.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/soma/share/soma/package.zsh'
+[3.842s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvothe/ros/install/soma/share/colcon-core/packages/soma)
+[25.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvothe/ros/build/cppp' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12
+[25.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/kvothe/ros/build/cppp
+[25.680s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cppp)
+[25.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvothe/ros/build/cppp' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/kvothe/ros/build/cppp
+[25.681s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/cppp' for CMake module files
+[25.682s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/cppp' for CMake config files
+[25.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('cppp', 'cmake_prefix_path')
+[25.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/cppp/share/cppp/hook/cmake_prefix_path.ps1'
+[25.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvothe/ros/install/cppp/share/cppp/hook/cmake_prefix_path.dsv'
+[25.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/cppp/share/cppp/hook/cmake_prefix_path.sh'
+[25.685s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/cppp/lib'
+[25.685s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/cppp/bin'
+[25.685s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/cppp/lib/pkgconfig/cppp.pc'
+[25.686s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/cppp/lib/python3.10/site-packages'
+[25.686s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/cppp/bin'
+[25.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/cppp/share/cppp/package.ps1'
+[25.686s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvothe/ros/install/cppp/share/cppp/package.dsv'
+[25.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/cppp/share/cppp/package.sh'
+[25.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/cppp/share/cppp/package.bash'
+[25.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/cppp/share/cppp/package.zsh'
+[25.687s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvothe/ros/install/cppp/share/colcon-core/packages/cppp)
+[25.688s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cppp)
+[25.688s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/cppp' for CMake module files
+[25.689s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/cppp' for CMake config files
+[25.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('cppp', 'cmake_prefix_path')
+[25.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/cppp/share/cppp/hook/cmake_prefix_path.ps1'
+[25.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvothe/ros/install/cppp/share/cppp/hook/cmake_prefix_path.dsv'
+[25.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/cppp/share/cppp/hook/cmake_prefix_path.sh'
+[25.690s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/cppp/lib'
+[25.690s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/cppp/bin'
+[25.690s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/cppp/lib/pkgconfig/cppp.pc'
+[25.690s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/cppp/lib/python3.10/site-packages'
+[25.690s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/cppp/bin'
+[25.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/cppp/share/cppp/package.ps1'
+[25.691s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvothe/ros/install/cppp/share/cppp/package.dsv'
+[25.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/cppp/share/cppp/package.sh'
+[25.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/cppp/share/cppp/package.bash'
+[25.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/cppp/share/cppp/package.zsh'
+[25.692s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvothe/ros/install/cppp/share/colcon-core/packages/cppp)
+[25.693s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kvothe/ros/src/ros_bringup' with build type 'ament_cmake'
+[25.693s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kvothe/ros/src/ros_bringup'
+[25.693s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.693s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvothe/ros/build/ros_bringup': AMENT_PREFIX_PATH=/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble CMAKE_PREFIX_PATH=/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble IGN_GAZEBO_PLUGIN_PATH=/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/kvothe/ros/install/robot_description/share/robot_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/kvothe/ros/build/ros_bringup -- -j12 -l12
+[25.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvothe/ros/build/ros_bringup' returned '0': AMENT_PREFIX_PATH=/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble CMAKE_PREFIX_PATH=/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble IGN_GAZEBO_PLUGIN_PATH=/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/kvothe/ros/install/robot_description/share/robot_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --build /home/kvothe/ros/build/ros_bringup -- -j12 -l12
+[25.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvothe/ros/build/ros_bringup': AMENT_PREFIX_PATH=/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble CMAKE_PREFIX_PATH=/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble IGN_GAZEBO_PLUGIN_PATH=/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/kvothe/ros/install/robot_description/share/robot_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/kvothe/ros/build/ros_bringup
+[25.785s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_bringup)
+[25.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvothe/ros/build/ros_bringup' returned '0': AMENT_PREFIX_PATH=/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/messages:/opt/ros/humble CMAKE_PREFIX_PATH=/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble IGN_GAZEBO_PLUGIN_PATH=/home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo IGN_GAZEBO_RESOURCE_PATH=/home/kvothe/ros/install/robot_description/share/robot_description/models:${IGN_GAZEBO_RESOURCE_PATH} /usr/bin/cmake --install /home/kvothe/ros/build/ros_bringup
+[25.786s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_bringup' for CMake module files
+[25.787s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_bringup' for CMake config files
+[25.788s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_bringup', 'cmake_prefix_path')
+[25.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/ros_bringup/share/ros_bringup/hook/cmake_prefix_path.ps1'
+[25.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvothe/ros/install/ros_bringup/share/ros_bringup/hook/cmake_prefix_path.dsv'
+[25.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/ros_bringup/share/ros_bringup/hook/cmake_prefix_path.sh'
+[25.791s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_bringup/bin'
+[25.791s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_bringup/lib/pkgconfig/ros_bringup.pc'
+[25.791s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_bringup/lib/python3.10/site-packages'
+[25.791s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_bringup/bin'
+[25.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/ros_bringup/share/ros_bringup/package.ps1'
+[25.793s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvothe/ros/install/ros_bringup/share/ros_bringup/package.dsv'
+[25.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/ros_bringup/share/ros_bringup/package.sh'
+[25.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/ros_bringup/share/ros_bringup/package.bash'
+[25.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/ros_bringup/share/ros_bringup/package.zsh'
+[25.796s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvothe/ros/install/ros_bringup/share/colcon-core/packages/ros_bringup)
+[25.797s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_bringup)
+[25.797s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_bringup' for CMake module files
+[25.798s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_bringup' for CMake config files
+[25.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_bringup', 'cmake_prefix_path')
+[25.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/ros_bringup/share/ros_bringup/hook/cmake_prefix_path.ps1'
+[25.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvothe/ros/install/ros_bringup/share/ros_bringup/hook/cmake_prefix_path.dsv'
+[25.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvothe/ros/install/ros_bringup/share/ros_bringup/hook/cmake_prefix_path.sh'
+[25.802s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_bringup/bin'
+[25.802s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_bringup/lib/pkgconfig/ros_bringup.pc'
+[25.802s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_bringup/lib/python3.10/site-packages'
+[25.803s] Level 1:colcon.colcon_core.environment:checking '/home/kvothe/ros/install/ros_bringup/bin'
+[25.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/ros_bringup/share/ros_bringup/package.ps1'
+[25.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvothe/ros/install/ros_bringup/share/ros_bringup/package.dsv'
+[25.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/ros_bringup/share/ros_bringup/package.sh'
+[25.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/ros_bringup/share/ros_bringup/package.bash'
+[25.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvothe/ros/install/ros_bringup/share/ros_bringup/package.zsh'
+[25.808s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvothe/ros/install/ros_bringup/share/colcon-core/packages/ros_bringup)
+[25.808s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[25.809s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[25.809s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[25.809s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.823s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[25.823s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[25.823s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[25.848s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[25.848s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kvothe/ros/install/local_setup.ps1'
+[25.851s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kvothe/ros/install/_local_setup_util_ps1.py'
+[25.854s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kvothe/ros/install/setup.ps1'
+[25.857s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kvothe/ros/install/local_setup.sh'
+[25.858s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kvothe/ros/install/_local_setup_util_sh.py'
+[25.859s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kvothe/ros/install/setup.sh'
+[25.862s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kvothe/ros/install/local_setup.bash'
+[25.863s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kvothe/ros/install/setup.bash'
+[25.866s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kvothe/ros/install/local_setup.zsh'
+[25.868s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kvothe/ros/install/setup.zsh'

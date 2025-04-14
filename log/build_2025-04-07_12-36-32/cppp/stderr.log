@@ -1,0 +1,16 @@
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:283:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::LandmarkConstraint_<std::allocator<void> >[m[K’ has no member named ‘[01m[Krho_end[m[K’
+  283 |                 double x_end_global = pose.x + constraint.[01;31m[Krho_end[m[K * cos(pose.theta + constraint.alpha_end);
+      |                                                           [01;31m[K^~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:283:97:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::LandmarkConstraint_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kalpha_end[m[K’
+  283 |                 double x_end_global = pose.x + constraint.rho_end * cos(pose.theta + constraint.[01;31m[Kalpha_end[m[K);
+      |                                                                                                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:284:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::LandmarkConstraint_<std::allocator<void> >[m[K’ has no member named ‘[01m[Krho_end[m[K’
+  284 |                 double y_end_global = pose.y + constraint.[01;31m[Krho_end[m[K * sin(pose.theta + constraint.alpha_end);
+      |                                                           [01;31m[K^~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:284:97:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::LandmarkConstraint_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kalpha_end[m[K’
+  284 |                 double y_end_global = pose.y + constraint.rho_end * sin(pose.theta + constraint.[01;31m[Kalpha_end[m[K);
+      |                                                                                                 [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

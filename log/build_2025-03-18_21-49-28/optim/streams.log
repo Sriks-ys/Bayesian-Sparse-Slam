@@ -1,0 +1,25 @@
+[0.044s] Invoking command in '/home/kvothe/ros/build/optim': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/optim:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/optim -- -j12 -l12
+[0.471s] [ 50%] [32mBuilding CXX object CMakeFiles/test_ceres.dir/src/test_ceres.cpp.o[0m
+[8.804s] [100%] [32m[1mLinking CXX executable test_ceres[0m
+[9.595s] [100%] Built target test_ceres
+[9.614s] Invoked command in '/home/kvothe/ros/build/optim' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/optim:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/optim -- -j12 -l12
+[9.618s] Invoking command in '/home/kvothe/ros/build/optim': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/optim:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/kvothe/ros/build/optim
+[9.631s] -- Install configuration: ""
+[9.632s] -- Installing: /home/kvothe/ros/install/optim/lib/optim/test_ceres
+[9.634s] -- Set runtime path of "/home/kvothe/ros/install/optim/lib/optim/test_ceres" to ""
+[9.634s] -- Up-to-date: /home/kvothe/ros/install/optim/share/ament_index/resource_index/package_run_dependencies/optim
+[9.635s] -- Up-to-date: /home/kvothe/ros/install/optim/share/ament_index/resource_index/parent_prefix_path/optim
+[9.635s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/environment/ament_prefix_path.sh
+[9.636s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/environment/ament_prefix_path.dsv
+[9.636s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/environment/path.sh
+[9.636s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/environment/path.dsv
+[9.636s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/local_setup.bash
+[9.636s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/local_setup.sh
+[9.636s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/local_setup.zsh
+[9.636s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/local_setup.dsv
+[9.637s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/package.dsv
+[9.637s] -- Up-to-date: /home/kvothe/ros/install/optim/share/ament_index/resource_index/packages/optim
+[9.637s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/cmake/optimConfig.cmake
+[9.637s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/cmake/optimConfig-version.cmake
+[9.637s] -- Up-to-date: /home/kvothe/ros/install/optim/share/optim/package.xml
+[9.642s] Invoked command in '/home/kvothe/ros/build/optim' returned '0': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/optim:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/kvothe/ros/build/optim

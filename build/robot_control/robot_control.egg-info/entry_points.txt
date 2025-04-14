@@ -1,0 +1,3 @@
+[console_scripts]
+dummycontrol = robot_control.dummycontrol:main
+

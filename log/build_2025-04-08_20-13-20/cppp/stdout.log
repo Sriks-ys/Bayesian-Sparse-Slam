@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[ 10%] Built target PreprocessNode
+[ 20%] Built target LandmarkGraphNode
+[ 60%] Built target RansacLineExtractionNode
+[ 60%] Built target LandmarkTransformerNode
+[ 60%] Built target LandmarkTransformermapNode
+[ 60%] Built target IncrementalLineFittingNode
+[ 70%] Built target ScanTransformer
+[ 75%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[ 85%] Built target ScanAccumulator
+[ 95%] Built target HoughLineFittingNode

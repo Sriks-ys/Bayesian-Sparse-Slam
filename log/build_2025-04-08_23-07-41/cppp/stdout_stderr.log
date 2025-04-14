@@ -1,0 +1,503 @@
+[35m[1mConsolidate compiler generated dependencies of target PreprocessNode[0m
+[35m[1mConsolidate compiler generated dependencies of target LandmarkTransformermapNode[0m
+[35m[1mConsolidate compiler generated dependencies of target LandmarkGraphNode[0m
+[35m[1mConsolidate compiler generated dependencies of target LandmarkTransformerNode[0m
+[35m[1mConsolidate compiler generated dependencies of target HoughLineFittingNode[0m
+[35m[1mConsolidate compiler generated dependencies of target IncrementalLineFittingNode[0m
+[35m[1mConsolidate compiler generated dependencies of target RansacLineExtractionNode[0m
+[35m[1mConsolidate compiler generated dependencies of target ScanAccumulator[0m
+[ 20%] Built target LandmarkGraphNode
+[ 20%] Built target PreprocessNode
+[ 25%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[ 45%] Built target LandmarkTransformermapNode
+[ 45%] Built target ScanTransformer
+[ 55%] Built target LandmarkTransformerNode
+[ 85%] Built target HoughLineFittingNode
+[ 85%] Built target IncrementalLineFittingNode
+[ 85%] Built target RansacLineExtractionNode
+[ 95%] Built target ScanAccumulator
+In file included from [01m[K/opt/ros/humble/include/gtsam/nonlinear/Values.h:30[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactor.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/gtsam/inference/Key.h:[m[K In static member function ‘[01m[Kstatic bool gtsam::traits<long unsigned int>::Equals(const Key&, const Key&, double)[m[K’:
+[01m[K/opt/ros/humble/include/gtsam/inference/Key.h:121:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktol[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  121 |   static bool Equals(const Key& val1, const Key& val2, [01;35m[Kdouble tol = 1e-8[m[K) {
+      |                                                        [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/nonlinear/Values.h:571[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactor.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/gtsam/nonlinear/Values-inl.h:[m[K In member function ‘[01m[Kgtsam::Values::Filtered<gtsam::Value> gtsam::Values::filter(const std::function<bool(long unsigned int)>&)[m[K’:
+[01m[K/opt/ros/humble/include/gtsam/nonlinear/Values-inl.h:253:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgtsam::Values::Filtered<ValueType> gtsam::Values::filter(const std::function<bool(long unsigned int)>&) [with ValueType = gtsam::Value][m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  253 |     return [01;35m[Kfilter<Value>(filterFcn)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactor.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/gtsam/nonlinear/Values.h:421:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  421 |     [01;36m[Kfilter[m[K(const std::function<bool(Key)>& filterFcn = &_truePredicate<Key>);
+      |     [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/nonlinear/Values.h:571[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactor.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/gtsam/nonlinear/Values-inl.h:[m[K In member function ‘[01m[Kgtsam::Values::ConstFiltered<gtsam::Value> gtsam::Values::filter(const std::function<bool(long unsigned int)>&) const[m[K’:
+[01m[K/opt/ros/humble/include/gtsam/nonlinear/Values-inl.h:265:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgtsam::Values::ConstFiltered<ValueType> gtsam::Values::filter(const std::function<bool(long unsigned int)>&) const [with ValueType = gtsam::Value][m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  265 |     return [01;35m[Kfilter<Value>(filterFcn)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactor.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/gtsam/nonlinear/Values.h:429:47:[m[K [01;36m[Knote: [m[Kdeclared here
+  429 |     ConstFiltered<ValueType> GTSAM_DEPRECATED [01;36m[Kfilter[m[K(
+      |                                               [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/linear/NoiseModel.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactor.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/gtsam/linear/LossFunctions.h:[m[K In member function ‘[01m[Kvirtual double gtsam::noiseModel::mEstimator::Base::loss(double) const[m[K’:
+[01m[K/opt/ros/humble/include/gtsam/linear/LossFunctions.h:94:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdistance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   94 |   virtual double loss([01;35m[Kdouble distance[m[K) const { return 0; }
+      |                       [01;35m[K~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactor.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/gtsam/linear/NoiseModel.h:[m[K In member function ‘[01m[Kvirtual double gtsam::noiseModel::Base::weight(const Vector&) const[m[K’:
+[01m[K/opt/ros/humble/include/gtsam/linear/NoiseModel.h:137:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  137 |       virtual double weight([01;35m[Kconst Vector& v[m[K) const { return 1.0; }
+      |                             [01;35m[K~~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizerParams.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:22[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/gtsam/linear/GaussianFactorGraph.h:[m[K In static member function ‘[01m[Kstatic gtsam::Ordering gtsam::EliminationTraits<gtsam::GaussianFactorGraph>::DefaultOrderingFunc(const FactorGraphType&, boost::optional<const gtsam::VariableIndex&>)[m[K’:
+[01m[K/opt/ros/humble/include/gtsam/linear/GaussianFactorGraph.h:59:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgraph[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   59 |         [01;35m[Kconst FactorGraphType& graph[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:[m[K In constructor ‘[01m[Kgtsam::Pose2::Pose2(const Vector&)[m[K’:
+[01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:92:21:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kgtsam::Pose2& gtsam::Pose2::operator=(const gtsam::Pose2&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+   92 |     *this = Expmap(v[01;35m[K)[m[K;
+      |                     [01;35m[K^[m[K
+[01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:60:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::Pose2[m[K’ has user-provided ‘[01m[Kgtsam::Pose2::Pose2(const gtsam::Pose2&)[m[K’
+   60 |   [01;36m[KPose2[m[K(const Pose2& pose) : r_(pose.r_), t_(pose.t_) {}
+      |   [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:[m[K In member function ‘[01m[Kgtsam::Pose2& gtsam::Pose2::operator=(const gtsam::Pose2&)[m[K’:
+[01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:36:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr gtsam::Rot2& gtsam::Rot2::operator=(const gtsam::Rot2&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+   36 | class [01;35m[KPose2[m[K: public LieGroup<Pose2, 3> {
+      |       [01;35m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:25[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/gtsam/geometry/Rot2.h:56:5:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::Rot2[m[K’ has user-provided ‘[01m[Kgtsam::Rot2::Rot2(const gtsam::Rot2&)[m[K’
+   56 |     [01;36m[KRot2[m[K(const Rot2& r) : Rot2(r.c_, r.s_) {}
+      |     [01;36m[K^~~~[m[K
+In file included from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:[m[K In constructor ‘[01m[Kgtsam::Pose2::Pose2(const Vector&)[m[K’:
+[01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:92:21:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kgtsam::Pose2& gtsam::Pose2::operator=(const gtsam::Pose2&)[m[K’ first required here
+   92 |     *this = Expmap(v[01;36m[K)[m[K;
+      |                     [01;36m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K At global scope:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:35:39:[m[K [01;31m[Kerror: [m[K‘[01m[KLandmarkList[m[K’ is not a member of ‘[01m[Kmessages::msg[m[K’
+   35 |   rclcpp::Subscription<messages::msg::[01;31m[KLandmarkList[m[K>::SharedPtr global_landmarks_sub_;
+      |                                       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:35:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   35 |   rclcpp::Subscription<messages::msg::LandmarkList[01;31m[K>[m[K::SharedPtr global_landmarks_sub_;
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:35:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:35:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:35:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:35:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   35 |   rclcpp::Subscription<messages::msg::LandmarkList>::[01;31m[KSharedPtr[m[K global_landmarks_sub_;
+      |                                                      [01;31m[K^~~~~~~~~[m[K
+      |                                                               [32m[K;[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:35:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_landmarks_sub_[m[K’ does not name a type
+   35 |   rclcpp::Subscription<messages::msg::LandmarkList>::SharedPtr [01;31m[Kglobal_landmarks_sub_[m[K;
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:38:18:[m[K [01;31m[Kerror: [m[K‘[01m[KLandmarkList[m[K’ in namespace ‘[01m[Kmessages::msg[m[K’ does not name a type
+   38 |   messages::msg::[01;31m[KLandmarkList[m[K latest_landmarks_;
+      |                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:40:46:[m[K [01;31m[Kerror: [m[K‘[01m[KLandmarkList[m[K’ in namespace ‘[01m[Kmessages::msg[m[K’ does not name a type
+   40 |   void landmarkCallback(const messages::msg::[01;31m[KLandmarkList[m[K::SharedPtr msg) {
+      |                                              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:40:70:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   40 |   void landmarkCallback(const messages::msg::LandmarkList::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                                      [01;31m[K^~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:40:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   40 |   void landmarkCallback[34m[K([m[Kconst messages::msg::LandmarkList::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+      |                        [34m[K~[m[K                                            [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                     [32m[K)[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:40:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   40 |   void landmarkCallback(const messages::msg::LandmarkList::[01;31m[KSharedPtr[m[K msg) {
+      |                                                            [01;31m[K^~~~~~~~~[m[K
+      |                                                                     [32m[K;[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:40:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   40 |   void landmarkCallback(const messages::msg::LandmarkList::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                                      [01;31m[K^~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In constructor ‘[01m[KPoseGraphOptimizer::PoseGraphOptimizer()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_landmarks_sub_[m[K’ was not declared in this scope
+   26 |     [01;31m[Kglobal_landmarks_sub_[m[K = this->create_subscription<messages::msg::LandmarkList>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:26:70:[m[K [01;31m[Kerror: [m[K‘[01m[KLandmarkList[m[K’ is not a member of ‘[01m[Kmessages::msg[m[K’
+   26 |     global_landmarks_sub_ = this->create_subscription<messages::msg::[01;31m[KLandmarkList[m[K>(
+      |                                                                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:26:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPoseGraphOptimizer::create_subscription<<expression error> >(const char [18], int, std::_Bind_helper<false, void (PoseGraphOptimizer::*)(...), PoseGraphOptimizer*, const std::_Placeholder<1>&>::type)[m[K’
+   26 |     global_landmarks_sub_ = [01;31m[Kthis->create_subscription<messages::msg::LandmarkList>([m[K
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   27 | [01;31m[K      "/global_landmarks", 10, std::bind(&PoseGraphOptimizer::landmarkCallback, this, _1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   92 | [01;36m[KNode[m[K::create_subscription(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:26:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   26 |     global_landmarks_sub_ = [01;31m[Kthis->create_subscription<messages::msg::LandmarkList>([m[K
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   27 | [01;31m[K      "/global_landmarks", 10, std::bind(&PoseGraphOptimizer::landmarkCallback, this, _1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::poseGraphCallback(messages::msg::PoseGraph_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:49:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct messages::msg::PoseGraph_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct messages::msg::PoseGraph_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose_nodes[m[K’
+   49 |     for (const auto &node : msg->[01;31m[Kpose_nodes[m[K) {
+      |                                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:52:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   52 |                  [01;31m[Ktf2[m[K::getYaw(node.pose.orientation));
+      |                  [01;31m[K^~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:58:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::PoseConstraint_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kid_begin[m[K’
+   58 |       gtsam::Symbol key1('x', constraint.[01;31m[Kid_begin[m[K);
+      |                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:59:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::PoseConstraint_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kid_end[m[K’
+   59 |       gtsam::Symbol key2('x', constraint.[01;31m[Kid_end[m[K);
+      |                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:60:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::PoseConstraint_<std::allocator<void> >[m[K’ has no member named ‘[01m[Krelative_pose[m[K’
+   60 |       Pose2 rel_pose(constraint.[01;31m[Krelative_pose[m[K.position.x,
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:61:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::PoseConstraint_<std::allocator<void> >[m[K’ has no member named ‘[01m[Krelative_pose[m[K’
+   61 |                      constraint.[01;31m[Krelative_pose[m[K.position.y,
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:62:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   62 |                      [01;31m[Ktf2[m[K::getYaw(constraint.relative_pose.orientation));
+      |                      [01;31m[K^~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:62:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::PoseConstraint_<std::allocator<void> >[m[K’ has no member named ‘[01m[Krelative_pose[m[K’
+   62 |                      tf2::getYaw(constraint.[01;31m[Krelative_pose[m[K.orientation));
+      |                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:71:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klandmark_constraint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   71 |     for (const auto &[01;35m[Klandmark_constraint[m[K : msg->landmark_constraints) {
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:85:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseGraph = struct messages::msg::PoseGraph_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct messages::msg::PoseGraph_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose_nodes[m[K’
+   85 |     for (auto &node : optimized_msg.[01;31m[Kpose_nodes[m[K) {
+      |                                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:91:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   91 |         node.pose.orientation = [01;31m[Ktf2[m[K::toMsg(tf2::Quaternion(0, 0, sin(opt_pose.theta()/2), cos(opt_pose.theta()/2)));
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:91:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   91 |         node.pose.orientation = tf2::toMsg([01;31m[Ktf2[m[K::Quaternion(0, 0, sin(opt_pose.theta()/2), cos(opt_pose.theta()/2)));
+      |                                            [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/base/VectorSpace.h:11[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/geometry/Point2.h:20[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+/opt/ros/humble/include/gtsam/base/Lie.h: In instantiation of ‘[01m[Kgtsam::IsLieGroup<T>::~IsLieGroup() [with T = gtsam::Pose2][m[K’:
+[01m[K/usr/include/boost/concept/detail/general.hpp:39:47:[m[K   required from ‘[01m[Kstatic void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = gtsam::IsLieGroup<gtsam::Pose2>][m[K’
+[01m[K/opt/ros/humble/include/gtsam/slam/BetweenFactor.h:44:5:[m[K   required from ‘[01m[Kclass gtsam::BetweenFactor<gtsam::Pose2>[m[K’
+[01m[K/usr/include/c++/11/type_traits:1422:38:[m[K   required from ‘[01m[Kstruct std::is_base_of<gtsam::NonlinearFactor, gtsam::BetweenFactor<gtsam::Pose2> >[m[K’
+[01m[K/opt/ros/humble/include/gtsam/inference/FactorGraph.h:113:9:[m[K   required by substitution of ‘[01m[Ktemplate<class FACTOR> template<class DERIVEDFACTOR> using IsDerived = typename std::enable_if<std::is_base_of<_Tp, _Up>::value>::type [with DERIVEDFACTOR = gtsam::BetweenFactor<gtsam::Pose2>; FACTOR = gtsam::NonlinearFactor][m[K’
+[01m[K/opt/ros/humble/include/gtsam/inference/FactorGraph.h:192:28:[m[K   required by substitution of ‘[01m[Ktemplate<class DERIVEDFACTOR, class ... Args> gtsam::FactorGraph<gtsam::NonlinearFactor>::IsDerived<DERIVEDFACTOR> gtsam::FactorGraph<gtsam::NonlinearFactor>::emplace_shared<DERIVEDFACTOR, Args ...>(Args&& ...) [with DERIVEDFACTOR = gtsam::BetweenFactor<gtsam::Pose2>; Args = <missing>][m[K’
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:67:49:[m[K   required from here
+[01m[K/opt/ros/humble/include/gtsam/base/Lie.h:273:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kgtsam::Pose2& gtsam::Pose2::operator=(const gtsam::Pose2&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  273 |     [01;35m[Kg = traits<T>::Compose(g, h, Hg, Hh)[m[K;
+      |     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:60:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::Pose2[m[K’ has user-provided ‘[01m[Kgtsam::Pose2::Pose2(const gtsam::Pose2&)[m[K’
+   60 |   [01;36m[KPose2[m[K(const Pose2& pose) : r_(pose.r_), t_(pose.t_) {}
+      |   [01;36m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/base/VectorSpace.h:11[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/geometry/Point2.h:20[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/gtsam/base/Lie.h:274:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kgtsam::Pose2& gtsam::Pose2::operator=(const gtsam::Pose2&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  274 |     [01;35m[Kg = traits<T>::Between(g, h, Hg, Hh)[m[K;
+      |     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:60:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::Pose2[m[K’ has user-provided ‘[01m[Kgtsam::Pose2::Pose2(const gtsam::Pose2&)[m[K’
+   60 |   [01;36m[KPose2[m[K(const Pose2& pose) : r_(pose.r_), t_(pose.t_) {}
+      |   [01;36m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/base/VectorSpace.h:11[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/geometry/Point2.h:20[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/gtsam/base/Lie.h:275:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kgtsam::Pose2& gtsam::Pose2::operator=(const gtsam::Pose2&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  275 |     [01;35m[Kg = traits<T>::Inverse(g, Hg)[m[K;
+      |     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:60:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::Pose2[m[K’ has user-provided ‘[01m[Kgtsam::Pose2::Pose2(const gtsam::Pose2&)[m[K’
+   60 |   [01;36m[KPose2[m[K(const Pose2& pose) : r_(pose.r_), t_(pose.t_) {}
+      |   [01;36m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/base/VectorSpace.h:11[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/geometry/Point2.h:20[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/gtsam/base/Lie.h:277:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kgtsam::Pose2& gtsam::Pose2::operator=(const gtsam::Pose2&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  277 |     [01;35m[Kg = traits<T>::Expmap(v)[m[K;
+      |     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:60:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::Pose2[m[K’ has user-provided ‘[01m[Kgtsam::Pose2::Pose2(const gtsam::Pose2&)[m[K’
+   60 |   [01;36m[KPose2[m[K(const Pose2& pose) : r_(pose.r_), t_(pose.t_) {}
+      |   [01;36m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/base/VectorSpace.h:11[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/geometry/Point2.h:20[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/gtsam/base/Lie.h:280:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kgtsam::Pose2& gtsam::Pose2::operator=(const gtsam::Pose2&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  280 |     [01;35m[Kg = traits<T>::Expmap(v, Hg)[m[K;
+      |     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:60:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::Pose2[m[K’ has user-provided ‘[01m[Kgtsam::Pose2::Pose2(const gtsam::Pose2&)[m[K’
+   60 |   [01;36m[KPose2[m[K(const Pose2& pose) : r_(pose.r_), t_(pose.t_) {}
+      |   [01;36m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/base/Lie.h:27[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/base/VectorSpace.h:11[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/geometry/Point2.h:20[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+/opt/ros/humble/include/gtsam/base/Group.h: In instantiation of ‘[01m[Kgtsam::IsGroup<G>::~IsGroup() [with G = gtsam::Pose2][m[K’:
+[01m[K/usr/include/boost/concept/usage.hpp:16:48:[m[K   required from ‘[01m[Kboost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = gtsam::IsGroup<gtsam::Pose2>][m[K’
+[01m[K/usr/include/boost/concept/detail/general.hpp:39:47:[m[K   required from ‘[01m[Kstatic void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<gtsam::IsGroup<gtsam::Pose2> >][m[K’
+[01m[K/opt/ros/humble/include/gtsam/base/Group.h:52:3:[m[K   required from ‘[01m[Kclass gtsam::IsGroup<gtsam::Pose2>[m[K’
+[01m[K/opt/ros/humble/include/gtsam/base/Lie.h:260:7:[m[K   required from ‘[01m[Kclass gtsam::IsLieGroup<gtsam::Pose2>[m[K’
+[01m[K/usr/include/boost/concept/detail/has_constraints.hpp:32:62:[m[K   required by substitution of ‘[01m[Ktemplate<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, boost::concepts::detail::wrap_constraints<Model, (& Model::constraints)>*) [with Model = gtsam::IsLieGroup<gtsam::Pose2>][m[K’
+[01m[K/usr/include/boost/concept/detail/has_constraints.hpp:42:5:[m[K   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/usr/include/boost/concept/detail/general.hpp:51:8:[m[K   required from ‘[01m[Kstruct boost::concepts::requirement_<void (*)(gtsam::IsLieGroup<gtsam::Pose2>)>[m[K’
+[01m[K/opt/ros/humble/include/gtsam/slam/BetweenFactor.h:44:5:[m[K   required from ‘[01m[Kclass gtsam::BetweenFactor<gtsam::Pose2>[m[K’
+[01m[K/usr/include/c++/11/type_traits:1422:38:[m[K   required from ‘[01m[Kstruct std::is_base_of<gtsam::NonlinearFactor, gtsam::BetweenFactor<gtsam::Pose2> >[m[K’
+[01m[K/opt/ros/humble/include/gtsam/inference/FactorGraph.h:113:9:[m[K   required by substitution of ‘[01m[Ktemplate<class FACTOR> template<class DERIVEDFACTOR> using IsDerived = typename std::enable_if<std::is_base_of<_Tp, _Up>::value>::type [with DERIVEDFACTOR = gtsam::BetweenFactor<gtsam::Pose2>; FACTOR = gtsam::NonlinearFactor][m[K’
+[01m[K/opt/ros/humble/include/gtsam/inference/FactorGraph.h:192:28:[m[K   required by substitution of ‘[01m[Ktemplate<class DERIVEDFACTOR, class ... Args> gtsam::FactorGraph<gtsam::NonlinearFactor>::IsDerived<DERIVEDFACTOR> gtsam::FactorGraph<gtsam::NonlinearFactor>::emplace_shared<DERIVEDFACTOR, Args ...>(Args&& ...) [with DERIVEDFACTOR = gtsam::BetweenFactor<gtsam::Pose2>; Args = <missing>][m[K’
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:67:49:[m[K   required from here
+[01m[K/opt/ros/humble/include/gtsam/base/Group.h:56:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kgtsam::Pose2& gtsam::Pose2::operator=(const gtsam::Pose2&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+   56 |     [01;35m[Ke = traits<G>::Identity()[m[K;
+      |     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:60:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::Pose2[m[K’ has user-provided ‘[01m[Kgtsam::Pose2::Pose2(const gtsam::Pose2&)[m[K’
+   60 |   [01;36m[KPose2[m[K(const Pose2& pose) : r_(pose.r_), t_(pose.t_) {}
+      |   [01;36m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/base/Lie.h:27[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/base/VectorSpace.h:11[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/geometry/Point2.h:20[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/gtsam/base/Group.h:57:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kgtsam::Pose2& gtsam::Pose2::operator=(const gtsam::Pose2&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+   57 |     [01;35m[Ke = traits<G>::Compose(g, h)[m[K;
+      |     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:60:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::Pose2[m[K’ has user-provided ‘[01m[Kgtsam::Pose2::Pose2(const gtsam::Pose2&)[m[K’
+   60 |   [01;36m[KPose2[m[K(const Pose2& pose) : r_(pose.r_), t_(pose.t_) {}
+      |   [01;36m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/base/Lie.h:27[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/base/VectorSpace.h:11[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/geometry/Point2.h:20[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/gtsam/base/Group.h:58:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kgtsam::Pose2& gtsam::Pose2::operator=(const gtsam::Pose2&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+   58 |     [01;35m[Ke = traits<G>::Between(g, h)[m[K;
+      |     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:60:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::Pose2[m[K’ has user-provided ‘[01m[Kgtsam::Pose2::Pose2(const gtsam::Pose2&)[m[K’
+   60 |   [01;36m[KPose2[m[K(const Pose2& pose) : r_(pose.r_), t_(pose.t_) {}
+      |   [01;36m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/base/Lie.h:27[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/base/VectorSpace.h:11[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/geometry/Point2.h:20[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/gtsam/base/Group.h:59:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kgtsam::Pose2& gtsam::Pose2::operator=(const gtsam::Pose2&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+   59 |     [01;35m[Ke = traits<G>::Inverse(g)[m[K;
+      |     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:60:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::Pose2[m[K’ has user-provided ‘[01m[Kgtsam::Pose2::Pose2(const gtsam::Pose2&)[m[K’
+   60 |   [01;36m[KPose2[m[K(const Pose2& pose) : r_(pose.r_), t_(pose.t_) {}
+      |   [01;36m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/base/Lie.h:26[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/base/VectorSpace.h:11[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/geometry/Point2.h:20[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+/opt/ros/humble/include/gtsam/base/Manifold.h: In instantiation of ‘[01m[Kgtsam::IsManifold<T>::~IsManifold() [with T = gtsam::Pose2][m[K’:
+[01m[K/usr/include/boost/concept/usage.hpp:16:48:[m[K   required from ‘[01m[Kboost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = gtsam::IsManifold<gtsam::Pose2>][m[K’
+[01m[K/usr/include/boost/concept/detail/general.hpp:39:47:[m[K   required from ‘[01m[Kstatic void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<gtsam::IsManifold<gtsam::Pose2> >][m[K’
+[01m[K/opt/ros/humble/include/gtsam/base/Manifold.h:145:3:[m[K   required from ‘[01m[Kclass gtsam::IsManifold<gtsam::Pose2>[m[K’
+[01m[K/opt/ros/humble/include/gtsam/base/Lie.h:260:7:[m[K   required from ‘[01m[Kclass gtsam::IsLieGroup<gtsam::Pose2>[m[K’
+[01m[K/usr/include/boost/concept/detail/has_constraints.hpp:32:62:[m[K   required by substitution of ‘[01m[Ktemplate<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, boost::concepts::detail::wrap_constraints<Model, (& Model::constraints)>*) [with Model = gtsam::IsLieGroup<gtsam::Pose2>][m[K’
+[01m[K/usr/include/boost/concept/detail/has_constraints.hpp:42:5:[m[K   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/usr/include/boost/concept/detail/general.hpp:51:8:[m[K   required from ‘[01m[Kstruct boost::concepts::requirement_<void (*)(gtsam::IsLieGroup<gtsam::Pose2>)>[m[K’
+[01m[K/opt/ros/humble/include/gtsam/slam/BetweenFactor.h:44:5:[m[K   required from ‘[01m[Kclass gtsam::BetweenFactor<gtsam::Pose2>[m[K’
+[01m[K/usr/include/c++/11/type_traits:1422:38:[m[K   required from ‘[01m[Kstruct std::is_base_of<gtsam::NonlinearFactor, gtsam::BetweenFactor<gtsam::Pose2> >[m[K’
+[01m[K/opt/ros/humble/include/gtsam/inference/FactorGraph.h:113:9:[m[K   required by substitution of ‘[01m[Ktemplate<class FACTOR> template<class DERIVEDFACTOR> using IsDerived = typename std::enable_if<std::is_base_of<_Tp, _Up>::value>::type [with DERIVEDFACTOR = gtsam::BetweenFactor<gtsam::Pose2>; FACTOR = gtsam::NonlinearFactor][m[K’
+[01m[K/opt/ros/humble/include/gtsam/inference/FactorGraph.h:192:28:[m[K   required by substitution of ‘[01m[Ktemplate<class DERIVEDFACTOR, class ... Args> gtsam::FactorGraph<gtsam::NonlinearFactor>::IsDerived<DERIVEDFACTOR> gtsam::FactorGraph<gtsam::NonlinearFactor>::emplace_shared<DERIVEDFACTOR, Args ...>(Args&& ...) [with DERIVEDFACTOR = gtsam::BetweenFactor<gtsam::Pose2>; Args = <missing>][m[K’
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:67:49:[m[K   required from here
+[01m[K/opt/ros/humble/include/gtsam/base/Manifold.h:153:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kgtsam::Pose2& gtsam::Pose2::operator=(const gtsam::Pose2&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  153 |     [01;35m[Kq = traits<T>::Retract(p, v)[m[K;
+      |     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:60:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::Pose2[m[K’ has user-provided ‘[01m[Kgtsam::Pose2::Pose2(const gtsam::Pose2&)[m[K’
+   60 |   [01;36m[KPose2[m[K(const Pose2& pose) : r_(pose.r_), t_(pose.t_) {}
+      |   [01;36m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/base/Lie.h:27[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/base/VectorSpace.h:11[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/geometry/Point2.h:20[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+/opt/ros/humble/include/gtsam/base/Group.h: In instantiation of ‘[01m[Kvoid gtsam::IsGroup<G>::operator_usage(gtsam::multiplicative_group_tag) [with G = gtsam::Pose2][m[K’:
+[01m[K/opt/ros/humble/include/gtsam/base/Group.h:60:19:[m[K   required from ‘[01m[Kgtsam::IsGroup<G>::~IsGroup() [with G = gtsam::Pose2][m[K’
+[01m[K/usr/include/boost/concept/usage.hpp:16:48:[m[K   required from ‘[01m[Kboost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = gtsam::IsGroup<gtsam::Pose2>][m[K’
+[01m[K/usr/include/boost/concept/detail/general.hpp:39:47:[m[K   required from ‘[01m[Kstatic void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<gtsam::IsGroup<gtsam::Pose2> >][m[K’
+[01m[K/opt/ros/humble/include/gtsam/base/Group.h:52:3:[m[K   required from ‘[01m[Kclass gtsam::IsGroup<gtsam::Pose2>[m[K’
+[01m[K/opt/ros/humble/include/gtsam/base/Lie.h:260:7:[m[K   required from ‘[01m[Kclass gtsam::IsLieGroup<gtsam::Pose2>[m[K’
+[01m[K/usr/include/boost/concept/detail/has_constraints.hpp:32:62:[m[K   [ skipping 3 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/usr/include/boost/concept/detail/general.hpp:51:8:[m[K   required from ‘[01m[Kstruct boost::concepts::requirement_<void (*)(gtsam::IsLieGroup<gtsam::Pose2>)>[m[K’
+[01m[K/opt/ros/humble/include/gtsam/slam/BetweenFactor.h:44:5:[m[K   required from ‘[01m[Kclass gtsam::BetweenFactor<gtsam::Pose2>[m[K’
+[01m[K/usr/include/c++/11/type_traits:1422:38:[m[K   required from ‘[01m[Kstruct std::is_base_of<gtsam::NonlinearFactor, gtsam::BetweenFactor<gtsam::Pose2> >[m[K’
+[01m[K/opt/ros/humble/include/gtsam/inference/FactorGraph.h:113:9:[m[K   required by substitution of ‘[01m[Ktemplate<class FACTOR> template<class DERIVEDFACTOR> using IsDerived = typename std::enable_if<std::is_base_of<_Tp, _Up>::value>::type [with DERIVEDFACTOR = gtsam::BetweenFactor<gtsam::Pose2>; FACTOR = gtsam::NonlinearFactor][m[K’
+[01m[K/opt/ros/humble/include/gtsam/inference/FactorGraph.h:192:28:[m[K   required by substitution of ‘[01m[Ktemplate<class DERIVEDFACTOR, class ... Args> gtsam::FactorGraph<gtsam::NonlinearFactor>::IsDerived<DERIVEDFACTOR> gtsam::FactorGraph<gtsam::NonlinearFactor>::emplace_shared<DERIVEDFACTOR, Args ...>(Args&& ...) [with DERIVEDFACTOR = gtsam::BetweenFactor<gtsam::Pose2>; Args = <missing>][m[K’
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:67:49:[m[K   required from here
+[01m[K/opt/ros/humble/include/gtsam/base/Group.h:66:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kgtsam::Pose2& gtsam::Pose2::operator=(const gtsam::Pose2&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+   66 |     [01;35m[Ke = g * h[m[K;
+      |     [01;35m[K~~^~~~~~~[m[K
+In file included from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:60:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::Pose2[m[K’ has user-provided ‘[01m[Kgtsam::Pose2::Pose2(const gtsam::Pose2&)[m[K’
+   60 |   [01;36m[KPose2[m[K(const Pose2& pose) : r_(pose.r_), t_(pose.t_) {}
+      |   [01;36m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/nonlinear/Values.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactor.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+/opt/ros/humble/include/gtsam/base/GenericValue.h: In instantiation of ‘[01m[Kgtsam::Value* gtsam::GenericValue<T>::clone_() const [with T = gtsam::Pose2][m[K’:
+[01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:102:12:[m[K   required from here
+[01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:103:27:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kgtsam::GenericValue<gtsam::Pose2>::GenericValue(const gtsam::GenericValue<gtsam::Pose2>&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  103 |       GenericValue* ptr = [01;35m[Knew GenericValue(*this)[m[K; // calls copy constructor to fill in
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:171:22:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::GenericValue<gtsam::Pose2>[m[K’ has user-provided ‘[01m[Kgtsam::GenericValue<T>& gtsam::GenericValue<T>::operator=(const gtsam::GenericValue<T>&) [with T = gtsam::Pose2][m[K’
+  171 |     GenericValue<T>& [01;36m[Koperator[m[K=(const GenericValue<T>& rhs) {
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:47:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr gtsam::Value::Value(const gtsam::Value&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+   47 | class [01;35m[KGenericValue[m[K: public Value {
+      |       [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/Values.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactor.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/gtsam/base/Value.h:79:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::Value[m[K’ has user-provided ‘[01m[Kvirtual gtsam::Value& gtsam::Value::operator=(const gtsam::Value&)[m[K’
+   79 |     virtual Value& [01;36m[Koperator[m[K=(const Value& /*rhs*/) {
+      |                    [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/nonlinear/Values.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactor.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:103:27:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kgtsam::GenericValue<gtsam::Pose2>::GenericValue(const gtsam::GenericValue<gtsam::Pose2>&)[m[K’ first required here
+  103 |       GenericValue* ptr = [01;36m[Knew GenericValue(*this)[m[K; // calls copy constructor to fill in
+      |                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+/opt/ros/humble/include/gtsam/base/GenericValue.h: In instantiation of ‘[01m[Kgtsam::Value& gtsam::GenericValue<T>::operator=(const gtsam::Value&) [with T = gtsam::Pose2][m[K’:
+[01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:158:12:[m[K   required from here
+[01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:163:15:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kgtsam::GenericValue<gtsam::Pose2>::GenericValue(const gtsam::GenericValue<gtsam::Pose2>&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  163 |       *this = [01;35m[KGenericValue(derivedRhs)[m[K; // calls copy constructor
+      |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:171:22:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::GenericValue<gtsam::Pose2>[m[K’ has user-provided ‘[01m[Kgtsam::GenericValue<T>& gtsam::GenericValue<T>::operator=(const gtsam::GenericValue<T>&) [with T = gtsam::Pose2][m[K’
+  171 |     GenericValue<T>& [01;36m[Koperator[m[K=(const GenericValue<T>& rhs) {
+      |                      [01;36m[K^~~~~~~~[m[K
+/opt/ros/humble/include/gtsam/base/GenericValue.h: In instantiation of ‘[01m[Kgtsam::Value* gtsam::GenericValue<T>::clone_() const [with T = double][m[K’:
+[01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:102:12:[m[K   required from here
+[01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:103:27:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr gtsam::GenericValue<double>::GenericValue(const gtsam::GenericValue<double>&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  103 |       GenericValue* ptr = [01;35m[Knew GenericValue(*this)[m[K; // calls copy constructor to fill in
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:171:22:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::GenericValue<double>[m[K’ has user-provided ‘[01m[Kgtsam::GenericValue<T>& gtsam::GenericValue<T>::operator=(const gtsam::GenericValue<T>&) [with T = double][m[K’
+  171 |     GenericValue<T>& [01;36m[Koperator[m[K=(const GenericValue<T>& rhs) {
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:47:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr gtsam::Value::Value(const gtsam::Value&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+   47 | class [01;35m[KGenericValue[m[K: public Value {
+      |       [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/Values.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactor.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/gtsam/base/Value.h:79:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::Value[m[K’ has user-provided ‘[01m[Kvirtual gtsam::Value& gtsam::Value::operator=(const gtsam::Value&)[m[K’
+   79 |     virtual Value& [01;36m[Koperator[m[K=(const Value& /*rhs*/) {
+      |                    [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/gtsam/nonlinear/Values.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactor.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearFactorGraph.h:25[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/NonlinearOptimizer.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h:23[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:103:27:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kconstexpr gtsam::GenericValue<double>::GenericValue(const gtsam::GenericValue<double>&)[m[K’ first required here
+  103 |       GenericValue* ptr = [01;36m[Knew GenericValue(*this)[m[K; // calls copy constructor to fill in
+      |                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+/opt/ros/humble/include/gtsam/base/GenericValue.h: In instantiation of ‘[01m[Kgtsam::Value& gtsam::GenericValue<T>::operator=(const gtsam::Value&) [with T = double][m[K’:
+[01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:158:12:[m[K   required from here
+[01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:163:15:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr gtsam::GenericValue<double>::GenericValue(const gtsam::GenericValue<double>&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  163 |       *this = [01;35m[KGenericValue(derivedRhs)[m[K; // calls copy constructor
+      |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:171:22:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::GenericValue<double>[m[K’ has user-provided ‘[01m[Kgtsam::GenericValue<T>& gtsam::GenericValue<T>::operator=(const gtsam::GenericValue<T>&) [with T = double][m[K’
+  171 |     GenericValue<T>& [01;36m[Koperator[m[K=(const GenericValue<T>& rhs) {
+      |                      [01;36m[K^~~~~~~~[m[K
+/opt/ros/humble/include/gtsam/base/GenericValue.h: In instantiation of ‘[01m[Kgtsam::GenericValue<T>& gtsam::GenericValue<T>::operator=(const gtsam::GenericValue<T>&) [with T = gtsam::Pose2][m[K’:
+[01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:163:13:[m[K   required from ‘[01m[Kgtsam::Value& gtsam::GenericValue<T>::operator=(const gtsam::Value&) [with T = gtsam::Pose2][m[K’
+[01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:158:12:[m[K   required from here
+[01m[K/opt/ros/humble/include/gtsam/base/GenericValue.h:173:14:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kgtsam::Pose2& gtsam::Pose2::operator=(const gtsam::Pose2&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  173 |       [01;35m[Kvalue_ = rhs.value_[m[K;
+      |       [01;35m[K~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/gtsam/geometry/Pose2.h:60:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgtsam::Pose2[m[K’ has user-provided ‘[01m[Kgtsam::Pose2::Pose2(const gtsam::Pose2&)[m[K’
+   60 |   [01;36m[KPose2[m[K(const Pose2& pose) : r_(pose.r_), t_(pose.t_) {}
+      |   [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

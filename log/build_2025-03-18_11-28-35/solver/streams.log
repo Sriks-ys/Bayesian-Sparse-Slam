@@ -1,0 +1,50 @@
+[0.013s] Invoking command in '/home/kvothe/ros/build/solver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake /home/kvothe/ros/src/solver -DCMAKE_INSTALL_PREFIX=/home/kvothe/ros/install/solver
+[0.024s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.180s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.227s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.229s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.235s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.254s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.282s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.283s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.403s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.446s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):
+[0.446s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[0.447s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[0.447s]   cmake_policy command to set the policy and suppress this warning.
+[0.447s] 
+[0.447s]   FindOpenGL found both a legacy GL library:
+[0.447s] 
+[0.447s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[0.447s] 
+[0.447s]   and GLVND libraries for OpenGL and GLX:
+[0.447s] 
+[0.448s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[0.448s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[0.448s] 
+[0.448s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[0.448s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[0.448s] Call Stack (most recent call first):
+[0.448s]   /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[0.448s]   /opt/ros/humble/lib/cmake/g2o/g2oConfig.cmake:4 (find_dependency)
+[0.448s]   CMakeLists.txt:11 (find_package)
+[0.449s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.449s] [0m
+[0.521s] -- Configuring done
+[0.529s] -- Generating done
+[0.532s] -- Build files have been written to: /home/kvothe/ros/build/solver
+[0.539s] Invoked command in '/home/kvothe/ros/build/solver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake /home/kvothe/ros/src/solver -DCMAKE_INSTALL_PREFIX=/home/kvothe/ros/install/solver
+[0.543s] Invoking command in '/home/kvothe/ros/build/solver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/solver -- -j12 -l12
+[0.606s] [ 50%] [32mBuilding CXX object CMakeFiles/test_g2o.dir/src/test_g2o.cpp.o[0m
+[0.881s] In file included from [01m[K/usr/local/include/g2o/core/optimizable_graph.h:38[m[K,
+[0.881s]                  from [01m[K/usr/local/include/g2o/core/sparse_optimizer.h:33[m[K,
+[0.882s]                  from [01m[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:2[m[K:
+[0.882s] [01m[K/usr/local/include/g2o/core/io_helper.h:30:10:[m[K [01;31m[Kfatal error: [m[KEigen/Core: No such file or directory
+[0.882s]    30 | #include [01;31m[K<Eigen/Core>[m[K
+[0.882s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.882s] compilation terminated.
+[0.886s] gmake[2]: *** [CMakeFiles/test_g2o.dir/build.make:76: CMakeFiles/test_g2o.dir/src/test_g2o.cpp.o] Error 1
+[0.886s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test_g2o.dir/all] Error 2
+[0.886s] gmake: *** [Makefile:146: all] Error 2
+[0.892s] Invoked command in '/home/kvothe/ros/build/solver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/solver -- -j12 -l12

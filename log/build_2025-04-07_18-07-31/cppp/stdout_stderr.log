@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[ 20%] Built target PreprocessNode
+[ 20%] Built target LandmarkGraphNode
+[ 30%] Built target PoseGraphOptimizer
+[ 40%] Built target ScanTransformer
+[ 70%] Built target LandmarkTransformerNode
+[ 70%] Built target RansacLineExtractionNode
+[ 70%] Built target LandmarkTransformermapNode
+[ 80%] Built target IncrementalLineFittingNode
+[ 90%] Built target ScanAccumulator
+[100%] Built target HoughLineFittingNode
+-- Install configuration: ""
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformerNode
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/ScanAccumulator
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/PreprocessNode
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkGraphNode
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/IncrementalLineFittingNode
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/LandmarkTransformermapNode
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/HoughLineFittingNode
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/RansacLineExtractionNode
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/ScanTransformer
+-- Up-to-date: /home/kvothe/ros/install/cppp/lib/cppp/PoseGraphOptimizer
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/package_run_dependencies/cppp
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/parent_prefix_path/cppp
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/path.sh
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/environment/path.dsv
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.bash
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.sh
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.zsh
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/local_setup.dsv
+-- Installing: /home/kvothe/ros/install/cppp/share/cppp/package.dsv
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/ament_index/resource_index/packages/cppp
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig.cmake
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/cmake/cpppConfig-version.cmake
+-- Up-to-date: /home/kvothe/ros/install/cppp/share/cppp/package.xml

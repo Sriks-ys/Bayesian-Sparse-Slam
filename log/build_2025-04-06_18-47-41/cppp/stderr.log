@@ -1,0 +1,19 @@
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:271:113:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPoseLandmarkCost::PoseLandmarkCost(double&, double&, std::array<double, 4>)[m[K’
+  271 |                 new PoseLandmarkCost(landmark_x, landmark_y, convertCovariance<double, 4>(constraint.covariance)[01;31m[K)[m[K);
+      |                                                                                                                 [01;31m[K^[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:60:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPoseLandmarkCost::PoseLandmarkCost(double, double, const Matrix2d&)[m[K’
+   60 |     [01;36m[KPoseLandmarkCost[m[K(double x_obs, double y_obs, const Eigen::Matrix2d& sqrt_info)
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:60:73:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kstd::array<double, 4>[m[K’ to ‘[01m[Kconst Matrix2d&[m[K’ {aka ‘[01m[Kconst Eigen::Matrix<double, 2, 2>&[m[K’}
+   60 |     PoseLandmarkCost(double x_obs, double y_obs, [01;36m[Kconst Eigen::Matrix2d& sqrt_info[m[K)
+      |                                                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:59:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPoseLandmarkCost::PoseLandmarkCost(const PoseLandmarkCost&)[m[K’
+   59 | struct [01;36m[KPoseLandmarkCost[m[K {
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:59:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:59:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KPoseLandmarkCost::PoseLandmarkCost(PoseLandmarkCost&&)[m[K’
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:59:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

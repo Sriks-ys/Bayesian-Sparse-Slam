@@ -1,0 +1,4 @@
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:279:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktheta_global[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  279 |                 double [01;35m[Ktheta_global[m[K = pose.theta + constraint.alpha;
+      |                        [01;35m[K^~~~~~~~~~~~[m[K

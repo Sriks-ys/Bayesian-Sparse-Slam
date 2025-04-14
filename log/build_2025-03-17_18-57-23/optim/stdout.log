@@ -1,0 +1,3 @@
+[ 50%] Built target test_ceres
+[35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizationNode[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizationNode.dir/src/PoseGraphOptimizationNode.cpp.o[0m

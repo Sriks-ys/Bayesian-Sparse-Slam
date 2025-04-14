@@ -1,0 +1,68 @@
+[0.014s] Invoking command in '/home/kvothe/ros/build/solver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/solver -- -j12 -l12
+[0.094s] [ 50%] [32mBuilding CXX object CMakeFiles/test_g2o.dir/src/test_g2o.cpp.o[0m
+[3.390s] [01m[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:[m[K In constructor ‘[01m[KG2OTestNode::G2OTestNode()[m[K’:
+[3.391s] [01m[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:20:97:[m[K [01;31m[Kerror: [m[K‘[01m[KPose3D[m[K’ is not a member of ‘[01m[Kg2o[m[K’
+[3.391s]    20 |         auto linearSolver = std::make_unique<g2o::LinearSolverDense<g2o::BlockSolverTraits<g2o::[01;31m[KPose3D[m[K>::PoseMatrixType>>();
+[3.391s]       |                                                                                                 [01;31m[K^~~~~~[m[K
+[3.391s] [01m[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:20:103:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (1, should be 2)
+[3.391s]    20 |         auto linearSolver = std::make_unique<g2o::LinearSolverDense<g2o::BlockSolverTraits<g2o::Pose3D[01;31m[K>[m[K::PoseMatrixType>>();
+[3.392s]       |                                                                                                       [01;31m[K^[m[K
+[3.392s] In file included from [01m[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:7[m[K:
+[3.392s] [01m[K/usr/local/include/g2o/core/block_solver.h:48:8:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<int _PoseDim, int _LandmarkDim> struct g2o::BlockSolverTraits[m[K’
+[3.392s]    48 | struct [01;36m[KBlockSolverTraits[m[K {
+[3.392s]       |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.393s] [01m[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:20:106:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.393s]    20 |         auto linearSolver = std::make_unique<g2o::LinearSolverDense<g2o::BlockSolverTraits<g2o::Pose3D>::[01;31m[KPoseMatrixType[m[K>>();
+[3.393s]       |                                                                                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.393s] [01m[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:20:122:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >()[m[K’
+[3.393s]    20 |     auto linearSolver = [01;31m[Kstd::make_unique<g2o::LinearSolverDense<g2o::BlockSolverTraits<g2o::Pose3D>::PoseMatrixType>>()[m[K;
+[3.394s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.394s] 
+[3.394s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.394s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.394s]                  from [01m[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:1[m[K:
+[3.395s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:961:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)[m[K’
+[3.395s]   961 |     [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[3.395s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.395s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:961:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.395s] [01m[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:20:122:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.396s]    20 |     auto linearSolver = [01;31m[Kstd::make_unique<g2o::LinearSolverDense<g2o::BlockSolverTraits<g2o::Pose3D>::PoseMatrixType>>()[m[K;
+[3.396s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.396s] 
+[3.396s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.396s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.397s]                  from [01m[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:1[m[K:
+[3.397s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:967:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)[m[K’
+[3.397s]   967 |     [01;36m[Kmake_unique[m[K(size_t __num)
+[3.397s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.397s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:967:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.398s] [01m[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:20:122:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.398s]    20 |     auto linearSolver = [01;31m[Kstd::make_unique<g2o::LinearSolverDense<g2o::BlockSolverTraits<g2o::Pose3D>::PoseMatrixType>>()[m[K;
+[3.398s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.398s] 
+[3.398s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[3.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.398s]                  from [01m[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:1[m[K:
+[3.399s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:973:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...)[m[K’ (deleted)
+[3.399s]   973 |     [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[3.399s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.399s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:973:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.399s] [01m[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:20:122:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.399s]    20 |     auto linearSolver = [01;31m[Kstd::make_unique<g2o::LinearSolverDense<g2o::BlockSolverTraits<g2o::Pose3D>::PoseMatrixType>>()[m[K;
+[3.399s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.399s] 
+[3.399s] [01m[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:23:90:[m[K [01;31m[Kerror: [m[K‘[01m[KPose3D[m[K’ is not a member of ‘[01m[Kg2o[m[K’
+[3.400s]    23 |         auto blockSolver = std::make_unique<g2o::BlockSolver<g2o::BlockSolverTraits<g2o::[01;31m[KPose3D[m[K>>>(std::move(linearSolver));
+[3.400s]       |                                                                                          [01;31m[K^~~~~~[m[K
+[3.400s] [01m[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:23:90:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (1, should be 2)
+[3.400s] In file included from [01m[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:7[m[K:
+[3.400s] [01m[K/usr/local/include/g2o/core/block_solver.h:48:8:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<int _PoseDim, int _LandmarkDim> struct g2o::BlockSolverTraits[m[K’
+[3.400s]    48 | struct [01;36m[KBlockSolverTraits[m[K {
+[3.400s]       |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.400s] [01m[K/home/kvothe/ros/src/solver/src/test_g2o.cpp:23:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.401s]    23 |         auto blockSolver = std::make_unique<g2o::BlockSolver<g2o::BlockSolverTraits<g2o::Pose3D[01;31m[K>>[m[K>(std::move(linearSolver));
+[3.401s]       |                                                                                                [01;31m[K^~[m[K
+[7.364s] gmake[2]: *** [CMakeFiles/test_g2o.dir/build.make:76: CMakeFiles/test_g2o.dir/src/test_g2o.cpp.o] Error 1
+[7.364s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test_g2o.dir/all] Error 2
+[7.364s] gmake: *** [Makefile:146: all] Error 2
+[7.370s] Invoked command in '/home/kvothe/ros/build/solver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/solver -- -j12 -l12

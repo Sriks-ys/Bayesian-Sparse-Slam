@@ -1,0 +1,45 @@
+[35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[ 10%] Built target PreprocessNode
+[ 40%] Built target LandmarkTransformerNode
+[ 40%] Built target LandmarkTransformermapNode
+[ 40%] Built target ScanTransformer
+[ 60%] Built target RansacLineExtractionNode
+[ 60%] Built target LandmarkGraphNode
+[ 70%] Built target IncrementalLineFittingNode
+[ 75%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[ 95%] Built target ScanAccumulator
+[ 95%] Built target HoughLineFittingNode
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:41:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kceres::Problem::AddParameterBlock(messages::msg::PoseNode_<std::allocator<void> >::_x_type*, int)[m[K’
+   41 |             [01;31m[Kproblem.AddParameterBlock(&node.x, 3)[m[K; // (x, y, theta)
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ceres/ceres.h:60[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:2[m[K:
+[01m[K/usr/include/ceres/problem.h:268:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ceres::Problem::AddParameterBlock(double*, int)[m[K’
+  268 |   void [01;36m[KAddParameterBlock[m[K(double* values, int size);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/ceres/problem.h:268:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmessages::msg::PoseNode_<std::allocator<void> >::_x_type*[m[K’ {aka ‘[01m[Kfloat*[m[K’} to ‘[01m[Kdouble*[m[K’
+  268 |   void AddParameterBlock([01;36m[Kdouble* values[m[K, int size);
+      |                          [01;36m[K~~~~~~~~^~~~~~[m[K
+[01m[K/usr/include/ceres/problem.h:274:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ceres::Problem::AddParameterBlock(double*, int, ceres::LocalParameterization*)[m[K’
+  274 |   void [01;36m[KAddParameterBlock[m[K(double* values,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/ceres/problem.h:274:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:46:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kceres::Problem::AddParameterBlock(messages::msg::LandmarkConstraint_<std::allocator<void> >::_rho_type*, int)[m[K’
+   46 |             [01;31m[Kproblem.AddParameterBlock(&landmark.rho, 2)[m[K; // (rho, alpha)
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/ceres/ceres.h:60[m[K,
+                 from [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:2[m[K:
+[01m[K/usr/include/ceres/problem.h:268:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ceres::Problem::AddParameterBlock(double*, int)[m[K’
+  268 |   void [01;36m[KAddParameterBlock[m[K(double* values, int size);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/ceres/problem.h:268:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmessages::msg::LandmarkConstraint_<std::allocator<void> >::_rho_type*[m[K’ {aka ‘[01m[Kfloat*[m[K’} to ‘[01m[Kdouble*[m[K’
+  268 |   void AddParameterBlock([01;36m[Kdouble* values[m[K, int size);
+      |                          [01;36m[K~~~~~~~~^~~~~~[m[K
+[01m[K/usr/include/ceres/problem.h:274:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ceres::Problem::AddParameterBlock(double*, int, ceres::LocalParameterization*)[m[K’
+  274 |   void [01;36m[KAddParameterBlock[m[K(double* values,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/ceres/problem.h:274:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

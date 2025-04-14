@@ -1,0 +1,29 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/FullSystem.dir/src/FullSystem.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/BasicSystem.dir/src/BasicSystem.cc.o[0m
+[ 75%] [32m[1mLinking CXX shared library libBasicSystem.so[0m
+[100%] [32m[1mLinking CXX shared library libFullSystem.so[0m
+[100%] Built target BasicSystem
+[100%] Built target FullSystem
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/libBasicSystem.so
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/lib/ros_gazebo/libFullSystem.so
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds/Crawler.sdf
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/worlds/Damn.sdf
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/environment/ros_gazebo.dsv
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/environment/ros_gazebo.sh
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ament_index/resource_index/package_run_dependencies/ros_gazebo
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ament_index/resource_index/parent_prefix_path/ros_gazebo
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/environment/path.sh
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/environment/path.dsv
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/local_setup.bash
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/local_setup.sh
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/local_setup.zsh
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/local_setup.dsv
+-- Symlinking: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/package.dsv
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ament_index/resource_index/packages/ros_gazebo
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/cmake/ros_gazeboConfig.cmake
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/cmake/ros_gazeboConfig-version.cmake
+-- Up-to-date symlink: /home/kvothe/ros/install/ros_gazebo/share/ros_gazebo/package.xml

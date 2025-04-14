@@ -1,0 +1,29 @@
+[0.018s] Invoking command in '/home/kvothe/ros/build/cppp': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12
+[0.286s] [35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[0.287s] [ 10%] Built target PreprocessNode
+[0.287s] [ 40%] Built target LandmarkGraphNode
+[0.287s] [ 40%] Built target LandmarkTransformerNode
+[0.287s] [ 40%] Built target LandmarkTransformermapNode
+[0.288s] [ 50%] Built target ScanTransformer
+[0.288s] [ 70%] Built target HoughLineFittingNode
+[0.288s] [ 70%] Built target IncrementalLineFittingNode
+[0.288s] [ 80%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[0.288s] [ 85%] Built target RansacLineExtractionNode
+[0.288s] [ 95%] Built target ScanAccumulator
+[3.130s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[3.130s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:267:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::LandmarkConstraint_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kstart[m[K’
+[3.130s]   267 |                 double x_start_global = constraint.[01;31m[Kstart[m[K.x;
+[3.131s]       |                                                    [01;31m[K^~~~~[m[K
+[3.131s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:268:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::LandmarkConstraint_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kstart[m[K’
+[3.131s]   268 |                 double y_start_global = constraint.[01;31m[Kstart[m[K.y;
+[3.131s]       |                                                    [01;31m[K^~~~~[m[K
+[3.131s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:270:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::LandmarkConstraint_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kend[m[K’
+[3.132s]   270 |                 double x_end_global = constraint.[01;31m[Kend[m[K.x;
+[3.132s]       |                                                  [01;31m[K^~~[m[K
+[3.132s] [01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:271:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct messages::msg::LandmarkConstraint_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kend[m[K’
+[3.132s]   271 |                 double y_end_global = constraint.[01;31m[Kend[m[K.y;
+[3.132s]       |                                                  [01;31m[K^~~[m[K
+[10.602s] gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+[10.603s] gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+[10.603s] gmake: *** [Makefile:146: all] Error 2
+[10.606s] Invoked command in '/home/kvothe/ros/build/cppp' returned '2': CMAKE_PREFIX_PATH=/home/kvothe/ros/install/messages:/home/kvothe/ros/install/ros_bringup:/home/kvothe/ros/install/ros_gazebo:/home/kvothe/ros/install/robot_description:/home/kvothe/ros/install/cppp:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/kvothe/ros/build/cppp -- -j12 -l12

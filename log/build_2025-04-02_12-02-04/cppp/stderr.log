@@ -1,0 +1,12 @@
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:39:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_parameters_[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_parameters_[m[K’?
+   39 |         [01;31m[Kpose_parameters_[m[K.clear();
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |         [32m[Knode_parameters_[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:40:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klandmark_parameters_[m[K’ was not declared in this scope; did you mean ‘[01m[Kdeclare_parameters[m[K’?
+   40 |         [01;31m[Klandmark_parameters_[m[K.clear();
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kdeclare_parameters[m[K
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

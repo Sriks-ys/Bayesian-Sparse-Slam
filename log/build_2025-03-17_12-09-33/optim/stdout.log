@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizationNode[0m
+[ 50%] Built target test_ceres
+[ 75%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizationNode.dir/src/PoseGraphOptimizationNode.cpp.o[0m
+[100%] [32m[1mLinking CXX executable PoseGraphOptimizationNode[0m
+[100%] Built target PoseGraphOptimizationNode
+-- Install configuration: ""
+-- Up-to-date: /home/kvothe/ros/install/optim/lib/optim/test_ceres
+-- Installing: /home/kvothe/ros/install/optim/lib/optim/PoseGraphOptimizationNode
+-- Set runtime path of "/home/kvothe/ros/install/optim/lib/optim/PoseGraphOptimizationNode" to ""
+-- Installing: /home/kvothe/ros/install/optim/share/ament_index/resource_index/package_run_dependencies/optim
+-- Up-to-date: /home/kvothe/ros/install/optim/share/ament_index/resource_index/parent_prefix_path/optim
+-- Up-to-date: /home/kvothe/ros/install/optim/share/optim/environment/ament_prefix_path.sh
+-- Installing: /home/kvothe/ros/install/optim/share/optim/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kvothe/ros/install/optim/share/optim/environment/path.sh
+-- Installing: /home/kvothe/ros/install/optim/share/optim/environment/path.dsv
+-- Up-to-date: /home/kvothe/ros/install/optim/share/optim/local_setup.bash
+-- Up-to-date: /home/kvothe/ros/install/optim/share/optim/local_setup.sh
+-- Up-to-date: /home/kvothe/ros/install/optim/share/optim/local_setup.zsh
+-- Installing: /home/kvothe/ros/install/optim/share/optim/local_setup.dsv
+-- Installing: /home/kvothe/ros/install/optim/share/optim/package.dsv
+-- Up-to-date: /home/kvothe/ros/install/optim/share/ament_index/resource_index/packages/optim
+-- Up-to-date: /home/kvothe/ros/install/optim/share/optim/cmake/optimConfig.cmake
+-- Up-to-date: /home/kvothe/ros/install/optim/share/optim/cmake/optimConfig-version.cmake
+-- Installing: /home/kvothe/ros/install/optim/share/optim/package.xml

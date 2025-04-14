@@ -1,0 +1,45 @@
+[35m[1mConsolidate compiler generated dependencies of target PoseGraphOptimizer[0m
+[ 10%] Built target PreprocessNode
+[ 20%] Built target LandmarkGraphNode
+[ 30%] Built target ScanTransformer
+[ 40%] Built target LandmarkTransformerNode
+[ 50%] Built target LandmarkTransformermapNode
+[ 60%] Built target IncrementalLineFittingNode
+[ 70%] Built target RansacLineExtractionNode
+[ 75%] [32mBuilding CXX object CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o[0m
+[ 85%] Built target HoughLineFittingNode
+[ 95%] Built target ScanAccumulator
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:[m[K In member function ‘[01m[Kvoid PoseGraphOptimizer::optimizeGraph()[m[K’:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:127:111:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KconvertCovariance<double, 9>(const _covariance_type&)[m[K’
+  127 |                 new PosePoseCost(constraint.dx, constraint.dy, constraint.dtheta, [01;31m[KconvertCovariance<double, 9>(constraint.covariance)[m[K));
+      |                                                                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:61:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, long unsigned int N, long unsigned int M> std::array<T, M> convertCovariance(const std::array<float, N>&)[m[K’
+   61 | std::array<T, M> [01;36m[KconvertCovariance[m[K(const std::array<float, N> &covariance) {
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:61:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:127:111:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KM[m[K’
+  127 |                 new PosePoseCost(constraint.dx, constraint.dy, constraint.dtheta, [01;36m[KconvertCovariance<double, 9>(constraint.covariance)[m[K));
+      |                                                                                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:134:100:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KconvertCovariance<double, 4>(const _covariance_type&)[m[K’
+  134 |                 new PoseLandmarkCost(constraint.rho, constraint.alpha, [01;31m[KconvertCovariance<double, 4>(constraint.covariance)[m[K));
+      |                                                                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:61:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, long unsigned int N, long unsigned int M> std::array<T, M> convertCovariance(const std::array<float, N>&)[m[K’
+   61 | std::array<T, M> [01;36m[KconvertCovariance[m[K(const std::array<float, N> &covariance) {
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:61:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:134:100:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KM[m[K’
+  134 |                 new PoseLandmarkCost(constraint.rho, constraint.alpha, [01;36m[KconvertCovariance<double, 4>(constraint.covariance)[m[K));
+      |                                                                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:141:100:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KconvertCovariance<double, 4>(const _covariance_type&)[m[K’
+  141 |                 new LandmarkLandmarkCost(constraint.dx, constraint.dy, [01;31m[KconvertCovariance<double, 4>(constraint.covariance)[m[K));
+      |                                                                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:61:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, long unsigned int N, long unsigned int M> std::array<T, M> convertCovariance(const std::array<float, N>&)[m[K’
+   61 | std::array<T, M> [01;36m[KconvertCovariance[m[K(const std::array<float, N> &covariance) {
+      |                  [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:61:18:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kvothe/ros/src/cppp/src/PoseGraphOptimizer.cpp:141:100:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KM[m[K’
+  141 |                 new LandmarkLandmarkCost(constraint.dx, constraint.dy, [01;36m[KconvertCovariance<double, 4>(constraint.covariance)[m[K));
+      |                                                                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/PoseGraphOptimizer.dir/build.make:76: CMakeFiles/PoseGraphOptimizer.dir/src/PoseGraphOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/PoseGraphOptimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
