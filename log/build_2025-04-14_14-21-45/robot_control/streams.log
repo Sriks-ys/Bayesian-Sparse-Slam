@@ -1,0 +1,21 @@
+[0.534s] Invoking command in '/home/kvothe/ros/src/robot_control': PYTHONPATH=/home/kvothe/ros/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/kvothe/ros/build/robot_control/build install --record /home/kvothe/ros/build/robot_control/install.log --single-version-externally-managed install_data
+[0.713s] running egg_info
+[0.714s] writing ../../build/robot_control/robot_control.egg-info/PKG-INFO
+[0.714s] writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt
+[0.714s] writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt
+[0.714s] writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt
+[0.715s] writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt
+[0.716s] reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[0.716s] writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[0.716s] running build
+[0.717s] running build_py
+[0.717s] running install
+[0.717s] running install_lib
+[0.718s] running install_data
+[0.718s] running install_egg_info
+[0.721s] removing '/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.721s] Copying ../../build/robot_control/robot_control.egg-info to /home/kvothe/ros/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info
+[0.722s] running install_scripts
+[0.739s] Installing dummycontrol script to /home/kvothe/ros/install/robot_control/lib/robot_control
+[0.740s] writing list of installed files to '/home/kvothe/ros/build/robot_control/install.log'
+[1.078s] Invoked command in '/home/kvothe/ros/src/robot_control' returned '0': PYTHONPATH=/home/kvothe/ros/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvothe/ros/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/kvothe/ros/build/robot_control/build install --record /home/kvothe/ros/build/robot_control/install.log --single-version-externally-managed install_data

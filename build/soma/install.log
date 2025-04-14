@@ -33,6 +33,7 @@
 /home/kvothe/ros/install/soma/lib/soma/EuclidsLandmarkLandmarkGraphNode
 /home/kvothe/ros/install/soma/lib/soma/GraphNode
 /home/kvothe/ros/install/soma/lib/soma/LandmarkConstraintVisualizer
+/home/kvothe/ros/install/soma/lib/soma/LandmarkMapGenerator
 /home/kvothe/ros/install/soma/lib/soma/LineSegmentAssociation
 /home/kvothe/ros/install/soma/lib/soma/OldGraphNode
 /home/kvothe/ros/install/soma/lib/soma/PoseGraphNode

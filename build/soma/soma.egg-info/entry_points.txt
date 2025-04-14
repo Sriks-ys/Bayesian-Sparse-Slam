@@ -3,6 +3,7 @@ BayesianLandmarkConstraintNode = soma.BayesianLandmarkConstraintNode:main
 EuclidsLandmarkLandmarkGraphNode = soma.EuclidsLandmarkLandmarkGraphNode:main
 GraphNode = soma.GraphNode:main
 LandmarkConstraintVisualizer = soma.LandmarkConstraintVisualizer:main
+LandmarkMapGenerator = soma.LandmarkMapGenerator:main
 LineSegmentAssociation = soma.LineSegmentAssociation:main
 OldGraphNode = soma.OldGraphNode:main
 PoseGraphNode = soma.PoseGraphNode:main

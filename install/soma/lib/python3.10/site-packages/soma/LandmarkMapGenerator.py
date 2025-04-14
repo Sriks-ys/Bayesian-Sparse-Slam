@@ -1,77 +1,148 @@
 import rclpy
+from rclpy.qos import QoSProfile, QoSDurabilityPolicy, QoSReliabilityPolicy
 from rclpy.node import Node
-import numpy as np
-from nav_msgs.msg import OccupancyGrid
-from geometry_msgs.msg import Pose, Point, Quaternion
-from std_msgs.msg import Header
-
 from messages.msg import LineSegmentList
+from nav_msgs.msg import OccupancyGrid
+import numpy as np
+import cv2
+import os
 
 class LandmarkMapGenerator(Node):
     def __init__(self):
-        super().__init__('landmark_map_generator')
+        super().__init__('landmark_to_occupancy_node')
 
-        # Parameters
-        self.map_resolution = 0.05  # meters per cell
-        self.map_width = 2000  # cells
-        self.map_height = 2000  # cells
-        self.map_origin_x = -50.0  # meters
-        self.map_origin_y = -50.0  # meters
-
-        # Map publisher
-        self.map_pub = self.create_publisher(OccupancyGrid, '/slam_occupancy_map', 10)
-
-        # Landmark subscriber
-        self.landmark_sub = self.create_subscription(
+        # Subscription to optimized landmarks
+        self.subscription = self.create_subscription(
             LineSegmentList,
-            '/global_landmarks',
+            '/optimized_landmarks',
             self.landmark_callback,
             10
         )
 
+        qos_profile_transient = QoSProfile(
+            reliability=QoSReliabilityPolicy.RELIABLE,
+            durability=QoSDurabilityPolicy.TRANSIENT_LOCAL,
+            depth=1
+        )
+        
+        # Subscription to ground truth map
+        self.map_subscription = self.create_subscription(
+            OccupancyGrid,
+            '/map',
+            self.map_callback,
+            qos_profile_transient
+        )
+
+        # Initialize variables for storing maps
+        self.generated_map = None
+        self.ground_truth_map = None
+
+        # Map configuration
+        self.resolution = 0.05
+        self.origin = (-9.83, -9.83)
+        self.map_size_m = 25.0
+        self.map_size_px = int(self.map_size_m / self.resolution)
+        self.height = self.width = self.map_size_px
+        self.save_path = '/home/kvothe/ros/results'  # change as needed
+
+        self.get_logger().info("Landmark to Occupancy Map node initialized.")
+
+    def world_to_grid(self, x, y):
+        gx = int((x - self.origin[0]) / self.resolution)
+        gy = int((y - self.origin[1]) / self.resolution)
+        gy = self.height - gy - 1  # Flip for image coords
+        return gx, gy
+
     def landmark_callback(self, msg):
-        grid = -np.ones((self.map_height, self.map_width), dtype=np.int8)
+        # Initialize empty occupancy grid
+        grid = np.zeros((self.height, self.width), dtype=np.uint8)
 
         for segment in msg.segments:
-            start = segment.start
-            end = segment.end
-            points = self.sample_line(start, end, spacing=self.map_resolution / 2.0)
-            for pt in points:
-                mx = int((pt[0] - self.map_origin_x) / self.map_resolution)
-                my = int((pt[1] - self.map_origin_y) / self.map_resolution)
-                if 0 <= mx < self.map_width and 0 <= my < self.map_height:
-                    grid[my, mx] = 100
+            x1, y1 = segment.start.x, segment.start.y
+            x2, y2 = segment.end.x, segment.end.y
 
-        self.publish_map(grid)
+            p1 = self.world_to_grid(x1, y1)
+            p2 = self.world_to_grid(x2, y2)
 
-    def sample_line(self, start: Point, end: Point, spacing: float):
-        dx = end.x - start.x
-        dy = end.y - start.y
-        length = np.hypot(dx, dy)
-        num_points = int(length / spacing) + 1
-        return [
-            (start.x + i * dx / num_points, start.y + i * dy / num_points)
-            for i in range(num_points + 1)
-        ]
+            if self.valid_point(p1) and self.valid_point(p2):
+                cv2.line(grid, p1, p2, color=255, thickness=1)
 
-    def publish_map(self, grid):
-        grid_msg = OccupancyGrid()
-        grid_msg.header = Header()
-        grid_msg.header.stamp = self.get_clock().now().to_msg()
-        grid_msg.header.frame_id = 'map'
+        self.generated_map = grid
+        self.save_map(grid)
 
-        grid_msg.info.resolution = self.map_resolution
-        grid_msg.info.width = self.map_width
-        grid_msg.info.height = self.map_height
-        grid_msg.info.origin = Pose()
-        grid_msg.info.origin.position.x = self.map_origin_x
-        grid_msg.info.origin.position.y = self.map_origin_y
-        grid_msg.info.origin.position.z = 0.0
-        grid_msg.info.origin.orientation = Quaternion(w=1.0)
+        # If ground truth is available, calculate metrics
+        if self.ground_truth_map is not None:
+            self.compute_metrics(self.generated_map, self.ground_truth_map)
 
-        # Flatten in row-major order
-        grid_msg.data = grid.flatten().tolist()
-        self.map_pub.publish(grid_msg)
+    def valid_point(self, pt):
+        x, y = pt
+        return 0 <= x < self.width and 0 <= y < self.height
+
+    def save_map(self, grid):
+        map_img_path = os.path.join(self.save_path, 'bayes.pgm')
+        yaml_path = os.path.join(self.save_path, 'bayes.yaml')
+
+        # Save PGM (invert for ROS convention: 0=occupied, 255=free)
+        cv2.imwrite(map_img_path, 255 - grid)
+
+        with open(yaml_path, 'w') as f:
+            f.write(f"""image: bayes.pgm
+mode: trinary
+resolution: {self.resolution}
+origin: [{self.origin[0]}, {self.origin[1]}, 0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.25
+""")
+
+        self.get_logger().info(f"Saved occupancy map to {map_img_path} and {yaml_path}")
+
+    def map_callback(self, msg):
+        # Convert OccupancyGrid to numpy array
+        self.width = msg.info.width
+        self.height = msg.info.height
+        self.resolution = msg.info.resolution
+        self.origin = (msg.info.origin.position.x, msg.info.origin.position.y)
+
+
+        self.ground_truth_map = np.array(msg.data).reshape((self.height, self.width))
+
+
+    def compute_metrics(self, generated_map, ground_truth_map):
+        # Compute accuracy: percentage of correct pixels
+        correct_pixels = np.sum(generated_map == ground_truth_map)
+        total_pixels = generated_map.size
+        accuracy = correct_pixels / total_pixels * 100
+
+        # Compute IoU: Intersection / Union
+        intersection = np.sum((generated_map > 0) & (ground_truth_map > 0))
+        union = np.sum((generated_map > 0) | (ground_truth_map > 0))
+        iou = intersection / union if union > 0 else 0
+
+        # Compute confusion matrix components
+        true_positive = np.sum((generated_map > 0) & (ground_truth_map > 0))
+        false_positive = np.sum((generated_map > 0) & (ground_truth_map == 0))
+        false_negative = np.sum((generated_map == 0) & (ground_truth_map > 0))
+        true_negative = np.sum((generated_map == 0) & (ground_truth_map == 0))
+
+        # Log the results
+        self.get_logger().info(f"Accuracy: {accuracy:.2f}%")
+        self.get_logger().info(f"IoU: {iou:.4f}")
+        self.get_logger().info(f"True Positives: {true_positive}")
+        self.get_logger().info(f"False Positives: {false_positive}")
+        self.get_logger().info(f"False Negatives: {false_negative}")
+        self.get_logger().info(f"True Negatives: {true_negative}")
+
+        # Save metrics to a text file
+        metrics_file = os.path.join(self.save_path, 'metrics.txt')
+        with open(metrics_file, 'w') as f:
+            f.write(f"Accuracy: {accuracy:.2f}%\n")
+            f.write(f"IoU: {iou:.4f}\n")
+            f.write(f"True Positives: {true_positive}\n")
+            f.write(f"False Positives: {false_positive}\n")
+            f.write(f"False Negatives: {false_negative}\n")
+            f.write(f"True Negatives: {true_negative}\n")
+        self.get_logger().info(f"Metrics saved to {metrics_file}")
 
 def main(args=None):
     rclpy.init(args=args)
@@ -80,5 +151,4 @@ def main(args=None):
     node.destroy_node()
     rclpy.shutdown()
 
-if __name__ == '__main__':
-    main()
+

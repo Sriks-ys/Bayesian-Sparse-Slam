@@ -1,0 +1,6 @@
+Accuracy: 95.12%
+IoU: 0.3032
+True Positives: 2296
+False Positives: 785
+False Negatives: 4491
+True Negatives: 147664

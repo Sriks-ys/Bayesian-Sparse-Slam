@@ -30,6 +30,7 @@ class OldGraphNode(Node):
         self.extracted_lines = []
         self.last_pose = None
         self.pose_counter = 0
+        self.landmark_constraint_dict = {} 
 
         self.extracted_lines_per_pose = {}
         self.recent_poses = []
@@ -45,7 +46,7 @@ class OldGraphNode(Node):
 
         self.a = 0.05
         self.r = 0.05
-        self.bw = 0.75
+        self.bw = 0.8
 
     def odom_callback(self, msg: Odometry):
         x = msg.pose.pose.position.x
@@ -56,9 +57,9 @@ class OldGraphNode(Node):
         pose_covariance = covariance_matrix[:3, :3].flatten().tolist()
 
         if self.pose_counter == 0:
-            pose_covariance = [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
-
-        new_pose = PoseNode(id=self.pose_counter, x=x, y=y, theta=theta, covariance=(np.array(pose_covariance)*2.5).tolist())
+            pose_covariance = [1e-5, 0.0, 0.0, 0.0, 1e-5, 0.0, 0.0, 0.0, 1e-5]
+        pose_covariance = [x for x in pose_covariance]
+        new_pose = PoseNode(id=self.pose_counter, x=x, y=y, theta=theta, covariance=pose_covariance)
 
         
         if self.should_add_pose(new_pose):
@@ -70,20 +71,16 @@ class OldGraphNode(Node):
         
         current_pose = self.pose_nodes[-1]
         if len(self.recent_poses) ==self.window_size:
-            self.recent_poses.append(current_pose)
             self.recent_poses.pop(0)
-        else:
-            self.recent_poses.append(current_pose
-                                     )
+        self.recent_poses.append(current_pose)
+
         new_landmarks = list(msg.segments)
 
         self.global_landmarks, updated_ids, new_to_old_map = self.merge_landmarks(self.global_landmarks, new_landmarks)
         self.update_constraints_for_merged_landmarks(updated_ids)
-        constraint_dict = {(c.pose_id, c.landmark_id): c for c in self.landmark_constraints}
-
+        constraint_dict = self.landmark_constraint_dict
         for current_pose in self.recent_poses:
-            supposedly_observable_landmark = self.get_visible_landmarks(current_pose, self.global_landmarks, 3.0)
-
+            supposedly_observable_landmark = self.get_visible_landmarks(current_pose, self.global_landmarks, 4.0)
 
             for segment in supposedly_observable_landmark:  # Use visible landmarks
 
@@ -97,23 +94,20 @@ class OldGraphNode(Node):
                 if matched_id is None:
                     continue
 
-                if (current_pose.id, matched_id) in constraint_dict:
-                    existing_constraint = constraint_dict[(current_pose.id, matched_id)]
-                    existing_constraint.rho, existing_constraint.alpha = self.compute_rho_alpha(current_pose, segment)
-                else:
-                    rho, alpha = self.compute_rho_alpha(current_pose, segment)
-                    cov = segment.covariance
-                    rho_var = cov[0]
-                    alpha_var = cov[3]
+                rho, alpha = self.compute_rho_alpha(current_pose, segment)
+                cov = segment.covariance
+                rho_var = cov[0]
+                alpha_var = cov[3]
 
-                    new_constraint = LandmarkConstraint(
-                        pose_id=current_pose.id,
-                        landmark_id=matched_id,
-                        rho=rho,
-                        alpha=alpha,
-                        covariance=[rho_var, 0.0, 0.0, alpha_var]
-                    )
-                    self.landmark_constraints.append(new_constraint)
+                new_constraint = LandmarkConstraint(
+                    pose_id=current_pose.id,
+                    landmark_id=matched_id,
+                    rho=rho,
+                    alpha=alpha,
+                    covariance=[rho_var, 0.0, 0.0, alpha_var]
+                )
+                constraint_dict[(current_pose.id, matched_id)] = new_constraint  
+                self.landmark_constraints.append(new_constraint)
                 
         self.publish_pose_graph()
         self.publish_global_landmarks()
@@ -138,7 +132,7 @@ class OldGraphNode(Node):
         return visible_landmarks
     
     def update_constraints_for_merged_landmarks(self, updated_landmark_ids):
-        for constraint in self.landmark_constraints:
+        for key, constraint in self.landmark_constraint_dict.items():
             if constraint.landmark_id in updated_landmark_ids:
                 pose = self.pose_nodes[constraint.pose_id]
                 segment = self.global_landmarks[constraint.landmark_id]
@@ -252,10 +246,12 @@ class OldGraphNode(Node):
         x_min, x_max = np.min([seg.start.x for seg in cluster_segments]), np.max([seg.end.x for seg in cluster_segments])
         y_min, y_max = np.min([seg.start.y for seg in cluster_segments]), np.max([seg.end.y for seg in cluster_segments])
 
+        cov = [x for x in cluster_segments[0].covariance]
+
         merged_segment = LineSegment(
             rho=avg_rho,  # Mean rho
             alpha=avg_alpha,  # Mean alpha
-            covariance=cluster_segments[0].covariance,  # Assuming covariance is the same for simplicity
+            covariance=cov,  # Assuming covariance is the same for simplicity
             start=geometry_msgs.msg.Point(x=x_min, y=y_min, z=0.0),
             end=geometry_msgs.msg.Point(x=x_max, y=y_max, z=0.0)
         )
@@ -343,7 +339,7 @@ class OldGraphNode(Node):
             header=Header(frame_id='map'),
             nodes=self.pose_nodes,
             pose_constraints=self.pose_constraints,
-            landmark_constraints=self.landmark_constraints
+            landmark_constraints=list(self.landmark_constraint_dict.values())
         )
         self.pose_graph_pub.publish(graph_msg)
 

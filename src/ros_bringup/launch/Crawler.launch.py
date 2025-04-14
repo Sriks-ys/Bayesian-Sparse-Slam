@@ -244,7 +244,7 @@ def generate_launch_description():
         name='Linesec_viz', 
         parameters=[
             {'use_sim_time':True, 
-             'line_topic':'ex', 
+             'line_topic':'extracted_lines', 
              'pub_topic': "el"}
         ]
     )
@@ -342,5 +342,5 @@ def generate_launch_description():
         bridge, joint_state_publisher, robot_state_publisher, static_tf_pub_lid, static_tf_pub_caster, 
         static_tf_pub_map, map_server, lifecycle_manager, rviz, sensor_fusion, sparse_sampler, 
         accumululator, preprocess, scantransform, hough_line_exac, linesec_viz, ograph,
-        pose_graph_viz, landmark_graph_viz, Bayes, lmlmconsviz, Postposegraphviz, Postlandmarkviz
+        pose_graph_viz, landmark_graph_viz, Bayes, lmlmconsviz, optimizer, Postposegraphviz, Postlandmarkviz
         ]) 

@@ -28,7 +28,8 @@ setup(
             "OldGraphNode = soma.OldGraphNode:main",
             "PostProcessingNode = soma.PostProcessingNode:main",
             "BayesianLandmarkConstraintNode = soma.BayesianLandmarkConstraintNode:main", 
-            "LandmarkConstraintVisualizer = soma.LandmarkConstraintVisualizer:main"
+            "LandmarkConstraintVisualizer = soma.LandmarkConstraintVisualizer:main",
+            "LandmarkMapGenerator = soma.LandmarkMapGenerator:main"
         ],
     },
 )

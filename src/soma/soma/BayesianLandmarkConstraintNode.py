@@ -11,8 +11,6 @@ class BayesianLandmarkConstraintNode(Node):
             PoseGraph, '/pose_graph', self.pose_graph_callback, 10)
         self.constraint_pub = self.create_publisher(
             LandmarkLandmarkConstraintList, '/bayes_lm_lm', 10)
-        
-        self.max_distance = 3.5
 
     def pose_graph_callback(self, msg):
         """Processes the pose graph to compute fused landmark-landmark constraints."""
@@ -71,16 +69,8 @@ class BayesianLandmarkConstraintNode(Node):
                 dx = x2 - x1
                 dy = y2 - y1
 
-                # Add this:
-                if dx**2 + dy**2 > self.max_distance**2:
-                    continue
-
-
-
-
                 Sigma_lm1 = landmark_covs[lm1]
                 Sigma_lm2 = landmark_covs[lm2]
-
                 Sigma_ll = Sigma_lm1 + Sigma_lm2  # Uncertainty of relative constraint
 
                 constraint_msg = LandmarkLandmarkConstraint()
@@ -134,7 +124,7 @@ class BayesianLandmarkConstraintNode(Node):
             return xy[0], xy[1], cov
 
         mu = np.linalg.inv(Omega_total) @ xi_total
-        cov = np.linalg.inv(Omega_total)
+        cov = np.linalg.inv(Omega_total) 
         return mu[0], mu[1], cov
 
 def main():
@@ -142,3 +132,6 @@ def main():
     node = BayesianLandmarkConstraintNode()
     rclpy.spin(node)
     rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
