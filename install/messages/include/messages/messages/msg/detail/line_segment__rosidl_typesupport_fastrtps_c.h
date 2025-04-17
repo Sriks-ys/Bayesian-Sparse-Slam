@@ -1,1 +1,0 @@
-/home/kvothe/ros/build/messages/rosidl_typesupport_fastrtps_c/messages/msg/detail/line_segment__rosidl_typesupport_fastrtps_c.h

@@ -1,8 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/test_g2o.dir/src/test_g2o.cpp.o[0m
-[100%] [32m[1mLinking CXX executable test_g2o[0m
-/usr/bin/ld: CMakeFiles/test_g2o.dir/src/test_g2o.cpp.o: undefined reference to symbol '_ZN3fmt2v86detail18throw_format_errorEPKc'
-/usr/bin/ld: /lib/x86_64-linux-gnu/libfmt.so.8: error adding symbols: DSO missing from command line
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/test_g2o.dir/build.make:151: test_g2o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test_g2o.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

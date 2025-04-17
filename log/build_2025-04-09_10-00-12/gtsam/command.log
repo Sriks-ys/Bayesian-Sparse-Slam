@@ -1,1 +1,0 @@
-Invoking command in '/home/kvothe/ros/build/gtsam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvothe/ros/install/soma:/home/kvothe/ros/install/sensor_management:/home/kvothe/ros/install/robot_control:/opt/ros/humble /usr/bin/cmake /home/kvothe/ros/externals/gtsam -DCMAKE_INSTALL_PREFIX=/home/kvothe/ros/install/gtsam

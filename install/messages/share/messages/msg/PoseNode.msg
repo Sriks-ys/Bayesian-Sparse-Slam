@@ -1,1 +1,0 @@
-/home/kvothe/ros/src/messages/msg/PoseNode.msg

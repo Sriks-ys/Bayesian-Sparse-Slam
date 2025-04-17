@@ -1,9 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target RansacLineExtractionNode[0m
-[ 12%] Built target PreprocessNode
-[ 25%] Built target LandmarkTransformerNode
-[ 37%] Built target LandmarkTransformermapNode
-[ 50%] Built target LandmarkGraphNode
-[ 62%] Built target IncrementalLineFittingNode
-[ 75%] Built target HoughLineFittingNode
-[ 87%] Built target ScanAccumulator
-[ 93%] [32mBuilding CXX object CMakeFiles/RansacLineExtractionNode.dir/src/RansacLineExtractionNode.cpp.o[0m

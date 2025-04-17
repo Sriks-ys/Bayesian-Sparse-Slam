@@ -45,9 +45,6 @@ private:
         double previous_yaw = tf2::getYaw(last_pose_.orientation);
     
         double yaw_diff = std::abs(current_yaw - previous_yaw);
-        if (yaw_diff > 0.0001) {  
-            scan_buffer_.clear(); 
-        }
     
         last_pose_ = msg->pose.pose;  
     }

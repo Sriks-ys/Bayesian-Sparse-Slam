@@ -1,1 +1,0 @@
-/home/kvothe/ros/src/ros_gazebo/worlds/install/_local_setup_util_ps1.py

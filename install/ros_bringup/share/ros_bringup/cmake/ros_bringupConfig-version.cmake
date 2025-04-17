@@ -1,1 +1,0 @@
-/home/kvothe/ros/build/ros_bringup/ament_cmake_core/ros_bringupConfig-version.cmake

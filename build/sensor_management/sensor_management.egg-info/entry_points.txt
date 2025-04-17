@@ -1,9 +1,0 @@
-[console_scripts]
-LandmarkLandmarkVisualizationNode = sensor_management.LandmarkLandmarkVisualizationNode:main
-Linesegviz = sensor_management.linesegviz:main
-PoseGraphViz = sensor_management.PoseGraphViz:main
-PostPoseGraphViz = sensor_management.PostPoseGraphViz:main
-fusion = sensor_management.fusion:main
-linesegmentvisualizer = sensor_management.linesegmentvisualizer:main
-sparsesampler = sensor_management.sparsesampler:main
-

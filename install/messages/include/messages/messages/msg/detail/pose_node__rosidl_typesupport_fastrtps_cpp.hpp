@@ -1,1 +1,0 @@
-/home/kvothe/ros/build/messages/rosidl_typesupport_fastrtps_cpp/messages/msg/detail/pose_node__rosidl_typesupport_fastrtps_cpp.hpp

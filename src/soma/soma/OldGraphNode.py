@@ -37,8 +37,8 @@ class OldGraphNode(Node):
 
         self.window_size = 10
 
-        self.min_translation = 1.0
-        
+        self.min_translation = 0.5
+            
         self.lidar_noise_stddev  = 0.01
 
         self.endpoint_distance_threshold = 0.0001

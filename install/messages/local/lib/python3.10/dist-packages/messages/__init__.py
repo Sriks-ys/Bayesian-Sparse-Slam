@@ -1,1 +1,0 @@
-/home/kvothe/ros/build/messages/rosidl_generator_py/messages/__init__.py
