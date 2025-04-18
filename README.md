@@ -48,3 +48,9 @@ ros2 launch ros_bringup Crawler.launch.py
 ```
 
 Run the commands ```rviz2``` and ```rqt``` for debugging processes. 
+Configure Rviz with necessary displays. recommend using ```filter by topics```
+Custom message were created in the [messages](https://github.com/Sriks-ys/Bayesian-Sparse-Slam/blob/main/src/messages/msg), these messages types do not have an Rviz display. To view these message types, nodes have been created which publish these types of messages as Marker array for visualization in Rviz 
+
+Kindly refer to this [Crawler.launch.py](https://github.com/Sriks-ys/Bayesian-Sparse-Slam/blob/main/src/ros_bringup/launch/Crawler.launch.py)for details about all the nodes being used simulation. Many nodes have been created during the development but are not used in the final implementation, these nodes were created on an experimental basis. These nodes were dropped out implementation due to reasons such as incompatibility with pipeline and insufficient. 
+> Kindly cite the source before usage. 
+
