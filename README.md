@@ -20,16 +20,16 @@ Ignition fortress was installation:
 Most of the packages used for simulation are by default installed along with ROS, some of the packages have been additionally installed to aid the development process. 
 
 Addition Ros packages can be installed with this command. 
-'''
+```
 sudo apt install ros-humble-gazebo-ros-pkgs ros-humble-ros-ign-bridge ros-humble-slam-toolbox 
 sudo apt install ros-humble-nav2-bringup ros-humble-sdformat-urdf ros-humble-tf-transformations ros-humble-tf-tools
-'''
+```
 
 Additional python packages can installed with the following commands.
-'''
+```
 sudo apt install python3-colcon-common-extensions python3-pip
 pip install filterpy scikit-learn scipy
-'''
+```
 
 [GTSAM](https://github.com/borglab/gtsam) has been used for optimization process. Note install this package from source, the link attached has the necessary guide for installation. 
 
@@ -39,13 +39,12 @@ Clone the directory into your local system after making the necessary installati
 After installation modify the [CMAKEList.txt](https://github.com/Sriks-ys/Bayesian-Sparse-Slam/blob/main/src/cppp/CMakeLists.txt) to point to the directory the gtsam installation. 
 
 Build the workspace in the workspace directory using 
-'''
+```
 colcon build
-'''
-
+```
 Run the launch file 
-'''
+```
 ros2 launch ros_bringup Crawler.launch.py
-'''
+```
 
-Run the commands '''rviz2''' and '''rqt''' for debugging processes. 
+Run the commands ```rviz2``` and ```rqt``` for debugging processes. 
